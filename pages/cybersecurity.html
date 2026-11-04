@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07100c">
+  <meta name="description" content="A safe cybersecurity learning roadmap covering networking, Linux, secure development, defensive thinking and authorised practice labs.">
+  <meta property="og:title" content="Cybersecurity learning roadmap — allknowdev">
+  <meta property="og:description" content="Build security foundations and practise only in systems and labs where you have permission.">
+  <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <title>Cybersecurity learning roadmap — allknowdev</title>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement"><div class="container announcement-inner"><span class="pulse"></span> OPEN KNOWLEDGE. OPEN SOURCE. BUILT FOR BUILDERS.<a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">Explore repository ↗</a></div></div>
+  <header class="header"><nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="../index.html"><span class="brand-mark">a<span>.</span></span><span>allknowdev</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><i></i><i></i></button>
+    <div class="nav-links" id="navLinks"><a href="../index.html#explore">Explore</a><a href="directory.html">Directory</a><a href="learning.html">Start learning</a><a href="software-development.html">Software</a><a href="ai-engineering.html">AI</a></div>
+    <div class="nav-actions"><a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub ↗</a><a class="button button-small" href="../index.html#contribute">Contribute ↗</a></div>
+  </nav></header>
+  <main id="main">
+    <section class="container guide-hero">
+      <div class="guide-breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="learning.html">Start learning</a><span>/</span><span>Cybersecurity</span></div>
+      <div class="kicker">PATH / 04 · DEFEND</div>
+      <h1>Think like a defender.<br><span class="gradient-text">Practise with permission.</span></h1>
+      <p>Security work is grounded in systems knowledge, careful testing and responsible communication. Learn in local or explicitly authorised labs—never probe real systems without permission.</p>
+      <div class="hero-actions"><a class="button" href="#roadmap">Start the roadmap ↗</a><a class="button button-glass" href="cloud-engineering.html">Explore cloud engineering</a></div>
+    </section>
+    <section class="section container" id="roadmap">
+      <div class="section-heading"><div><div class="kicker">01 / YOUR ROADMAP</div><h2>Learn to protect<br><span class="gradient-text">the systems people trust.</span></h2><p>Check off a stage when you can use and explain it. Use intentionally vulnerable practice environments and follow their rules.</p></div><div class="guide-progress"><label for="pathProgress">Path progress</label><progress id="pathProgress" max="4" value="0">0 of 4</progress><span id="progressLabel" aria-live="polite">0 of 4 stages complete</span></div></div>
+      <div class="stage-grid">
+        <article class="stage-card"><div class="stage-heading"><span>STAGE 01 · SYSTEMS FOUNDATIONS</span><label><input type="checkbox" class="stage-check"> Mark done</label></div><h3>Networking, Linux & web basics</h3><p>Understand hosts, ports, DNS, HTTP, operating systems, permissions and how applications move data.</p><ul><li>Inspect your own machine's processes and network settings.</li><li>Explain the lifecycle of a browser request.</li><li>Learn command-line and log-reading fundamentals.</li></ul><div class="stage-outcome"><b>Try:</b> draw the request flow for a tiny app you run locally.</div></article>
+        <article class="stage-card"><div class="stage-heading"><span>STAGE 02 · BUILD SECURELY</span><label><input type="checkbox" class="stage-check"> Mark done</label></div><h3>Identity, data & secure coding</h3><p>Learn authentication, authorisation, input handling, dependency hygiene, secret management and safe defaults.</p><ul><li>Use a threat-model checklist for a toy application.</li><li>Keep secrets and personal data out of source control.</li><li>Update dependencies and understand security advisories.</li></ul><div class="stage-outcome"><b>Try:</b> review your own sample app against a secure-development checklist.</div></article>
+        <article class="stage-card"><div class="stage-heading"><span>STAGE 03 · PRACTISE SAFELY</span><label><input type="checkbox" class="stage-check"> Mark done</label></div><h3>Labs & defensive investigation</h3><p>Use a local lab or platform that explicitly permits practice. Learn to observe, reproduce and explain a finding without causing harm.</p><ul><li>Read scope and rules before starting a lab.</li><li>Keep testing inside the provided environment.</li><li>Focus on evidence, impact and a safe remediation.</li></ul><div class="stage-outcome"><b>Try:</b> complete a beginner web-security lab and write a remediation note.</div></article>
+        <article class="stage-card"><div class="stage-heading"><span>STAGE 04 · COMMUNICATE & IMPROVE</span><label><input type="checkbox" class="stage-check"> Mark done</label></div><h3>Detection, response & reporting</h3><p>Security improves when teams can understand what happened, what matters and how to reduce future risk.</p><ul><li>Read logs and distinguish evidence from assumptions.</li><li>Prioritise fixes by impact and likelihood.</li><li>Write a clear, respectful report with reproduction boundaries.</li></ul><div class="stage-outcome"><b>Try:</b> produce a short incident timeline from a provided training dataset.</div></article>
+      </div>
+    </section>
+    <section class="roadmap-section"><div class="container"><div class="section-heading"><div><div class="kicker">02 / TRUSTED REFERENCES</div><h2>Learn safely and deliberately.</h2><p>Start with defensive standards, curated education and labs designed for practice.</p></div></div>
+      <div class="resource-grid">
+        <a class="resource-card" href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noreferrer"><span>WEB APPLICATION SECURITY</span><strong>OWASP Top 10</strong><p>An awareness document for common web application security risks.</p><b>Read OWASP ↗</b></a>
+        <a class="resource-card" href="https://portswigger.net/web-security" target="_blank" rel="noreferrer"><span>AUTHORIZED PRACTICE</span><strong>PortSwigger Web Security Academy</strong><p>Free learning material and interactive labs for web security concepts.</p><b>Open the Academy ↗</b></a>
+        <a class="resource-card" href="https://picoctf.org/" target="_blank" rel="noreferrer"><span>BEGINNER CTF</span><strong>picoCTF</strong><p>Cybersecurity education and challenges intended for learning and practice.</p><b>Explore picoCTF ↗</b></a>
+        <a class="resource-card" href="https://www.nist.gov/cyberframework" target="_blank" rel="noreferrer"><span>DEFENSIVE FRAMEWORK</span><strong>NIST Cybersecurity Framework</strong><p>A high-level framework for managing and communicating cybersecurity risk.</p><b>Read the framework ↗</b></a>
+      </div>
+    </div></section>
+    <section class="section container"><div class="guide-columns">
+      <article class="guide-note"><div class="kicker">PROJECT CHALLENGE</div><h3>Harden a tiny demo app</h3><p>Create or use an intentionally simple local application, then improve its defensive defaults.</p><ul><li>Map the data and trust boundaries.</li><li>Review authentication, input validation and error handling.</li><li>Check dependencies and remove test secrets.</li><li>Write a concise list of changes and remaining risks.</li></ul></article>
+      <article class="guide-note"><div class="kicker">SAFETY BOUNDARY</div><h3>Permission comes first</h3><p>Learning is not a reason to test systems outside a scope you are explicitly authorised to assess.</p><ul><li>Use local labs, CTF challenges or written scopes.</li><li>Do not scan, access or disrupt third-party systems.</li><li>Stop when you reach the boundary of permission.</li><li>Follow responsible disclosure policies when applicable.</li></ul></article>
+    </div></section>
+    <section class="container guide-related"><h2>Explore a neighbouring path</h2><div class="related-links"><a href="software-development.html">Software development ↗</a><a href="cloud-engineering.html">Cloud engineering ↗</a><a href="ai-engineering.html">AI engineering ↗</a><a href="learning.html">Learning hub ↗</a></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-main"><div><a class="brand" href="../index.html"><span class="brand-mark">a<span>.</span></span><span>allknowdev</span></a><p>Know what you can get.<br>Explore. Compare. Build.</p></div><div class="footer-col"><b>LEARNING PATHS</b><a href="learning.html">Start learning</a><a href="software-development.html">Software development</a><a href="ai-engineering.html">AI engineering</a><a href="cloud-engineering.html">Cloud engineering</a></div><div class="footer-col"><b>EXPLORE</b><a href="../index.html#explore">Engineering fields</a><a href="directory.html">Free &amp; paid directory</a><a href="../index.html#budget">Budget explorer</a><a href="../index.html#contribute">Contribute</a></div><div class="footer-note">✳ <span>Built for curious minds<br>and ambitious builders.</span></div></div><div class="container footer-bottom"><span>© <span id="currentYear"></span> ALLKNOWDEV</span><span>OPEN KNOWLEDGE. TRANSPARENT INFORMATION.</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+  <script src="../assets/js/main.js" defer></script><script src="../assets/js/guide.js" defer></script>
+</body>
+</html>

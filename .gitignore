@@ -1,0 +1,10 @@
+# local tooling / editor state
+.zcode/
+
+# OS noise
+Thumbs.db
+.DS_Store
+
+# local server artifacts
+*.log
+__pycache__/

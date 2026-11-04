@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07100c">
+  <meta name="description" content="A practical cloud engineering roadmap covering Linux, networking, containers, infrastructure, deployment and reliability with trusted references.">
+  <meta property="og:title" content="Cloud engineering roadmap — allknowdev">
+  <meta property="og:description" content="Understand how software runs, then deploy and operate a small service responsibly.">
+  <link rel="icon" type="image/svg+xml" href="../assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <title>Cloud engineering roadmap — allknowdev</title>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement"><div class="container announcement-inner"><span class="pulse"></span> OPEN KNOWLEDGE. OPEN SOURCE. BUILT FOR BUILDERS.<a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">Explore repository ↗</a></div></div>
+  <header class="header"><nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="../index.html"><span class="brand-mark">a<span>.</span></span><span>allknowdev</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><i></i><i></i></button>
+    <div class="nav-links" id="navLinks"><a href="../index.html#explore">Explore</a><a href="directory.html">Directory</a><a href="learning.html">Start learning</a><a href="software-development.html">Software</a><a href="ai-engineering.html">AI</a></div>
+    <div class="nav-actions"><a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub ↗</a><a class="button button-small" href="../index.html#contribute">Contribute ↗</a></div>
+  </nav></header>
+  <main id="main">
+    <section class="container guide-hero">
+      <div class="guide-breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="learning.html">Start learning</a><span>/</span><span>Cloud engineering</span></div>
+      <div class="kicker">PATH / 03 · OPERATE</div>
+      <h1>Understand where<br><span class="gradient-text">your software runs.</span></h1>
+      <p>Cloud engineering is systems thinking: how networks, processes, storage, deployment and people fit together. Learn the concepts locally before adding a cloud bill.</p>
+      <div class="hero-actions"><a class="button" href="#roadmap">Start the roadmap ↗</a><a class="button button-glass" href="software-development.html">Build software foundations</a></div>
+    </section>
+    <section class="section container" id="roadmap">
+      <div class="section-heading"><div><div class="kicker">01 / YOUR ROADMAP</div><h2>Make services<br><span class="gradient-text">work in the real world.</span></h2><p>Check off a stage when you can use and explain it. Practice locally and use isolated, low-risk environments.</p></div><div class="guide-progress"><label for="pathProgress">Path progress</label><progress id="pathProgress" max="4" value="0">0 of 4</progress><span id="progressLabel" aria-live="polite">0 of 4 stages complete</span></div></div>
+      <div class="stage-grid">
+        <article class="stage-card"><div class="stage-heading"><span>STAGE 01 · SYSTEMS BASICS</span><label><input type="checkbox" class="stage-check"> Mark done</label></div><h3>Linux, shell & networking</h3><p>Learn files, processes, permissions, logs and common network concepts such as DNS, ports, routing and HTTP.</p><ul><li>Navigate a terminal and inspect a running process.</li><li>Trace how a browser resolves and requests a website.</li><li>Understand what a firewall allows and blocks.</li></ul><div class="stage-outcome"><b>Try:</b> run a local web server and document the request path.</div></article>
+        <article class="stage-card"><div class="stage-heading"><span>STAGE 02 · PACKAGE & CONFIGURE</span><label><input type="checkbox" class="stage-check"> Mark done</label></div><h3>Containers & application config</h3><p>Package an app, manage its configuration and understand the boundary between an image and a running container.</p><ul><li>Build and run a minimal container locally.</li><li>Use environment configuration without committing secrets.</li><li>Inspect logs, resource use and graceful shutdown.</li></ul><div class="stage-outcome"><b>Try:</b> containerise a small app and write repeatable run instructions.</div></article>
+        <article class="stage-card"><div class="stage-heading"><span>STAGE 03 · DEPLOY & AUTOMATE</span><label><input type="checkbox" class="stage-check"> Mark done</label></div><h3>Cloud concepts & infrastructure</h3><p>Explore compute, storage, identity, network boundaries and infrastructure as code. Compare options using documented requirements.</p><ul><li>Deploy a tiny service in a test environment.</li><li>Set a budget alert and understand how to tear resources down.</li><li>Review access permissions and keep credentials private.</li></ul><div class="stage-outcome"><b>Try:</b> describe and recreate a small environment from configuration.</div></article>
+        <article class="stage-card"><div class="stage-heading"><span>STAGE 04 · OPERATE & IMPROVE</span><label><input type="checkbox" class="stage-check"> Mark done</label></div><h3>Reliability, security & cost</h3><p>Observe a service, respond to failure and document operational trade-offs before trying to scale it.</p><ul><li>Check health, logs and a basic service metric.</li><li>Test a backup or recovery procedure.</li><li>Review cost drivers, access and data retention.</li></ul><div class="stage-outcome"><b>Try:</b> write a short runbook for one failure and its recovery.</div></article>
+      </div>
+    </section>
+    <section class="roadmap-section"><div class="container"><div class="section-heading"><div><div class="kicker">02 / TRUSTED REFERENCES</div><h2>Learn the building blocks.</h2><p>Vendor-neutral concepts help you compare cloud services without confusing a product feature for a core skill.</p></div></div>
+      <div class="resource-grid">
+        <a class="resource-card" href="https://docs.docker.com/get-started/" target="_blank" rel="noreferrer"><span>CONTAINERS</span><strong>Docker Get Started</strong><p>Build and run a first container and learn the core workflow.</p><b>Open Docker Docs ↗</b></a>
+        <a class="resource-card" href="https://developer.hashicorp.com/terraform/tutorials" target="_blank" rel="noreferrer"><span>INFRASTRUCTURE AS CODE</span><strong>Terraform Tutorials</strong><p>Guided tutorials for provisioning and managing infrastructure.</p><b>Explore tutorials ↗</b></a>
+        <a class="resource-card" href="https://kubernetes.io/docs/tutorials/" target="_blank" rel="noreferrer"><span>ORCHESTRATION</span><strong>Kubernetes Tutorials</strong><p>Hands-on material for core Kubernetes concepts and workloads.</p><b>Open Kubernetes Docs ↗</b></a>
+        <a class="resource-card" href="https://12factor.net/" target="_blank" rel="noreferrer"><span>APPLICATION DESIGN</span><strong>The Twelve-Factor App</strong><p>A set of principles for building and running maintainable services.</p><b>Read the principles ↗</b></a>
+      </div>
+    </div></section>
+    <section class="section container"><div class="guide-columns">
+      <article class="guide-note"><div class="kicker">PROJECT CHALLENGE</div><h3>Deploy a small service with a runbook</h3><p>Pick a tiny app you own and make its setup, operation and teardown understandable.</p><ul><li>Run it locally and containerise it.</li><li>Deploy to a test environment with a spending limit.</li><li>Add health checks and a useful log message.</li><li>Document deployment, rollback, recovery and cleanup steps.</li></ul></article>
+      <article class="guide-note"><div class="kicker">COST & SAFETY CHECK</div><h3>Keep experiments bounded</h3><p>Cloud resources can keep billing after you stop looking at them. Verify current provider terms before you start.</p><ul><li>Set budget notifications before creating resources.</li><li>Use least-privilege accounts and private credentials.</li><li>Delete test resources and verify that they are gone.</li><li>Never test against systems you do not own or have permission to use.</li></ul></article>
+    </div></section>
+    <section class="container guide-related"><h2>Explore a neighbouring path</h2><div class="related-links"><a href="software-development.html">Software development ↗</a><a href="ai-engineering.html">AI engineering ↗</a><a href="cybersecurity.html">Cybersecurity ↗</a><a href="learning.html">Learning hub ↗</a></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-main"><div><a class="brand" href="../index.html"><span class="brand-mark">a<span>.</span></span><span>allknowdev</span></a><p>Know what you can get.<br>Explore. Compare. Build.</p></div><div class="footer-col"><b>LEARNING PATHS</b><a href="learning.html">Start learning</a><a href="software-development.html">Software development</a><a href="ai-engineering.html">AI engineering</a><a href="cybersecurity.html">Cybersecurity</a></div><div class="footer-col"><b>EXPLORE</b><a href="../index.html#explore">Engineering fields</a><a href="directory.html">Free &amp; paid directory</a><a href="../index.html#budget">Budget explorer</a><a href="../index.html#contribute">Contribute</a></div><div class="footer-note">✳ <span>Built for curious minds<br>and ambitious builders.</span></div></div><div class="container footer-bottom"><span>© <span id="currentYear"></span> ALLKNOWDEV</span><span>OPEN KNOWLEDGE. TRANSPARENT INFORMATION.</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+  <script src="../assets/js/main.js" defer></script><script src="../assets/js/guide.js" defer></script>
+</body>
+</html>

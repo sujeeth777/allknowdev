@@ -1,0 +1,114 @@
+{
+  "stacks": [
+    {
+      "id": "zero-fullstack",
+      "name": "The $0 Full-Stack Web App",
+      "tagline": "Ship a real product with users, auth and a database — without spending anything.",
+      "budget": "$0 fixed / month",
+      "featured": true,
+      "layers": [
+        { "layer": "Frontend + hosting", "pick": "Cloudflare Pages or Vercel Hobby", "detail": "Unlimited static bandwidth (Cloudflare) or 100 GB + serverless (Vercel)", "cost": "$0" },
+        { "layer": "API / backend", "pick": "Cloudflare Workers (100k req/day)", "detail": "10ms CPU is fine for most CRUD APIs", "cost": "$0" },
+        { "layer": "Database", "pick": "Neon free (1 GB) or Supabase free (500 MB)", "detail": "Postgres with branching, or Postgres + auth + storage bundled", "cost": "$0" },
+        { "layer": "Auth", "pick": "Clerk free (10k MAU) or Supabase Auth (50k MAU)", "detail": "Pick Supabase Auth to keep everything in one platform", "cost": "$0" },
+        { "layer": "File storage", "pick": "Cloudflare R2 (10 GB, zero egress)", "detail": "The zero-egress trick that keeps surprise bills away", "cost": "$0" },
+        { "layer": "Email", "pick": "Resend (100/day) or Brevo (300/day)", "detail": "Enough for signups + password resets of a young product", "cost": "$0" },
+        { "layer": "Monitoring", "pick": "Sentry free (5k errors) + UptimeRobot (50 checks)", "detail": "Know when things break before users tell you", "cost": "$0" },
+        { "layer": "Analytics", "pick": "PostHog free (1M events) or self-host Umami", "detail": "Product analytics + feature flags without a bill", "cost": "$0" },
+        { "layer": "CI/CD", "pick": "GitHub Actions (2,000 min/mo, free for OSS)", "detail": "Tests + deploy on every push", "cost": "$0" }
+      ],
+      "outgrow": [
+        "Bandwidth > 100 GB (Vercel) → move static to Cloudflare Pages",
+        "Database > 500 MB-1 GB → Supabase Pro $25/mo or Neon Launch $19/mo",
+        "First $20-25/mo unlocks: always-on backend + real limits on one platform"
+      ]
+    },
+    {
+      "id": "zero-ai-builder",
+      "name": "The $0 AI Builder Kit",
+      "tagline": "Build with LLMs, embeddings and RAG — with zero API spend.",
+      "budget": "$0 / month",
+      "featured": true,
+      "layers": [
+        { "layer": "Local LLMs", "pick": "Ollama", "detail": "Unlimited free usage on your own hardware", "cost": "$0" },
+        { "layer": "Free hosted LLMs", "pick": "Groq free + Gemini API free tier", "detail": "Flash-class models and fast open models, rate-limited", "cost": "$0" },
+        { "layer": "Model hosting", "pick": "Hugging Face Hub", "detail": "Host models/datasets/demos free", "cost": "$0" },
+        { "layer": "Free GPU", "pick": "Google Colab + Kaggle (30h/wk)", "detail": "T4 GPUs for training and evaluation notebooks", "cost": "$0" },
+        { "layer": "Embeddings", "pick": "fastembed / sentence-transformers (local)", "detail": "No per-token embedding costs", "cost": "$0" },
+        { "layer": "Vector DB", "pick": "Chroma (embedded) or Qdrant (self-host)", "detail": "Local-first RAG storage", "cost": "$0" },
+        { "layer": "Tracing", "pick": "Langfuse self-hosted", "detail": "Unlimited free tracing of your LLM calls", "cost": "$0" }
+      ],
+      "outgrow": [
+        "Hit rate limits daily → pay-per-token on Groq/Gemini (a few $)",
+        "Need serious GPU → Modal gives $30 credits/mo; RunPod ~$0.20/hr",
+        "Production agents → LangSmith/Plus or self-hosted Langfuse upgrades"
+      ]
+    },
+    {
+      "id": "zero-solo-saas",
+      "name": "The $0 Solo SaaS Stack",
+      "tagline": "Charge customers with zero fixed monthly cost — pay only when you earn.",
+      "budget": "$0 fixed (fees per sale)",
+      "featured": true,
+      "layers": [
+        { "layer": "Hosting + backend", "pick": "Cloudflare Pages + Workers + D1 + R2", "detail": "One vendor, generous free tiers, zero egress fees", "cost": "$0" },
+        { "layer": "Auth", "pick": "Clerk free (10k MAU)", "detail": "Or WorkOS AuthKit (free under 1M MAU)", "cost": "$0" },
+        { "layer": "Payments", "pick": "Stripe / Razorpay / Paddle", "detail": "No fixed cost — you pay ~2-3% only when you sell", "cost": "$0 + per-sale fees" },
+        { "layer": "Email", "pick": "Resend free (100/day)", "detail": "Receipts, onboarding, password resets", "cost": "$0" },
+        { "layer": "Analytics", "pick": "PostHog free + self-host Umami", "detail": "Conversion + product analytics", "cost": "$0" },
+        { "layer": "Support", "pick": "GitHub Issues / Crisp free", "detail": "Start embarrassingly simple", "cost": "$0" }
+      ],
+      "outgrow": [
+        "10k MAU → Clerk Pro $25/mo",
+        "Payments → the ONLY cost until you have paying users is the ~2-3% per sale",
+        "First real spend should be triggered by revenue, not fear"
+      ]
+    },
+    {
+      "id": "zero-student",
+      "name": "The $0 Student Superpower",
+      "tagline": "Verify with GitHub once — unlock thousands of dollars of tools for free.",
+      "budget": "$0 while studying",
+      "featured": true,
+      "layers": [
+        { "layer": "Verify once", "pick": "GitHub Student Developer Pack", "detail": "education.github.com/pack with school proof", "cost": "$0" },
+        { "layer": "AI", "pick": "GitHub Copilot free while studying", "detail": "Completions + chat in your IDE", "cost": "$0" },
+        { "layer": "IDEs", "pick": "ALL JetBrains IDEs free", "detail": "WebStorm, Rider, DataGrip — the paid ones", "cost": "$0" },
+        { "layer": "Cloud", "pick": "DigitalOcean $200 + Azure $100 credits", "detail": "Real servers and cloud practice", "cost": "$0 credits" },
+        { "layer": "Domain", "pick": "Free .me domain (Namecheap, 1 year)", "detail": "Ship your portfolio on a real domain", "cost": "$0" },
+        { "layer": "Learning", "pick": "FrontendMasters 6 months free + AWS Educate", "detail": "Professional courses + AWS labs", "cost": "$0" },
+        { "layer": "Database", "pick": "MongoDB Atlas credits", "detail": "Real database experience beyond 512 MB", "cost": "$0 credits" }
+      ],
+      "outgrow": [
+        "Graduation → pack expires; migrate to free tiers before it does",
+        "Best habit: build ON the credits and document what you learn"
+      ]
+    },
+    {
+      "id": "zero-selfhosted",
+      "name": "The $0 Self-Hosted Empire",
+      "tagline": "Your own private cloud on one cheap VPS — no SaaS bills at all.",
+      "budget": "~$5/mo for a VPS (everything else free)",
+      "featured": false,
+      "layers": [
+        { "layer": "Base", "pick": "Any VPS (Hetzner ~€4.5/mo) + Docker", "detail": "Or Oracle Always Free: 4 ARM cores, 24 GB RAM, $0", "cost": "$0-5/mo" },
+        { "layer": "PaaS", "pick": "Coolify", "detail": "One-click apps, SSL, Git deploys — self-hosted Heroku", "cost": "$0" },
+        { "layer": "Backend/DB", "pick": "PocketBase or Supabase self-host", "detail": "Auth + DB + files in one binary/container", "cost": "$0" },
+        { "layer": "Analytics", "pick": "Umami or Plausible self-hosted", "detail": "Privacy-first analytics you own", "cost": "$0" },
+        { "layer": "Networking", "pick": "Cloudflare Tunnel (free) + Tailscale (free)", "detail": "No open ports, private admin access", "cost": "$0" },
+        { "layer": "Monitoring", "pick": "UptimeRobot free + Grafana self-host", "detail": "Know what's down", "cost": "$0" },
+        { "layer": "Git", "pick": "Gitea/Forgejo or GitHub free", "detail": "Your own GitHub alternative if you want", "cost": "$0" }
+      ],
+      "outgrow": [
+        "More RAM/CPU → bigger VPS (~$10/mo) still beats 10 SaaS subscriptions",
+        "Backups are YOUR job: Litestream + offsite storage (B2 free 10 GB)"
+      ]
+    }
+  ],
+  "budget_picks": {
+    "zero": ["cloudflare-pages", "cloudflare-workers", "neon", "supabase", "clerk", "sentry", "posthog"],
+    "low": ["cloudflare-workers", "hetzner", "coolify", "groq", "modal", "obsidian", "bitwarden"],
+    "mid": ["vercel", "supabase", "cursor", "github-copilot", "resend", "sentry", "posthog"],
+    "high": ["vercel", "grafana-cloud", "posthog", "jetbrains", "mongodb-atlas", "digitalocean", "auth0"]
+  }
+}

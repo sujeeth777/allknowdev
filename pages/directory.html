@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free &amp; Paid Directory for Engineers — allknowdev</title>
+  <meta name="description" content="Searchable directory of 150+ real services: what you get for free, what money unlocks, official pricing links, last-checked dates. AI, cloud, databases, dev tools, APIs and learning.">
+  <meta name="theme-color" content="#070b08">
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient-green"></div>
+    <div class="ambient-violet"></div>
+  </div>
+
+  <div class="announcement">
+    <div class="announcement-inner">
+      <span class="pulse" aria-hidden="true"></span>
+      <span>OPEN DATA. OPEN SOURCE. NO AFFILIATE LINKS.</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">a<span>.</span></span>
+        <span>allknowdev</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="../index.html#explore">Explore</a>
+        <a href="directory.html" aria-current="page">Directory</a>
+        <a href="../index.html#stacks">$0 stacks</a>
+        <a href="learning.html">Learn</a>
+      </div>
+      <div class="nav-actions">
+        <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="button button-small" href="https://github.com/sujeeth777/allknowdev/issues" target="_blank" rel="noreferrer">Contribute ↗</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><i></i><i></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="guide-hero">
+      <div class="container">
+        <nav class="guide-breadcrumb" aria-label="Breadcrumb">
+          <a href="../index.html">Home</a><span>/</span><span>Directory</span>
+        </nav>
+        <p class="kicker">The free-tier atlas</p>
+        <h1>Every service. <span class="gradient-text">Both columns.</span></h1>
+        <p class="lead">What you get for <strong>$0</strong> — and what your first payment actually unlocks.
+          Every entry links to the official pricing page and shows the date we last checked it.
+          Prices change often: always verify before you commit.</p>
+      </div>
+    </section>
+
+    <div class="directory-toolbar">
+      <div class="container">
+        <div class="search-field">
+          <span aria-hidden="true">⌕</span>
+          <label class="sr-only" for="directorySearch">Search services</label>
+          <input type="search" id="directorySearch" placeholder="Search 150+ services — try &quot;postgres&quot;, &quot;gpu&quot;, &quot;email&quot;, &quot;free forever&quot;…" autocomplete="off">
+        </div>
+        <div class="filters" id="directoryFilters" role="group" aria-label="Filter directory">
+          <button class="filter-pill active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-pill" data-filter="ai" aria-pressed="false">AI / ML</button>
+          <button class="filter-pill" data-filter="cloud" aria-pressed="false">Cloud</button>
+          <button class="filter-pill" data-filter="data" aria-pressed="false">Data / Auth</button>
+          <button class="filter-pill" data-filter="tools" aria-pressed="false">Dev tools</button>
+          <button class="filter-pill" data-filter="apis" aria-pressed="false">APIs</button>
+          <button class="filter-pill" data-filter="learning" aria-pressed="false">Learning</button>
+          <button class="filter-pill" data-filter="__toggle" data-toggle="free" aria-pressed="false">Has free tier</button>
+          <button class="filter-pill" data-filter="__toggle" data-toggle="oss" aria-pressed="false">Open source</button>
+          <button class="filter-pill" data-filter="__toggle" data-toggle="student" aria-pressed="false">Student perk</button>
+        </div>
+      </div>
+    </div>
+
+    <section class="section" style="padding-top: 44px;">
+      <div class="container">
+        <p class="dir-summary" id="directorySummary" aria-live="polite">Loading directory…</p>
+        <div class="dir-skeleton" id="directoryResults">
+          FETCHING DATA FILES…
+        </div>
+        <div class="empty-state" id="directoryEmpty" hidden>
+          <strong>No services match.</strong>
+          Try a shorter search, or clear the filters.
+        </div>
+        <p class="disclaimer" style="margin-top: 34px;">
+          ℹ Know something outdated? These entries are community-maintained —
+          <a class="text-link" href="https://github.com/sujeeth777/allknowdev/issues" target="_blank" rel="noreferrer">open an issue or PR</a>
+          with the official source. Prices verified to the best of our knowledge on the date shown; always confirm on the official page.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-col">
+          <b>allknowdev</b>
+          <p class="footer-brand">An open-source directory of what engineers get for free — and what their money actually buys. Real data, official sources, verified dates.</p>
+          <p class="footer-note">MIT licensed · no tracking · no affiliate links</p>
+        </div>
+        <div class="footer-col">
+          <b>EXPLORE</b>
+          <a href="../index.html#explore">Engineering fields</a>
+          <a href="directory.html">Free &amp; paid directory</a>
+          <a href="../index.html#stacks">$0 stacks</a>
+          <a href="../index.html#budget">Budget explorer</a>
+        </div>
+        <div class="footer-col">
+          <b>PROJECT</b>
+          <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub repository</a>
+          <a href="https://github.com/sujeeth777/allknowdev/issues" target="_blank" rel="noreferrer">Report a change</a>
+          <a href="learning.html">Learning paths</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="currentYear">2026</span> allknowdev contributors · MIT license</span>
+        <span>Built with plain HTML/CSS/JS · zero dependencies</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/directory.js"></script>
+</body>
+</html>
