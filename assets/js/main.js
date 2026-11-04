@@ -39,7 +39,7 @@
   }
 
   /* ---------- homepage data modules ---------- */
-  const DATA_FILES = ["ai-ml.json", "cloud-hosting.json", "databases-auth.json", "devtools.json", "apis-services.json", "learning.json"];
+  const DATA_FILES = ["ai-ml.json", "cloud-hosting.json", "databases-auth.json", "devtools.json", "apis-services.json", "learning.json", "design.json"];
   const SYMBOLS = { USD: "$", EUR: "\u20AC", GBP: "\u00A3", INR: "\u20B9" };
   let index = null;       // id -> entry
   let stacks = null;      // stacks.json contents

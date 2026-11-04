@@ -45,7 +45,8 @@ jobs:
           errors = []
           seen_ids = set()
           files = ["data/ai-ml.json", "data/cloud-hosting.json", "data/databases-auth.json",
-                   "data/devtools.json", "data/apis-services.json", "data/learning.json"]
+                   "data/devtools.json", "data/apis-services.json", "data/learning.json",
+                   "data/design.json"]
 
           for path in files:
               try:

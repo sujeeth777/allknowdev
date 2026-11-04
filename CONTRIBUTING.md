@@ -20,6 +20,7 @@ Thanks for helping keep the free-tier atlas honest. **Fresh data is the product*
 | `data/devtools.json` | `tools` | editors, CI, observability, security tooling |
 | `data/apis-services.json` | `apis` | payments, email, storage, maps, notifications |
 | `data/learning.json` | `learning` | courses, certifications, student perks |
+| `data/design.json` | `design` | fonts, icons, illustrations, photos, UI kits |
 | `data/stacks.json` | — | curated $0 stacks + budget-explorer picks |
 
 ## Entry schema

@@ -10,7 +10,8 @@
     { key: "data", file: "databases-auth.json", title: "Databases & Auth", blurb: "Postgres, NoSQL, caches, identity providers" },
     { key: "tools", file: "devtools.json", title: "Developer Tools", blurb: "Editors, IDEs, CI, observability, security" },
     { key: "apis", file: "apis-services.json", title: "APIs & Services", blurb: "Payments, email, storage, maps, notifications" },
-    { key: "learning", file: "learning.json", title: "Learning & Certifications", blurb: "Courses, labs, certifications, student perks" }
+    { key: "learning", file: "learning.json", title: "Learning & Certifications", blurb: "Courses, labs, certifications, student perks" },
+    { key: "design", file: "design.json", title: "Design & Assets", blurb: "Fonts, icons, illustrations, photos, UI kits" }
   ];
 
   const SYMBOLS = { USD: "$", EUR: "\u20AC", GBP: "\u00A3", INR: "\u20B9" };

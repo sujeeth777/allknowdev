@@ -9,7 +9,7 @@
 [![Live site](https://img.shields.io/badge/Live_site-sujeeth777.github.io%2Fallknowdev-b6ff70?style=flat-square&labelColor=0c120e)](https://sujeeth777.github.io/allknowdev/)
 [![License](https://img.shields.io/github/license/sujeeth777/allknowdev?style=flat-square&labelColor=0c120e)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-67f0c2?style=flat-square&labelColor=0c120e)](CONTRIBUTING.md)
-[![Data](https://img.shields.io/badge/Data-150%2B%20services%20in%20JSON-69dfe8?style=flat-square&labelColor=0c120e)](data/)
+[![Data](https://img.shields.io/badge/Data-200%2B%20services%20in%20JSON-69dfe8?style=flat-square&labelColor=0c120e)](data/)
 [![No deps](https://img.shields.io/badge/Dependencies-zero-ffce70?style=flat-square&labelColor=0c120e)](#)
 
 **No ads · No affiliate links · No tracking · MIT licensed**
@@ -18,7 +18,7 @@
 
 ---
 
-Most "free tier" lists stop at the name of the plan. **allknowdev shows both columns**: the exact limits you get at $0 — *and* what your first payment actually unlocks — with official pricing links and the date every entry was last checked.
+Most "free tier" lists stop at the name of the plan. **allknowdev shows both columns**: the exact limits you get at $0 — *and* what your first payment actually unlocks — with official pricing links and the date every entry was last checked. **200+ services**, including the traps (Storj killed its free tier, PlanetScale did too, "Railway free" is a one-time $5 credit…).
 
 Built for students, self-taught devs and engineers who want to **build first and spend deliberately**.
 
@@ -46,9 +46,11 @@ Built for students, self-taught devs and engineers who want to **build first and
 | [Groq](https://console.groq.com/docs/rate-limits) | Free LLM API, ~30 req/min | pay-per-token | |
 | [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/pricing) | 512 MB free forever, vector search included | ~$9/mo | |
 | [PocketBase](https://pocketbase.io) | Entire backend in one binary — free OSS | — | |
+| [Open-Meteo](https://open-meteo.com/en/pricing) | Weather API — free, **no API key**, 10k calls/day | ~€29/mo (commercial) | |
+| [Lemon Squeezy](https://www.lemonsqueezy.com/pricing) | Merchant of record — $0 fixed, tax handled | 5% + 50¢ per sale | |
 | [GitHub Student Pack](https://education.github.com/pack) | Copilot + JetBrains + $300 cloud credits + domain | — | students only |
 
-…plus **140 more** in the [directory](https://sujeeth777.github.io/allknowdev/pages/directory.html) — including the traps, like PlanetScale removing its free tier or Railway's "free" plan being a one-time $5 credit.
+…plus **190 more** in the [directory](https://sujeeth777.github.io/allknowdev/pages/directory.html) — free GPUs, vector DBs, OSS auth, self-hosted PaaS, notification APIs and more.
 
 ## 🚀 Run locally
 
@@ -72,6 +74,7 @@ Open http://localhost:5500. That's it.
 │   ├── devtools.json         editors, CI, observability, security
 │   ├── apis-services.json    payments, email, storage, maps
 │   ├── learning.json         courses, certs, student perks
+│   ├── design.json           fonts, icons, illustrations, photos, UI kits
 │   └── stacks.json           the curated $0 stacks + budget picks
 ├── assets/
 │   ├── css/style.css       design system (no framework)
