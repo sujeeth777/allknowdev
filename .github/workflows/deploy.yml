@@ -1,4 +1,7 @@
-name: Deploy allknowdev to GitHub Pages
+name: Validate allknowdev
+
+# Deployment is handled by Vercel. This workflow guards data quality:
+# every push must pass the static-structure and directory-data checks.
 
 on:
   push:
@@ -7,23 +10,13 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
-  deploy:
+  validate:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
       - name: Validate static site
         run: |
           test -f index.html
@@ -98,9 +91,3 @@ jobs:
               sys.exit(1)
           print(f"OK: {len(files)} data files, {len(seen_ids)} entries validated.")
           EOF
-      - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
