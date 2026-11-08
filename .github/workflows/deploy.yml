@@ -24,6 +24,9 @@ jobs:
           test -f assets/js/main.js
           test -f assets/js/guide.js
           test -f assets/js/directory.js
+          node --check assets/js/main.js
+          node --check assets/js/directory.js
+          node --check assets/js/guide.js
           test -d assets/images
           test -f pages/directory.html
           test -f pages/learning.html

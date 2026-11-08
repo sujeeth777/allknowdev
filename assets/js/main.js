@@ -27,6 +27,42 @@
   const year = document.getElementById("currentYear");
   if (year) year.textContent = new Date().getFullYear();
 
+  /* ---------- global polish ---------- */
+  const progressBar = document.createElement("div");
+  progressBar.className = "scroll-progress";
+  progressBar.setAttribute("aria-hidden", "true");
+  document.body.appendChild(progressBar);
+
+  const topButton = document.createElement("button");
+  topButton.className = "back-to-top";
+  topButton.type = "button";
+  topButton.setAttribute("aria-label", "Back to top");
+  topButton.textContent = "↑";
+  document.body.appendChild(topButton);
+
+  const updateScrollUI = () => {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    const ratio = max > 0 ? window.scrollY / max : 0;
+    progressBar.style.width = (ratio * 100) + "%";
+    topButton.classList.toggle("visible", window.scrollY > 650);
+  };
+  window.addEventListener("scroll", updateScrollUI, { passive: true });
+  topButton.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+  updateScrollUI();
+
+  document.querySelectorAll('a[target="_blank"]').forEach((link) => {
+    const rel = new Set((link.getAttribute("rel") || "").split(/\s+/).filter(Boolean));
+    rel.add("noopener"); rel.add("noreferrer");
+    link.setAttribute("rel", [...rel].join(" "));
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "/" && !["INPUT","TEXTAREA","SELECT"].includes(document.activeElement?.tagName)) {
+      const search = document.querySelector('input[type="search"]');
+      if (search) { event.preventDefault(); search.focus(); }
+    }
+  });
+
   /* ---------- reveal animations ---------- */
   const reveal = document.querySelectorAll(".reveal");
   if ("IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -77,9 +113,15 @@
       index = {};
       lists.flat().forEach((entry) => { index[entry.id] = entry; });
       stacks = stackData;
-    }).catch(() => {
+    }).catch((error) => {
       index = {};
       stacks = { stacks: [], budget_picks: {} };
+      const toast = document.createElement("div");
+      toast.className = "site-toast show";
+      toast.textContent = "Directory data could not be loaded. Refresh or run the site through a local web server.";
+      document.body.appendChild(toast);
+      window.setTimeout(() => toast.remove(), 4200);
+      console.warn("allknowdev data load failed:", error);
     });
   }
 

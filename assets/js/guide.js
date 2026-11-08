@@ -22,5 +22,16 @@ try {
   checks.forEach((check, index) => { if (saved[index]) check.checked = true; });
 } catch (_) {}
 
+const resetButton = document.createElement("button");
+resetButton.type = "button";
+resetButton.className = "button-glass";
+resetButton.textContent = "Reset progress";
+resetButton.addEventListener("click", () => {
+  checks.forEach(check => { check.checked = false; });
+  updateProgress();
+});
+const progressWrap = progress?.parentElement;
+if (progressWrap) progressWrap.appendChild(resetButton);
+
 checks.forEach(check => check.addEventListener("change", updateProgress));
 updateProgress();

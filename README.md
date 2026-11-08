@@ -6,7 +6,7 @@
 
 **What $0 gets you. What your money unlocks.**
 
-[![Live site](https://img.shields.io/badge/Live_site-sujeeth777.github.io%2Fallknowdev-b6ff70?style=flat-square&labelColor=0c120e)](https://sujeeth777.github.io/allknowdev/)
+[![Live site](https://img.shields.io/badge/Live_site-sujeeth777.github.io%2Fallknowdev-b6ff70?style=flat-square&labelColor=0c120e)](https://allknowdev.vercel.app/)
 [![License](https://img.shields.io/github/license/sujeeth777/allknowdev?style=flat-square&labelColor=0c120e)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-67f0c2?style=flat-square&labelColor=0c120e)](CONTRIBUTING.md)
 [![Data](https://img.shields.io/badge/Data-200%2B%20services%20in%20JSON-69dfe8?style=flat-square&labelColor=0c120e)](data/)
@@ -26,7 +26,7 @@ Built for students, self-taught devs and engineers who want to **build first and
 
 | | |
 |---|---|
-| 🔍 **[Searchable directory](https://sujeeth777.github.io/allknowdev/pages/directory.html)** | 150+ real services across 6 fields, filterable by *has free tier*, *open source*, *student perk* |
+| 🔍 **[Searchable directory](https://sujeeth777.github.io/allknowdev/pages/directory.html)** | 200+ real services across 6 fields, filterable by *has free tier*, *open source*, *student perk* |
 | 💸 **Free vs paid, side by side** | Every entry shows what $0 includes and what "from $X/mo" actually buys |
 | 🧱 **The $0 Stacks** | Complete curated stacks — full-stack web, AI builder, solo SaaS, student, self-hosted — that run entirely on free tiers, with the exact point you'd outgrow them |
 | 💰 **Budget explorer** | Set a monthly budget → get the genuinely-free baseline plus the one upgrade worth paying for |
