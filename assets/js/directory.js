@@ -26,6 +26,9 @@
   let activeCategory = "all";
   let toggles = { free: false, oss: false, student: false };
   let searchQuery = "";
+  let sortMode = "recommended";
+  const STORAGE_KEY = "allknowdev-directory";
+  let searchTimer = null;
 
   function el(tag, className, text) {
     const node = document.createElement(tag);
@@ -156,6 +159,23 @@
     return true;
   }
 
+  function updateUrl() {
+    const params = new URLSearchParams();
+    if (searchQuery) params.set("q", searchQuery);
+    const query = params.toString();
+    const next = location.pathname + (query ? "?" + query : "") + (activeCategory !== "all" ? "#" + activeCategory : "");
+    history.replaceState(null, "", next);
+  }
+
+  function sortEntries(list) {
+    return [...list].sort(function (a, b) {
+      if (sortMode === "name") return String(a.product || "").localeCompare(String(b.product || ""));
+      if (sortMode === "free-first") return Number(Boolean(b.free_tier_exists)) - Number(Boolean(a.free_tier_exists)) || String(a.product || "").localeCompare(String(b.product || ""));
+      if (sortMode === "student-first") return Number(Boolean(b.student)) - Number(Boolean(a.student)) || String(a.product || "").localeCompare(String(b.product || ""));
+      return Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || String(a.product || "").localeCompare(String(b.product || ""));
+    });
+  }
+
   function render() {
     if (!results) return;
     results.classList.remove("dir-skeleton");
@@ -163,7 +183,7 @@
 
     let shown = 0;
     CATEGORIES.forEach(function (cat) {
-      const inCat = entries.filter(function (e) { return e.category === cat.key && matches(e); });
+      const inCat = sortEntries(entries.filter(function (e) { return e.category === cat.key && matches(e); }));
       if (!inCat.length) return;
       if (activeCategory === "all" || activeCategory === cat.key) {
         const section = el("div");
@@ -189,10 +209,14 @@
         (searchQuery ? " for \u201C" + searchQuery + "\u201D" : "")));
     }
     if (emptyState) emptyState.hidden = shown !== 0;
+    updateUrl();
+    const countNode = document.getElementById("directoryResultCount");
+    if (countNode) countNode.textContent = shown + " shown";
   }
 
   function setCategory(key) {
     activeCategory = key;
+    saveState();
     if (filterBar) {
       filterBar.querySelectorAll("[data-filter]").forEach(function (btn) {
         const on = btn.dataset.filter === key;
@@ -203,6 +227,26 @@
     render();
   }
 
+  function saveState() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({
+        category: activeCategory,
+        toggles: toggles,
+        sort: sortMode
+      }));
+    } catch (_) {}
+  }
+
+  function restoreState() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "null");
+      if (!saved) return;
+      if (saved.category && (saved.category === "all" || CATEGORIES.some(function (c) { return c.key === saved.category; }))) activeCategory = saved.category;
+      if (saved.toggles) toggles = Object.assign(toggles, saved.toggles);
+      if (saved.sort) sortMode = saved.sort;
+    } catch (_) {}
+  }
+
   function readUrl() {
     const params = new URLSearchParams(location.search);
     const q = (params.get("q") || "").trim().toLowerCase();
@@ -210,6 +254,37 @@
     searchQuery = q;
     const hash = (location.hash || "").replace("#", "");
     if (hash && CATEGORIES.some(function (c) { return c.key === hash; })) activeCategory = hash;
+  }
+
+  function addControls() {
+    if (!summary || document.getElementById("directoryControls")) return;
+    const controls = el("div", "directory-controls");
+    const copy = el("span", "control-copy");
+    copy.id = "directoryResultCount";
+    copy.textContent = "Loading…";
+    const select = el("select");
+    select.id = "directorySort";
+    select.setAttribute("aria-label", "Sort directory");
+    [
+      ["recommended", "Recommended"],
+      ["name", "Name A–Z"],
+      ["free-first", "Free tier first"],
+      ["student-first", "Student perks first"]
+    ].forEach(function (item) {
+      const option = el("option");
+      option.value = item[0];
+      option.textContent = item[1];
+      select.appendChild(option);
+    });
+    select.value = sortMode;
+    select.addEventListener("change", function () {
+      sortMode = select.value;
+      saveState();
+      render();
+    });
+    controls.appendChild(copy);
+    controls.appendChild(select);
+    summary.parentNode.insertBefore(controls, summary);
   }
 
   function loadData() {
@@ -235,7 +310,15 @@
   if (searchInput) {
     searchInput.addEventListener("input", function () {
       searchQuery = searchInput.value.trim().toLowerCase();
-      render();
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(render, 120);
+    });
+    searchInput.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        searchInput.value = "";
+        searchQuery = "";
+        render();
+      }
     });
   }
 
@@ -246,6 +329,7 @@
       if (btn.dataset.filter === "__toggle") {
         const key = btn.dataset.toggle;
         toggles[key] = !toggles[key];
+        saveState();
         btn.classList.toggle("active", toggles[key]);
         btn.setAttribute("aria-pressed", String(toggles[key]));
         render();
@@ -255,6 +339,16 @@
     });
   }
 
+  restoreState();
   readUrl();
+  addControls();
+  if (filterBar) {
+    filterBar.querySelectorAll("[data-toggle]").forEach(function (btn) {
+      const key = btn.dataset.toggle;
+      const on = Boolean(toggles[key]);
+      btn.classList.toggle("active", on);
+      btn.setAttribute("aria-pressed", String(on));
+    });
+  }
   loadData();
 })();
