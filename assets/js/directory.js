@@ -128,17 +128,29 @@
     const more = el("div", "dir-more");
     const toggleBtn = el("button", null, "Details");
     toggleBtn.type = "button";
+    toggleBtn.setAttribute("aria-expanded", "false");
+    toggleBtn.setAttribute("aria-controls", "details-" + entry.id);
+    details.id = "details-" + entry.id;
     toggleBtn.addEventListener("click", function () {
-      card.classList.toggle("open");
-      toggleBtn.textContent = card.classList.contains("open") ? "Close" : "Details";
+      const open = card.classList.toggle("open");
+      toggleBtn.textContent = open ? "Close" : "Details";
+      toggleBtn.setAttribute("aria-expanded", String(open));
     });
     more.appendChild(toggleBtn);
     more.appendChild(el("span", "disclaimer", "checked " + entry.last_verified + " \u00B7 " + entry.confidence));
     card.appendChild(more);
 
     const meta = el("div", "dir-meta");
-    meta.appendChild(el("a", null, "Official site \u2197")).href = entry.official_url;
-    meta.appendChild(el("a", "pricing-link", "Pricing \u2197")).href = entry.pricing_url || entry.official_url;
+    const official = el("a", null, "Official site \u2197");
+    official.href = entry.official_url;
+    official.target = "_blank";
+    official.rel = "noopener noreferrer";
+    meta.appendChild(official);
+    const pricing = el("a", "pricing-link", "Pricing \u2197");
+    pricing.href = entry.pricing_url || entry.official_url;
+    pricing.target = "_blank";
+    pricing.rel = "noopener noreferrer";
+    meta.appendChild(pricing);
     card.appendChild(meta);
 
     return card;
@@ -259,6 +271,7 @@
   function addControls() {
     if (!summary || document.getElementById("directoryControls")) return;
     const controls = el("div", "directory-controls");
+    controls.id = "directoryControls";
     const copy = el("span", "control-copy");
     copy.id = "directoryResultCount";
     copy.textContent = "Loading…";
@@ -282,8 +295,26 @@
       saveState();
       render();
     });
+    const clear = el("button", "button-glass", "Clear filters");
+    clear.type = "button";
+    clear.addEventListener("click", function () {
+      activeCategory = "all";
+      toggles = { free: false, oss: false, student: false };
+      sortMode = "recommended";
+      searchQuery = "";
+      if (searchInput) searchInput.value = "";
+      filterBar?.querySelectorAll("[data-filter]").forEach(function (btn) {
+        const active = btn.dataset.filter === "all";
+        btn.classList.toggle("active", active);
+        btn.setAttribute("aria-pressed", String(active));
+      });
+      select.value = sortMode;
+      saveState();
+      render();
+    });
     controls.appendChild(copy);
     controls.appendChild(select);
+    controls.appendChild(clear);
     summary.parentNode.insertBefore(controls, summary);
   }
 
@@ -352,3 +383,10 @@
   }
   loadData();
 })();
+
+
+window.addEventListener("hashchange", function () {
+  const hash = (location.hash || "").replace("#", "");
+  if (CATEGORIES.some(function (c) { return c.key === hash; })) setCategory(hash);
+  else if (!hash) setCategory("all");
+});
