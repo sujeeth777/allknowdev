@@ -29,6 +29,14 @@ jobs:
           test -f assets/js/ai.js
           test -f assets/js/world.js
           test -f assets/js/ask.js
+          node --check assets/js/main.js
+          node --check assets/js/hero3d.js
+          node --check assets/js/directory.js
+          node --check assets/js/tool.js
+          node --check assets/js/guide.js
+          node --check assets/js/ai.js
+          node --check assets/js/world.js
+          node --check assets/js/ask.js
           test -d assets/images
           test -f directory.html
           test -f ai.html
