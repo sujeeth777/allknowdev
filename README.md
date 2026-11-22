@@ -40,27 +40,39 @@ Built for students, self-taught devs and creators who want to **build first and 
 
 ```
 data/
-├── ai-ml.json          # model APIs, GPUs, vector DBs (the raw AI layer)
-├── ai-chat.json        # chatbots & assistants
-├── ai-image.json       # image generation & editing
-├── ai-video.json       # video generation & editing
-├── ai-audio.json       # music, TTS, speech-to-text
-├── ai-coding.json      # copilots, agents, local AI
-├── cloud-hosting.json  # hosts, serverless, VMs
-├── databases-auth.json # DBs, storage, identity
-├── devtools.json       # editors, CI, monitoring
-├── apis-services.json  # payments, email, maps…
-├── design.json         # fonts, icons, assets
-├── learning.json       # courses, certs, practice
-├── software.json       # legendary OSS desktop apps
-├── productivity.json   # notes, docs, tasks
-├── security.json       # VPNs, privacy, encryption
-├── storage.json        # cloud drives, transfer, backup
-├── categories.json     # taxonomy: 16 categories, 4 groups
-├── fx.json             # snapshot FX rates (41 currencies)
-├── regions.json        # 18 regions: availability, privacy law, payments
-├── guides.json         # 12 step-by-step guides + 4 career paths
-└── stacks.json         # curated $0 stacks + budget picks
+├── ai-ml.json            # model APIs, GPUs, vector DBs (the raw AI layer)
+├── ai-chat.json          # chatbots & assistants
+├── ai-image.json         # image generation & editing
+├── ai-video.json         # video generation & editing
+├── ai-audio.json         # music, TTS, speech-to-text
+├── ai-coding.json        # copilots, agents, local AI
+├── ai-extra.json         # more AI infra: OSS runtimes, frameworks, MLOps
+├── ai-media-extra.json   # more AI chat/image/video/audio/coding tools
+├── cloud-hosting.json    # hosts, serverless, VMs
+├── cloud-extra.json      # CDNs, sandboxes, tunnels, VPS trials, self-host infra
+├── databases-auth.json   # DBs, storage, identity
+├── databases-extra.json  # more DBs, search engines, headless CMS, auth
+├── devtools.json         # editors, CI, monitoring
+├── devtools-extra.json   # runtimes, CLI legends, containers, testing, security scans
+├── apis-services.json    # payments, email, maps…
+├── apis-extra.json       # realtime, media, weather, crypto, datasets, more
+├── design.json           # fonts, icons, assets
+├── design-assets.json    # 60+ more: icons, photos, 3D, mockups, color tools
+├── learning.json         # courses, certs, practice
+├── learning-extra.json   # Indian platforms, free textbooks, interview prep
+├── software.json         # legendary OSS desktop apps
+├── software-extra.json   # CLI legends, media tools, CAD, editors
+├── productivity.json     # notes, docs, tasks
+├── productivity-extra.json # time tracking, wikis, read-it-later, self-host
+├── security.json         # VPNs, privacy, encryption
+├── security-extra.json   # firewalls, routers, private OSes, encryption CLIs
+├── storage.json          # cloud drives, transfer, backup
+├── storage-extra.json    # more drives, photo backup, file hosts
+├── categories.json       # taxonomy: 16 categories, 4 groups
+├── fx.json               # snapshot FX rates (41 currencies)
+├── regions.json          # 18 regions: availability, privacy law, payments
+├── guides.json           # 12 step-by-step guides + 4 career paths
+└── stacks.json           # curated $0 stacks + budget picks
 ```
 
 **Every entry carries:** `what_free` (exact limits), `paid_from` (real price), `watch_out` (honest traps), `official_url` (+ `pricing_url`), `last_verified` (date), `confidence` (`official` / `reported`), plus `oss` / `student` / `featured` flags. CI validates all of it on every push.

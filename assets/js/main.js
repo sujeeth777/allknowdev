@@ -116,8 +116,13 @@
   /* ================= data loading ================= */
   const SERVICE_FILES = [
     "ai-ml.json", "ai-chat.json", "ai-image.json", "ai-video.json", "ai-audio.json", "ai-coding.json",
-    "cloud-hosting.json", "databases-auth.json", "devtools.json", "apis-services.json",
-    "learning.json", "design.json", "software.json", "productivity.json", "security.json", "storage.json"
+    "ai-extra.json", "ai-media-extra.json",
+    "cloud-hosting.json", "cloud-extra.json", "databases-auth.json", "databases-extra.json",
+    "devtools.json", "devtools-extra.json", "apis-services.json", "apis-extra.json",
+    "learning.json", "learning-extra.json", "design.json", "design-assets.json",
+    "software.json", "software-extra.json", "productivity.json", "productivity-extra.json",
+    "security.json", "security-extra.json", "storage.json", "storage-extra.json",
+    "misc-extras.json"
   ];
   const dataCache = {};
   let loadError = false;

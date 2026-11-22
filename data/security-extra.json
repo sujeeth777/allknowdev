@@ -1,0 +1,588 @@
+[
+  {
+    "id": "riseup-vpn",
+    "provider": "Riseup Networks",
+    "product": "RiseupVPN",
+    "category": "security",
+    "tags": ["vpn", "nonprofit", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (donation-funded, no account needed)",
+    "what_free": [
+      "Free VPN with no bandwidth caps and no account required",
+      "Open-source client apps for Linux, macOS, Windows and Android",
+      "Run by a nonprofit activist collective - donations, not ads or tracking"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "A no-cost, no-signup VPN for basic traffic protection.",
+    "watch_out": [
+      "Few exit locations; not built for streaming or strong anonymity"
+    ],
+    "official_url": "https://riseup.net/vpn",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "cloudflare-warp",
+    "provider": "Cloudflare",
+    "product": "1.1.1.1 + WARP",
+    "category": "security",
+    "tags": ["vpn", "dns", "encryption"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free consumer app",
+    "what_free": [
+      "Free 1.1.1.1 DNS resolver plus WARP encrypted tunnel",
+      "No data caps; WARP+ optimized routing included at no charge",
+      "Apps for Windows, macOS, Linux, iOS and Android; malware-blocking Families mode free"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Cloudflare Zero Trust plans" },
+    "what_paid": [
+      "Zero Trust gateway policies, logging and organization management"
+    ],
+    "best_for": "One-tap encrypted DNS/VPN that protects traffic on hostile networks.",
+    "watch_out": [
+      "Not an anonymity tool - Cloudflare terminates your traffic"
+    ],
+    "official_url": "https://one.one.one.one",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "simplewall",
+    "provider": "Henry++",
+    "product": "simplewall",
+    "category": "security",
+    "tags": ["firewall", "windows", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL-3.0)",
+    "what_free": [
+      "Lightweight Windows firewall front-end over Windows Filtering Platform",
+      "Per-app allow/block lists plus a packet monitor",
+      "Portable single executable - no installation required"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Controlling exactly which Windows apps reach the internet.",
+    "watch_out": [
+      "Windows-only; rule model differs from classic firewall UX"
+    ],
+    "official_url": "https://github.com/henrypp/simplewall",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "portmaster",
+    "provider": "Safing",
+    "product": "Portmaster",
+    "category": "security",
+    "tags": ["firewall", "privacy", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free and open source",
+    "what_free": [
+      "Per-application network firewall and monitor for Windows and Linux",
+      "Default-block profiles, per-app DNS control and connection history",
+      "Fully open source; no account or subscription needed"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Safing Privacy Network (SPN) subscription" },
+    "what_paid": [
+      "SPN adds multi-hop onion-style routing across Safing servers"
+    ],
+    "best_for": "Seeing and gating every app's network connections on your PC.",
+    "watch_out": [
+      "Expect prompt fatigue while tuning rules at first"
+    ],
+    "official_url": "https://safing.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "opnsense",
+    "provider": "OPNsense (Deciso)",
+    "product": "OPNsense",
+    "category": "security",
+    "tags": ["firewall", "router-os", "open-source", "bsd"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BSD license)",
+    "what_free": [
+      "Full firewall/router OS: stateful filtering, traffic shaping, IDS/IPS (Suricata)",
+      "WireGuard, OpenVPN and IPsec VPNs with a clean web GUI",
+      "Regular releases; runs on x86 hardware and VMs"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Business edition" },
+    "what_paid": [
+      "Business edition adds professional support and extras"
+    ],
+    "best_for": "Turning spare hardware into a serious home or office firewall.",
+    "watch_out": [
+      "Needs dedicated hardware; major upgrades occasionally need care"
+    ],
+    "official_url": "https://opnsense.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "pfsense",
+    "provider": "Netgate",
+    "product": "pfSense CE",
+    "category": "security",
+    "tags": ["firewall", "router-os", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Community Edition: free",
+    "what_free": [
+      "FreeBSD-based firewall/router Community Edition, free download",
+      "Firewall/NAT, OpenVPN/WireGuard/IPsec and package ecosystem (Suricata, pfBlockerNG)",
+      "Large community documentation and guides"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "pfSense+ software / Netgate appliances" },
+    "what_paid": [
+      "pfSense+ editions and hardware bundles with support"
+    ],
+    "best_for": "A long-proven BSD firewall distro with a big package ecosystem.",
+    "watch_out": [
+      "CE updates lag; newest features live in pfSense+ on Netgate hardware"
+    ],
+    "official_url": "https://www.pfsense.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "openwrt",
+    "provider": "OpenWrt",
+    "product": "OpenWrt",
+    "category": "security",
+    "tags": ["router-os", "open-source", "embedded-linux"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL and similar)",
+    "what_free": [
+      "Replace vendor firmware on a long list of supported routers",
+      "Package feeds: WireGuard, SQM QoS, ad-blocking, VPN clients and more",
+      "LuCI web UI plus full SSH access"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Unlocking real router features on consumer hardware.",
+    "watch_out": [
+      "Flashing the wrong build can brick a router - check the device page first"
+    ],
+    "official_url": "https://openwrt.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "pi-hole",
+    "provider": "Pi-hole",
+    "product": "Pi-hole",
+    "category": "security",
+    "tags": ["dns", "ad-blocking", "network-wide", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (EUPL)",
+    "what_free": [
+      "Network-wide DNS ad/tracker blocking for every device on your LAN",
+      "Web dashboard with query logs and long-term statistics",
+      "Runs on Raspberry Pi, Docker or any small Linux box"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Whole-household ad blocking without per-device apps.",
+    "watch_out": [
+      "DNS-level blocking misses ads sharing a domain; occasional whitelisting needed"
+    ],
+    "official_url": "https://pi-hole.net",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "adguard-home",
+    "provider": "AdGuard",
+    "product": "AdGuard Home",
+    "category": "security",
+    "tags": ["dns", "ad-blocking", "self-hosted", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL-3.0)",
+    "what_free": [
+      "Self-hosted DNS server blocking ads and trackers network-wide",
+      "DoH/DoT/DoQ upstream support, per-client rules and parental controls",
+      "Single binary for routers, NAS, Docker or desktops with built-in web UI"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None (AdGuard's paid apps are separate)" },
+    "what_paid": [],
+    "best_for": "Pi-hole-style blocking with easier setup and per-client controls.",
+    "watch_out": [
+      "Filtering behavior differs slightly from Pi-hole"
+    ],
+    "official_url": "https://github.com/AdguardTeam/AdGuardHome",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "vaultwarden",
+    "provider": "Vaultwarden (community)",
+    "product": "Vaultwarden",
+    "category": "security",
+    "tags": ["password-manager", "self-hosted", "bitwarden-compatible", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL-3.0)",
+    "what_free": [
+      "Lightweight Rust server compatible with official Bitwarden apps",
+      "Self-host unlimited users; includes attachments, TOTP authenticator and organizations",
+      "Single Docker container that runs on tiny hardware"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "A private Bitwarden-compatible password server on your own hardware.",
+    "watch_out": [
+      "Third-party implementation - updates can trail the official server"
+    ],
+    "official_url": "https://github.com/dani-garcia/vaultwarden",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "briar",
+    "provider": "Briar Project",
+    "product": "Briar",
+    "category": "security",
+    "tags": ["messaging", "p2p", "censorship-resistant", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (AGPL)",
+    "what_free": [
+      "Serverless messenger that syncs via Tor, Wi-Fi or Bluetooth",
+      "End-to-end encrypted chats, forums and blogs",
+      "Works even when the internet is censored or down; Android app plus desktop clients"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Messaging that keeps working when networks are censored or down.",
+    "watch_out": [
+      "No iOS app; delivery needs reachable peers (or Briar Mailbox)"
+    ],
+    "official_url": "https://briarproject.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "simplex",
+    "provider": "SimpleX Chat",
+    "product": "SimpleX Chat",
+    "category": "security",
+    "tags": ["messaging", "privacy", "e2ee", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free apps, open-source network",
+    "what_free": [
+      "End-to-end encrypted messaging with no user IDs, phone numbers or emails",
+      "Self-hostable relay servers; no central account registry",
+      "Apps for Android, iOS and desktop, plus a CLI client"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None (donation-funded)" },
+    "what_paid": [],
+    "best_for": "Metadata-resistant chat without phone numbers or accounts.",
+    "watch_out": [
+      "Younger ecosystem; contact onboarding works differently than mainstream apps"
+    ],
+    "official_url": "https://simplex.chat",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "shodan",
+    "provider": "Shodan",
+    "product": "Shodan",
+    "category": "security",
+    "tags": ["recon", "device-search", "osint"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free account (limited results)",
+    "what_free": [
+      "Search engine for internet-exposed devices and services",
+      "Free account with limited results and basic search filters",
+      "Handy for checking your own infrastructure's exposure"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Membership tiers" },
+    "what_paid": [
+      "More results per query, filters, export and API volume"
+    ],
+    "best_for": "OSINT recon on what your network exposes to the internet.",
+    "watch_out": [
+      "Free tier heavily limits results; API access is metered"
+    ],
+    "official_url": "https://www.shodan.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "tails-os",
+    "provider": "Tails (Tor Project)",
+    "product": "Tails",
+    "category": "security",
+    "tags": ["privacy-os", "live-usb", "tor", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Amnesic live OS: boots from USB, leaves no trace on the machine",
+      "All traffic routed through Tor by default",
+      "Optional encrypted persistence; bundled Tor Browser and Thunderbird"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Leave-no-trace, censorship-resistant computing from a USB stick.",
+    "watch_out": [
+      "Tor speeds are slow; not a general daily-driver OS"
+    ],
+    "official_url": "https://tails.net",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "qubes-os",
+    "provider": "Qubes OS Project",
+    "product": "Qubes OS",
+    "category": "security",
+    "tags": ["privacy-os", "compartmentalization", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL and similar)",
+    "what_free": [
+      "Security desktop that isolates every app in its own lightweight VM",
+      "Separate qubes for work, personal, vault and disposable VMs",
+      "Free download with extensive documentation and community"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Compartmentalized desktop for high-risk users like journalists.",
+    "watch_out": [
+      "Demanding hardware: CPU virtualization extensions and generous RAM required"
+    ],
+    "official_url": "https://www.qubes-os.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "age",
+    "provider": "age contributors",
+    "product": "age",
+    "category": "security",
+    "tags": ["encryption", "cli", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BSD-3-Clause)",
+    "what_free": [
+      "Modern file-encryption tool using X25519 keys or passphrases",
+      "Tiny spec and Go reference implementation; rage Rust port available",
+      "Great for encrypting files and backups for a recipient"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Simple, modern file encryption without PGP complexity.",
+    "watch_out": [
+      "Not OpenPGP - different key types and no web of trust"
+    ],
+    "official_url": "https://age-encryption.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "gnupg",
+    "provider": "GNU Project",
+    "product": "GnuPG",
+    "category": "security",
+    "tags": ["encryption", "openpgp", "cli", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Full OpenPGP implementation: encrypt, sign and verify files and email",
+      "Key management, gpg-agent and smartcard support",
+      "Integrates with scripts, mail clients and CI signing workflows"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Standards-based OpenPGP encryption and signing from the command line.",
+    "watch_out": [
+      "Key management UX is notoriously beginner-unfriendly"
+    ],
+    "official_url": "https://gnupg.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "standard-notes",
+    "provider": "Standard Notes (Proton)",
+    "product": "Standard Notes",
+    "category": "security",
+    "tags": ["notes", "encryption", "freemium", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (core notes)",
+    "what_free": [
+      "Encrypted notes with cross-device sync on the free plan",
+      "Open-source apps for web, desktop and mobile",
+      "Local encryption before anything leaves your device"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Productivity subscription" },
+    "what_paid": [
+      "More editors, themes and vault features"
+    ],
+    "best_for": "Simple encrypted long-term notes that stay out of the way.",
+    "watch_out": [
+      "Free tier is deliberately basic; acquired by Proton (2024) so plans may shift"
+    ],
+    "official_url": "https://standardnotes.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "notesnook",
+    "provider": "Notesnook",
+    "product": "Notesnook",
+    "category": "security",
+    "tags": ["notes", "encryption", "freemium", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Generous free plan",
+    "what_free": [
+      "End-to-end encrypted notes with a rich editor and cross-device sync",
+      "Open-source apps for all platforms plus a web clipper",
+      "Notebooks, tags and favorites for organizing"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro subscription" },
+    "what_paid": [
+      "Pro unlocks extras like custom themes, larger uploads and advanced organizers"
+    ],
+    "best_for": "Feature-rich encrypted note-taking with a real free tier.",
+    "watch_out": [
+      "Free plan has upload/space caps - check current limits"
+    ],
+    "official_url": "https://notesnook.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "freeotp",
+    "provider": "Red Hat",
+    "product": "FreeOTP",
+    "category": "security",
+    "tags": ["2fa", "otp", "open-source", "android"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache-2.0)",
+    "what_free": [
+      "TOTP/HOTP two-factor token app",
+      "Fully offline - no accounts, no tracking",
+      "Android and iOS apps; FreeOTP+ fork adds export"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "A minimal open-source 2FA token app with no cloud involved.",
+    "watch_out": [
+      "Official app lacks backup/export (FreeOTP+ fork adds it)"
+    ],
+    "official_url": "https://freeotp.github.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "keepass2android",
+    "provider": "Keepass2Android (community)",
+    "product": "Keepass2Android",
+    "category": "security",
+    "tags": ["password-manager", "android", "keepass", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Android app for KeePass 2 (.kdbx) vaults",
+      "Opens databases from local storage or Dropbox, Google Drive, OneDrive, SFTP, WebDAV",
+      "AutoFill/keyboard integration and full offline use"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Android access to KeePass vaults across any storage backend.",
+    "watch_out": [
+      "Functional rather than polished UI; cloud setup takes a step or two"
+    ],
+    "official_url": "https://github.com/PhilippC/keepass2android",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "mullvad-browser",
+    "provider": "Mullvad VPN + Tor Project",
+    "product": "Mullvad Browser",
+    "category": "security",
+    "tags": ["browser", "anti-fingerprinting", "privacy", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Firefox-based browser with Tor Browser's anti-fingerprinting patches, minus the Tor network",
+      "Designed to blend in with other Mullvad Browser users",
+      "No account or VPN subscription required to use it"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None (Mullvad VPN is separate)" },
+    "what_paid": [],
+    "best_for": "Fingerprint-resistant everyday browsing without Tor's speed cost.",
+    "watch_out": [
+      "Traffic does not go through Tor - different model than Tor Browser"
+    ],
+    "official_url": "https://mullvad.net/en/browser",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  }
+]

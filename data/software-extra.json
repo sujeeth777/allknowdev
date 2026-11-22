@@ -1,0 +1,1669 @@
+[
+  {
+    "id": "ffmpeg",
+    "provider": "FFmpeg",
+    "product": "FFmpeg",
+    "category": "software",
+    "tags": [
+      "cli",
+      "video",
+      "audio",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (LGPL/GPL)",
+    "what_free": [
+      "Convert, stream, cut, compress any audio/video format",
+      "The engine inside YouTube, VLC and half the internet",
+      "One binary, infinite recipes"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Every video/audio processing task ever.",
+    "watch_out": [
+      "Flags are arcane — keep a cheat sheet"
+    ],
+    "official_url": "https://ffmpeg.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "imagemagick",
+    "provider": "ImageMagick Studio",
+    "product": "ImageMagick",
+    "category": "software",
+    "tags": [
+      "cli",
+      "images",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (ImageMagick license)",
+    "what_free": [
+      "Convert, resize, composite, animate 200+ image formats",
+      "Batch-process thousands of images in one command",
+      "Free for commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Scripted image processing pipelines.",
+    "watch_out": [
+      "Install with policy limits on some distros — check security policy errors"
+    ],
+    "official_url": "https://imagemagick.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "pandoc",
+    "provider": "John MacFarlane",
+    "product": "Pandoc",
+    "category": "software",
+    "tags": [
+      "cli",
+      "documents",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Convert between 40+ document formats (md ↔ docx ↔ pdf ↔ html)",
+      "Academic citations via pandoc-citeproc",
+      "The universal document translator"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Markdown workflows that must produce Word/PDF output.",
+    "watch_out": [
+      "PDF output needs LaTeX installed"
+    ],
+    "official_url": "https://pandoc.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "mpv",
+    "provider": "mpv.io",
+    "product": "mpv",
+    "category": "software",
+    "tags": [
+      "media-player",
+      "open-source",
+      "cli"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Minimalist player that plays anything ffmpeg can",
+      "Scriptable with Lua, top-tier hardware decoding",
+      "No ads, no accounts, no nonsense"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Power-user video playback.",
+    "watch_out": [
+      "Bare UI — configure keybindings to taste"
+    ],
+    "official_url": "https://mpv.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "mkvtoolnix",
+    "provider": "Moritz Bunkus",
+    "product": "MKVToolNix",
+    "category": "software",
+    "tags": [
+      "video",
+      "matroska",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Merge, split and remux MKV files without re-encoding",
+      "Swap/add audio and subtitle tracks losslessly",
+      "GUI + CLI"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Remuxing video without quality loss.",
+    "watch_out": [],
+    "official_url": "https://mkvtoolnix.download",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "lossless-cut",
+    "provider": "mifi",
+    "product": "LosslessCut",
+    "category": "software",
+    "tags": [
+      "video",
+      "editing",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Cut video/audio at keyframes instantly, without re-encoding",
+      "Export segments, merge clips, extract audio",
+      "Zero quality loss, blazing speed"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Trimming recordings in seconds instead of minutes.",
+    "watch_out": [
+      "Cuts snap to keyframes — choose nearby keyframe cutpoints"
+    ],
+    "official_url": "https://losslesscut.app",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "avidemux",
+    "provider": "Avidemux",
+    "product": "Avidemux",
+    "category": "software",
+    "tags": [
+      "video",
+      "editing",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Simple cut, filter and encode tasks",
+      "Scriptable jobs for batch processing"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Quick automation-friendly video fixes.",
+    "watch_out": [
+      "Utility UI, not a modern editor"
+    ],
+    "official_url": "https://avidemux.sourceforge.net",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "freac",
+    "provider": "fre:ac",
+    "product": "fre:ac",
+    "category": "software",
+    "tags": [
+      "audio",
+      "converter",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Rip CDs and convert between all audio formats",
+      "Tag editor + cover art, multi-threaded",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Building a local music library with proper tags.",
+    "watch_out": [],
+    "official_url": "https://www.freac.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "foobar2000",
+    "provider": "foobar2000",
+    "product": "foobar2000",
+    "category": "software",
+    "tags": [
+      "audio",
+      "player",
+      "windows"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Legendary customizable Windows audio player",
+      "Gapless playback, ReplayGain, huge component ecosystem",
+      "Free — no ads"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Audiophile-grade local music playback.",
+    "watch_out": [
+      "Windows-focused (mobile versions exist)"
+    ],
+    "official_url": "https://www.foobar2000.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "musicbee",
+    "provider": "MusicBee",
+    "product": "MusicBee",
+    "category": "software",
+    "tags": [
+      "audio",
+      "player",
+      "windows"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Full-featured music manager and player for Windows",
+      "Auto-tagging, library views, synced lyrics",
+      "Free with optional donations"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Managing large local music collections.",
+    "watch_out": [
+      "Windows only"
+    ],
+    "official_url": "https://getmusicbee.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mp3tag",
+    "provider": "Mp3tag",
+    "product": "Mp3tag",
+    "category": "software",
+    "tags": [
+      "audio",
+      "tags",
+      "windows"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Batch-edit audio tags from filenames, web sources, regex",
+      "Supports every audio format's tags",
+      "Free for private use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Fixing messy music libraries in bulk.",
+    "watch_out": [
+      "Donation requested for continued development"
+    ],
+    "official_url": "https://www.mp3tag.de/en/",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "musescore",
+    "provider": "MuseScore",
+    "product": "MuseScore",
+    "category": "software",
+    "tags": [
+      "music",
+      "notation",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Full music notation software — write, play, export scores",
+      "Free forever; musescore.com adds sharing",
+      "Huge community score library"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "musescore.com Pro subscription is separate"
+    },
+    "what_paid": [
+      "musescore.com Pro (offline viewing of shared scores)"
+    ],
+    "best_for": "Composers and students writing sheet music.",
+    "watch_out": [
+      "musescore.com website freemium ≠ the free desktop app"
+    ],
+    "official_url": "https://musescore.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "cmus",
+    "provider": "cmus",
+    "product": "cmus",
+    "category": "software",
+    "tags": [
+      "audio",
+      "cli",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Fast terminal music player",
+      "vi-style keybindings, tiny footprint",
+      "Runs over SSH headless"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Music on servers and minimal setups.",
+    "watch_out": [],
+    "official_url": "https://cmus.github.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "paintnet",
+    "provider": "Rick Brewster",
+    "product": "Paint.NET",
+    "category": "software",
+    "tags": [
+      "images",
+      "editor",
+      "windows"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Windows image editor between MS Paint and Photoshop",
+      "Layers, plugins, endless community extensions",
+      "Free — paid version only via Microsoft Store"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (Store purchase supports dev)"
+    },
+    "what_paid": [],
+    "best_for": "Fast edits and image retouching on Windows.",
+    "watch_out": [
+      "Windows only"
+    ],
+    "official_url": "https://getpaint.net",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "pinta",
+    "provider": "Pinta",
+    "product": "Pinta",
+    "category": "software",
+    "tags": [
+      "images",
+      "editor",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Cross-platform Paint.NET-inspired editor",
+      "Layers + adjustments, runs on Linux/macOS",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Simple layered editing outside Windows.",
+    "watch_out": [],
+    "official_url": "https://www.pinta-project.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "nomacs",
+    "provider": "nomacs",
+    "product": "nomacs",
+    "category": "software",
+    "tags": [
+      "images",
+      "viewer",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Fast image viewer with thumbnails, metadata and RAW support",
+      "Cross-platform, network folder browsing"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Replacing sluggish default image viewers.",
+    "watch_out": [],
+    "official_url": "https://nomacs.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "digikam",
+    "provider": "KDE",
+    "product": "digiKam",
+    "category": "software",
+    "tags": [
+      "photos",
+      "management",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Professional photo management: face recognition, tags, maps",
+      "Handles 100k+ photo libraries",
+      "RAW support via LibRaw"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Taming huge photo collections locally.",
+    "watch_out": [
+      "Initial setup of databases can confuse"
+    ],
+    "official_url": "https://www.digikam.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "hugin",
+    "provider": "Hugin",
+    "product": "Hugin Panorama",
+    "category": "software",
+    "tags": [
+      "photos",
+      "panorama",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Stitch panoramas from overlapping photos",
+      "Exposure and horizon correction tools"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Free panorama creation.",
+    "watch_out": [
+      "Complex UI for edge cases"
+    ],
+    "official_url": "https://hugin.sourceforge.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "freecad",
+    "provider": "FreeCAD",
+    "product": "FreeCAD",
+    "category": "software",
+    "tags": [
+      "cad",
+      "3d",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (LGPL)",
+    "what_free": [
+      "Full parametric 3D CAD: parts, assemblies, technical drawings",
+      "The open AutoCAD/SolidWorks alternative",
+      "Huge community for 3D printing workflows"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Engineering design and 3D-print preparation.",
+    "watch_out": [
+      "UI has a learning curve; 1.0 release improved a lot"
+    ],
+    "official_url": "https://www.freecad.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "openscad",
+    "provider": "OpenSCAD",
+    "product": "OpenSCAD",
+    "category": "software",
+    "tags": [
+      "cad",
+      "3d",
+      "code"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Programmatic 3D CAD — models from code",
+      "Perfect for parametric 3D-printable parts",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Makers who think in code, not mouse-clicks.",
+    "watch_out": [
+      "Not for artistic modelling"
+    ],
+    "official_url": "https://openscad.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "kicad",
+    "provider": "KiCad",
+    "product": "KiCad",
+    "category": "software",
+    "tags": [
+      "electronics",
+      "pcb",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Professional PCB design: schematics, layout, 3D preview",
+      "No board-size or layer restrictions (vs free tiers of commercial EDA)",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Designing circuit boards at $0.",
+    "watch_out": [
+      "Library management takes setup time"
+    ],
+    "official_url": "https://www.kicad.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "sumatra-pdf",
+    "provider": "Krzysztof Kowalczyk",
+    "product": "Sumatra PDF",
+    "category": "software",
+    "tags": [
+      "pdf",
+      "reader",
+      "windows"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Featherweight PDF/ePub/MOBI/CHM reader",
+      "Starts instantly, tabbed, dark mode",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Reading PDFs without Adobe's bloat.",
+    "watch_out": [
+      "Windows only; minimal annotation features"
+    ],
+    "official_url": "https://sumatrapdfreader.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "okular",
+    "provider": "KDE",
+    "product": "Okular",
+    "category": "software",
+    "tags": [
+      "pdf",
+      "reader",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Universal document viewer with annotations",
+      "PDF, ePub, DjVu, comic formats",
+      "Works on Windows now too"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Annotating PDFs without paying Adobe.",
+    "watch_out": [],
+    "official_url": "https://okular.kde.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "koodo-reader",
+    "provider": "koodo.9495",
+    "product": "Koodo Reader",
+    "category": "software",
+    "tags": [
+      "ebook",
+      "reader",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (AGPL)",
+    "what_free": [
+      "Modern ebook reader: ePub, PDF, MOBI, sync across devices",
+      "Notes, highlights, translation built in",
+      "Free self-host or desktop"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "A pretty, syncable ebook experience.",
+    "watch_out": [],
+    "official_url": "https://koodo.9495.xyz",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "peazip",
+    "provider": "PeaZip",
+    "product": "PeaZip",
+    "category": "software",
+    "tags": [
+      "archiver",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (LGPL)",
+    "what_free": [
+      "Archive manager for 200+ formats",
+      "Encrypted archives (AES-256), split volumes",
+      "Cross-platform"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Archive handling beyond 7-Zip's formats.",
+    "watch_out": [],
+    "official_url": "https://peazip.github.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "flameshot",
+    "provider": "Flameshot",
+    "product": "Flameshot",
+    "category": "software",
+    "tags": [
+      "screenshots",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Screenshot tool with instant annotate (arrows, blur, text)",
+      "Pin screenshots to screen",
+      "Cross-platform"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Explaining bugs with annotated screenshots.",
+    "watch_out": [],
+    "official_url": "https://flameshot.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "greenshot",
+    "provider": "Greenshot",
+    "product": "Greenshot",
+    "category": "software",
+    "tags": [
+      "screenshots",
+      "open-source",
+      "windows"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Windows screenshot capture with Office/Imgur export",
+      "Region/window/fullscreen with memory"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Windows screenshot workflows.",
+    "watch_out": [
+      "Windows-focused (older macOS port)"
+    ],
+    "official_url": "https://getgreenshot.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "transmission",
+    "provider": "Transmission",
+    "product": "Transmission",
+    "category": "software",
+    "tags": [
+      "torrents",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL/MIT)",
+    "what_free": [
+      "Minimalist BitTorrent client",
+      "The default on many Linux systems and macOS (via community builds)",
+      "Remote control daemon"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Legal torrent use (ISOs, Linux distros, CC media).",
+    "watch_out": [
+      "Use only for legal content"
+    ],
+    "official_url": "https://transmissionbt.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "deluge",
+    "provider": "Deluge",
+    "product": "Deluge",
+    "category": "software",
+    "tags": [
+      "torrents",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Full-featured torrent client with plugin ecosystem",
+      "Thin-client/daemon architecture for headless servers"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Torrent automation on seedboxes.",
+    "watch_out": [
+      "Legal content only"
+    ],
+    "official_url": "https://deluge-torrent.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "jdownloader",
+    "provider": "JDownloader",
+    "product": "JDownloader 2",
+    "category": "software",
+    "tags": [
+      "downloads",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Download manager: pause/resume, link extraction, captcha recognition",
+      "Works with hundreds of file hosts",
+      "Cross-platform (Java)"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (ads in installer — uncheck!)"
+    },
+    "what_paid": [],
+    "best_for": "Managing big multi-part downloads.",
+    "watch_out": [
+      "The installer offers bundled adware — opt out carefully"
+    ],
+    "official_url": "https://jdownloader.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "rustdesk",
+    "provider": "RustDesk",
+    "product": "RustDesk",
+    "category": "software",
+    "tags": [
+      "remote-desktop",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (AGPL core)",
+    "what_free": [
+      "Open-source remote desktop (TeamViewer alternative)",
+      "Free public relays or self-host your own server",
+      "Cross-platform incl. mobile"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro server for enterprises"
+    },
+    "what_paid": [
+      "RustDesk Server Pro"
+    ],
+    "best_for": "Remote access you fully control.",
+    "watch_out": [
+      "Self-host the relay for privacy and speed"
+    ],
+    "official_url": "https://rustdesk.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "anydesk",
+    "provider": "AnyDesk",
+    "product": "AnyDesk",
+    "category": "software",
+    "tags": [
+      "remote-desktop",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free for personal use",
+    "what_free": [
+      "Fast remote desktop, free for personal use",
+      "Tiny download, works on weak connections"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Solo/Standard paid plans"
+    },
+    "what_paid": [
+      "Commercial use, more devices"
+    ],
+    "best_for": "Helping family with their PCs.",
+    "watch_out": [
+      "Commercial use requires a license"
+    ],
+    "official_url": "https://anydesk.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "remmina",
+    "provider": "Remmina",
+    "product": "Remmina",
+    "category": "software",
+    "tags": [
+      "remote-desktop",
+      "open-source",
+      "linux"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "RDP/VNC/SSH/SPICE client for Linux",
+      "Connection profiles and plugins"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "One client for every remote protocol on Linux.",
+    "watch_out": [
+      "Linux only"
+    ],
+    "official_url": "https://remmina.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "qemu",
+    "provider": "QEMU",
+    "product": "QEMU",
+    "category": "software",
+    "tags": [
+      "virtualization",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Full machine emulator and virtualizer",
+      "Run any OS on any OS, emulate exotic architectures",
+      "The foundation of Linux KVM virtualization"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Free virtualization on Linux and experimenting with OSes.",
+    "watch_out": [
+      "UI comes from virt-manager or other frontends"
+    ],
+    "official_url": "https://www.qemu.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "bleachbit",
+    "provider": "BleachBit",
+    "product": "BleachBit",
+    "category": "software",
+    "tags": [
+      "cleanup",
+      "privacy",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "System cleaner (open CCleaner alternative)",
+      "Frees disk space, shreds files, wipes traces",
+      "Windows + Linux"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Disk cleanup without ads or telemetry.",
+    "watch_out": [
+      "Review what it deletes — it's thorough"
+    ],
+    "official_url": "https://www.bleachbit.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "btop",
+    "provider": "aristocratos",
+    "product": "btop++",
+    "category": "software",
+    "tags": [
+      "monitoring",
+      "cli",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache)",
+    "what_free": [
+      "Gorgeous terminal system monitor: CPU, RAM, disks, network, GPU",
+      "Mouse support, process tree, themes",
+      "The htop successor"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Seeing exactly what a machine is doing.",
+    "watch_out": [],
+    "official_url": "https://github.com/aristocratos/btop",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "glances",
+    "provider": "Nicolargo",
+    "product": "Glances",
+    "category": "software",
+    "tags": [
+      "monitoring",
+      "cli",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (LGPL)",
+    "what_free": [
+      "Cross-platform system monitor with web UI mode",
+      "Exports to InfluxDB/Prometheus",
+      "Remote monitoring over SSH"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Monitoring many servers in one terminal.",
+    "watch_out": [],
+    "official_url": "https://nicolargo.github.io/glances/",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "ncdu",
+    "provider": "Yorik",
+    "product": "ncdu",
+    "category": "software",
+    "tags": [
+      "disk",
+      "cli",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "NCurses disk usage analyzer — find space hogs over SSH",
+      "Delete files directly from the interface"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Answering 'why is this disk full?' remotely.",
+    "watch_out": [],
+    "official_url": "https://dev.yorhel.nl/ncdu",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "jupyter",
+    "provider": "Jupyter",
+    "product": "Jupyter Notebook/Lab",
+    "category": "software",
+    "tags": [
+      "notebooks",
+      "python",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BSD)",
+    "what_free": [
+      "Interactive notebooks for Python/data science",
+      "Free locally or via free cloud (Colab/Kaggle)",
+      "The standard interface of data science"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Learning data science and sharing live analysis.",
+    "watch_out": [],
+    "official_url": "https://jupyter.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "gnuplot",
+    "provider": "gnuplot",
+    "product": "gnuplot",
+    "category": "software",
+    "tags": [
+      "plotting",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (gnuplot license)",
+    "what_free": [
+      "Plot functions and data in 2D/3D",
+      "Scriptable publication-quality figures",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Fast scientific plots from the terminal.",
+    "watch_out": [
+      "Syntax is dated"
+    ],
+    "official_url": "https://www.gnuplot.info",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "octave",
+    "provider": "GNU Octave",
+    "product": "GNU Octave",
+    "category": "software",
+    "tags": [
+      "math",
+      "matlab",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Free MATLAB-compatible numerical computing",
+      "Runs most MATLAB scripts unmodified",
+      "Academic and engineering standard, at $0"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Coursework that demands MATLAB syntax without MATLAB's price.",
+    "watch_out": [
+      "Some toolbox functions differ"
+    ],
+    "official_url": "https://octave.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "r-project",
+    "provider": "The R Foundation",
+    "product": "R",
+    "category": "software",
+    "tags": [
+      "statistics",
+      "data-science",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "The statistics language: 19,000+ CRAN packages",
+      "Free forever, academic gold standard",
+      "RStudio/Posit Desktop free companion"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Posit Workbench is the paid team product"
+    },
+    "what_paid": [],
+    "best_for": "Statistics, bioinformatics and research analysis.",
+    "watch_out": [],
+    "official_url": "https://www.r-project.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "notepad-plus-plus",
+    "provider": "Notepad++",
+    "product": "Notepad++",
+    "category": "software",
+    "tags": [
+      "editor",
+      "windows",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "The Windows notepad replacement with real power: syntax highlighting, macros, plugins",
+      "Opens giant files instantly",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Quick edits and giant-file surgery on Windows.",
+    "watch_out": [
+      "Windows only"
+    ],
+    "official_url": "https://notepad-plus-plus.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "emacs",
+    "provider": "GNU",
+    "product": "GNU Emacs",
+    "category": "software",
+    "tags": [
+      "editor",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "The extensible editor/operating system since 1976",
+      "org-mode, magit (git), TRAMP (remote files)",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "A lifetime investment in a customizable environment.",
+    "watch_out": [
+      "Infamous learning curve; doom-emacs softens it"
+    ],
+    "official_url": "https://www.gnu.org/software/emacs/",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "helix",
+    "provider": "Helix",
+    "product": "Helix",
+    "category": "software",
+    "tags": [
+      "editor",
+      "terminal",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MPL)",
+    "what_free": [
+      "Modal editor with LSP, treesitter and fuzzy-finding built in",
+      "Zero plugins needed",
+      "Single binary"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Modern vim-like editing out of the box.",
+    "watch_out": [
+      "Different keymap philosophy than vim"
+    ],
+    "official_url": "https://helix-editor.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "micro-editor",
+    "provider": "zyedidia",
+    "product": "micro",
+    "category": "software",
+    "tags": [
+      "editor",
+      "terminal",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Terminal editor with normal Ctrl+S/Ctrl+C keys",
+      "Mouse support, plugins, syntax highlighting",
+      "One static binary"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Editing files on servers without vim memorization.",
+    "watch_out": [],
+    "official_url": "https://micro-editor.github.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "focuswriter",
+    "provider": "Graeme Gott",
+    "product": "FocusWriter",
+    "category": "software",
+    "tags": [
+      "writing",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Distraction-free writing: fullscreen, typewriter sounds, themes",
+      "Timers and daily goals"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "First drafts without notifications.",
+    "watch_out": [],
+    "official_url": "https://gottcode.org/focuswriter/",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "manuskript",
+    "provider": "Manuskript",
+    "product": "Manuskript",
+    "category": "software",
+    "tags": [
+      "writing",
+      "novels",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Open-source novel organizer: characters, plots, index cards",
+      "Scrivener-style workflow at $0"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Writing long fiction without buying Scrivener.",
+    "watch_out": [
+      "Save often — backup discipline"
+    ],
+    "official_url": "https://www.theologeek.ch/manuskript/",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "zettlr",
+    "provider": "Zettlr",
+    "product": "Zettlr",
+    "category": "software",
+    "tags": [
+      "writing",
+      "academic",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Academic writing app: Zettelkasten, citations, pandoc export",
+      "One tool for notes → thesis → PDF",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Writing papers with citations without Word + Zotero plugins fighting.",
+    "watch_out": [],
+    "official_url": "https://zettlr.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  }
+]

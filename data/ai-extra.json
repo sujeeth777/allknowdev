@@ -1,0 +1,1890 @@
+[
+  {
+    "id": "github-models",
+    "provider": "GitHub",
+    "product": "GitHub Models",
+    "category": "ai",
+    "tags": [
+      "llm",
+      "api",
+      "playground",
+      "free tier"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier (rate-limited)",
+    "what_free": [
+      "Try and compare GPT, Llama, DeepSeek, Phi and more from one playground",
+      "Free API access with rate limits for every GitHub user",
+      "One key works across many model providers"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-token at production rates / Copilot tiers for higher limits"
+    },
+    "what_paid": [
+      "Higher rate limits and production endpoints"
+    ],
+    "best_for": "Experimenting with frontier models through your existing GitHub account.",
+    "watch_out": [
+      "Free rate limits are low — fine for prototyping, not for shipping at scale"
+    ],
+    "official_url": "https://docs.github.com/en/github-models",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "fireworks-ai",
+    "provider": "Fireworks AI",
+    "product": "Fireworks AI",
+    "category": "ai",
+    "tags": [
+      "llm",
+      "api",
+      "inference"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free trial credits",
+    "what_free": [
+      "Fast hosted open models (Llama, Qwen, DeepSeek...)",
+      "$1 free credits to test the API",
+      "OpenAI-compatible endpoints"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-token"
+    },
+    "what_paid": [
+      "Production-scale inference, fine-tuning"
+    ],
+    "best_for": "Speed-focused inference of open models.",
+    "watch_out": [
+      "Credits expire — verify current amount on signup"
+    ],
+    "official_url": "https://fireworks.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "deepinfra",
+    "provider": "DeepInfra",
+    "product": "DeepInfra",
+    "category": "ai",
+    "tags": [
+      "llm",
+      "api",
+      "inference"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free credits + per-token",
+    "what_free": [
+      "Hundreds of open models hosted at low prices",
+      "Free credits to test models",
+      "OpenAI-compatible API"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-token (among the cheapest hosts)"
+    },
+    "what_paid": [
+      "Production usage at per-token rates"
+    ],
+    "best_for": "Cheap experimentation across many open models.",
+    "watch_out": [],
+    "official_url": "https://deepinfra.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "novita-ai",
+    "provider": "Novita AI",
+    "product": "Novita AI",
+    "category": "ai",
+    "tags": [
+      "llm",
+      "api",
+      "image"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free credits on signup",
+    "what_free": [
+      "Hosted LLMs, image and video models",
+      "Free trial credits",
+      "Serverless GPUs for custom models"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-token / per-GPU-hour"
+    },
+    "what_paid": [
+      "Production inference and dedicated GPUs"
+    ],
+    "best_for": "One platform for text, image and video model APIs.",
+    "watch_out": [
+      "Credit amounts change — check signup page"
+    ],
+    "official_url": "https://novita.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "hyperbolic",
+    "provider": "Hyperbolic",
+    "product": "Hyperbolic",
+    "category": "ai",
+    "tags": [
+      "llm",
+      "api",
+      "gpu"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free credits",
+    "what_free": [
+      "Hosted open models + GPU marketplace",
+      "Free credits on signup",
+      "H100s at near-market rates"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-token / per-GPU-hour"
+    },
+    "what_paid": [
+      "Dedicated GPUs and scale"
+    ],
+    "best_for": "Cheap GPU rental alongside hosted inference.",
+    "watch_out": [
+      "Availability of GPUs fluctuates"
+    ],
+    "official_url": "https://hyperbolic.xyz",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "voyage-ai",
+    "provider": "Voyage AI",
+    "product": "Voyage AI",
+    "category": "ai",
+    "tags": [
+      "embeddings",
+      "api",
+      "rag"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "State-of-the-art embedding and reranking models",
+      "Free tier with a monthly token allowance",
+      "OpenAI-compatible client usage"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-token"
+    },
+    "what_paid": [
+      "Higher rate limits and volume"
+    ],
+    "best_for": "Retrieval quality upgrades in RAG pipelines.",
+    "watch_out": [
+      "Now part of MongoDB — check current plan structure"
+    ],
+    "official_url": "https://www.voyageai.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mixedbread",
+    "provider": "Mixedbread",
+    "product": "mixedbread.ai",
+    "category": "ai",
+    "tags": [
+      "embeddings",
+      "open-source",
+      "api"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier + OSS models",
+    "what_free": [
+      "Open-source embedding models (mxbai) free to run locally",
+      "Hosted API with a free tier",
+      "Reranking models"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-token"
+    },
+    "what_paid": [
+      "Managed scale"
+    ],
+    "best_for": "Embeddings you can run free locally or hosted.",
+    "watch_out": [],
+    "official_url": "https://www.mixedbread.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "dashscope",
+    "provider": "Alibaba Cloud",
+    "product": "DashScope / Qwen API",
+    "category": "ai",
+    "tags": [
+      "llm",
+      "api",
+      "free credits"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free quotas per model",
+    "what_free": [
+      "Qwen model family (including strong open Qwen models)",
+      "Free quotas for many models",
+      "International console (Singapore)"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-token"
+    },
+    "what_paid": [
+      "Higher quotas, proprietary flagship models"
+    ],
+    "best_for": "Free access to the Qwen model family via API.",
+    "watch_out": [
+      "Quota rules per model change often"
+    ],
+    "official_url": "https://www.alibabacloud.com/en/product/dashscope",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "zhipu-bigmodel",
+    "provider": "Zhipu AI",
+    "product": "GLM API (bigmodel.cn)",
+    "category": "ai",
+    "tags": [
+      "llm",
+      "api",
+      "free credits"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier + credits",
+    "what_free": [
+      "GLM model family via API",
+      "Free tier on flash-class models + new-user credits",
+      "Also offers open-weight GLM downloads"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-token"
+    },
+    "what_paid": [
+      "Flagship GLM models at scale"
+    ],
+    "best_for": "Working with the GLM model family cheaply.",
+    "watch_out": [
+      "Console primarily in Chinese; international endpoint exists"
+    ],
+    "official_url": "https://open.bigmodel.cn",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "vllm",
+    "provider": "vLLM project",
+    "product": "vLLM",
+    "category": "ai",
+    "tags": [
+      "inference",
+      "open-source",
+      "self-hosted"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "The production-standard LLM serving engine",
+      "PagedAttention gives huge throughput on your own GPU",
+      "OpenAI-compatible server in one command"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None — you pay only for hardware"
+    },
+    "what_paid": [],
+    "best_for": "Self-hosting LLMs at maximum throughput.",
+    "watch_out": [
+      "Needs a real GPU (rented or owned)"
+    ],
+    "official_url": "https://docs.vllm.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "llama-cpp",
+    "provider": "ggml",
+    "product": "llama.cpp",
+    "category": "ai",
+    "tags": [
+      "inference",
+      "open-source",
+      "local"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Run LLMs on CPUs and modest hardware via quantization",
+      "No cloud, no limits, fully offline",
+      "OpenAI-compatible server included"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Local LLM inference on laptops without GPUs.",
+    "watch_out": [
+      "Quantized models trade quality for speed"
+    ],
+    "official_url": "https://github.com/ggml-org/llama.cpp",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "text-generation-webui",
+    "provider": "oobabooga",
+    "product": "Text generation WebUI",
+    "category": "ai",
+    "tags": [
+      "inference",
+      "open-source",
+      "ui"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (AGPL)",
+    "what_free": [
+      "Gradio UI for loading and chatting with local models",
+      "Multiple backends (llama.cpp, ExLlama, transformers)",
+      "Fine-tuning and character tools"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "A control panel for local model tinkering.",
+    "watch_out": [
+      "Heavier setup than Ollama"
+    ],
+    "official_url": "https://github.com/oobabooga/text-generation-webui",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "koboldcpp",
+    "provider": "KoboldAI",
+    "product": "KoboldCpp",
+    "category": "ai",
+    "tags": [
+      "inference",
+      "open-source",
+      "local"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (AGPL)",
+    "what_free": [
+      "Easy all-in-one llama.cpp distribution with a UI",
+      "Runs GGUF models on CPU/GPU",
+      "Story-mode features for creative writing"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Local creative-writing sessions on old hardware.",
+    "watch_out": [],
+    "official_url": "https://github.com/LostRuins/koboldcpp",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "sglang",
+    "provider": "SGLang",
+    "product": "SGLang",
+    "category": "ai",
+    "tags": [
+      "inference",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Fast LLM serving engine with structured-output support",
+      "RadixAttention prefix caching",
+      "OpenAI-compatible server"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "High-throughput serving with structured generation.",
+    "watch_out": [
+      "Newer ecosystem than vLLM"
+    ],
+    "official_url": "https://github.com/sgl-project/sglang",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "litellm",
+    "provider": "BerriAI",
+    "product": "LiteLLM",
+    "category": "ai",
+    "tags": [
+      "gateway",
+      "open-source",
+      "proxy"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT core)",
+    "what_free": [
+      "One OpenAI-style API over 100+ providers",
+      "Self-hostable proxy with budgets, keys and logging",
+      "Swap providers without touching app code"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Enterprise dashboard is paid"
+    },
+    "what_paid": [
+      "Enterprise SSO, audit logs"
+    ],
+    "best_for": "Avoiding provider lock-in in AI apps.",
+    "watch_out": [],
+    "official_url": "https://github.com/BerriAI/litellm",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "portkey",
+    "provider": "Portkey",
+    "product": "Portkey",
+    "category": "ai",
+    "tags": [
+      "gateway",
+      "observability",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "AI gateway with routing, fallbacks and caching",
+      "Free tier for logs and basic controls",
+      "Works with 200+ providers"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Usage-based teams plan"
+    },
+    "what_paid": [
+      "Team features, higher log retention"
+    ],
+    "best_for": "Production reliability (fallbacks, retries) for LLM calls.",
+    "watch_out": [
+      "Free tier limits log history"
+    ],
+    "official_url": "https://portkey.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "helicone",
+    "provider": "Helicone",
+    "product": "Helicone",
+    "category": "ai",
+    "tags": [
+      "observability",
+      "open-source",
+      "llm"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier + self-host",
+    "what_free": [
+      "LLM logging, caching and rate limiting",
+      "Open source — self-host for unlimited use",
+      "One-line integration via base URL swap"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro cloud plan"
+    },
+    "what_paid": [
+      "Managed scale and support"
+    ],
+    "best_for": "Seeing exactly what your AI app spends and sends.",
+    "watch_out": [],
+    "official_url": "https://www.helicone.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "langchain",
+    "provider": "LangChain",
+    "product": "LangChain",
+    "category": "ai",
+    "tags": [
+      "framework",
+      "open-source",
+      "agents"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "The most-used LLM app framework (Python/JS)",
+      "Chains, agents, RAG helpers, integrations",
+      "Free forever as a library"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "LangSmith tracing is a separate paid product"
+    },
+    "what_paid": [
+      "LangSmith observability plans"
+    ],
+    "best_for": "Building LLM apps with the largest ecosystem.",
+    "watch_out": [
+      "Fast-moving APIs — pin versions"
+    ],
+    "official_url": "https://www.langchain.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "llamaindex",
+    "provider": "LlamaIndex",
+    "product": "LlamaIndex",
+    "category": "ai",
+    "tags": [
+      "framework",
+      "rag",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Data framework purpose-built for RAG",
+      "Connectors for every data source",
+      "Free as a library"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "LlamaCloud is the paid managed service"
+    },
+    "what_paid": [
+      "LlamaCloud managed parsing/indexing"
+    ],
+    "best_for": "Document ingestion and retrieval pipelines.",
+    "watch_out": [],
+    "official_url": "https://www.llamaindex.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "crewai",
+    "provider": "CrewAI",
+    "product": "CrewAI",
+    "category": "ai",
+    "tags": [
+      "agents",
+      "open-source",
+      "framework"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT core)",
+    "what_free": [
+      "Role-based multi-agent framework (crews of AI agents)",
+      "Python library, free locally",
+      "Works with any LLM provider"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Enterprise platform is separate"
+    },
+    "what_paid": [
+      "Enterprise deployment platform"
+    ],
+    "best_for": "Coordinated multi-agent automations in Python.",
+    "watch_out": [
+      "Agent frameworks burn tokens fast — budget API usage"
+    ],
+    "official_url": "https://www.crewai.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "autogen",
+    "provider": "Microsoft",
+    "product": "AutoGen",
+    "category": "ai",
+    "tags": [
+      "agents",
+      "open-source",
+      "framework"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Microsoft's multi-agent conversation framework",
+      "Agents talk to each other to solve tasks",
+      "Human-in-the-loop patterns built in"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (bring your own model APIs)"
+    },
+    "what_paid": [],
+    "best_for": "Research-style multi-agent experiments.",
+    "watch_out": [
+      "API churn between AutoGen 0.2 and 0.4"
+    ],
+    "official_url": "https://microsoft.github.io/autogen/",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "dspy",
+    "provider": "Stanford NLP",
+    "product": "DSPy",
+    "category": "ai",
+    "tags": [
+      "framework",
+      "open-source",
+      "prompts"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Program (not prompt) LLMs — declarative signatures + auto-optimization",
+      "Compiles pipelines into better prompts automatically",
+      "Free research-grade library"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Systematic prompt pipelines that optimize themselves.",
+    "watch_out": [
+      "Steeper learning curve than simple chains"
+    ],
+    "official_url": "https://dspy.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "haystack",
+    "provider": "deepset",
+    "product": "Haystack",
+    "category": "ai",
+    "tags": [
+      "framework",
+      "rag",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Production-focused NLP/RAG pipeline framework",
+      "Pipeline components swap models freely",
+      "deepset Studio free tier"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "deepset Cloud is the paid platform"
+    },
+    "what_paid": [
+      "Managed enterprise platform"
+    ],
+    "best_for": "Clean pipeline architecture for search and QA systems.",
+    "watch_out": [],
+    "official_url": "https://haystack.deepset.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "flowise",
+    "provider": "Flowise",
+    "product": "Flowise",
+    "category": "ai",
+    "tags": [
+      "low-code",
+      "open-source",
+      "agents"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (self-host)",
+    "what_free": [
+      "Drag-and-drop LLM flow builder (LangChain under the hood)",
+      "Self-host free with Docker, unlimited flows",
+      "Chat embeds and API endpoints"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Cloud plans add hosting and scale"
+    },
+    "what_paid": [
+      "Managed cloud, teams, scale"
+    ],
+    "best_for": "Visual AI workflow building without code.",
+    "watch_out": [],
+    "official_url": "https://flowiseai.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "dify",
+    "provider": "LangGenius",
+    "product": "Dify",
+    "category": "ai",
+    "tags": [
+      "low-code",
+      "open-source",
+      "agents"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free self-host + free cloud sandbox",
+    "what_free": [
+      "Open-source LLM app platform: agents, RAG, workflows, observability",
+      "Self-host free unlimited",
+      "Cloud sandbox free to try"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Cloud plans from ~$59/mo"
+    },
+    "what_paid": [
+      "Managed hosting with higher limits"
+    ],
+    "best_for": "A complete open-source alternative to hosted AI builders.",
+    "watch_out": [
+      "Self-hosting needs a server for team features"
+    ],
+    "official_url": "https://dify.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "pytorch",
+    "provider": "PyTorch Foundation",
+    "product": "PyTorch",
+    "category": "ai",
+    "tags": [
+      "ml",
+      "open-source",
+      "deep-learning"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BSD)",
+    "what_free": [
+      "The dominant deep-learning framework",
+      "Free forever, huge ecosystem (torchvision, torchaudio)",
+      "Runs CPU and CUDA GPUs"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Training and fine-tuning models yourself.",
+    "watch_out": [
+      "GPU training needs actual hardware — pair with Colab/Kaggle free GPUs"
+    ],
+    "official_url": "https://pytorch.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "tensorflow",
+    "provider": "Google",
+    "product": "TensorFlow",
+    "category": "ai",
+    "tags": [
+      "ml",
+      "open-source",
+      "deep-learning"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Google's deep-learning framework with TF Lite for mobile/edge",
+      "Keras high-level API",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Deploying ML to mobile and embedded devices.",
+    "watch_out": [
+      "Research community has largely moved to PyTorch"
+    ],
+    "official_url": "https://www.tensorflow.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "scikit-learn",
+    "provider": "scikit-learn",
+    "product": "scikit-learn",
+    "category": "ai",
+    "tags": [
+      "ml",
+      "open-source",
+      "classical"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BSD)",
+    "what_free": [
+      "Classical ML: regression, clustering, trees, pipelines",
+      "The workhorse of tabular ML",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Classical machine learning on tabular data.",
+    "watch_out": [
+      "Not for deep learning — pair with PyTorch"
+    ],
+    "official_url": "https://scikit-learn.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "opencv",
+    "provider": "OpenCV",
+    "product": "OpenCV",
+    "category": "ai",
+    "tags": [
+      "vision",
+      "open-source",
+      "library"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "The computer-vision library (2,500+ algorithms)",
+      "Runs on CPU, mobile and edge devices",
+      "Free commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Image processing and classic CV pipelines.",
+    "watch_out": [],
+    "official_url": "https://opencv.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "huggingface-transformers",
+    "provider": "Hugging Face",
+    "product": "Transformers",
+    "category": "ai",
+    "tags": [
+      "library",
+      "open-source",
+      "models"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "The library connecting 1M+ open models",
+      "One API for text, vision, audio models",
+      "Runs locally, free"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Using open models in four lines of Python.",
+    "watch_out": [
+      "Model licenses vary — some models are gated"
+    ],
+    "official_url": "https://huggingface.co/docs/transformers",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "gradio",
+    "provider": "Gradio (Hugging Face)",
+    "product": "Gradio",
+    "category": "ai",
+    "tags": [
+      "ui",
+      "open-source",
+      "demos"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Turn any Python function into a shareable web UI",
+      "Powers Hugging Face Spaces demos",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Demoing ML models without frontend code.",
+    "watch_out": [],
+    "official_url": "https://www.gradio.app",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "streamlit",
+    "provider": "Snowflake",
+    "product": "Streamlit",
+    "category": "ai",
+    "tags": [
+      "ui",
+      "open-source",
+      "demos"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Data apps from pure Python scripts",
+      "Free Community Cloud hosting for public apps",
+      "Instant dashboards and ML demos"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Enterprise plans"
+    },
+    "what_paid": [
+      "Enterprise hosting/SSO"
+    ],
+    "best_for": "Turning a script into a shareable app in an afternoon.",
+    "watch_out": [
+      "Community Cloud apps sleep when idle"
+    ],
+    "official_url": "https://streamlit.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "modelscope",
+    "provider": "Alibaba",
+    "product": "ModelScope",
+    "category": "ai",
+    "tags": [
+      "models",
+      "hub",
+      "free"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Alibaba's model hub — thousands of open models",
+      "Free hosting and downloads",
+      "Notebook playgrounds"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Models that aren't on Hugging Face (especially Chinese research).",
+    "watch_out": [
+      "Interface partly in Chinese"
+    ],
+    "official_url": "https://www.modelscope.cn",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "comet-ml",
+    "provider": "Comet",
+    "product": "Comet ML",
+    "category": "ai",
+    "tags": [
+      "mlops",
+      "experiments",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Experiment tracking, metrics and model registry",
+      "Free tier for individuals",
+      "Works with any ML framework"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Team plans"
+    },
+    "what_paid": [
+      "Team collaboration, higher limits"
+    ],
+    "best_for": "Tracking ML experiments beyond Weights & Biases.",
+    "watch_out": [],
+    "official_url": "https://www.comet.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mlflow",
+    "provider": "LF AI & Data",
+    "product": "MLflow",
+    "category": "ai",
+    "tags": [
+      "mlops",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Track experiments, package models, registry",
+      "Self-host free — the OSS standard for MLOps",
+      "Integrates with everything"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Self-hosted experiment tracking and model registry.",
+    "watch_out": [
+      "UI is functional, not fancy"
+    ],
+    "official_url": "https://mlflow.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "promptfoo",
+    "provider": "promptfoo",
+    "product": "promptfoo",
+    "category": "ai",
+    "tags": [
+      "evals",
+      "open-source",
+      "testing"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT core)",
+    "what_free": [
+      "Test and compare LLM prompts/models with evals",
+      "CLI + web viewer, self-hostable",
+      "Catches regressions before users do"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Hosted enterprise features are paid"
+    },
+    "what_paid": [
+      "Hosted collaboration features"
+    ],
+    "best_for": "Treating prompts like code — with tests.",
+    "watch_out": [],
+    "official_url": "https://promptfoo.dev",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "argos-translate",
+    "provider": "Argos Translate",
+    "product": "Argos Translate",
+    "category": "ai",
+    "tags": [
+      "translation",
+      "open-source",
+      "local"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Fully offline open-source neural translation",
+      "Python library, CLI and desktop app",
+      "No API keys, no limits"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Private, unlimited translation without cloud.",
+    "watch_out": [
+      "Quality below DeepL for major language pairs"
+    ],
+    "official_url": "https://www.argosopentech.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "libretranslate",
+    "provider": "LibreTranslate",
+    "product": "LibreTranslate",
+    "category": "ai",
+    "tags": [
+      "translation",
+      "open-source",
+      "api"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free self-host / public instance",
+    "what_free": [
+      "Open-source translation API (Argos engine)",
+      "Self-host free, or use public instance (rate-limited)",
+      "50+ languages"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Hosted API keys from ~$5"
+    },
+    "what_paid": [
+      "Hosted API without rate limits"
+    ],
+    "best_for": "A translation API you fully control.",
+    "watch_out": [
+      "Public instance is aggressively rate-limited"
+    ],
+    "official_url": "https://libretranslate.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "deepgram",
+    "provider": "Deepgram",
+    "product": "Deepgram",
+    "category": "ai",
+    "tags": [
+      "speech",
+      "api",
+      "stt"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "$200 free credits",
+    "what_free": [
+      "Fast speech-to-text and TTS APIs",
+      "~$200 free credits for new accounts",
+      "Streaming transcription"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-minute (from ~$0.0043/min)"
+    },
+    "what_paid": [
+      "Production volume after credits"
+    ],
+    "best_for": "Voice agents and transcription apps.",
+    "watch_out": [
+      "Credits expire within ~90 days"
+    ],
+    "official_url": "https://deepgram.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "assemblyai",
+    "provider": "AssemblyAI",
+    "product": "AssemblyAI",
+    "category": "ai",
+    "tags": [
+      "speech",
+      "api",
+      "stt"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier + credits",
+    "what_free": [
+      "Speech-to-text with speaker labels and summarization",
+      "Free tier with monthly free hours + signup credits",
+      "Great API docs"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-per-hour (from ~$0.12/hr)"
+    },
+    "what_paid": [
+      "Volume beyond free allowance"
+    ],
+    "best_for": "Transcribing podcasts and meetings with extra AI features.",
+    "watch_out": [
+      "Verify current free allowance on signup"
+    ],
+    "official_url": "https://www.assemblyai.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "gladia",
+    "provider": "Gladia",
+    "product": "Gladia",
+    "category": "ai",
+    "tags": [
+      "speech",
+      "api",
+      "stt"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier (~10h/mo)",
+    "what_free": [
+      "Multilingual speech-to-text API",
+      "Free ~10 transcription hours/month",
+      "Real-time and async modes"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro from ~$0.612/h"
+    },
+    "what_paid": [
+      "More hours, advanced features"
+    ],
+    "best_for": "Multilingual meeting transcription on a free tier.",
+    "watch_out": [
+      "Free tier caps concurrent minutes"
+    ],
+    "official_url": "https://www.gladia.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "roboflow",
+    "provider": "Roboflow",
+    "product": "Roboflow",
+    "category": "ai",
+    "tags": [
+      "vision",
+      "datasets",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Annotate, augment and version computer-vision datasets",
+      "Free tier: public workspaces + training credits",
+      "Deploy to edge devices"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Paid plans for private scale"
+    },
+    "what_paid": [
+      "Private projects, more credits"
+    ],
+    "best_for": "Going from images to a trained vision model quickly.",
+    "watch_out": [
+      "Free tier is public-workspace oriented"
+    ],
+    "official_url": "https://roboflow.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "ultralytics",
+    "provider": "Ultralytics",
+    "product": "YOLO (Ultralytics)",
+    "category": "ai",
+    "tags": [
+      "vision",
+      "open-source",
+      "yolo"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (AGPL-3.0)",
+    "what_free": [
+      "The famous YOLO object detection/tracking/segmentation",
+      "Train and run locally free",
+      "Exports to every edge format"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Enterprise license for closed-source products"
+    },
+    "what_paid": [
+      "Non-AGPL enterprise license"
+    ],
+    "best_for": "Real-time object detection on your own hardware.",
+    "watch_out": [
+      "AGPL — commercial closed-source use needs their license"
+    ],
+    "official_url": "https://www.ultralytics.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "label-studio",
+    "provider": "HumanSignal",
+    "product": "Label Studio",
+    "category": "ai",
+    "tags": [
+      "annotation",
+      "open-source",
+      "datasets"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0 core)",
+    "what_free": [
+      "Self-host data labeling for text, images, audio, video",
+      "Unlimited annotations when self-hosted",
+      "ML-assisted pre-labeling"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Hosted plans from ~$63/user"
+    },
+    "what_paid": [
+      "Managed hosting and collaboration"
+    ],
+    "best_for": "Building labeled datasets without paying per label.",
+    "watch_out": [],
+    "official_url": "https://labelstud.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "cvat",
+    "provider": "CVAT.ai",
+    "product": "CVAT",
+    "category": "ai",
+    "tags": [
+      "annotation",
+      "open-source",
+      "vision"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT core)",
+    "what_free": [
+      "Industry-standard image/video annotation tool",
+      "Self-host free with Docker",
+      "Interpolation for video labeling"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Cloud plans for teams"
+    },
+    "what_paid": [
+      "Managed cloud with collaboration"
+    ],
+    "best_for": "Video and image annotation at scale, free.",
+    "watch_out": [
+      "Self-hosting needs some DevOps comfort"
+    ],
+    "official_url": "https://www.cvat.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "tesseract",
+    "provider": "Google (Tesseract)",
+    "product": "Tesseract OCR",
+    "category": "ai",
+    "tags": [
+      "ocr",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "The classic open-source OCR engine (100+ languages)",
+      "CLI + library, fully offline",
+      "Free commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Extracting text from scans without uploading anywhere.",
+    "watch_out": [
+      "Struggles with messy real-world photos — preprocess images"
+    ],
+    "official_url": "https://github.com/tesseract-ocr/tesseract",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "paddleocr",
+    "provider": "PaddlePaddle",
+    "product": "PaddleOCR",
+    "category": "ai",
+    "tags": [
+      "ocr",
+      "open-source",
+      "multilingual"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "State-of-the-art open OCR — 80+ languages",
+      "Tables, handwriting and scene-text support",
+      "Free commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Beating Tesseract accuracy, especially non-Latin scripts.",
+    "watch_out": [
+      "Pulls the bigger PaddlePaddle runtime"
+    ],
+    "official_url": "https://github.com/PaddlePaddle/PaddleOCR",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "easyocr",
+    "provider": "JaidedAI",
+    "product": "EasyOCR",
+    "category": "ai",
+    "tags": [
+      "ocr",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "OCR in 80+ languages with 3 lines of Python",
+      "PyTorch-based, GPU optional",
+      "Free commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "The easiest OCR integration path.",
+    "watch_out": [
+      "Heavy initial model downloads"
+    ],
+    "official_url": "https://github.com/JaidedAI/EasyOCR",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "milvus",
+    "provider": "Zilliz",
+    "product": "Milvus",
+    "category": "ai",
+    "tags": [
+      "vector-db",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Open-source vector database built for billion-scale",
+      "Self-host free; Milvus Lite runs embedded",
+      "GPU indexing support"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Zilliz Cloud is the managed service"
+    },
+    "what_paid": [
+      "Zilliz Cloud free tier then paid"
+    ],
+    "best_for": "Serious vector search at scale, self-hosted.",
+    "watch_out": [
+      "Full cluster mode is operationally heavy"
+    ],
+    "official_url": "https://milvus.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "zilliz-cloud",
+    "provider": "Zilliz",
+    "product": "Zilliz Cloud",
+    "category": "ai",
+    "tags": [
+      "vector-db",
+      "managed",
+      "free tier"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Serverless free tier",
+    "what_free": [
+      "Managed Milvus with a serverless free tier",
+      "No credit card for the free cluster",
+      "Auto-scaling collections"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Usage-based paid clusters"
+    },
+    "what_paid": [
+      "Dedicated clusters and SLAs"
+    ],
+    "best_for": "Managed vector search without ops.",
+    "watch_out": [
+      "Free tier storage/throughput caps"
+    ],
+    "official_url": "https://zilliz.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "lancedb",
+    "provider": "LanceDB",
+    "product": "LanceDB",
+    "category": "ai",
+    "tags": [
+      "vector-db",
+      "open-source",
+      "embedded"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Embedded vector database stored as plain files (Lance format)",
+      "No server — perfect for local RAG",
+      "Multimodal data support"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Cloud offering is paid"
+    },
+    "what_paid": [
+      "LanceDB Cloud/Enterprise"
+    ],
+    "best_for": "Local-first vector search with zero infrastructure.",
+    "watch_out": [],
+    "official_url": "https://lancedb.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "typesense",
+    "provider": "Typesense",
+    "product": "Typesense",
+    "category": "data",
+    "tags": [
+      "search",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL-3.0)",
+    "what_free": [
+      "Blazing fast open-source search engine with typo tolerance",
+      "Self-host free; Typesense Cloud has a free trial",
+      "Great docs and client libs"
+    ],
+    "paid_from": {
+      "amount": 45,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Typesense Cloud from ~$45"
+    },
+    "what_paid": [
+      "Managed clusters"
+    ],
+    "best_for": "Instant-search UX on your own data.",
+    "watch_out": [],
+    "official_url": "https://typesense.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "elasticsearch-free",
+    "provider": "Elastic",
+    "product": "Elasticsearch (free self-managed)",
+    "category": "data",
+    "tags": [
+      "search",
+      "open-source-ish",
+      "vector"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free basic self-managed",
+    "what_free": [
+      "Self-managed 'Basic' tier is free: full-text search, kNN vectors",
+      "The classic search engine, free forever at basic license",
+      "Huge ecosystem and docs"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Elastic Cloud paid tiers for advanced features"
+    },
+    "what_paid": [
+      "Enterprise security, ML nodes, managed cloud"
+    ],
+    "best_for": "One engine for text search AND vector search.",
+    "watch_out": [
+      "License changed from pure OSS in 2021; AGPL option returned in 2024 — read terms"
+    ],
+    "official_url": "https://www.elastic.co/elasticsearch",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  }
+]

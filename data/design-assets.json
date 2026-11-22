@@ -1,0 +1,2779 @@
+[
+  {
+    "id": "iconify",
+    "provider": "Iconify",
+    "product": "Iconify",
+    "category": "design",
+    "tags": [
+      "icons",
+      "svg",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "One API over 200,000+ icons from 150+ open icon sets",
+      "Web component, CSS and framework packages",
+      "Figma plugin and design-tools integrations"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Free forever (paid only for icon-set designers hosting private sets)"
+    },
+    "what_paid": [
+      "Private icon set hosting for companies"
+    ],
+    "best_for": "Using every major open icon set through one consistent API.",
+    "watch_out": [
+      "Individual icon sets keep their own licenses — check before commercial use"
+    ],
+    "official_url": "https://iconify.design",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "feather-icons",
+    "provider": "Feather",
+    "product": "Feather Icons",
+    "category": "design",
+    "tags": [
+      "icons",
+      "svg",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "~280 clean stroke icons as SVG",
+      "Copy-paste or install via npm",
+      "Works everywhere — no attribution required"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None — MIT licensed"
+    },
+    "what_paid": [],
+    "best_for": "Minimal line icons in clean UIs.",
+    "watch_out": [
+      "Small set — complex icon needs need Iconify or Tabler"
+    ],
+    "official_url": "https://feathericons.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "ionicons",
+    "provider": "Ionic",
+    "product": "Ionicons",
+    "category": "design",
+    "tags": [
+      "icons",
+      "svg",
+      "mobile"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "~1,300 icons in filled, outline and sharp variants",
+      "Built for web and mobile apps",
+      "Free for commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "App UIs that need consistent icon variants.",
+    "watch_out": [],
+    "official_url": "https://ionic.io/ionicons",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "css-gg",
+    "provider": "css.gg",
+    "product": "css.gg",
+    "category": "design",
+    "tags": [
+      "icons",
+      "css"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "~700 icons built in pure CSS (no SVG files)",
+      "Use via CSS, SVG, or the Figma library",
+      "Tiny footprint"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Icon rendering with zero image requests.",
+    "watch_out": [],
+    "official_url": "https://css.gg",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "game-icons",
+    "provider": "Game-icons.net",
+    "product": "Game Icons",
+    "category": "design",
+    "tags": [
+      "icons",
+      "games",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC BY)",
+    "what_free": [
+      "4,000+ bold SVG icons made for games",
+      "CC BY 3.0 — free commercial use with credit",
+      "Powerful on-site recoloring and search"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Game UIs, dashboards and anything needing expressive glyphs.",
+    "watch_out": [
+      "Attribution required (CC BY)"
+    ],
+    "official_url": "https://game-icons.net",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "unicons",
+    "provider": "Iconscout",
+    "product": "Unicons",
+    "category": "design",
+    "tags": [
+      "icons",
+      "svg",
+      "fonts"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free icon library",
+    "what_free": [
+      "~1,300+ free line/monochrome icons (of a 5,000+ set)",
+      "Available as SVG, font or icon font CSS",
+      "Free for commercial use"
+    ],
+    "paid_from": {
+      "amount": 14,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Iconscout Pro (access to premium icons)"
+    },
+    "what_paid": [
+      "Full premium icon and illustration library"
+    ],
+    "best_for": "Matching line icons with a font-based workflow.",
+    "watch_out": [
+      "Some icons are Pro-only"
+    ],
+    "official_url": "https://iconscout.com/unicons",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "bootstrap-icons",
+    "provider": "Bootstrap",
+    "product": "Bootstrap Icons",
+    "category": "design",
+    "tags": [
+      "icons",
+      "svg",
+      "bootstrap"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "2,000+ icons maintained by the Bootstrap team",
+      "SVG, icon font and npm delivery",
+      "Free commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Bootstrap projects and general-purpose UI icons.",
+    "watch_out": [],
+    "official_url": "https://icons.getbootstrap.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "remixicon",
+    "provider": "Remix Design",
+    "product": "Remix Icon",
+    "category": "design",
+    "tags": [
+      "icons",
+      "svg",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "~2,800 icons in line and filled styles",
+      "Systematic categories for product UI",
+      "Free commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Product dashboards needing paired line/filled icons.",
+    "watch_out": [],
+    "official_url": "https://remixicon.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "phosphor-icons",
+    "provider": "Phosphor",
+    "product": "Phosphor Icons",
+    "category": "design",
+    "tags": [
+      "icons",
+      "svg",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "~9,000 icons across 6 weights (thin → fill)",
+      "Framework packages for React, Vue, Flutter and more",
+      "Free commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Design systems needing multiple icon weights.",
+    "watch_out": [],
+    "official_url": "https://phosphoricons.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "boxicons",
+    "provider": "Boxicons",
+    "product": "Boxicons",
+    "category": "design",
+    "tags": [
+      "icons",
+      "svg"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "~1,600 regular and solid icons",
+      "Icon font + SVG usage",
+      "Free for commercial projects"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Simple icon-font integration.",
+    "watch_out": [],
+    "official_url": "https://boxicons.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "iconoir",
+    "provider": "Iconoir",
+    "product": "Iconoir",
+    "category": "design",
+    "tags": [
+      "icons",
+      "svg",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "~1,500 consistent stroke icons",
+      "Figma library + React/Vue packages",
+      "Free commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Figma-to-code icon consistency.",
+    "watch_out": [],
+    "official_url": "https://iconoir.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "material-symbols",
+    "provider": "Google",
+    "product": "Material Symbols",
+    "category": "design",
+    "tags": [
+      "icons",
+      "fonts",
+      "google"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Google's official 2,500+ icon set with variable weight/fill axes",
+      "Icon font hosted on Google Fonts",
+      "Free commercial use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Android-flavored or variable-font icon systems.",
+    "watch_out": [],
+    "official_url": "https://fonts.google.com/icons",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "svgrepo",
+    "provider": "SVG Repo",
+    "product": "SVG Repo",
+    "category": "design",
+    "tags": [
+      "icons",
+      "vectors",
+      "search"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free library",
+    "what_free": [
+      "500,000+ open-licensed vectors and icons, searchable",
+      "License filter (CC0/public domain vs attribution)",
+      "No account needed"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Hunting one specific vector across many licenses.",
+    "watch_out": [
+      "Mixed licenses — the filter is your friend"
+    ],
+    "official_url": "https://www.svgrepo.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "react-icons",
+    "provider": "React Icons",
+    "product": "React Icons",
+    "category": "design",
+    "tags": [
+      "icons",
+      "react",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Every major icon set as React components",
+      "Tree-shakeable imports",
+      "One dependency instead of ten"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "React apps mixing icon sets.",
+    "watch_out": [],
+    "official_url": "https://react-icons.github.io/react-icons",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "simple-icons",
+    "provider": "Simple Icons",
+    "product": "Simple Icons",
+    "category": "design",
+    "tags": [
+      "logos",
+      "svg",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC0)",
+    "what_free": [
+      "3,000+ brand logos as single-color SVGs",
+      "CDN, npm package and Figma library",
+      "No attribution required"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Tech-stack sections and integration logos.",
+    "watch_out": [
+      "Brand logos remain subject to each company's trademark policy"
+    ],
+    "official_url": "https://simpleicons.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "worldvectorlogo",
+    "provider": "World Vector Logo",
+    "product": "Worldvectorlogo",
+    "category": "design",
+    "tags": [
+      "logos",
+      "svg"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free downloads",
+    "what_free": [
+      "Country flags and brand logos as clean SVGs",
+      "Search by name, download without account"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Flag and logo SVGs for locale pickers.",
+    "watch_out": [
+      "Community-uploaded — verify trademark use yourself"
+    ],
+    "official_url": "https://worldvectorlogo.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "flaticon",
+    "provider": "Freepik Company",
+    "product": "Flaticon",
+    "category": "design",
+    "tags": [
+      "icons",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with attribution",
+    "what_free": [
+      "Millions of icons free with attribution link",
+      "Icon fonts and PNG/SVG downloads",
+      "Collections and plugins"
+    ],
+    "paid_from": {
+      "amount": 9.99,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Premium (no attribution)"
+    },
+    "what_paid": [
+      "Attribution-free licensing and premium packs"
+    ],
+    "best_for": "Massive icon variety on a $0 budget.",
+    "watch_out": [
+      "Attribution is mandatory on the free tier"
+    ],
+    "official_url": "https://www.flaticon.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "icons8",
+    "provider": "Icons8",
+    "product": "Icons8",
+    "category": "design",
+    "tags": [
+      "icons",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with attribution",
+    "what_free": [
+      "Icons, illustrations, photos and music in matching styles",
+      "Free with attribution + link",
+      "Desktop app for recoloring"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Subscriptions from ~$0.20/icon or monthly plans"
+    },
+    "what_paid": [
+      "Attribution-free licensing, higher resolutions"
+    ],
+    "best_for": "Style-consistent icon + illustration sets.",
+    "watch_out": [
+      "Free license requires visible attribution"
+    ],
+    "official_url": "https://icons8.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "noun-project",
+    "provider": "Noun Project",
+    "product": "Noun Project",
+    "category": "design",
+    "tags": [
+      "icons",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with attribution",
+    "what_free": [
+      "Millions of icons from global designers",
+      "Free downloads with credit line",
+      "Icon request community"
+    ],
+    "paid_from": {
+      "amount": 3,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro (unlimited, no attribution)"
+    },
+    "what_paid": [
+      "Attribution-free unlimited downloads"
+    ],
+    "best_for": "Finding a metaphor icon for any concept.",
+    "watch_out": [
+      "Free tier requires attribution"
+    ],
+    "official_url": "https://thenounproject.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "pixabay",
+    "provider": "Pixabay",
+    "product": "Pixabay",
+    "category": "design",
+    "tags": [
+      "photos",
+      "videos",
+      "cc0"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Pixabay license)",
+    "what_free": [
+      "4M+ photos, vectors, videos and music",
+      "Commercial use without attribution",
+      "No account needed to download"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (optional donations/ads on site)"
+    },
+    "what_paid": [],
+    "best_for": "One-stop stock media with permissive licensing.",
+    "watch_out": [
+      "Some content resembles trademarked subjects — still check edge cases"
+    ],
+    "official_url": "https://pixabay.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "unsplash",
+    "provider": "Unsplash",
+    "product": "Unsplash",
+    "category": "design",
+    "tags": [
+      "photos",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Unsplash license)",
+    "what_free": [
+      "5M+ high-quality photos",
+      "Commercial use without attribution",
+      "Official API (rate-limited)"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Unsplash+ subscriptions for premium content"
+    },
+    "what_paid": [
+      "Unsplash+ premium photos"
+    ],
+    "best_for": "Beautiful editorial photography for heroes and posts.",
+    "watch_out": [
+      "License forbids selling unaltered copies as stock"
+    ],
+    "official_url": "https://unsplash.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "wikimedia-commons",
+    "provider": "Wikimedia",
+    "product": "Wikimedia Commons",
+    "category": "design",
+    "tags": [
+      "photos",
+      "media",
+      "public-domain"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free media",
+    "what_free": [
+      "100M+ freely licensed images, audio and video",
+      "Public-domain and CC library with clear license tags",
+      "Historical and scientific media you won't find elsewhere"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Encyclopedic and historical media with clear licensing.",
+    "watch_out": [
+      "Per-file licenses vary — read the tag on each file"
+    ],
+    "official_url": "https://commons.wikimedia.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "stocksnap",
+    "provider": "StockSnap.io",
+    "product": "StockSnap",
+    "category": "design",
+    "tags": [
+      "photos",
+      "cc0"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC0)",
+    "what_free": [
+      "Thousands of CC0 photos — no attribution",
+      "Trending/search ranking to find good shots fast"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Attribution-free stock photography.",
+    "watch_out": [],
+    "official_url": "https://stocksnap.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "kaboompics",
+    "provider": "Kaboompics",
+    "product": "Kaboompics",
+    "category": "design",
+    "tags": [
+      "photos",
+      "interiors"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with photo credit",
+    "what_free": [
+      "Curated lifestyle/interior photos by one photographer",
+      "Free commercial use with a link",
+      "Includes matching color palettes per photo"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Cohesive lifestyle imagery for landing pages.",
+    "watch_out": [
+      "Attribution link required; can't redistribute as stock"
+    ],
+    "official_url": "https://kaboompics.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "gratisography",
+    "provider": "Gratisography",
+    "product": "Gratisography",
+    "category": "design",
+    "tags": [
+      "photos",
+      "quirky"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Quirky high-res photos with a distinct style",
+      "Free commercial use, no attribution"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Playful hero images that don't look stocky.",
+    "watch_out": [],
+    "official_url": "https://gratisography.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "lifeofpix",
+    "provider": "Life of Pix",
+    "product": "Life of Pix",
+    "category": "design",
+    "tags": [
+      "photos",
+      "cc0"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC0)",
+    "what_free": [
+      "Weekly-updated free photos + video sister site (Life of Vids)",
+      "No attribution required"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Fresh CC0 photography without signup.",
+    "watch_out": [],
+    "official_url": "https://www.lifeofpix.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "isorepublic",
+    "provider": "ISORepublic",
+    "product": "ISO Republic",
+    "category": "design",
+    "tags": [
+      "photos",
+      "cc0"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC0)",
+    "what_free": [
+      "Free high-res photos organized by category",
+      "CC0 — commercial use without attribution"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Category-browsable CC0 photos.",
+    "watch_out": [],
+    "official_url": "https://isorepublic.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "burst",
+    "provider": "Shopify",
+    "product": "Burst",
+    "category": "design",
+    "tags": [
+      "photos",
+      "ecommerce"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Free stock photos by Shopify, business/ecommerce focused",
+      "Collections tailored to online stores",
+      "No attribution required on most"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Store imagery for e-commerce side projects.",
+    "watch_out": [
+      "Shopify branding on some collections"
+    ],
+    "official_url": "https://www.shopify.com/stock-photos",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mixkit",
+    "provider": "Mixkit",
+    "product": "Mixkit",
+    "category": "design",
+    "tags": [
+      "videos",
+      "music",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Mixkit license)",
+    "what_free": [
+      "Free HD stock video clips, music tracks, SFX and templates",
+      "Commercial use without attribution",
+      "Curated quality — small but excellent"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Background video and music for landing pages.",
+    "watch_out": [
+      "Can't redistribute the assets as-is (as stock)"
+    ],
+    "official_url": "https://mixkit.co",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "coverr",
+    "provider": "Coverr",
+    "product": "Coverr",
+    "category": "design",
+    "tags": [
+      "videos",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Beautiful free stock videos made for website heroes",
+      "No attribution, commercial use OK",
+      "Curated rather than overwhelming"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Hero-section background videos.",
+    "watch_out": [],
+    "official_url": "https://coverr.co",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "videvo",
+    "provider": "Videvo",
+    "product": "Videvo",
+    "category": "design",
+    "tags": [
+      "videos",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free clips with account",
+    "what_free": [
+      "Thousands of free stock video clips and motion graphics",
+      "Mix of licenses — filter by 'free for commercial use'"
+    ],
+    "paid_from": {
+      "amount": 18,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro (4K + no attribution)"
+    },
+    "what_paid": [
+      "4K downloads, attribution-free licensing"
+    ],
+    "best_for": "Browsing a deep video library on $0.",
+    "watch_out": [
+      "License varies per clip — check each download"
+    ],
+    "official_url": "https://www.videvo.net",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mazwai",
+    "provider": "Mazwai",
+    "product": "Mazwai",
+    "category": "design",
+    "tags": [
+      "videos",
+      "cinematic"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Hand-picked cinematic video clips",
+      "Free for commercial projects, no attribution"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Moody, filmic backgrounds.",
+    "watch_out": [],
+    "official_url": "https://mazwai.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "humaaans",
+    "provider": "Pablo Stanley",
+    "product": "Humaaans",
+    "category": "design",
+    "tags": [
+      "illustrations",
+      "svg",
+      "free"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC BY 4.0)",
+    "what_free": [
+      "Modular people illustrations in SVG",
+      "Mix limbs and styles in Figma/Illustrator",
+      "Free commercial use with credit"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Friendly human illustrations you can customize.",
+    "watch_out": [
+      "Attribution appreciated (CC BY)"
+    ],
+    "official_url": "https://www.humaaans.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "open-peeps",
+    "provider": "Pablo Stanley",
+    "product": "Open Peeps",
+    "category": "design",
+    "tags": [
+      "illustrations",
+      "svg",
+      "free"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC0)",
+    "what_free": [
+      "Hand-drawn character illustration builder",
+      "Mix faces, hair, outfits — millions of combos",
+      "CC0: no attribution needed"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Unique illustrated characters for avatars and empty states.",
+    "watch_out": [],
+    "official_url": "https://www.openpeeps.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "avataaars",
+    "provider": "Pablo Stanley",
+    "product": "Avataaars",
+    "category": "design",
+    "tags": [
+      "avatars",
+      "svg",
+      "free"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "The famous cartoon avatar library as SVG/PNG",
+      "Sketch and Figma libraries included"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Playful default avatars in apps.",
+    "watch_out": [],
+    "official_url": "https://avataaars.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "dicebear",
+    "provider": "DiceBear",
+    "product": "DiceBear Avatars",
+    "category": "design",
+    "tags": [
+      "avatars",
+      "api",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Deterministic avatar generator: 30+ art styles",
+      "Free HTTP API + JS library + CLI",
+      "Self-hostable, open source"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Generated avatars from any seed string.",
+    "watch_out": [],
+    "official_url": "https://www.dicebear.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "multiavatar",
+    "provider": "Multiavatar",
+    "product": "Multiavatar",
+    "category": "design",
+    "tags": [
+      "avatars",
+      "svg",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "12 billion unique culturally diverse avatars from any string",
+      "API + open-source code"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Unique avatars for every user without storing images.",
+    "watch_out": [],
+    "official_url": "https://multiavatar.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "illlustrations",
+    "provider": "illlustrations.co",
+    "product": "illlustrations",
+    "category": "design",
+    "tags": [
+      "illustrations",
+      "svg"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "100+ free flat-style vector illustrations",
+      "PNG + SVG downloads, no attribution"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Quick decorative illustrations for landing pages.",
+    "watch_out": [],
+    "official_url": "https://illlustrations.co",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "drawkit",
+    "provider": "DrawKit",
+    "product": "DrawKit",
+    "category": "design",
+    "tags": [
+      "illustrations",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free packs",
+    "what_free": [
+      "Hand-drawn SVG illustration packs, free tier with attribution",
+      "Weekly new packs"
+    ],
+    "paid_from": {
+      "amount": 14,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro (no attribution, full library)"
+    },
+    "what_paid": [
+      "Full library + attribution-free license"
+    ],
+    "best_for": "Consistent illustrated brand pages.",
+    "watch_out": [
+      "Best packs sit behind Pro"
+    ],
+    "official_url": "https://www.drawkit.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "blush-design",
+    "provider": "Blush",
+    "product": "Blush",
+    "category": "design",
+    "tags": [
+      "illustrations",
+      "freemium",
+      "figma"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Mix-and-match illustrations from real artists in Figma",
+      "Free collection to customize"
+    ],
+    "paid_from": {
+      "amount": 12,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Unlimited (all collections)"
+    },
+    "what_paid": [
+      "Unlimited customizations and collections"
+    ],
+    "best_for": "Custom-looking illustrations inside Figma.",
+    "watch_out": [
+      "Free tier is limited to one collection"
+    ],
+    "official_url": "https://blush.design",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "khroma",
+    "provider": "Khroma",
+    "product": "Khroma",
+    "category": "design",
+    "tags": [
+      "colors",
+      "ai"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "AI color palette generator trained on your taste",
+      "Pick 50 colors → get infinite personalized combos",
+      "Generates accessible pairs with contrast data"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Palettes that match YOUR taste, not defaults.",
+    "watch_out": [],
+    "official_url": "https://khroma.co",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "colormind",
+    "provider": "Colormind",
+    "product": "Colormind",
+    "category": "design",
+    "tags": [
+      "colors",
+      "ai"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Deep-learning palette generator",
+      "Lock a brand color and complete the scheme",
+      "Extracts palettes from photos"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Fast AI palettes anchored to one brand color.",
+    "watch_out": [],
+    "official_url": "https://colormind.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "colorhunt",
+    "provider": "Color Hunt",
+    "product": "Color Hunt",
+    "category": "design",
+    "tags": [
+      "colors",
+      "palettes"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Community-voted 4-color palettes",
+      "Browse by trending/new/collection",
+      "One-click hex copies"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Browsing proven palettes when taste fails.",
+    "watch_out": [],
+    "official_url": "https://colorhunt.co",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "happyhues",
+    "provider": "Happy Hues",
+    "product": "Happy Hues",
+    "category": "design",
+    "tags": [
+      "colors",
+      "palettes"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Palettes shown in-context on a real website layout",
+      "Explains where each color belongs (bg, accent, text)"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Beginners who need colors applied, not just listed.",
+    "watch_out": [],
+    "official_url": "https://www.happyhues.co",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "paletton",
+    "provider": "Paletton",
+    "product": "Paletton",
+    "category": "design",
+    "tags": [
+      "colors",
+      "theory"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Classic color-wheel palette builder",
+      "Complementary/triadic/tetradic schemes with live preview site mockup"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Theory-driven palette construction.",
+    "watch_out": [
+      "Dense UI — powerful but dated"
+    ],
+    "official_url": "https://paletton.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "fontsquirrel",
+    "provider": "Font Squirrel",
+    "product": "Font Squirrel",
+    "category": "design",
+    "tags": [
+      "fonts",
+      "free-commercial"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free for commercial use",
+    "what_free": [
+      "Hand-curated fonts that are 100% free for commercial use",
+      "License checked before listing",
+      "Webfont generator (@font-face kits)"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Commercial projects where font licensing must be safe.",
+    "watch_out": [
+      "Smaller selection because licenses are vetted"
+    ],
+    "official_url": "https://www.fontsquirrel.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "fontpair",
+    "provider": "Fontpair",
+    "product": "Fontpair",
+    "category": "design",
+    "tags": [
+      "fonts",
+      "pairing"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Curated Google Font pairings (heading + body)",
+      "One click to open both in Google Fonts"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Instantly picking fonts that work together.",
+    "watch_out": [],
+    "official_url": "https://www.fontpair.co",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "fontjoy",
+    "provider": "Fontjoy",
+    "product": "Fontjoy",
+    "category": "design",
+    "tags": [
+      "fonts",
+      "ai"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "AI generates font trios with adjustable contrast",
+      "Lock a font you like, regenerate the rest"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Exploring font combinations fast.",
+    "watch_out": [],
+    "official_url": "https://fontjoy.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "cssgradient",
+    "provider": "CSS Gradient",
+    "product": "CSS Gradient",
+    "category": "design",
+    "tags": [
+      "css",
+      "gradients",
+      "tools"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Visual gradient builder with live CSS output",
+      "Also generates gradients for text and borders"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Crafting background gradients without guesswork.",
+    "watch_out": [],
+    "official_url": "https://cssgradient.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "getwaves",
+    "provider": "Get Waves",
+    "product": "Get Waves",
+    "category": "design",
+    "tags": [
+      "svg",
+      "shapes"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Generate SVG wave dividers in seconds",
+      "Adjust complexity, color, direction; copy SVG"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Section dividers that soften hard layouts.",
+    "watch_out": [],
+    "official_url": "https://getwaves.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "haikei",
+    "provider": "Haikei",
+    "product": "Haikei",
+    "category": "design",
+    "tags": [
+      "svg",
+      "backgrounds"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Generate waves, blobs, gradients, circles, starships as SVG/PNG",
+      "12+ generators in one tool",
+      "Open source"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "One tool for every decorative background shape.",
+    "watch_out": [],
+    "official_url": "https://haikei.app",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "bgjar",
+    "provider": "BGJar",
+    "product": "BGJar",
+    "category": "design",
+    "tags": [
+      "svg",
+      "backgrounds"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Generate SVG background patterns (dots, waves, grid...)",
+      "Custom colors and sizes, free SVG download"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Subtle patterned backgrounds.",
+    "watch_out": [],
+    "official_url": "https://bgjar.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "meshgradient",
+    "provider": "Mesh Gradient",
+    "product": "Mesh Gradient",
+    "category": "design",
+    "tags": [
+      "backgrounds",
+      "gradients"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Generate smooth mesh gradients (the iOS-style blobs)",
+      "Export as PNG at any resolution"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Modern soft-gradient backgrounds.",
+    "watch_out": [],
+    "official_url": "https://meshgradient.in",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "heropatterns",
+    "provider": "Hero Patterns",
+    "product": "Hero Patterns",
+    "category": "design",
+    "tags": [
+      "patterns",
+      "svg"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "~100 repeatable SVG background patterns",
+      "Editable color + opacity, copies as CSS"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Texture for hero sections and empty states.",
+    "watch_out": [],
+    "official_url": "https://heropatterns.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "blobmaker",
+    "provider": "Blobmaker",
+    "product": "Blobmaker",
+    "category": "design",
+    "tags": [
+      "svg",
+      "shapes"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Generate organic blob shapes as SVG",
+      "Randomize, adjust color/size/complexity"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Soft organic shapes behind illustrations.",
+    "watch_out": [],
+    "official_url": "https://www.blobmaker.app",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "svgwave",
+    "provider": "SVG Wave",
+    "product": "SVG Wave",
+    "category": "design",
+    "tags": [
+      "svg",
+      "shapes"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Layered multi-color SVG waves with gradient fills",
+      "Fine-grained control over layers and animation"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Richer wave dividers than single-color ones.",
+    "watch_out": [],
+    "official_url": "https://svgwave.in",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "neumorphism-io",
+    "provider": "Neumorphism.io",
+    "product": "Neumorphism.io",
+    "category": "design",
+    "tags": [
+      "css",
+      "tools"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Generate soft-UI (neumorphic) CSS shadows",
+      "Live preview with color/size/distance controls"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "The soft-UI look done right.",
+    "watch_out": [
+      "Neumorphism trades accessibility for looks — test contrast"
+    ],
+    "official_url": "https://neumorphism.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "animista",
+    "provider": "Animista",
+    "product": "Animista",
+    "category": "design",
+    "tags": [
+      "css",
+      "animation"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Browse 1,000+ ready-made CSS animations",
+      "Tweak duration/delay/easing visually, copy the CSS",
+      "Only ships what you pick — no library needed"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Hand-picking micro-animations without learning keyframes.",
+    "watch_out": [],
+    "official_url": "https://animista.net",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "flowbite",
+    "provider": "Flowbite",
+    "product": "Flowbite",
+    "category": "design",
+    "tags": [
+      "components",
+      "tailwind",
+      "freemium"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free open-source components",
+    "what_free": [
+      "450+ Tailwind CSS components free (MIT core)",
+      "Figma file + dark mode variants",
+      "Interactive examples with code"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro blocks/templates are one-time purchases"
+    },
+    "what_paid": [
+      "Application templates and page blocks"
+    ],
+    "best_for": "Assembling Tailwind UIs from proven parts.",
+    "watch_out": [],
+    "official_url": "https://flowbite.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "daisyui",
+    "provider": "daisyUI",
+    "product": "daisyUI",
+    "category": "design",
+    "tags": [
+      "components",
+      "tailwind",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "The most popular Tailwind component library",
+      "50+ themes including light/dark and fun ones",
+      "Pure CSS classes — no JS bundle"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Themed Tailwind apps without writing component CSS.",
+    "watch_out": [],
+    "official_url": "https://daisyui.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "preline",
+    "provider": "Preline",
+    "product": "Preline UI",
+    "category": "design",
+    "tags": [
+      "components",
+      "tailwind",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free components",
+    "what_free": [
+      "300+ Tailwind components + Figma kit, free (MIT core)",
+      "Includes JS interactions (dropdowns, modals)"
+    ],
+    "paid_from": {
+      "amount": 249,
+      "currency": "USD",
+      "period": "once",
+      "plan": "Pro templates (one-time)"
+    },
+    "what_paid": [
+      "Full application templates"
+    ],
+    "best_for": "Polished Tailwind sections with behavior included.",
+    "watch_out": [],
+    "official_url": "https://preline.co",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "hyperui",
+    "provider": "HyperUI",
+    "product": "HyperUI",
+    "category": "design",
+    "tags": [
+      "components",
+      "tailwind"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Hundreds of copy-paste Tailwind components",
+      "Every component has React + Vue + HTML versions",
+      "No install — copy the markup"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Copy-paste Tailwind sections without a framework.",
+    "watch_out": [],
+    "official_url": "https://www.hyperui.dev",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "uiverse",
+    "provider": "Uiverse",
+    "product": "Uiverse",
+    "category": "design",
+    "tags": [
+      "components",
+      "css",
+      "community"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Community-built open-source buttons, loaders, toggles, cards",
+      "Copy HTML/CSS (or React/Tailwind) instantly",
+      "Thousands of elements"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Finding a distinctive button/toggle in 30 seconds.",
+    "watch_out": [
+      "Quality varies — it's community content"
+    ],
+    "official_url": "https://uiverse.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "radix-ui",
+    "provider": "WorkOS (Radix)",
+    "product": "Radix UI",
+    "category": "design",
+    "tags": [
+      "components",
+      "react",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Unstyled, accessible React primitives (dialogs, dropdowns, popovers)",
+      "The a11y foundation behind shadcn/ui",
+      "Free forever"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Building your own accessible component library.",
+    "watch_out": [
+      "Unstyled by design — bring your CSS"
+    ],
+    "official_url": "https://www.radix-ui.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "polyhaven",
+    "provider": "Poly Haven",
+    "product": "Poly Haven",
+    "category": "design",
+    "tags": [
+      "3d",
+      "textures",
+      "cc0"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC0)",
+    "what_free": [
+      "Public-domain 3D models, HDRIs and textures of insane quality",
+      "No attribution, no account, commercial use",
+      "The standard library for Blender renders"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (donations)"
+    },
+    "what_paid": [],
+    "best_for": "Film-grade 3D assets at $0.",
+    "watch_out": [
+      "Large downloads — files are production-quality"
+    ],
+    "official_url": "https://polyhaven.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "ambientcg",
+    "provider": "ambientCG",
+    "product": "ambientCG",
+    "category": "design",
+    "tags": [
+      "textures",
+      "cc0"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC0)",
+    "what_free": [
+      "2,000+ PBR material textures (wood, metal, fabric...)",
+      "CC0 — no attribution, commercial OK",
+      "Multiple resolutions incl. 8K"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Physically-based textures for 3D and game work.",
+    "watch_out": [],
+    "official_url": "https://ambientcg.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "kenney",
+    "provider": "Kenney",
+    "product": "Kenney Game Assets",
+    "category": "design",
+    "tags": [
+      "game-assets",
+      "cc0"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC0)",
+    "what_free": [
+      "Thousands of game assets: sprites, 3D models, UI kits, audio",
+      "CC0 — use in any project, no credit",
+      "Consistent style per pack"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (paid 'All-in-1' bundle optional)"
+    },
+    "what_paid": [
+      "Convenient bundled pack"
+    ],
+    "best_for": "Prototyping or shipping a game without an artist.",
+    "watch_out": [
+      "Free packs are the classics; newest packs cost money"
+    ],
+    "official_url": "https://kenney.nl/assets",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "quaternius",
+    "provider": "Quaternius",
+    "product": "Quaternius Models",
+    "category": "design",
+    "tags": [
+      "game-assets",
+      "3d",
+      "cc0"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC0)",
+    "what_free": [
+      "Free low-poly 3D model packs (animals, buildings, weapons...)",
+      "CC0 license, game-ready formats"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (Patreon-supported)"
+    },
+    "what_paid": [],
+    "best_for": "Low-poly game prototypes and jams.",
+    "watch_out": [],
+    "official_url": "https://quaternius.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "sketchfab-free",
+    "provider": "Sketchfab",
+    "product": "Sketchfab (free downloads)",
+    "category": "design",
+    "tags": [
+      "3d",
+      "models",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free downloadable models",
+    "what_free": [
+      "Filter the library by 'Downloadable' + license (CC / free)",
+      "100,000s of free community models",
+      "Viewer embeds are free"
+    ],
+    "paid_from": {
+      "amount": 15,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro (private models, more uploads)"
+    },
+    "what_paid": [
+      "Private uploads and analytics"
+    ],
+    "best_for": "Sourcing specific 3D models with clear licenses.",
+    "watch_out": [
+      "Each model has its own license — check before shipping"
+    ],
+    "official_url": "https://sketchfab.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "poly-pizza",
+    "provider": "poly.pizza",
+    "product": "poly.pizza",
+    "category": "design",
+    "tags": [
+      "3d",
+      "models",
+      "cc0"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Searchable library of CC0/Google-Poly-derived low-poly models",
+      "Free downloads, kid-friendly search"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Quick low-poly props for games and mockups.",
+    "watch_out": [],
+    "official_url": "https://poly.pizza",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "freesound",
+    "provider": "Freesound",
+    "product": "Freesound",
+    "category": "design",
+    "tags": [
+      "audio",
+      "sfx",
+      "cc"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC licenses)",
+    "what_free": [
+      "600,000+ community sound effects and samples",
+      "Filter by CC0 (no attribution) or CC-BY",
+      "Run by Universitat Pompeu Fabra"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Any sound effect imaginable, with clear licensing.",
+    "watch_out": [
+      "Non-CC0 clips require attribution — check each"
+    ],
+    "official_url": "https://freesound.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "incompetech",
+    "provider": "Kevin MacLeod",
+    "product": "incompetech",
+    "category": "design",
+    "tags": [
+      "audio",
+      "music",
+      "cc"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (CC BY)",
+    "what_free": [
+      "Thousands of royalty-free music tracks by Kevin MacLeod",
+      "Free with attribution for any project"
+    ],
+    "paid_from": {
+      "amount": 30,
+      "currency": "USD",
+      "period": "once",
+      "plan": "Per-track license (removes attribution)"
+    },
+    "what_paid": [
+      "Attribution-free licenses per track"
+    ],
+    "best_for": "Background music for videos and games.",
+    "watch_out": [
+      "Attribution credit line required on free tier"
+    ],
+    "official_url": "https://incompetech.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "bensound",
+    "provider": "BenSound",
+    "product": "BenSound",
+    "category": "design",
+    "tags": [
+      "audio",
+      "music",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with attribution",
+    "what_free": [
+      "Curated royalty-free music in pop/electronic/acoustic styles",
+      "Free with credit for videos and sites"
+    ],
+    "paid_from": {
+      "amount": 12,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Premium (no attribution, licensing certificate)"
+    },
+    "what_paid": [
+      "Attribution-free + monetization-safe certificates"
+    ],
+    "best_for": "Picking background music from a small, curated set.",
+    "watch_out": [
+      "Attribution mandatory; YouTube monetization needs the paid cert"
+    ],
+    "official_url": "https://www.bensound.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "zapsplat",
+    "provider": "Zapsplat",
+    "product": "Zapsplat",
+    "category": "design",
+    "tags": [
+      "audio",
+      "sfx",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with account",
+    "what_free": [
+      "140,000+ SFX and music with free account",
+      "Free for commercial use with credit line"
+    ],
+    "paid_from": {
+      "amount": 5,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Gold (no credit, faster downloads)"
+    },
+    "what_paid": [
+      "Credit-free commercial licensing"
+    ],
+    "best_for": "Deep SFX library for games and videos.",
+    "watch_out": [
+      "Free tier requires credit text"
+    ],
+    "official_url": "https://www.zapsplat.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "uppbeat",
+    "provider": "Uppbeat",
+    "product": "Uppbeat",
+    "category": "design",
+    "tags": [
+      "audio",
+      "music",
+      "creators"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (3 downloads/mo)",
+    "what_free": [
+      "Creator-safe music & SFX cleared for YouTube",
+      "Free tier: ~3 premium downloads/month + free catalog",
+      "Playlists by mood/genre"
+    ],
+    "paid_from": {
+      "amount": 6.6,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Premium (10+ downloads, no credit)"
+    },
+    "what_paid": [
+      "More downloads and credit-free use"
+    ],
+    "best_for": "YouTubers who need monetization-safe music.",
+    "watch_out": [
+      "Free tier includes credit in descriptions"
+    ],
+    "official_url": "https://uppbeat.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mockuphone",
+    "provider": "Mockuphone",
+    "product": "Mockuphone",
+    "category": "design",
+    "tags": [
+      "mockups",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Free device mockups (phones, laptops, watches) as PSD/PNG",
+      "Front and back views, no watermark"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Dropping app screenshots into device frames.",
+    "watch_out": [],
+    "official_url": "https://mockuphone.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "shots-so",
+    "provider": "Shots",
+    "product": "shots.so",
+    "category": "design",
+    "tags": [
+      "mockups",
+      "screenshots"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Beautiful screenshot mockups in the browser (frames, backgrounds, shadows)",
+      "Free tier covers the core editor",
+      "The tool behind most polished X/Twitter screenshots"
+    ],
+    "paid_from": {
+      "amount": 9,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro (more styles, 4K export)"
+    },
+    "what_paid": [
+      "More backgrounds, higher resolution exports"
+    ],
+    "best_for": "Making product screenshots look professional instantly.",
+    "watch_out": [
+      "Some styles are Pro-only"
+    ],
+    "official_url": "https://shots.so",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "screely",
+    "provider": "Screely",
+    "product": "Screely",
+    "category": "design",
+    "tags": [
+      "mockups",
+      "screenshots"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Drop a screenshot → get a browser-frame mockup instantly",
+      "Works offline in-browser, no account"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "One-click screenshot beautification.",
+    "watch_out": [],
+    "official_url": "https://screely.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "smartmockups",
+    "provider": "Smartmockups",
+    "product": "Smartmockups",
+    "category": "design",
+    "tags": [
+      "mockups",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free mockups",
+    "what_free": [
+      "Generate product mockups in the browser from images/URLs",
+      "A large free-mockup gallery (low-res export)"
+    ],
+    "paid_from": {
+      "amount": 14,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro (HD export, premium mockups)"
+    },
+    "what_paid": [
+      "HD exports and premium templates"
+    ],
+    "best_for": "T-shirt, device and print mockups without Photoshop.",
+    "watch_out": [
+      "Free exports are watermarked/low-res on some mockups"
+    ],
+    "official_url": "https://smartmockups.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "figma-community",
+    "provider": "Figma",
+    "product": "Figma Community",
+    "category": "design",
+    "tags": [
+      "ui-kits",
+      "figma",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free files",
+    "what_free": [
+      "Thousands of free UI kits, icon sets, wireframe kits and plugins",
+      "Duplicate straight into your Figma",
+      "Design systems from top teams"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None for free files (paid 'paid files' exist)"
+    },
+    "what_paid": [
+      "Premium creator files"
+    ],
+    "best_for": "Starting designs from professional-grade templates.",
+    "watch_out": [
+      "Check each file's license — most are free to use"
+    ],
+    "official_url": "https://www.figma.com/community",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "freebiesbug",
+    "provider": "Freebiesbug",
+    "product": "Freebiesbug",
+    "category": "design",
+    "tags": [
+      "freebies",
+      "curated"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free listings",
+    "what_free": [
+      "Curated free design freebies: UI kits, mockups, fonts, templates",
+      "Hand-picked quality over quantity"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Discovering new free design resources weekly.",
+    "watch_out": [
+      "Links out to creators — licenses vary"
+    ],
+    "official_url": "https://freebiesbug.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "unblast",
+    "provider": "Unblast",
+    "product": "Unblast",
+    "category": "design",
+    "tags": [
+      "freebies",
+      "psd"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free listings",
+    "what_free": [
+      "Free PSD mockups, templates, fonts and vectors",
+      "Curated, frequently updated"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "PSD-heavy workflows on a $0 budget.",
+    "watch_out": [
+      "License per item"
+    ],
+    "official_url": "https://unblast.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "sketchappsources",
+    "provider": "Sketch App Sources",
+    "product": "Sketch App Sources",
+    "category": "design",
+    "tags": [
+      "freebies",
+      "figma",
+      "sketch"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free listings",
+    "what_free": [
+      "Thousands of free Sketch/Figma/XD resources",
+      "Icons, wireframes, mockups, templates with license labels"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Design-file freebies across all major tools.",
+    "watch_out": [
+      "License per item"
+    ],
+    "official_url": "https://www.sketchappsources.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  }
+]

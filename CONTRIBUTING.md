@@ -27,11 +27,23 @@ Service files (each entry's `category` must match its file):
 | `data/devtools.json` | `tools` | editors, CI, observability, security tooling |
 | `data/apis-services.json` | `apis` | payments, email, storage, maps, notifications |
 | `data/design.json` | `design` | fonts, icons, illustrations, photos, UI kits |
+| `data/design-assets.json` | `design` | more icons, photos, 3D, mockups, color tools |
 | `data/learning.json` | `learning` | courses, certifications, student perks |
+| `data/learning-extra.json` | `learning` | Indian platforms, free textbooks, interview prep |
 | `data/software.json` | `software` | legendary free & OSS desktop apps |
+| `data/software-extra.json` | `software` | CLI tools, media software, CAD, editors |
 | `data/productivity.json` | `productivity` | notes, docs, tasks, meetings, research |
+| `data/productivity-extra.json` | `productivity` | time tracking, wikis, bookmarks, self-host |
 | `data/security.json` | `security` | VPNs, privacy, encryption, private chat |
+| `data/security-extra.json` | `security` | firewalls, router OSes, private OSes, crypto CLIs |
 | `data/storage.json` | `storage` | cloud drives, file transfer, backup |
+| `data/storage-extra.json` | `storage` | more drives, photo backup, file hosts |
+| `data/ai-extra.json` | `ai` | OSS runtimes, agent frameworks, MLOps, OCR |
+| `data/ai-media-extra.json` | `ai-*` | more AI chat/image/video/audio/coding tools |
+| `data/cloud-extra.json` | `cloud` | CDNs, sandboxes, tunnels, VPS trials |
+| `data/databases-extra.json` | `data` | more DBs, search engines, CMS, auth |
+| `data/apis-extra.json` | `apis` | realtime, media, weather, crypto, datasets |
+| `data/misc-extras.json` | mixed | cross-category additions (git, Docker, calendars, clipboards…) |
 
 Other data files:
 

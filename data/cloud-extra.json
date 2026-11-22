@@ -1,0 +1,1329 @@
+[
+  {
+    "id": "jsdelivr",
+    "provider": "jsDelivr",
+    "product": "jsDelivr CDN",
+    "category": "cloud",
+    "tags": [
+      "cdn",
+      "npm",
+      "github",
+      "free"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Free CDN for npm packages and GitHub files/repos",
+      "Multi-CDP failover, forever-valid versioned URLs",
+      "Serve your own GitHub repo as a CDN"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Zero-config asset hosting straight from npm or GitHub.",
+    "watch_out": [
+      "Not for large binaries or videos"
+    ],
+    "official_url": "https://www.jsdelivr.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "unpkg",
+    "provider": "unpkg",
+    "product": "unpkg",
+    "category": "cloud",
+    "tags": [
+      "cdn",
+      "npm",
+      "free"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Serve any npm package file via URL",
+      "Browsing UI for package contents",
+      "Free with fair use"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Quick npm file links in demos and docs.",
+    "watch_out": [
+      "jsDelivr is faster/more reliable for production"
+    ],
+    "official_url": "https://unpkg.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "cdnjs",
+    "provider": "Cloudflare",
+    "product": "cdnjs",
+    "category": "cloud",
+    "tags": [
+      "cdn",
+      "libraries",
+      "free"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Hosted copies of 6,000+ JS/CSS libraries",
+      "SRI hashes provided for security",
+      "Free forever, Cloudflare-backed"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Classic library loading without npm.",
+    "watch_out": [],
+    "official_url": "https://cdnjs.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "neocities",
+    "provider": "Neocities",
+    "product": "Neocities",
+    "category": "cloud",
+    "tags": [
+      "hosting",
+      "static",
+      "free"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (1 site, 1GB)",
+    "what_free": [
+      "Free static hosting with the old-web spirit",
+      "1 GB storage, 200 GB bandwidth/month",
+      "CLI + SFTP uploads, no ads"
+    ],
+    "paid_from": {
+      "amount": 5,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Supporter (more sites/storage)"
+    },
+    "what_paid": [
+      "More storage, custom domains on free? (supporter perks)"
+    ],
+    "best_for": "A nostalgic, simple home for your first website.",
+    "watch_out": [
+      "Static only — no backend"
+    ],
+    "official_url": "https://neocities.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "surge-sh",
+    "provider": "Surge",
+    "product": "Surge",
+    "category": "cloud",
+    "tags": [
+      "hosting",
+      "static",
+      "cli"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free static hosting",
+    "what_free": [
+      "Deploy a static site with one `surge` command",
+      "Free custom domains + SSL",
+      "Instant CLI deploys from anywhere"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro for force-SSL/CDN features"
+    },
+    "what_paid": [
+      "Pro features"
+    ],
+    "best_for": "Fastest possible static deploy from the terminal.",
+    "watch_out": [
+      "Static only; free tier lacks forced HTTPS"
+    ],
+    "official_url": "https://surge.sh",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "tiiny-host",
+    "provider": "Tiiny Host",
+    "product": "Tiiny Host",
+    "category": "cloud",
+    "tags": [
+      "hosting",
+      "pdf",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free single upload",
+    "what_free": [
+      "Drag-drop a zip/PDF → hosted link instantly",
+      "Free: one active site, 7 days",
+      "Perfect for sharing prototypes with non-devs"
+    ],
+    "paid_from": {
+      "amount": 7,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro (permanent, custom domain)"
+    },
+    "what_paid": [
+      "Permanent links, more sites"
+    ],
+    "best_for": "Sharing a demo link without any deploy pipeline.",
+    "watch_out": [
+      "Free links expire after 7 days"
+    ],
+    "official_url": "https://tiiny.host",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "stackblitz",
+    "provider": "StackBlitz",
+    "product": "StackBlitz",
+    "category": "cloud",
+    "tags": [
+      "ide",
+      "webcontainer",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free public projects",
+    "what_free": [
+      "Full Node dev environment in the browser (WebContainers)",
+      "Runs npm/vite entirely client-side",
+      "Free for public projects"
+    ],
+    "paid_from": {
+      "amount": 18,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Personal (private projects)"
+    },
+    "what_paid": [
+      "Private projects, more VMs"
+    ],
+    "best_for": "Zero-setup Node demos that run in a browser tab.",
+    "watch_out": [
+      "WebContainer API limits some native modules"
+    ],
+    "official_url": "https://stackblitz.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "codesandbox",
+    "provider": "CodeSandbox",
+    "product": "CodeSandbox",
+    "category": "cloud",
+    "tags": [
+      "ide",
+      "cloud",
+      "freemium"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free sandboxes",
+    "what_free": [
+      "Browser IDE for web projects with live preview",
+      "Free public sandboxes + devboxes trial",
+      "Git integration"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro for private VMs"
+    },
+    "what_paid": [
+      "Private devboxes, more resources"
+    ],
+    "best_for": "Quick sharing and forking of frontend demos.",
+    "watch_out": [
+      "Cloud VM free hours are limited"
+    ],
+    "official_url": "https://codesandbox.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "github-dev",
+    "provider": "GitHub",
+    "product": "github.dev (web editor)",
+    "category": "cloud",
+    "tags": [
+      "ide",
+      "editor",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "VS Code in the browser for any repo (press `.` on GitHub)",
+      "Edit, commit, PR without cloning",
+      "Zero setup, instant"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Quick edits and PR reviews from any machine.",
+    "watch_out": [
+      "No terminal/execution — it's an editor, not a VM"
+    ],
+    "official_url": "https://github.dev",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "vscode-dev",
+    "provider": "Microsoft",
+    "product": "vscode.dev",
+    "category": "cloud",
+    "tags": [
+      "ide",
+      "editor",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "VS Code for the browser: local files, GitHub repos, extensions",
+      "Works on iPad/Chromebooks",
+      "Free"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Coding on devices that can't install VS Code.",
+    "watch_out": [
+      "No server-side execution without connecting a remote"
+    ],
+    "official_url": "https://vscode.dev",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "devpod",
+    "provider": "Loft Labs",
+    "product": "DevPod",
+    "category": "cloud",
+    "tags": [
+      "dev-environments",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MPL)",
+    "what_free": [
+      "Open-source dev containers on any machine (local, VPS, cloud)",
+      "devcontainer.json compatible, VS Code connects",
+      "Your infra, no per-seat fees"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Gitpod-style environments without per-user pricing.",
+    "watch_out": [
+      "Younger tool, fewer integrations than Codespaces"
+    ],
+    "official_url": "https://devpod.sh",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "localtunnel",
+    "provider": "theblinkage",
+    "product": "localtunnel",
+    "category": "cloud",
+    "tags": [
+      "tunnel",
+      "open-source",
+      "free"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Expose localhost to the internet instantly",
+      "No account, one npx command",
+      "Open source — self-host if needed"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Quick webhook/demo links without signup.",
+    "watch_out": [
+      "Public instance is rate-limited and unstable at times"
+    ],
+    "official_url": "https://theboroer.github.io/localtunnel-www/",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "localhost-run",
+    "provider": "localhost.run",
+    "product": "localhost.run",
+    "category": "cloud",
+    "tags": [
+      "tunnel",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free anonymous tunnels",
+    "what_free": [
+      "SSH-based tunnels: `ssh -R 80:localhost:8080` — done",
+      "Free anonymous links, custom domains on paid",
+      "No client install (uses ssh)"
+    ],
+    "paid_from": {
+      "amount": 5,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Paid (custom domains, stable URLs)"
+    },
+    "what_paid": [
+      "Custom domains, reserved URLs"
+    ],
+    "best_for": "Tunnels with zero installs.",
+    "watch_out": [
+      "Free URL changes each time"
+    ],
+    "official_url": "https://localhost.run",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "trycloudflare",
+    "provider": "Cloudflare",
+    "product": "TryCloudflare (quick tunnels)",
+    "category": "cloud",
+    "tags": [
+      "tunnel",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (quick tunnels)",
+    "what_free": [
+      "One command exposes localhost on a trycloudflare.com URL",
+      "No account needed for quick tunnels",
+      "Cloudflare-backed speed"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Named tunnels need a (free) Cloudflare account"
+    },
+    "what_paid": [],
+    "best_for": "Throwaway demo links with real CDN speed.",
+    "watch_out": [
+      "Random URL each run — no persistence"
+    ],
+    "official_url": "https://trycloudflare.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "pinggy",
+    "provider": "Pinggy",
+    "product": "Pinggy",
+    "category": "cloud",
+    "tags": [
+      "tunnel",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tunnels (60 min)",
+    "what_free": [
+      "SSH tunnels with HTTPS, web debugging",
+      "Free tunnels last 60 minutes; restartable",
+      "Persistent custom domains on paid"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro from ~$3/month"
+    },
+    "what_paid": [
+      "Longer-lived tunnels, more connections"
+    ],
+    "best_for": "Short-lived demo tunnels with extra features.",
+    "watch_out": [
+      "60-minute free sessions"
+    ],
+    "official_url": "https://pinggy.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "frp",
+    "provider": "fatedier",
+    "product": "frp",
+    "category": "cloud",
+    "tags": [
+      "tunnel",
+      "open-source",
+      "self-hosted"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache)",
+    "what_free": [
+      "Self-hosted reverse proxy for exposing local servers",
+      "TCP/UDP/HTTP/HTTPS forwarding through your own VPS",
+      "Mature and battle-tested"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (your VPS costs)"
+    },
+    "what_paid": [],
+    "best_for": "Your own tunnel service on a $5 VPS.",
+    "watch_out": [
+      "You operate it — updates and certs are on you"
+    ],
+    "official_url": "https://github.com/fatedier/frp",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "cloudflare-dns",
+    "provider": "Cloudflare",
+    "product": "Cloudflare DNS",
+    "category": "cloud",
+    "tags": [
+      "dns",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free DNS",
+    "what_free": [
+      "Authoritative DNS with no query limits — free forever",
+      "1.1.1.1 public resolver (fast + privacy-first)",
+      "DNSSEC, instant propagation-ish"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Paid only for enterprise features"
+    },
+    "what_paid": [],
+    "best_for": "The default answer to 'which DNS should I use?'.",
+    "watch_out": [],
+    "official_url": "https://www.cloudflare.com/dns/",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "desec",
+    "provider": "deSEC",
+    "product": "deSEC",
+    "category": "cloud",
+    "tags": [
+      "dns",
+      "free",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free DNS",
+    "what_free": [
+      "Free DNS hosting run by a nonprofit",
+      "DNSSEC always on, full API",
+      "Open source, no ads"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (donations)"
+    },
+    "what_paid": [],
+    "best_for": "DNS without a corporation involved.",
+    "watch_out": [
+      "No web UI — API/CLI oriented"
+    ],
+    "official_url": "https://desec.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "vultr",
+    "provider": "Vultr",
+    "product": "Vultr",
+    "category": "cloud",
+    "tags": [
+      "vps",
+      "credits",
+      "free trial"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "$300 trial credits (30 days)",
+    "what_free": [
+      "$300 credits valid 30 days for new accounts",
+      "Cloud compute, managed DBs, object storage to try",
+      "32 global locations"
+    ],
+    "paid_from": {
+      "amount": 6,
+      "currency": "USD",
+      "period": "month",
+      "plan": "VPS from ~$6/mo"
+    },
+    "what_paid": [
+      "Servers after credits"
+    ],
+    "best_for": "A month of serious infrastructure experimentation.",
+    "watch_out": [
+      "Credits expire in 30 days — plan your sprint"
+    ],
+    "official_url": "https://www.vultr.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "linode",
+    "provider": "Akamai",
+    "product": "Linode (Akamai Cloud)",
+    "category": "cloud",
+    "tags": [
+      "vps",
+      "credits",
+      "free trial"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "$100 trial credits (60 days)",
+    "what_free": [
+      "~$100 free credits for 60 days",
+      "Nanode $5 VPS great for self-hosting practice",
+      "Kubernetes, object storage, managed DBs"
+    ],
+    "paid_from": {
+      "amount": 5,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Nanode from $5/mo"
+    },
+    "what_paid": [
+      "Servers after credits"
+    ],
+    "best_for": "Two months of free VPS time for projects.",
+    "watch_out": [
+      "Requires card for signup; credits time-boxed"
+    ],
+    "official_url": "https://www.linode.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "scaleway",
+    "provider": "Scaleway",
+    "product": "Scaleway",
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "free tier",
+      "eu"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tiers (DB, storage)",
+    "what_free": [
+      "Managed Postgres free tier, 75 GB object storage free",
+      "Serverless functions free quota",
+      "EU-based, developer-friendly pricing"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-as-you-go elements"
+    },
+    "what_paid": [
+      "Compute, bigger tiers"
+    ],
+    "best_for": "EU cloud with real free components.",
+    "watch_out": [
+      "Free tiers per product vary — check each"
+    ],
+    "official_url": "https://www.scaleway.com/en/",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "ovh-cloud",
+    "provider": "OVHcloud",
+    "product": "OVHcloud",
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "eu",
+      "vps"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free trials + credits",
+    "what_free": [
+      "Trial credits on signup (varies by service)",
+      "Very cheap EU VPS/instances",
+      "Object storage free tier"
+    ],
+    "paid_from": {
+      "amount": 4,
+      "currency": "USD",
+      "period": "month",
+      "plan": "VPS from ~$4-6/mo"
+    },
+    "what_paid": [
+      "Servers and storage beyond free tiers"
+    ],
+    "best_for": "Cheap EU hosting and labs.",
+    "watch_out": [
+      "Console UX is utilitarian"
+    ],
+    "official_url": "https://www.ovhcloud.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "alibaba-cloud",
+    "provider": "Alibaba Cloud",
+    "product": "Alibaba Cloud Free Trial",
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "free trial"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free trial (ECS + services)",
+    "what_free": [
+      "New-user trials: ECS instances, DBs, OSS storage",
+      "Also a free-tier International site",
+      "Good for testing Asia-Pacific latency"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pay-as-you-go / reserved"
+    },
+    "what_paid": [
+      "Production resources"
+    ],
+    "best_for": "Trialing infrastructure with Asia coverage.",
+    "watch_out": [
+      "Trial windows are strict — track expiry"
+    ],
+    "official_url": "https://www.alibabacloud.com/free",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "zeabur",
+    "provider": "Zeabur",
+    "product": "Zeabur",
+    "category": "cloud",
+    "tags": [
+      "paas",
+      "freemium",
+      "deploy"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (developer)",
+    "what_free": [
+      "Deploy apps/databases with git-push simplicity",
+      "Free Developer plan for side projects",
+      "Asia-friendly regions"
+    ],
+    "paid_from": {
+      "amount": 5,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Usage-based paid plans"
+    },
+    "what_paid": [
+      "More resources and services"
+    ],
+    "best_for": "Heroku-style deploys with Asia servers.",
+    "watch_out": [
+      "Younger platform — verify limits on signup"
+    ],
+    "official_url": "https://zeabur.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "easypanel",
+    "provider": "Easypanel",
+    "product": "Easypanel",
+    "category": "cloud",
+    "tags": [
+      "paas",
+      "self-hosted",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free on your own server",
+    "what_free": [
+      "Modern Coolify-style server control panel",
+      "Deploy apps, DBs, SSL with one click on YOUR VPS",
+      "Free for self-hosting (up to limits)"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro per-server fee"
+    },
+    "what_paid": [
+      "More servers, templates"
+    ],
+    "best_for": "Pretty self-hosting without learning everything.",
+    "watch_out": [
+      "Core is free; check current free-tier limits"
+    ],
+    "official_url": "https://easypanel.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mail-in-a-box",
+    "provider": "Mail-in-a-Box",
+    "product": "Mail-in-a-Box",
+    "category": "cloud",
+    "tags": [
+      "email",
+      "self-hosted",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (CC0)",
+    "what_free": [
+      "Turn a fresh Ubuntu VPS into a full mail server in 30 minutes",
+      "Webmail, spam filtering, DNS, TLS — all automated",
+      "Your email, your rules"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (VPS cost only)"
+    },
+    "what_paid": [],
+    "best_for": "Owning your email infrastructure.",
+    "watch_out": [
+      "Big providers may throttle deliverability of self-hosted mail"
+    ],
+    "official_url": "https://mailinabox.email",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "mailcow",
+    "provider": "mailcow",
+    "product": "mailcow-dockerized",
+    "category": "cloud",
+    "tags": [
+      "email",
+      "self-hosted",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL core)",
+    "what_free": [
+      "Dockerized full mail suite: SOGo webmail, Rspamd, admin UI",
+      "Self-host unlimited mailboxes free",
+      "Feature-rich groupware (calendar, contacts)"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Paid support + hosted options"
+    },
+    "what_paid": [
+      "Support contracts"
+    ],
+    "best_for": "Serious self-hosted email with groupware.",
+    "watch_out": [
+      "Needs a beefy VPS (4GB+ RAM recommended)"
+    ],
+    "official_url": "https://mailcow.email",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "openfaas",
+    "provider": "OpenFaaS Ltd",
+    "product": "OpenFaaS",
+    "category": "cloud",
+    "tags": [
+      "serverless",
+      "open-source",
+      "faas"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT core)",
+    "what_free": [
+      "Self-hosted serverless functions on Kubernetes/Docker Swarm",
+      "Any language via containers",
+      "Free and open core"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro for enterprise features"
+    },
+    "what_paid": [
+      "OpenFaaS Pro (dashboard, SSO)"
+    ],
+    "best_for": "Owning your serverless stack.",
+    "watch_out": [
+      "You manage the cluster"
+    ],
+    "official_url": "https://www.openfaas.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "apify",
+    "provider": "Apify",
+    "product": "Apify",
+    "category": "cloud",
+    "tags": [
+      "scraping",
+      "actors",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free $5 usage/month",
+    "what_free": [
+      "Cloud scraping platform with thousands of ready 'Actors'",
+      "~$5 free platform usage monthly",
+      "Store: scrapers for Google, Instagram, Amazon..."
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Usage-based paid plans"
+    },
+    "what_paid": [
+      "More compute and higher limits"
+    ],
+    "best_for": "Scraping without building infrastructure.",
+    "watch_out": [
+      "Respect site ToS and laws; costs scale with compute"
+    ],
+    "official_url": "https://apify.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "idrive-e2",
+    "provider": "iDrive",
+    "product": "iDrive e2",
+    "category": "cloud",
+    "tags": [
+      "storage",
+      "s3",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free trial / promos (10GB+)",
+    "what_free": [
+      "S3-compatible object storage with frequent free-storage promos",
+      "Very cheap per-TB pricing vs AWS",
+      "Works with rclone/Kopia"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "~$2-4/TB/month"
+    },
+    "what_paid": [
+      "Storage beyond promos"
+    ],
+    "best_for": "Cheap S3-compatible backup targets.",
+    "watch_out": [
+      "Newer provider — keep a second backup copy"
+    ],
+    "official_url": "https://www.idrive.com/e2/",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "bitbucket",
+    "provider": "Atlassian",
+    "product": "Bitbucket",
+    "category": "cloud",
+    "tags": [
+      "git",
+      "hosting",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (5 users)",
+    "what_free": [
+      "Unlimited private repos for up to 5 users",
+      "50 CI build minutes/month free",
+      "Jira integration"
+    ],
+    "paid_from": {
+      "amount": 3,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Per-user paid tiers"
+    },
+    "what_paid": [
+      "More users, build minutes"
+    ],
+    "best_for": "Private repos + Atlassian ecosystem.",
+    "watch_out": [
+      "CI minutes are the scarcest free resource here"
+    ],
+    "official_url": "https://bitbucket.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "gitea",
+    "provider": "Gitea",
+    "product": "Gitea",
+    "category": "cloud",
+    "tags": [
+      "git",
+      "self-hosted",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Lightweight self-hosted GitHub-alike",
+      "Runs on a Raspberry Pi",
+      "Actions-compatible CI (Gitea Actions)"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Private git hosting you own.",
+    "watch_out": [
+      "Smaller plugin ecosystem than GitLab"
+    ],
+    "official_url": "https://gitea.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "forgejo",
+    "provider": "Codeberg (Forgejo)",
+    "product": "Forgejo",
+    "category": "cloud",
+    "tags": [
+      "git",
+      "self-hosted",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT/GPL)",
+    "what_free": [
+      "Community-driven Gitea fork (powers Codeberg.org)",
+      "Free account on Codeberg for FOSS projects",
+      "CI via Forgejo Actions/Woodpecker"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "FOSS projects on a non-corporate forge.",
+    "watch_out": [
+      "Codeberg is for free/open projects only"
+    ],
+    "official_url": "https://forgejo.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "glitchtip",
+    "provider": "GlitchTip",
+    "product": "GlitchTip",
+    "category": "cloud",
+    "tags": [
+      "monitoring",
+      "errors",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier + self-host",
+    "what_free": [
+      "Open-source Sentry-compatible error tracking",
+      "Uses the same Sentry SDKs — drop-in swap",
+      "Self-host free unlimited"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Hosted plans from ~$10"
+    },
+    "what_paid": [
+      "Managed hosting"
+    ],
+    "best_for": "Error tracking without Sentry's prices.",
+    "watch_out": [
+      "Fewer features than Sentry's full platform"
+    ],
+    "official_url": "https://glitchtip.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "cron-job-org",
+    "provider": "cron-job.org",
+    "product": "cron-job.org",
+    "category": "cloud",
+    "tags": [
+      "cron",
+      "scheduler",
+      "free"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Schedule HTTP calls (cron jobs) for free",
+      "1-minute intervals, headers, auth, failure notifications",
+      "Unlimited jobs on the free tier"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Pinging your APIs/serverless functions on a schedule.",
+    "watch_out": [
+      "HTTP only — no shell commands"
+    ],
+    "official_url": "https://cron-job.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "privatebin",
+    "provider": "PrivateBin",
+    "product": "PrivateBin",
+    "category": "cloud",
+    "tags": [
+      "pastebin",
+      "privacy",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (self-host)",
+    "what_free": [
+      "Zero-knowledge encrypted pastebin",
+      "Self-host in one container; snippets expire/burn after reading",
+      "Server can't read your pastes"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Sharing secrets/configs without a trace.",
+    "watch_out": [
+      "Public instances exist but self-host for real privacy"
+    ],
+    "official_url": "https://privatebin.info",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "itch-io",
+    "provider": "itch.io",
+    "product": "itch.io",
+    "category": "cloud",
+    "tags": [
+      "games",
+      "hosting",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free hosting + publishing",
+    "what_free": [
+      "Host browser games and downloadable builds free",
+      "Pay-what-you-want pricing model",
+      "Game jams (huge community)",
+      "Free analytics pages"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None (revenue share only if you charge)"
+    },
+    "what_paid": [],
+    "best_for": "Publishing your games and finding players.",
+    "watch_out": [
+      "They take a cut only of paid sales"
+    ],
+    "official_url": "https://itch.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  }
+]

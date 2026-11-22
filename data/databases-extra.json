@@ -1,0 +1,832 @@
+[
+  {
+    "id": "neo4j-community",
+    "provider": "Neo4j",
+    "product": "Neo4j Community Edition",
+    "category": "data",
+    "tags": ["graph-db", "cypher", "open-source", "self-hosted"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPLv3 Community Edition)",
+    "what_free": [
+      "Full native graph database with Cypher query language, free for any use",
+      "No node, relationship or property limits in the community build",
+      "Neo4j Browser UI, drivers for major languages and APOC core included"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Neo4j Enterprise (per-core pricing)" },
+    "what_paid": [
+      "Enterprise adds clustering, fine-grained security, hot backups and support"
+    ],
+    "best_for": "Self-hosting a graph database without node or relationship limits.",
+    "watch_out": [
+      "Community Edition is single-instance: no clustering or hot backups"
+    ],
+    "official_url": "https://neo4j.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "clickhouse",
+    "provider": "ClickHouse",
+    "product": "ClickHouse",
+    "category": "data",
+    "tags": ["olap", "columnar", "analytics", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "OSS server free; ClickHouse Cloud free tier/trial",
+    "what_free": [
+      "Apache-2.0 columnar OLAP engine - self-host with no usage limits",
+      "clickhouse-local for fast ad-hoc analytics on files without a server",
+      "ClickHouse Cloud free tier/trial for trying the managed service (limits apply)"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "ClickHouse Cloud usage-based tiers" },
+    "what_paid": [
+      "Managed cloud with scaling, backups and dedicated support"
+    ],
+    "best_for": "Blazing analytics over billions of rows on commodity hardware.",
+    "watch_out": [
+      "Cloud free quotas change - check current limits",
+      "OLAP-focused: not for transactional (OLTP) workloads"
+    ],
+    "official_url": "https://clickhouse.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "influxdb",
+    "provider": "InfluxData",
+    "product": "InfluxDB",
+    "category": "data",
+    "tags": ["time-series", "monitoring", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "OSS editions: 100% free (self-hosted)",
+    "what_free": [
+      "Open-source time-series database for metrics, IoT and event data",
+      "Built-in web UI, HTTP API and Telegraf collector integration",
+      "Client libraries for popular languages, free"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "InfluxDB Cloud (Serverless/Dedicated/Clustered)" },
+    "what_paid": [
+      "Managed cloud with higher retention, replication and support"
+    ],
+    "best_for": "Self-hosted time-series storage for monitoring and sensor data.",
+    "watch_out": [
+      "Features shifted between 1.x/2.x/3.x - check your version's feature set",
+      "Cloud free options have changed over time"
+    ],
+    "official_url": "https://www.influxdata.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "timescale",
+    "provider": "Timescale",
+    "product": "TimescaleDB",
+    "category": "data",
+    "tags": ["time-series", "postgresql", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Apache-2 community edition free; cloud free tier/trial",
+    "what_free": [
+      "Hypertables, compression and continuous aggregates inside your own PostgreSQL",
+      "Community edition is Apache-2.0 - no usage caps when self-hosting",
+      "Managed Tiger Cloud offers a free tier/trial (limits apply)"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Timescale/Tiger Cloud usage tiers" },
+    "what_paid": [
+      "Managed instances with backups, high availability and support"
+    ],
+    "best_for": "Postgres users who need serious time-series performance in place.",
+    "watch_out": [
+      "Some advanced features are exclusive to the cloud platform",
+      "Cloud free-tier limits change"
+    ],
+    "official_url": "https://www.timescale.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "cockroachdb",
+    "provider": "Cockroach Labs",
+    "product": "CockroachDB",
+    "category": "data",
+    "tags": ["distributed-sql", "postgresql-compatible", "cloud"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Basic plan: ~10 GiB storage + ~50M request units free monthly",
+    "what_free": [
+      "Managed Basic plan includes ~10 GiB storage and ~50M request units free each month",
+      "PostgreSQL-compatible SQL that replicates and survives node/region failures",
+      "Self-host binaries downloadable with a free license for individual developers"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Basic/Standard/Advanced cloud tiers" },
+    "what_paid": [
+      "More storage, multi-region placement and enterprise support"
+    ],
+    "best_for": "Postgres-style SQL that survives node and region outages.",
+    "watch_out": [
+      "Core is proprietary - the old open-source BSL Core was retired in 2024",
+      "Free-cluster quotas can change"
+    ],
+    "official_url": "https://www.cockroachlabs.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mariadb",
+    "provider": "MariaDB",
+    "product": "MariaDB Server",
+    "category": "data",
+    "tags": ["relational-db", "mysql-compatible", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPLv2 server)",
+    "what_free": [
+      "MySQL-compatible relational server, community build fully free for any use",
+      "Galera Cluster packages for synchronous multi-master replication",
+      "No feature gates in the community release"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "MariaDB Enterprise Server subscriptions" },
+    "what_paid": [
+      "Enterprise builds, tooling and support subscriptions"
+    ],
+    "best_for": "A fully open, actively developed MySQL alternative.",
+    "watch_out": [
+      "Enterprise tooling and some plugins are subscription-only"
+    ],
+    "official_url": "https://mariadb.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "dragonflydb",
+    "provider": "Dragonfly",
+    "product": "DragonflyDB",
+    "category": "data",
+    "tags": ["cache", "in-memory", "redis-compatible"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free to self-host (no feature gates)",
+    "what_free": [
+      "Multi-threaded, Redis/Memcached-compatible in-memory data store",
+      "Free to run in production on your own hardware",
+      "Familiar Redis API plus Prometheus-style metrics endpoint"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Dragonfly Cloud managed service" },
+    "what_paid": [
+      "Managed cloud deployments"
+    ],
+    "best_for": "Caching huge workloads on fewer, bigger multi-core machines.",
+    "watch_out": [
+      "BSL 1.1 source-available license - you cannot resell it as a managed service"
+    ],
+    "official_url": "https://www.dragonflydb.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "etcd",
+    "provider": "CNCF",
+    "product": "etcd",
+    "category": "data",
+    "tags": ["key-value", "consensus", "open-source", "kubernetes"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache-2.0)",
+    "what_free": [
+      "Distributed key-value store backed by Raft consensus",
+      "The datastore behind Kubernetes cluster state",
+      "Watch, lease and lock primitives for service coordination"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Strongly consistent configuration and coordination data for clusters.",
+    "watch_out": [
+      "Not for bulk data - tuned for small values and consistency"
+    ],
+    "official_url": "https://etcd.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "memcached",
+    "provider": "Memcached",
+    "product": "memcached",
+    "category": "data",
+    "tags": ["cache", "in-memory", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BSD license)",
+    "what_free": [
+      "Battle-tested distributed memory object cache (BSD-licensed)",
+      "Simple text/binary protocols with client libraries for nearly every language",
+      "No quotas, editions or paid gates at all"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "A tiny, proven cache layer when you do not need Redis features.",
+    "watch_out": [
+      "No persistence or replication by design"
+    ],
+    "official_url": "https://memcached.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "surrealdb",
+    "provider": "SurrealDB",
+    "product": "SurrealDB",
+    "category": "data",
+    "tags": ["multi-model", "document-db", "graph-db"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free self-hosting (BSL 1.1); cloud free tier",
+    "what_free": [
+      "Multi-model database blending documents, records and graph edges",
+      "Runs as a single binary or embedded; SurrealQL query language",
+      "Surrealist studio tool plus cloud free tier for small projects"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "SurrealDB Cloud plans" },
+    "what_paid": [
+      "Managed instances, backups and enterprise licensing"
+    ],
+    "best_for": "One database mixing documents, graphs and relational-style queries.",
+    "watch_out": [
+      "Core is BSL 1.1 - free to use and self-host, but not OSI open source",
+      "Young ecosystem; SQL compatibility is partial"
+    ],
+    "official_url": "https://surrealdb.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "arangodb",
+    "provider": "ArangoDB",
+    "product": "ArangoDB Community Edition",
+    "category": "data",
+    "tags": ["multi-model", "graph-db", "aql"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Community Edition binaries: free",
+    "what_free": [
+      "Documents, graphs and key-value in one engine, queried with AQL",
+      "Prepackaged Community Edition binaries are free to use",
+      "Graph traversal, Foxx microservices and web UI included"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Enterprise edition / ArangoGraph cloud" },
+    "what_paid": [
+      "Enterprise features (smart graphs, encryption) and managed cloud"
+    ],
+    "best_for": "Document and graph workloads in one database with one query language.",
+    "watch_out": [
+      "Source moved to BSL 1.1 in 2023 - community is free binaries, not open source"
+    ],
+    "official_url": "https://arangodb.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "dolt",
+    "provider": "DoltHub",
+    "product": "Dolt",
+    "category": "data",
+    "tags": ["versioned-db", "git-for-data", "mysql-compatible", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache-2.0); public repos free on DoltHub",
+    "what_free": [
+      "MySQL-compatible database with branches, commits, merges and data diffs",
+      "Open-source CLI and SQL server (Apache-2.0)",
+      "DoltHub hosts public data repositories free for collaboration"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Hosted Dolt private databases" },
+    "what_paid": [
+      "Private hosted databases and support"
+    ],
+    "best_for": "Versioning and diffing data like code, MySQL-style.",
+    "watch_out": [
+      "Slower writes than plain MySQL for heavy OLTP"
+    ],
+    "official_url": "https://www.dolthub.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "doltgresql",
+    "provider": "DoltHub",
+    "product": "DoltgreSQL",
+    "category": "data",
+    "tags": ["versioned-db", "postgresql-flavored", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache-2.0)",
+    "what_free": [
+      "Git-for-data database with a PostgreSQL-flavored dialect",
+      "Branch, diff and merge SQL data; free CLI and server",
+      "Apache-2.0 open source"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Hosted options" },
+    "what_paid": [
+      "Hosted instances and support"
+    ],
+    "best_for": "Trying git-style data versioning with Postgres-flavored SQL.",
+    "watch_out": [
+      "Younger than Dolt/MySQL flavor - some Postgres features still missing"
+    ],
+    "official_url": "https://github.com/dolthub/doltgresql",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "couchdb",
+    "provider": "Apache Software Foundation",
+    "product": "Apache CouchDB",
+    "category": "data",
+    "tags": ["document-db", "replication", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache-2.0)",
+    "what_free": [
+      "JSON document database over HTTP with Mango queries",
+      "Built-in multi-master replication - great for offline-first sync",
+      "Fauxton web UI and clustered mode included"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Offline-first apps and resilient multi-master document replication.",
+    "watch_out": [
+      "Replication conflicts need application-level design"
+    ],
+    "official_url": "https://couchdb.apache.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "questdb",
+    "provider": "QuestDB",
+    "product": "QuestDB",
+    "category": "data",
+    "tags": ["time-series", "sql", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache-2.0)",
+    "what_free": [
+      "High-performance time-series SQL engine, Apache-2.0 licensed",
+      "Ingests InfluxDB line protocol and speaks the PostgreSQL wire protocol",
+      "Web console and single binary/Docker deployment"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "QuestDB Enterprise" },
+    "what_paid": [
+      "Enterprise adds RBAC, tiered storage and support"
+    ],
+    "best_for": "Fast SQL time-series ingestion for finance and IoT data.",
+    "watch_out": [
+      "Time-series focused - not a general-purpose OLTP database"
+    ],
+    "official_url": "https://questdb.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "victoriametrics",
+    "provider": "VictoriaMetrics",
+    "product": "VictoriaMetrics",
+    "category": "data",
+    "tags": ["time-series", "monitoring", "prometheus-compatible", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Single-node 100% free (Apache-2.0); cluster open source (AGPL)",
+    "what_free": [
+      "Open-source time-series store designed for high compression and low resource use",
+      "Prometheus-compatible scraping/remote-write with MetricsQL query language",
+      "Single-node and cluster versions both downloadable and free"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "VictoriaMetrics Enterprise" },
+    "what_paid": [
+      "Enterprise features (downsampling, isolation) and support"
+    ],
+    "best_for": "Long-term Prometheus metrics storage that stays cheap at scale.",
+    "watch_out": [
+      "Cluster version is AGPLv3 (single-node is Apache-2.0)"
+    ],
+    "official_url": "https://victoriametrics.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "keydb",
+    "provider": "KeyDB",
+    "product": "KeyDB",
+    "category": "data",
+    "tags": ["cache", "in-memory", "redis-compatible", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BSD; former Pro features included)",
+    "what_free": [
+      "Multi-threaded Redis-compatible store (BSD-licensed)",
+      "Active replication with multi-master support built in",
+      "Former Pro features are free after the Snap acquisition"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "A multithreaded Redis-compatible cache for big multi-core machines.",
+    "watch_out": [
+      "Development pace is slower than Redis/Valkey upstreams"
+    ],
+    "official_url": "https://keydb.dev",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "postgrest",
+    "provider": "PostgREST",
+    "product": "PostgREST",
+    "category": "data",
+    "tags": ["rest-api", "postgresql", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Serves a clean REST API straight from your PostgreSQL schema",
+      "JWT auth, role-based access via Postgres roles, OpenAPI output generated",
+      "Single standalone binary, MIT-licensed"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Turning an existing Postgres database into a REST API instantly.",
+    "watch_out": [
+      "You operate it yourself (reverse proxy, scaling)"
+    ],
+    "official_url": "https://postgrest.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "hasura",
+    "provider": "Hasura",
+    "product": "Hasura GraphQL Engine",
+    "category": "data",
+    "tags": ["graphql", "api", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "OSS engine free; Hasura Cloud free tier",
+    "what_free": [
+      "Instant GraphQL API over Postgres and other databases with permission rules",
+      "Core engine is open source (Apache-2.0) - self-host unlimited",
+      "Hasura Cloud free tier for small projects"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Cloud usage tiers" },
+    "what_paid": [
+      "Managed scale, team features and support"
+    ],
+    "best_for": "Permissioned GraphQL over existing databases without writing resolvers.",
+    "watch_out": [
+      "Cloud quotas change; complex sources need tuning"
+    ],
+    "official_url": "https://hasura.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "manticoresearch",
+    "provider": "Manticore Software",
+    "product": "Manticore Search",
+    "category": "data",
+    "tags": ["search-engine", "full-text", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPLv2)",
+    "what_free": [
+      "Fast open-source full-text search engine with SQL-first querying",
+      "Real-time indexes, HTTP/JSON and SQL clients, facets and highlighting",
+      "Self-host unlimited - no paid edition required"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Self-hosted full-text search with SQL syntax and low latency.",
+    "watch_out": [
+      "GPLv2 license; smaller ecosystem than Elasticsearch"
+    ],
+    "official_url": "https://manticoresearch.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "authentik",
+    "provider": "Authentik Security",
+    "product": "authentik",
+    "category": "data",
+    "tags": ["identity", "sso", "oidc", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source, self-hosted)",
+    "what_free": [
+      "Self-hosted identity provider: SSO with OIDC/SAML providers and LDAP outpost",
+      "Unlimited users; flows/policies engine, MFA and passkeys",
+      "Web UI with Docker/Kubernetes deployment, no seat limits"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Enterprise support subscription" },
+    "what_paid": [
+      "Commercial support and enterprise features"
+    ],
+    "best_for": "Open-source single sign-on in front of your self-hosted apps.",
+    "watch_out": [
+      "Configuration has a learning curve (flows and policies)"
+    ],
+    "official_url": "https://goauthentik.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "supertokens",
+    "provider": "SuperTokens",
+    "product": "SuperTokens",
+    "category": "data",
+    "tags": ["auth", "open-source", "session-management"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Self-host free; cloud free up to ~5,000 MAU",
+    "what_free": [
+      "Email/password, passwordless and social login with session management",
+      "Open-source core - self-host with your own database, no MAU limit",
+      "SDKs for popular frameworks and prebuilt login UI"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Cloud ~$0.02 per MAU beyond free quota" },
+    "what_paid": [
+      "Managed cloud beyond ~5,000 monthly active users"
+    ],
+    "best_for": "Auth with social login and sessions you can fully self-host.",
+    "watch_out": [
+      "Cloud pricing applies to every active MAU past the free quota"
+    ],
+    "official_url": "https://supertokens.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "better-auth",
+    "provider": "Better Auth",
+    "product": "Better Auth",
+    "category": "data",
+    "tags": ["auth", "typescript", "library", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open-source library)",
+    "what_free": [
+      "TypeScript auth framework that embeds in your own app and database",
+      "Email/password, social OAuth, sessions, 2FA, admin and organization plugins",
+      "No user limits - data stays in your database"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "TypeScript developers who want auth inside their own codebase.",
+    "watch_out": [
+      "No managed service - you run and scale it yourself"
+    ],
+    "official_url": "https://www.better-auth.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "strapi",
+    "provider": "Strapi",
+    "product": "Strapi",
+    "category": "data",
+    "tags": ["cms", "headless", "open-source", "self-hosted"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Community Edition: free self-hosted",
+    "what_free": [
+      "Open-source headless CMS: content-type builder, REST and GraphQL APIs",
+      "Admin panel, media library and roles included; self-host anywhere",
+      "Community Edition free forever with no content limits"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Strapi Cloud plans; Enterprise edition" },
+    "what_paid": [
+      "Managed hosting (trial available); Enterprise adds SSO, granular RBAC and review workflows"
+    ],
+    "best_for": "API-first content management you fully own and customize.",
+    "watch_out": [
+      "SSO, granular RBAC and workflows are Enterprise-only",
+      "Strapi Cloud is a paid product with a trial, not a free tier"
+    ],
+    "official_url": "https://strapi.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "directus",
+    "provider": "Directus",
+    "product": "Directus",
+    "category": "data",
+    "tags": ["cms", "headless", "data-platform", "sql"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free self-hosted under BSL (free grant for orgs under $5M)",
+    "what_free": [
+      "Instant REST/GraphQL APIs, admin app and dashboards over any SQL database",
+      "Self-host free: core tier (~3 seats) or free Open Innovation Grant under $5M finances",
+      "Data model mirrors your existing database - no schema lock-in"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Cloud plans; Team license ~$499/mo" },
+    "what_paid": [
+      "Cloud hosting, higher seats and enterprise licensing"
+    ],
+    "best_for": "Wrapping existing SQL databases with APIs and an admin studio.",
+    "watch_out": [
+      "BSL 1.1 - not open source; orgs above $5M revenue need a paid license"
+    ],
+    "official_url": "https://directus.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "payload",
+    "provider": "Payload",
+    "product": "Payload CMS",
+    "category": "data",
+    "tags": ["cms", "headless", "typescript", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT core)",
+    "what_free": [
+      "Code-first TypeScript CMS embedded in your Next.js/Express app",
+      "Auto-generated REST + GraphQL APIs, local API, auth and admin UI",
+      "MIT-licensed core; self-host anywhere including serverless"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Payload Cloud hosting" },
+    "what_paid": [
+      "Managed cloud hosting and enterprise support"
+    ],
+    "best_for": "Developers wanting a CMS that lives inside their own codebase.",
+    "watch_out": [
+      "You manage database and hosting unless on paid cloud"
+    ],
+    "official_url": "https://payloadcms.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "contentful",
+    "provider": "Contentful",
+    "product": "Contentful",
+    "category": "data",
+    "tags": ["cms", "headless", "content-api"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (1 space, ~10k records)",
+    "what_free": [
+      "Headless CMS free plan: ~10 users, ~10k records, 2 locales",
+      "Delivery + Preview APIs, web app, CLI and ecosystem apps",
+      "~100k API calls/month and ~50 GB CDN bandwidth"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Lite and up (from ~$300/mo)" },
+    "what_paid": [
+      "More spaces, environments, locales, users and support"
+    ],
+    "best_for": "Structured content delivered by APIs to any frontend.",
+    "watch_out": [
+      "Hard free-tier caps; paid entry point is expensive"
+    ],
+    "official_url": "https://www.contentful.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "sanity",
+    "provider": "Sanity",
+    "product": "Sanity",
+    "category": "data",
+    "tags": ["cms", "headless", "realtime", "structured-content"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (~10k documents, up to ~20 seats)",
+    "what_free": [
+      "Customizable realtime studio (React) you code yourself",
+      "Content lake with realtime APIs, asset pipeline and CDN",
+      "Free plan: ~10k documents, up to ~20 seats, ~100 GB assets/bandwidth"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Usage-based Growth/Enterprise plans" },
+    "what_paid": [
+      "More documents, seats, API quotas and overage room"
+    ],
+    "best_for": "Structured content with a fully programmable editing studio.",
+    "watch_out": [
+      "Free plan blocks overages - watch API and bandwidth quotas"
+    ],
+    "official_url": "https://www.sanity.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "storyblok",
+    "provider": "Storyblok",
+    "product": "Storyblok",
+    "category": "data",
+    "tags": ["cms", "headless", "visual-editor"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (1 space, 1-2 seats)",
+    "what_free": [
+      "Visual editor + headless CMS with reusable component 'bloks'",
+      "Delivery/Management APIs, asset manager and image service",
+      "Free plan: one space, 1 seat (up to ~2), ~100 GB traffic"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Growth tiers (from ~$99/space/mo)" },
+    "what_paid": [
+      "More seats, traffic, spaces and collaboration features"
+    ],
+    "best_for": "Marketing sites mixing visual editing with structured content.",
+    "watch_out": [
+      "Single-seat free plan - teams need paid tiers"
+    ],
+    "official_url": "https://www.storyblok.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "decap-cms",
+    "provider": "Decap CMS (community)",
+    "product": "Decap CMS",
+    "category": "data",
+    "tags": ["cms", "git-based", "static-sites", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT)",
+    "what_free": [
+      "Git-based headless CMS (Netlify CMS fork) - content as markdown/JSON in your repo",
+      "Works with GitHub, GitLab and Bitbucket backends",
+      "No server or database costs: ships as static files with your site"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "None" },
+    "what_paid": [],
+    "best_for": "Adding an editing UI to git-backed static and Jamstack sites.",
+    "watch_out": [
+      "Community-maintained; editorial workflow needs OAuth setup"
+    ],
+    "official_url": "https://decapcms.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  }
+]

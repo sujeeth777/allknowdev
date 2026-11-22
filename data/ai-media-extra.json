@@ -1,0 +1,848 @@
+[
+  {
+    "id": "coze",
+    "provider": "ByteDance",
+    "product": "Coze",
+    "category": "ai-chat",
+    "tags": ["chatbot-builder", "agents", "no-code", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Build AI chatbots and agents without code",
+      "Workflow, knowledge base, and memory tools",
+      "Publish bots to Discord, Telegram, and other channels",
+      "Free plan to develop and test basic bots"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid plans add higher model usage limits and team features" },
+    "what_paid": [
+      "Higher model usage limits and team collaboration",
+      "Premium LLM quota beyond the free allowance"
+    ],
+    "best_for": "No-code AI chatbot building and publishing to messaging channels.",
+    "watch_out": [
+      "Free model usage is limited and changes over time",
+      "International (coze.com) and China versions differ"
+    ],
+    "official_url": "https://www.coze.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "librechat",
+    "provider": "LibreChat",
+    "product": "LibreChat",
+    "category": "ai-chat",
+    "tags": ["chat-ui", "open-source", "self-hosted", "multi-provider"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Open-source ChatGPT-style UI for many providers (OpenAI, Anthropic, Google, and more)",
+      "Self-host with Docker for unlimited conversations",
+      "Multi-user support with auth and message search",
+      "Agents, file uploads, and presets"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - free and open source; you bring your own API keys"
+    ],
+    "best_for": "Self-hosted multi-provider chat UI for your own API keys.",
+    "watch_out": [
+      "Requires your own LLM API keys",
+      "Self-hosting and upgrades are manual"
+    ],
+    "official_url": "https://www.librechat.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "msty",
+    "provider": "Msty",
+    "product": "Msty",
+    "category": "ai-chat",
+    "tags": ["local-llm", "chat-ui", "desktop", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free desktop app",
+    "what_free": [
+      "Free desktop app to chat with local and online LLMs side by side",
+      "One-click local model downloads (Ollama-compatible backend)",
+      "Branching conversations and model compare mode",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Msty Studio adds paid cloud/team features" },
+    "what_paid": [
+      "Cloud and team features via the paid Msty Studio"
+    ],
+    "best_for": "Desktop app to run local and online LLMs side by side.",
+    "watch_out": [
+      "The app is free but closed source",
+      "Newer cloud features moved to the paid Msty Studio"
+    ],
+    "official_url": "https://msty.app",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "freepik-ai",
+    "provider": "Freepik",
+    "product": "Freepik AI Image Generator",
+    "category": "ai-image",
+    "tags": ["image-generation", "freemium", "credits"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily credits",
+    "what_free": [
+      "AI image generator with limited free credits refilled regularly",
+      "Multiple models and styles in one place",
+      "Text-to-image plus editing and upscaling tools",
+      "Included with a free Freepik account"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Premium subscription adds more credits and premium models" },
+    "what_paid": [
+      "Larger credit allowances and premium model access",
+      "Faster generation and no stock-library ads"
+    ],
+    "best_for": "Quick AI images with a small free credit allowance.",
+    "watch_out": [
+      "Free credits are limited and reset on a schedule",
+      "Available models and features change often"
+    ],
+    "official_url": "https://www.freepik.com/ai/image-generator",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "piclumen",
+    "provider": "PicLumen",
+    "product": "PicLumen",
+    "category": "ai-image",
+    "tags": ["image-generation", "free", "web"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free generation (daily allowance)",
+    "what_free": [
+      "Text-to-image generation free on the web app",
+      "Multiple style models, including anime and photorealistic",
+      "Daily free generation allowance",
+      "Simple prompt-based web interface"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid plans add more daily generations and advanced models" },
+    "what_paid": [
+      "More generations per day and priority access"
+    ],
+    "best_for": "Free browser AI image generation with a daily allowance.",
+    "watch_out": [
+      "Free daily allowance is modest",
+      "Queue times can stretch during peak load"
+    ],
+    "official_url": "https://www.piclumen.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mage-space",
+    "provider": "Mage",
+    "product": "Mage.space",
+    "category": "ai-image",
+    "tags": ["stable-diffusion", "image-generation", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier (base model)",
+    "what_free": [
+      "Free Stable Diffusion text-to-image generation in the browser",
+      "Negative prompts and basic generation settings",
+      "Browse community creations for prompts",
+      "No install needed - runs in the browser"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro unlocks premium models, faster GPUs, and image-to-image" },
+    "what_paid": [
+      "Premium models and faster generation",
+      "Image-to-image and advanced editing"
+    ],
+    "best_for": "Browser Stable Diffusion generation on a free base tier.",
+    "watch_out": [
+      "Premium models and img2img sit behind Pro",
+      "Free queue can be slow"
+    ],
+    "official_url": "https://www.mage.space",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "segmind",
+    "provider": "Segmind",
+    "product": "Segmind",
+    "category": "ai-image",
+    "tags": ["api", "image-models", "workflows", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily credits",
+    "what_free": [
+      "Hosted open image models behind a browser workflow builder",
+      "Free daily credit allowance for experimentation",
+      "API access to open image models",
+      "Model gallery from anime to product shots"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pay-per-credit for heavier API and workflow usage" },
+    "what_paid": [
+      "Pay-as-you-go credits for production API usage"
+    ],
+    "best_for": "Chaining image models in workflows with per-credit pricing.",
+    "watch_out": [
+      "Credits are consumed quickly by large models",
+      "Pay-as-you-go pricing needs monitoring"
+    ],
+    "official_url": "https://www.segmind.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "picsart",
+    "provider": "Picsart",
+    "product": "Picsart",
+    "category": "ai-image",
+    "tags": ["photo-editing", "ai-tools", "freemium", "mobile"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (with limits)",
+    "what_free": [
+      "Free photo and video editor with AI tools (background remover, upscale)",
+      "AI image generator with limited free credits",
+      "Large library of stickers, fonts, and templates",
+      "Mobile apps plus a web editor"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Picsart Gold unlocks the full asset library and premium AI tools" },
+    "what_paid": [
+      "Full premium asset library without watermarks",
+      "More AI credits and advanced tools"
+    ],
+    "best_for": "Mobile-first photo editing with AI helpers on a free tier.",
+    "watch_out": [
+      "Premium assets are watermarked on free",
+      "Free AI credits are limited"
+    ],
+    "official_url": "https://picsart.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "bigjpg",
+    "provider": "Bigjpg",
+    "product": "Bigjpg",
+    "category": "ai-image",
+    "tags": ["upscaling", "anime", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Free AI image upscaling tuned for anime-style art",
+      "Noise-reduction levels alongside upscaling",
+      "Works in the browser without install",
+      "Paid tiers add batch processing"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid plans raise size limits, speed, and add API access" },
+    "what_paid": [
+      "Larger image sizes and faster processing",
+      "API access for automation"
+    ],
+    "best_for": "Upscaling anime-style art in the browser for free.",
+    "watch_out": [
+      "Free tier caps image size and queue priority",
+      "Weaker on photorealistic images"
+    ],
+    "official_url": "https://bigjpg.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "waifu2x",
+    "provider": "nagadomi (open source)",
+    "product": "waifu2x",
+    "category": "ai-image",
+    "tags": ["upscaling", "anime", "open-source", "free"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Completely free",
+    "what_free": [
+      "Open-source anime-style image upscaler and denoiser",
+      "Free web frontends (such as waifu2x.udp.jp) with no account required",
+      "2x upscale plus adjustable noise reduction",
+      "Run the models locally from the GitHub repo"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - free web service and open-source models"
+    ],
+    "best_for": "Classic free anime image upscaling and noise reduction.",
+    "watch_out": [
+      "Tuned for anime/illustrations, not photos",
+      "Web mirrors are slow with size limits"
+    ],
+    "official_url": "https://github.com/nagadomi/waifu2x",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "openart",
+    "provider": "OpenArt",
+    "product": "OpenArt",
+    "category": "ai-image",
+    "tags": ["image-generation", "freemium", "multi-model"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free trial credits",
+    "what_free": [
+      "Multi-model image generator in one web app",
+      "Free trial credits for new accounts",
+      "Community prompt library and model browser",
+      "Character and style tools to keep subjects consistent"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Subscription plans add monthly credits and premium models" },
+    "what_paid": [
+      "Monthly credit bundles and premium model access"
+    ],
+    "best_for": "Trying many image models and styles in one place.",
+    "watch_out": [
+      "Free credits are small",
+      "Feature set changes frequently"
+    ],
+    "official_url": "https://openart.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "microsoft-designer",
+    "provider": "Microsoft",
+    "product": "Microsoft Designer",
+    "category": "ai-image",
+    "tags": ["image-generation", "design", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with a Microsoft account",
+    "what_free": [
+      "AI image generation and graphic design creation with a Microsoft account",
+      "Free daily boost allowance for faster generation",
+      "AI editing tools (erase, background replace)",
+      "Works in the browser and integrates with Microsoft apps"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Microsoft 365 / Copilot Pro plans add more boosts" },
+    "what_paid": [
+      "More boosts and higher quotas via Copilot tiers"
+    ],
+    "best_for": "AI image creation and quick graphics with a Microsoft account.",
+    "watch_out": [
+      "Daily boost quota is limited",
+      "Some features sit behind Copilot Pro subscriptions"
+    ],
+    "official_url": "https://designer.microsoft.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "pixverse",
+    "provider": "PixVerse",
+    "product": "PixVerse",
+    "category": "ai-video",
+    "tags": ["video-generation", "freemium", "text-to-video"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier (daily credits)",
+    "what_free": [
+      "Text-to-video and image-to-video generation in the browser",
+      "Free daily credit allowance for short clips",
+      "Trending effect templates and style presets",
+      "Web and mobile apps"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid plans add more credits and higher-quality output" },
+    "what_paid": [
+      "More credits, faster generation, and higher resolution"
+    ],
+    "best_for": "Short AI video clips from text or images on free credits.",
+    "watch_out": [
+      "Free credits limit resolution and duration",
+      "Longer clips consume credits fast"
+    ],
+    "official_url": "https://www.pixverse.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mochi-video",
+    "provider": "Genmo",
+    "product": "Mochi 1",
+    "category": "ai-video",
+    "tags": ["open-source", "text-to-video", "self-hosted", "model"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache-2.0 weights)",
+    "what_free": [
+      "Open-source text-to-video model (Mochi 1) with Apache-2.0 weights",
+      "Run locally on high-VRAM GPUs via the GitHub repo",
+      "Strong prompt adherence and motion for an open model",
+      "ComfyUI community workflow support"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Genmo offers paid hosted access to their models" },
+    "what_paid": [
+      "Genmo hosted service for running models without your own GPU"
+    ],
+    "best_for": "Open-source text-to-video you can run on your own GPU.",
+    "watch_out": [
+      "Needs a high-VRAM GPU for reasonable speeds",
+      "Clips are short and low resolution by design"
+    ],
+    "official_url": "https://github.com/genmoai/mochi",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "clideo",
+    "provider": "Clideo",
+    "product": "Clideo",
+    "category": "ai-video",
+    "tags": ["video-tools", "web", "freemium", "editing"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tools (with watermark)",
+    "what_free": [
+      "Browser video toolkit: compress, resize, crop, merge, and cut",
+      "Auto-captioning tool",
+      "Works on any OS without install",
+      "Free usage with file-size limits"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro removes watermarks and raises size limits" },
+    "what_paid": [
+      "Watermark-free exports and bigger files"
+    ],
+    "best_for": "Quick browser video fixes: compress, crop, merge, caption.",
+    "watch_out": [
+      "Free exports include a watermark",
+      "File-size caps on the free tier"
+    ],
+    "official_url": "https://clideo.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "kaiber",
+    "provider": "Kaiber",
+    "product": "Kaiber",
+    "category": "ai-video",
+    "tags": ["video-generation", "animation", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free trial credits",
+    "what_free": [
+      "AI video generation from images, audio, and text prompts",
+      "Free trial credits to test styles and animations",
+      "Music-reactive visual styles",
+      "Style presets from anime to cinematic"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Subscription credits for regular generation" },
+    "what_paid": [
+      "Monthly credits and faster render queues"
+    ],
+    "best_for": "Stylized AI animations and music-reactive videos.",
+    "watch_out": [
+      "Free trial credits are limited",
+      "Render queues can be long"
+    ],
+    "official_url": "https://kaiber.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "opusclip",
+    "provider": "Opus",
+    "product": "OpusClip",
+    "category": "ai-video",
+    "tags": ["video-editing", "shorts", "freemium", "captions"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier (limited minutes)",
+    "what_free": [
+      "Turns long videos and podcasts into short vertical clips automatically",
+      "AI picks highlight moments and adds captions",
+      "Auto reframing to 9:16",
+      "Limited free processing minutes each month"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid plans add monthly minutes, branding, and scheduling" },
+    "what_paid": [
+      "More monthly minutes, brand templates, and posting tools"
+    ],
+    "best_for": "Auto-cutting long videos into captioned short clips.",
+    "watch_out": [
+      "Free minutes are limited monthly",
+      "Clip selection quality varies by content"
+    ],
+    "official_url": "https://www.opus.pro",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "lalal-ai",
+    "provider": "LALAL.AI",
+    "product": "LALAL.AI",
+    "category": "ai-audio",
+    "tags": ["stem-separation", "audio", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free preview minutes",
+    "what_free": [
+      "AI stem separation for vocals, drums, bass, piano, and more",
+      "Free preview to test separation quality before paying",
+      "Web-based, no install needed",
+      "Modern separation model generations"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Minute packs or subscriptions for full-track processing" },
+    "what_paid": [
+      "Full-track downloads with purchased minutes"
+    ],
+    "best_for": "High-quality AI stem separation with free previews.",
+    "watch_out": [
+      "Free tier is preview-only, not full downloads",
+      "Minute packs add up for large libraries"
+    ],
+    "official_url": "https://www.lalal.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mubert",
+    "provider": "Mubert",
+    "product": "Mubert",
+    "category": "ai-audio",
+    "tags": ["music-generation", "royalty-free", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier (personal use)",
+    "what_free": [
+      "Text-to-music generation by genre, mood, and activity",
+      "Free personal-use generation in the web app",
+      "Developer API with trial credits",
+      "Predefined moods and durations"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid plans add commercial licensing and longer tracks" },
+    "what_paid": [
+      "Commercial-use licenses and distribution rights"
+    ],
+    "best_for": "Generating mood-matched background music tracks.",
+    "watch_out": [
+      "Commercial use requires a paid license",
+      "Licensing terms differ per plan - check before publishing"
+    ],
+    "official_url": "https://mubert.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "boomy",
+    "provider": "Boomy",
+    "product": "Boomy",
+    "category": "ai-audio",
+    "tags": ["music-creation", "freemium", "streaming"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (with limits)",
+    "what_free": [
+      "Create original songs in seconds from style templates",
+      "Free plan to make and save songs",
+      "Option to release tracks to streaming services with revenue share",
+      "Simple web and mobile interface"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Creator/Pro plans add faster releases, downloads, and features" },
+    "what_paid": [
+      "Faster releases, audio downloads, and more control"
+    ],
+    "best_for": "Making simple AI songs and releasing them to streaming.",
+    "watch_out": [
+      "Some releases are held for review",
+      "Commercial rights depend on the plan"
+    ],
+    "official_url": "https://boomy.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "beatoven-ai",
+    "provider": "Beatoven.ai",
+    "product": "Beatoven.ai",
+    "category": "ai-audio",
+    "tags": ["music-generation", "background-music", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free credits",
+    "what_free": [
+      "Generates mood-based background music for videos and podcasts",
+      "Free credits for track creation",
+      "Choose genre, mood, and duration",
+      "Web editor to tweak sections"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Subscriptions add more credits and licensing" },
+    "what_paid": [
+      "More generation credits and commercial licensing"
+    ],
+    "best_for": "Custom mood-based background music for videos and podcasts.",
+    "watch_out": [
+      "Free credits are limited",
+      "Commercial licensing depends on the plan"
+    ],
+    "official_url": "https://www.beatoven.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "fish-audio",
+    "provider": "Fish Audio",
+    "product": "Fish Audio",
+    "category": "ai-audio",
+    "tags": ["tts", "voice", "open-source", "freemium"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free hosted playground + open code",
+    "what_free": [
+      "Open-source TTS project (Fish Speech) with self-hostable code",
+      "Hosted playground at fish.audio to test voices",
+      "Multilingual speech generation with natural pacing",
+      "API for integration"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid API usage for production workloads" },
+    "what_paid": [
+      "Production-volume API usage and support"
+    ],
+    "best_for": "Realistic open-source TTS with a hosted playground.",
+    "watch_out": [
+      "Voice cloning is consent-gated by policy",
+      "Self-hosting the strongest models needs a GPU"
+    ],
+    "official_url": "https://fish.audio",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "vocalremover-org",
+    "provider": "vocalremover.org",
+    "product": "Vocal Remover",
+    "category": "ai-audio",
+    "tags": ["vocal-removal", "karaoke", "free", "web"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Completely free (browser)",
+    "what_free": [
+      "Free browser tool splitting songs into vocals and instrumental",
+      "Pitch changer and audio cutter included",
+      "No account required",
+      "Simple drag-and-drop web interface"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - the core tools are free"
+    ],
+    "best_for": "Quick free vocal removal and karaoke tracks in the browser.",
+    "watch_out": [
+      "Separation quality depends on the track",
+      "Processing large files can be slow"
+    ],
+    "official_url": "https://vocalremover.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "ttsmaker",
+    "provider": "TTSMaker",
+    "product": "TTSMaker",
+    "category": "ai-audio",
+    "tags": ["tts", "free", "web", "multilingual"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free TTS (weekly quota)",
+    "what_free": [
+      "Free text-to-speech across many languages and voice styles",
+      "Weekly character quota that refreshes automatically",
+      "Free commercial use on most voices per the vendor",
+      "No account needed for basic conversions"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid plans add larger quotas and premium voices" },
+    "what_paid": [
+      "Bigger quotas and premium voice options"
+    ],
+    "best_for": "Free TTS narration with a weekly renewable quota.",
+    "watch_out": [
+      "Weekly quota throttles heavy usage",
+      "Voice quality varies by language"
+    ],
+    "official_url": "https://ttsmaker.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "qodo",
+    "provider": "Qodo",
+    "product": "Qodo Gen",
+    "category": "ai-coding",
+    "tags": ["code-review", "testing", "ide-plugin", "freemium"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier (IDE extension)",
+    "what_free": [
+      "AI code integrity assistant: test generation and code review in the IDE",
+      "Free tier of the Qodo Gen extension for VS Code and JetBrains",
+      "Behavior-aware test suggestions and code explanations",
+      "Works with multiple underlying models"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro/Team plans add higher limits, PR automation, and org controls" },
+    "what_paid": [
+      "Higher usage limits and PR review automation (Qodo Merge)",
+      "Organization-wide controls and support"
+    ],
+    "best_for": "AI-generated tests and code reviews inside the IDE.",
+    "watch_out": [
+      "Free monthly usage is limited",
+      "PR-automation features target teams"
+    ],
+    "official_url": "https://qodo.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "swe-agent",
+    "provider": "Princeton NLP",
+    "product": "SWE-agent",
+    "category": "ai-coding",
+    "tags": ["agent", "open-source", "cli", "research"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Open-source autonomous software engineering agent from Princeton research",
+      "Fixes GitHub issues from the command line",
+      "Configurable agent-computer interface for custom tools",
+      "Ties into the SWE-bench evaluation ecosystem"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - open source; you cover your own LLM API costs"
+    ],
+    "best_for": "Hands-on research-grade coding agent you run yourself.",
+    "watch_out": [
+      "Requires API keys for a capable LLM",
+      "Agent runs are token-hungry and can get expensive"
+    ],
+    "official_url": "https://github.com/SWE-agent/SWE-agent",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "refact-ai",
+    "provider": "Smallcloud",
+    "product": "Refact.ai",
+    "category": "ai-coding",
+    "tags": ["coding-assistant", "ide-plugin", "open-source", "agent"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier + open-source agent",
+    "what_free": [
+      "AI coding assistant plugin for VS Code and JetBrains",
+      "Free tier for completions and chat",
+      "Self-hostable open-source agent edition on GitHub",
+      "Repo-wide context for suggestions"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro/Team plans add higher limits and enterprise controls" },
+    "what_paid": [
+      "Higher limits, teams, and enterprise features"
+    ],
+    "best_for": "Open-source-friendly AI coding assistant with IDE plugins.",
+    "watch_out": [
+      "Free-tier limits change over time",
+      "Suggestion quality depends on the backing model"
+    ],
+    "official_url": "https://refact.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "tabby",
+    "provider": "TabbyML",
+    "product": "Tabby",
+    "category": "ai-coding",
+    "tags": ["code-completion", "open-source", "self-hosted", "privacy"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Self-hosted AI coding assistant server (Apache-2.0)",
+      "Completion plugins for VS Code, JetBrains, Vim, and more",
+      "Runs on your own hardware - code never leaves your infrastructure",
+      "Includes an admin UI and team features"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - free and open source"
+    ],
+    "best_for": "Private, self-hosted code completion for individuals and teams.",
+    "watch_out": [
+      "You provision and scale the model server yourself",
+      "Completion quality trails top commercial tools"
+    ],
+    "official_url": "https://tabby.tabbyml.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  }
+]

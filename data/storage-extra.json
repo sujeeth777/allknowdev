@@ -1,0 +1,702 @@
+[
+  {
+    "id": "dropbox",
+    "provider": "Dropbox",
+    "product": "Dropbox Basic",
+    "category": "storage",
+    "tags": [
+      "cloud-storage",
+      "file-sync",
+      "sharing"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Basic: ~2 GB",
+    "what_free": [
+      "~2 GB storage with desktop and mobile sync clients",
+      "Share links and basic file requests",
+      "Web previews for common file types"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Plus/Family/Professional plans"
+    },
+    "what_paid": [
+      "Multiple TBs, longer version history, advanced sharing and remote wipe"
+    ],
+    "best_for": "Polished cross-platform file sync and sharing.",
+    "watch_out": [
+      "Free plan caps syncing at 3 devices",
+      "~2 GB fills fast"
+    ],
+    "official_url": "https://www.dropbox.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "onedrive",
+    "provider": "Microsoft",
+    "product": "OneDrive",
+    "category": "storage",
+    "tags": [
+      "cloud-storage",
+      "office",
+      "sync"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan: ~5 GB",
+    "what_free": [
+      "~5 GB storage tied to a Microsoft account",
+      "Personal Vault for identity-verified protected files",
+      "Deep Office web-app integration and cross-platform sync clients"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Standalone plans or Microsoft 365 bundles"
+    },
+    "what_paid": [
+      "~1 TB+ storage bundled with Microsoft 365 desktop apps"
+    ],
+    "best_for": "Storage for Windows and Microsoft 365 households.",
+    "watch_out": [
+      "Microsoft has shrunk free tiers before - quotas can change"
+    ],
+    "official_url": "https://onedrive.live.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "box",
+    "provider": "Box",
+    "product": "Box (Individual)",
+    "category": "storage",
+    "tags": [
+      "cloud-storage",
+      "collaboration",
+      "document-sharing"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Individual: ~10 GB",
+    "what_free": [
+      "~10 GB storage with native apps and file previews",
+      "Sharing links, comments and basic task assignment",
+      "Box Notes and app integrations included"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Business/Enterprise plans"
+    },
+    "what_paid": [
+      "Large storage pools, governance, workflows and bigger uploads"
+    ],
+    "best_for": "Business-grade document sharing with granular permissions.",
+    "watch_out": [
+      "Free per-file upload cap (~250 MB) blocks big media files"
+    ],
+    "official_url": "https://www.box.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mediafire",
+    "provider": "MediaFire",
+    "product": "MediaFire",
+    "category": "storage",
+    "tags": [
+      "file-hosting",
+      "sharing",
+      "downloads"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free account: ~10 GB",
+    "what_free": [
+      "~10 GB storage (bonus campaigns can add more)",
+      "Direct public download links - recipients need no account",
+      "Web and mobile apps with simple uploads"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro/Business plans"
+    },
+    "what_paid": [
+      "Up to tens of TB, ad-free downloads and longer retention"
+    ],
+    "best_for": "Quick public hosting when others just need to download a file.",
+    "watch_out": [
+      "Ads on free downloads; inactive files can be removed"
+    ],
+    "official_url": "https://www.mediafire.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "pixeldrain",
+    "provider": "Pixeldrain",
+    "product": "Pixeldrain",
+    "category": "storage",
+    "tags": [
+      "file-hosting",
+      "anonymous",
+      "api"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free uploads, no account required",
+    "what_free": [
+      "Anonymous uploads through the web UI or API",
+      "Direct download links, galleries and file lists",
+      "Optional pay-what-you-want supporter perks instead of forced plans"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Optional supporter tiers"
+    },
+    "what_paid": [
+      "Longer retention and faster downloads"
+    ],
+    "best_for": "Fast anonymous file dumps with clean direct links.",
+    "watch_out": [
+      "Files expire after inactivity (~30 days); retention rules can change"
+    ],
+    "official_url": "https://pixeldrain.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "file-io",
+    "provider": "file.io",
+    "product": "file.io",
+    "category": "storage",
+    "tags": [
+      "file-hosting",
+      "curl",
+      "ephemeral"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free, no account (~3-day retention)",
+    "what_free": [
+      "Upload a file via curl or the web UI, get a shareable link",
+      "Free tier: links self-destruct after 1 download (2 weeks)",
+      "Simple REST API — no account needed"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Paid plans add more downloads/retention"
+    },
+    "what_paid": [],
+    "best_for": "One-download ephemeral file sharing from the terminal.",
+    "watch_out": [
+      "Free links expire after one download",
+      "Not for confidential data without your own encryption"
+    ],
+    "official_url": "https://file.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "tmpfiles-org",
+    "provider": "TmpFiles",
+    "product": "tmpfiles.org",
+    "category": "storage",
+    "tags": [
+      "file-hosting",
+      "api",
+      "ephemeral"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free API (~60-minute retention)",
+    "what_free": [
+      "Upload via web or simple curl API without an account",
+      "Files auto-delete after ~60 minutes",
+      "API response includes a direct link and delete URL"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Tossing logs or scratch files to a teammate for under an hour.",
+    "watch_out": [
+      "Nothing persists - never use it for anything important"
+    ],
+    "official_url": "https://tmpfiles.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "filemail",
+    "provider": "Filemail",
+    "product": "Filemail",
+    "category": "storage",
+    "tags": [
+      "file-transfer",
+      "large-files",
+      "freemium"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free transfers (size/expiry caps)",
+    "what_free": [
+      "Send large files via web, desktop or mobile without paying",
+      "Recipient download links with expiry",
+      "Desktop app and Outlook add-in available"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Subscriptions by transfer size/retention"
+    },
+    "what_paid": [
+      "Bigger per-transfer caps, longer storage, tracking and branding"
+    ],
+    "best_for": "Occasional email-busting transfers of very large files.",
+    "watch_out": [
+      "Free transfers carry size, download and expiry caps that change over time"
+    ],
+    "official_url": "https://www.filemail.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "internxt",
+    "provider": "Internxt",
+    "product": "Internxt Drive",
+    "category": "storage",
+    "tags": [
+      "cloud-storage",
+      "encryption",
+      "privacy"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan: ~10 GB",
+    "what_free": [
+      "~10 GB client-side encrypted storage on the free plan",
+      "Web, desktop and mobile apps plus encrypted sharing links",
+      "Encrypted photo backup and large-file send tools included"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Plans by storage size"
+    },
+    "what_paid": [
+      "Multi-TB plans and family bundles"
+    ],
+    "best_for": "Privacy-focused encrypted storage with a real free tier.",
+    "watch_out": [
+      "Free-tier GB amounts have changed over time - verify current limit"
+    ],
+    "official_url": "https://internxt.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "koofr",
+    "provider": "Koofr",
+    "product": "Koofr",
+    "category": "storage",
+    "tags": [
+      "cloud-storage",
+      "eu-hosted",
+      "multi-cloud"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan: ~10 GB",
+    "what_free": [
+      "~10 GB free forever on signup (EU-hosted)",
+      "Connect Google Drive, Dropbox, OneDrive and others in one file manager",
+      "WebDAV/SFTP mounting and mobile apps"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Plans from ~100 GB up to 20 TB"
+    },
+    "what_paid": [
+      "More storage and advanced features"
+    ],
+    "best_for": "One interface over several cloud drives plus EU-hosted space.",
+    "watch_out": [
+      "Some advanced features sit behind paid plans"
+    ],
+    "official_url": "https://koofr.eu",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "seafile",
+    "provider": "Seafile",
+    "product": "Seafile",
+    "category": "storage",
+    "tags": [
+      "file-sync",
+      "self-hosted",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Community Edition: free self-hosted",
+    "what_free": [
+      "Open-source file sync/share server with desktop and mobile clients",
+      "Library-based organization with fast delta sync and file versioning",
+      "Community Edition free forever; Pro edition has a trial"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro/Enterprise editions"
+    },
+    "what_paid": [
+      "Full-text search, AD/LDAP, auditing and support"
+    ],
+    "best_for": "A private Dropbox-style sync server with fast delta sync.",
+    "watch_out": [
+      "Community edition lacks some Pro features (e.g., full-text search)"
+    ],
+    "official_url": "https://www.seafile.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "owncloud",
+    "provider": "ownCloud (Kiteworks)",
+    "product": "ownCloud",
+    "category": "storage",
+    "tags": [
+      "file-sync",
+      "self-hosted",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Server software free (open source)",
+    "what_free": [
+      "Self-hosted file sync/share: classic PHP server or Go-based Infinite Scale",
+      "Open-source desktop/mobile clients with WebDAV APIs",
+      "Community support and app ecosystem"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Enterprise subscriptions"
+    },
+    "what_paid": [
+      "Enterprise support, compliance and scale features"
+    ],
+    "best_for": "Classic self-hosted team file sharing you fully control.",
+    "watch_out": [
+      "Acquired by Kiteworks (2023) - roadmap direction worth watching"
+    ],
+    "official_url": "https://owncloud.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "immich",
+    "provider": "Immich",
+    "product": "Immich",
+    "category": "storage",
+    "tags": [
+      "photo-backup",
+      "self-hosted",
+      "open-source",
+      "ml"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source, self-hosted)",
+    "what_free": [
+      "Self-hosted Google Photos alternative with automatic mobile backup",
+      "Fast timeline, albums, sharing, face recognition and semantic search",
+      "Active open-source project with frequent releases; no user limits"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Getting your photo library off cloud services onto your own server.",
+    "watch_out": [
+      "You own backups and storage sizing; ML indexing uses RAM/CPU"
+    ],
+    "official_url": "https://immich.app",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "photoprism",
+    "provider": "PhotoPrism",
+    "product": "PhotoPrism",
+    "category": "storage",
+    "tags": [
+      "photo-management",
+      "self-hosted",
+      "open-source",
+      "ai-tagging"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Community Edition: free self-hosted",
+    "what_free": [
+      "AI-assisted organization: auto-tagging, object/scene detection, semantic search",
+      "Runs in Docker on NAS or desktop; web UI plus PWA",
+      "Maps, albums, faces and RAW conversion support"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "PhotoPrism+ supporter editions"
+    },
+    "what_paid": [
+      "Member editions with extra conveniences and content"
+    ],
+    "best_for": "Organizing big mixed photo/RAW collections locally with semantic search.",
+    "watch_out": [
+      "Memory-hungry on large libraries; some extras reserved for supporters"
+    ],
+    "official_url": "https://photoprism.app",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "wasabi",
+    "provider": "Wasabi",
+    "product": "Wasabi Hot Cloud Storage",
+    "category": "storage",
+    "tags": [
+      "object-storage",
+      "s3-compatible",
+      "backup-target"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": false,
+    "free_tier_name": "No free tier (~1 TB, 30-day trial)",
+    "what_free": [
+      "No permanent free tier",
+      "New accounts can try ~1 TB free for 30 days (no credit card)",
+      "Trial works with any S3-compatible tool or backup software"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Flat per TB/month (~$7), no egress fees"
+    },
+    "what_paid": [
+      "Single-tier hot storage billed per TB-month with free egress and API requests"
+    ],
+    "best_for": "Cheap S3-compatible backup targets without egress charges.",
+    "watch_out": [
+      "Minimum storage duration applies per object",
+      "No permanent free plan"
+    ],
+    "official_url": "https://wasabi.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "rsync",
+    "provider": "rsync",
+    "product": "rsync",
+    "category": "storage",
+    "tags": [
+      "backup",
+      "sync",
+      "cli",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Delta-transfer file synchronization over SSH - only changed blocks move",
+      "Preserves permissions/timestamps; exclude rules, dry-run and compression",
+      "Fully scriptable for scheduled incremental backups"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Scripted incremental backups and one-way sync to any SSH host.",
+    "watch_out": [
+      "One-way sync by default; --delete and permissions need care"
+    ],
+    "official_url": "https://rsync.samba.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "idrive",
+    "provider": "IDrive",
+    "product": "IDrive",
+    "category": "storage",
+    "tags": [
+      "backup",
+      "cloud-storage",
+      "multi-device"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Basic free plan: ~10 GB",
+    "what_free": [
+      "~10 GB backup storage free, no credit card required",
+      "Back up multiple PCs, Macs and phones into one account",
+      "File versioning (up to ~30 previous versions) and mobile apps"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Personal/team plans by TB"
+    },
+    "what_paid": [
+      "Multi-TB backup, sync folder and hybrid backup features"
+    ],
+    "best_for": "Backing up several devices into one cheap account.",
+    "watch_out": [
+      "Free quota is small; pricing and promos change often"
+    ],
+    "official_url": "https://www.idrive.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "sync-com",
+    "provider": "Sync.com",
+    "product": "Sync",
+    "category": "storage",
+    "tags": [
+      "cloud-storage",
+      "encryption",
+      "privacy"
+    ],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan: ~5 GB",
+    "what_free": [
+      "~5 GB zero-knowledge encrypted storage",
+      "End-to-end encrypted sharing links",
+      "Web, desktop and mobile apps"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Solo/Teams plans by storage"
+    },
+    "what_paid": [
+      "More storage, longer version history and sharing controls"
+    ],
+    "best_for": "Encrypted cloud storage for privacy-conscious backups.",
+    "watch_out": [
+      "Sync speeds can lag mainstream rivals; small free quota"
+    ],
+    "official_url": "https://sync.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "seaweedfs",
+    "provider": "SeaweedFS (community)",
+    "product": "SeaweedFS",
+    "category": "storage",
+    "tags": [
+      "object-storage",
+      "s3-compatible",
+      "self-hosted",
+      "open-source"
+    ],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache-2.0)",
+    "what_free": [
+      "Distributed file system optimized for billions of small files",
+      "S3-compatible API gateway plus Filer with POSIX-style mounting",
+      "Fast O(1) lookups; self-host unlimited under Apache-2.0"
+    ],
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "None"
+    },
+    "what_paid": [],
+    "best_for": "Self-hosting S3-style storage tuned for many small objects.",
+    "watch_out": [
+      "You operate the cluster - replication and erasure-coding setup is on you"
+    ],
+    "official_url": "https://github.com/seaweedfs/seaweedfs",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  }
+]
