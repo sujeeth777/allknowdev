@@ -4,7 +4,12 @@
     "provider": "Microsoft",
     "product": "Microsoft OneNote",
     "category": "productivity",
-    "tags": ["notes", "notebook", "ink", "collaboration"],
+    "tags": [
+      "notes",
+      "notebook",
+      "ink",
+      "collaboration"
+    ],
     "oss": false,
     "student": true,
     "featured": false,
@@ -16,7 +21,12 @@
       "Ink/drawing, audio recording, and OCR search in images",
       "Real-time shared notebooks for collaboration"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Microsoft 365 plans add more OneDrive storage and desktop Office apps" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Microsoft 365 plans add more OneDrive storage and desktop Office apps"
+    },
     "what_paid": [
       "Microsoft 365 raises storage beyond the free 5 GB OneDrive quota",
       "Education and work subscriptions bundle OneNote with Office desktop apps"
@@ -35,7 +45,12 @@
     "provider": "Google",
     "product": "Google Keep",
     "category": "productivity",
-    "tags": ["notes", "lists", "reminders", "free"],
+    "tags": [
+      "notes",
+      "lists",
+      "reminders",
+      "free"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -66,7 +81,12 @@
     "provider": "Microsoft",
     "product": "Microsoft To Do",
     "category": "productivity",
-    "tags": ["tasks", "todo", "reminders", "free"],
+    "tags": [
+      "tasks",
+      "todo",
+      "reminders",
+      "free"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -97,7 +117,12 @@
     "provider": "Xournal++ Team",
     "product": "Xournal++",
     "category": "productivity",
-    "tags": ["handwriting", "pdf-annotation", "open-source", "stylus"],
+    "tags": [
+      "handwriting",
+      "pdf-annotation",
+      "open-source",
+      "stylus"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -127,7 +152,12 @@
     "provider": "Super Productivity",
     "product": "Super Productivity",
     "category": "productivity",
-    "tags": ["todo", "time-tracking", "pomodoro", "open-source"],
+    "tags": [
+      "todo",
+      "time-tracking",
+      "pomodoro",
+      "open-source"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -157,7 +187,12 @@
     "provider": "Grammarly",
     "product": "Grammarly",
     "category": "productivity",
-    "tags": ["writing", "grammar", "freemium", "browser-extension"],
+    "tags": [
+      "writing",
+      "grammar",
+      "freemium",
+      "browser-extension"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -169,7 +204,12 @@
       "Basic tone detection",
       "A limited monthly allowance of generative AI rewriting"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro adds full rewriting, plagiarism detection, and style controls" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro adds full rewriting, plagiarism detection, and style controls"
+    },
     "what_paid": [
       "Full sentence rewrites and clarity improvements",
       "Plagiarism checker and citation tools",
@@ -189,7 +229,12 @@
     "provider": "LanguageTool",
     "product": "LanguageTool",
     "category": "productivity",
-    "tags": ["grammar", "writing", "open-source", "self-hosted"],
+    "tags": [
+      "grammar",
+      "writing",
+      "open-source",
+      "self-hosted"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -201,7 +246,12 @@
       "Basic corrections free in the editor and add-ons",
       "Self-host the open-source core with no character limits"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Premium subscription adds advanced style, tone, and longer checks" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Premium subscription adds advanced style, tone, and longer checks"
+    },
     "what_paid": [
       "Advanced style, tone, and consistency detection",
       "Longer text limits and team/API features"
@@ -220,7 +270,12 @@
     "provider": "Hemingway App",
     "product": "Hemingway Editor",
     "category": "productivity",
-    "tags": ["writing", "readability", "web", "editing"],
+    "tags": [
+      "writing",
+      "readability",
+      "web",
+      "editing"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -231,7 +286,12 @@
       "Readability grade score per document",
       "No account required to use the web version"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Editor Plus subscription adds AI rewriting; desktop app is a paid one-time purchase" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Editor Plus subscription adds AI rewriting; desktop app is a paid one-time purchase"
+    },
     "what_paid": [
       "AI-powered rewrite suggestions in different modes",
       "Desktop app with document saving"
@@ -250,7 +310,12 @@
     "provider": "StackEdit",
     "product": "StackEdit",
     "category": "productivity",
-    "tags": ["markdown", "editor", "open-source", "browser"],
+    "tags": [
+      "markdown",
+      "editor",
+      "open-source",
+      "browser"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -280,7 +345,12 @@
     "provider": "Dillinger",
     "product": "Dillinger",
     "category": "productivity",
-    "tags": ["markdown", "editor", "open-source", "browser"],
+    "tags": [
+      "markdown",
+      "editor",
+      "open-source",
+      "browser"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -310,7 +380,12 @@
     "provider": "HackMD",
     "product": "HackMD",
     "category": "productivity",
-    "tags": ["markdown", "collaboration", "freemium", "notes"],
+    "tags": [
+      "markdown",
+      "collaboration",
+      "freemium",
+      "notes"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -322,7 +397,12 @@
       "Free plan for personal notes and link sharing",
       "Version history and per-note permissions on paid tiers"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Team plans add workspaces, permissions, and admin controls" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Team plans add workspaces, permissions, and admin controls"
+    },
     "what_paid": [
       "Team workspaces with role-based permissions",
       "Higher limits and organization features"
@@ -341,7 +421,12 @@
     "provider": "HedgeDoc",
     "product": "HedgeDoc",
     "category": "productivity",
-    "tags": ["markdown", "collaboration", "open-source", "self-hosted"],
+    "tags": [
+      "markdown",
+      "collaboration",
+      "open-source",
+      "self-hosted"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -371,7 +456,12 @@
     "provider": "MarkText",
     "product": "MarkText",
     "category": "productivity",
-    "tags": ["markdown", "editor", "open-source", "desktop"],
+    "tags": [
+      "markdown",
+      "editor",
+      "open-source",
+      "desktop"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -401,7 +491,11 @@
     "provider": "Toggl",
     "product": "Toggl Track",
     "category": "productivity",
-    "tags": ["time-tracking", "reports", "freemium"],
+    "tags": [
+      "time-tracking",
+      "reports",
+      "freemium"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -413,7 +507,12 @@
       "Pomodoro timer, idle detection, and tracking reminders",
       "Desktop, mobile, and browser-extension clients"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Starter/Premium/Enterprise tiers add billable rates, scheduling, and deeper reports" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Starter/Premium/Enterprise tiers add billable rates, scheduling, and deeper reports"
+    },
     "what_paid": [
       "Billable rates and time audits",
       "Team scheduling and capacity tools",
@@ -433,7 +532,11 @@
     "provider": "CAKE.com",
     "product": "Clockify",
     "category": "productivity",
-    "tags": ["time-tracking", "timesheet", "freemium"],
+    "tags": [
+      "time-tracking",
+      "timesheet",
+      "freemium"
+    ],
     "oss": false,
     "student": false,
     "featured": true,
@@ -445,7 +548,12 @@
       "Detailed reports with CSV/PDF export",
       "Browser extensions and desktop/mobile apps"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid tiers add invoicing, scheduling, time-off, and expenses" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Paid tiers add invoicing, scheduling, time-off, and expenses"
+    },
     "what_paid": [
       "Invoicing, expense tracking, and time-off management",
       "Team scheduling and advanced reports"
@@ -464,7 +572,12 @@
     "provider": "WakaTime",
     "product": "WakaTime",
     "category": "productivity",
-    "tags": ["time-tracking", "coding", "ide-plugin", "freemium"],
+    "tags": [
+      "time-tracking",
+      "coding",
+      "ide-plugin",
+      "freemium"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -476,7 +589,12 @@
       "Optional public profiles and leaderboards",
       "Plugins for VS Code, JetBrains, Vim, Emacs, and more"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Premium adds unlimited historical reports, goals, and alerts" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Premium adds unlimited historical reports, goals, and alerts"
+    },
     "what_paid": [
       "Full historical reports beyond the free window",
       "Goals, budgets, and alerts",
@@ -496,7 +614,11 @@
     "provider": "RescueTime",
     "product": "RescueTime",
     "category": "productivity",
-    "tags": ["time-tracking", "focus", "automatic"],
+    "tags": [
+      "time-tracking",
+      "focus",
+      "automatic"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -508,7 +630,12 @@
       "Desktop and mobile apps",
       "Daily highlights of your activities"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Premium adds detailed reports, focus sessions, and alerts" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Premium adds detailed reports, focus sessions, and alerts"
+    },
     "what_paid": [
       "Detailed time breakdowns and trends",
       "Distraction blocking and focus sessions"
@@ -527,7 +654,12 @@
     "provider": "Kimai",
     "product": "Kimai",
     "category": "productivity",
-    "tags": ["time-tracking", "open-source", "self-hosted", "timesheet"],
+    "tags": [
+      "time-tracking",
+      "open-source",
+      "self-hosted",
+      "timesheet"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -539,7 +671,12 @@
       "Roles, teams, and customizable export templates",
       "Runs on PHP/MySQL or via Docker"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Commercial plugins and Kimai Cloud hosting are paid" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Commercial plugins and Kimai Cloud hosting are paid"
+    },
     "what_paid": [
       "Commercial-grade plugins and integrations",
       "Managed Kimai Cloud hosting"
@@ -558,7 +695,12 @@
     "provider": "ActivityWatch",
     "product": "ActivityWatch",
     "category": "productivity",
-    "tags": ["time-tracking", "open-source", "local-first", "privacy"],
+    "tags": [
+      "time-tracking",
+      "open-source",
+      "local-first",
+      "privacy"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -588,7 +730,12 @@
     "provider": "tldraw",
     "product": "tldraw",
     "category": "productivity",
-    "tags": ["whiteboard", "canvas", "diagram", "sdk"],
+    "tags": [
+      "whiteboard",
+      "canvas",
+      "diagram",
+      "sdk"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -600,7 +747,12 @@
       "Source-available SDK for embedding canvas features in apps",
       "Runs fully in the browser"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "SDK production use requires a commercial license; free apps show a watermark" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "SDK production use requires a commercial license; free apps show a watermark"
+    },
     "what_paid": [
       "Watermark-free production use of the SDK",
       "Commercial support and licensing"
@@ -619,7 +771,12 @@
     "provider": "Pomofocus",
     "product": "Pomofocus",
     "category": "productivity",
-    "tags": ["pomodoro", "timer", "web", "free"],
+    "tags": [
+      "pomodoro",
+      "timer",
+      "web",
+      "free"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -649,7 +806,11 @@
     "provider": "Xmind",
     "product": "Xmind",
     "category": "productivity",
-    "tags": ["mind-mapping", "freemium", "cross-platform"],
+    "tags": [
+      "mind-mapping",
+      "freemium",
+      "cross-platform"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -661,7 +822,12 @@
       "Cross-platform apps for Windows, macOS, Linux, iOS, and Android",
       "Free exports carry an XMind watermark"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro subscription unlocks premium themes, tools, and clean exports" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Pro subscription unlocks premium themes, tools, and clean exports"
+    },
     "what_paid": [
       "All themes, structures, and pro tools",
       "Watermark-free exports and cloud sync"
@@ -680,7 +846,12 @@
     "provider": "wallabag",
     "product": "wallabag",
     "category": "productivity",
-    "tags": ["read-it-later", "open-source", "self-hosted", "articles"],
+    "tags": [
+      "read-it-later",
+      "open-source",
+      "self-hosted",
+      "articles"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -692,7 +863,12 @@
       "Clean reader view, annotations, and full-text search",
       "Free Android and iOS apps plus browser extensions"
     ],
-    "paid_from": { "amount": null, "currency": "EUR", "period": "month", "plan": "wallabag.it hosted accounts are paid" },
+    "paid_from": {
+      "amount": null,
+      "currency": "EUR",
+      "period": "month",
+      "plan": "wallabag.it hosted accounts are paid"
+    },
     "what_paid": [
       "Hosted wallabag.it accounts with no server upkeep"
     ],
@@ -710,7 +886,12 @@
     "provider": "linkding",
     "product": "linkding",
     "category": "productivity",
-    "tags": ["bookmarks", "open-source", "self-hosted", "minimal"],
+    "tags": [
+      "bookmarks",
+      "open-source",
+      "self-hosted",
+      "minimal"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -740,7 +921,12 @@
     "provider": "Linkwarden",
     "product": "Linkwarden",
     "category": "productivity",
-    "tags": ["bookmarks", "open-source", "self-hosted", "archiving"],
+    "tags": [
+      "bookmarks",
+      "open-source",
+      "self-hosted",
+      "archiving"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -752,7 +938,12 @@
       "Stores screenshots and single-file page archives",
       "Browser extension for quick saving"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Official cloud hosting is subscription-based" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Official cloud hosting is subscription-based"
+    },
     "what_paid": [
       "Managed linkwarden.app cloud hosting",
       "No server maintenance for non-technical users"
@@ -771,7 +962,12 @@
     "provider": "Slidev",
     "product": "Slidev",
     "category": "productivity",
-    "tags": ["presentations", "markdown", "open-source", "developers"],
+    "tags": [
+      "presentations",
+      "markdown",
+      "open-source",
+      "developers"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -801,7 +997,11 @@
     "provider": "reveal.js",
     "product": "reveal.js",
     "category": "productivity",
-    "tags": ["presentations", "html", "open-source"],
+    "tags": [
+      "presentations",
+      "html",
+      "open-source"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -831,7 +1031,12 @@
     "provider": "Marp",
     "product": "Marp",
     "category": "productivity",
-    "tags": ["presentations", "markdown", "open-source", "vscode"],
+    "tags": [
+      "presentations",
+      "markdown",
+      "open-source",
+      "vscode"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -861,7 +1066,12 @@
     "provider": "BookStack",
     "product": "BookStack",
     "category": "productivity",
-    "tags": ["wiki", "open-source", "self-hosted", "documentation"],
+    "tags": [
+      "wiki",
+      "open-source",
+      "self-hosted",
+      "documentation"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -891,7 +1101,12 @@
     "provider": "Requarks",
     "product": "Wiki.js",
     "category": "productivity",
-    "tags": ["wiki", "open-source", "self-hosted", "git"],
+    "tags": [
+      "wiki",
+      "open-source",
+      "self-hosted",
+      "git"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -921,7 +1136,12 @@
     "provider": "Outline",
     "product": "Outline",
     "category": "productivity",
-    "tags": ["wiki", "docs", "freemium", "team"],
+    "tags": [
+      "wiki",
+      "docs",
+      "freemium",
+      "team"
+    ],
     "oss": false,
     "student": false,
     "featured": false,
@@ -933,7 +1153,12 @@
       "Slack and Google Workspace integrations",
       "Source-available code that can be self-hosted"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid hosted plans raise limits and add SSO and admin controls" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Paid hosted plans raise limits and add SSO and admin controls"
+    },
     "what_paid": [
       "Unlimited documents and members on paid hosted plans",
       "SSO and advanced admin features"
@@ -952,7 +1177,12 @@
     "provider": "DokuWiki",
     "product": "DokuWiki",
     "category": "productivity",
-    "tags": ["wiki", "open-source", "self-hosted", "file-based"],
+    "tags": [
+      "wiki",
+      "open-source",
+      "self-hosted",
+      "file-based"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -982,7 +1212,12 @@
     "provider": "Wikimedia",
     "product": "MediaWiki",
     "category": "productivity",
-    "tags": ["wiki", "open-source", "encyclopedia", "self-hosted"],
+    "tags": [
+      "wiki",
+      "open-source",
+      "encyclopedia",
+      "self-hosted"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -1012,7 +1247,12 @@
     "provider": "Mattermost",
     "product": "Focalboard",
     "category": "productivity",
-    "tags": ["kanban", "project-management", "open-source", "mattermost"],
+    "tags": [
+      "kanban",
+      "project-management",
+      "open-source",
+      "mattermost"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -1024,17 +1264,22 @@
       "Free standalone personal server and desktop app",
       "Card checklists and comments"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Mattermost paid editions bundle Boards with enterprise collaboration features" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Mattermost paid editions bundle Boards with enterprise collaboration features"
+    },
     "what_paid": [
       "Enterprise Mattermost features around Boards",
       "Hosted Mattermost deployments"
     ],
     "best_for": "Open-source Trello-style boards tied into Mattermost.",
     "watch_out": [
-      "Standalone Focalboard development has wound down in favor of Mattermost Boards",
-      "No cloud sync for the personal edition"
+      "Standalone version deprecated — now maintained inside Mattermost",
+      "Site focalboard.com is down; use the GitHub releases"
     ],
-    "official_url": "https://www.focalboard.com",
+    "official_url": "https://github.com/mattermost/focalboard",
     "last_verified": "2026-11-22",
     "confidence": "reported"
   },
@@ -1043,7 +1288,11 @@
     "provider": "Wekan",
     "product": "Wekan",
     "category": "productivity",
-    "tags": ["kanban", "open-source", "self-hosted"],
+    "tags": [
+      "kanban",
+      "open-source",
+      "self-hosted"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -1073,7 +1322,12 @@
     "provider": "Kanboard",
     "product": "Kanboard",
     "category": "productivity",
-    "tags": ["kanban", "open-source", "self-hosted", "minimal"],
+    "tags": [
+      "kanban",
+      "open-source",
+      "self-hosted",
+      "minimal"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -1103,7 +1357,12 @@
     "provider": "Taiga",
     "product": "Taiga",
     "category": "productivity",
-    "tags": ["agile", "scrum", "kanban", "open-source"],
+    "tags": [
+      "agile",
+      "scrum",
+      "kanban",
+      "open-source"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -1115,7 +1374,12 @@
       "Free hosted plan for public open-source projects",
       "Time-limited hosted trial for private projects"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid hosted plans per user for private projects" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Paid hosted plans per user for private projects"
+    },
     "what_paid": [
       "Hosted private projects without self-hosting",
       "Support and hosted storage"
@@ -1134,7 +1398,12 @@
     "provider": "OpenProject",
     "product": "OpenProject",
     "category": "productivity",
-    "tags": ["project-management", "gantt", "open-source", "self-hosted"],
+    "tags": [
+      "project-management",
+      "gantt",
+      "open-source",
+      "self-hosted"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -1146,7 +1415,12 @@
       "Unlimited projects and users when self-hosted",
       "Docker images and packaged installs available"
     ],
-    "paid_from": { "amount": null, "currency": "EUR", "period": "month", "plan": "Official cloud hosting and Enterprise on-premises editions are paid" },
+    "paid_from": {
+      "amount": null,
+      "currency": "EUR",
+      "period": "month",
+      "plan": "Official cloud hosting and Enterprise on-premises editions are paid"
+    },
     "what_paid": [
       "Enterprise add-ons such as SSO and advanced controls",
       "Managed cloud hosting with support"
@@ -1165,7 +1439,12 @@
     "provider": "Redmine",
     "product": "Redmine",
     "category": "productivity",
-    "tags": ["issue-tracking", "project-management", "open-source", "self-hosted"],
+    "tags": [
+      "issue-tracking",
+      "project-management",
+      "open-source",
+      "self-hosted"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -1195,7 +1474,12 @@
     "provider": "Plane",
     "product": "Plane",
     "category": "productivity",
-    "tags": ["issue-tracking", "project-management", "open-source", "freemium"],
+    "tags": [
+      "issue-tracking",
+      "project-management",
+      "open-source",
+      "freemium"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -1207,7 +1491,12 @@
       "Hosted free plan for small teams with usage limits",
       "GitHub integration and API"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid cloud plans add higher limits, admins, and support" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Paid cloud plans add higher limits, admins, and support"
+    },
     "what_paid": [
       "Higher hosted limits and admin controls",
       "Support and priority features"
@@ -1226,7 +1515,12 @@
     "provider": "Nabu Casa / Open Home Foundation",
     "product": "Home Assistant",
     "category": "productivity",
-    "tags": ["smart-home", "open-source", "automation", "self-hosted"],
+    "tags": [
+      "smart-home",
+      "open-source",
+      "automation",
+      "self-hosted"
+    ],
     "oss": true,
     "student": false,
     "featured": true,
@@ -1238,7 +1532,12 @@
       "Automations, dashboards, and voice processing run locally",
       "All core features free forever - no subscription"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Optional Nabu Casa cloud subscription supports development and adds remote access" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Optional Nabu Casa cloud subscription supports development and adds remote access"
+    },
     "what_paid": [
       "Nabu Casa remote access and cloud voice",
       "Funds open-source development"
@@ -1257,7 +1556,12 @@
     "provider": "OpenJS Foundation",
     "product": "Node-RED",
     "category": "productivity",
-    "tags": ["automation", "iot", "open-source", "flows"],
+    "tags": [
+      "automation",
+      "iot",
+      "open-source",
+      "flows"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -1287,7 +1591,12 @@
     "provider": "ntfy",
     "product": "ntfy",
     "category": "productivity",
-    "tags": ["notifications", "push", "open-source", "self-hosted"],
+    "tags": [
+      "notifications",
+      "push",
+      "open-source",
+      "self-hosted"
+    ],
     "oss": true,
     "student": false,
     "featured": true,
@@ -1299,7 +1608,12 @@
       "Self-host the open-source server free for unlimited topics and messages",
       "No sign-up needed to publish to public topics"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "ntfy.sh paid plans raise rate limits and retention" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "ntfy.sh paid plans raise rate limits and retention"
+    },
     "what_paid": [
       "Higher rate limits and longer message retention",
       "More attachment storage and access controls on the hosted service"
@@ -1318,7 +1632,12 @@
     "provider": "Ghost Foundation",
     "product": "Ghost",
     "category": "productivity",
-    "tags": ["publishing", "blog", "newsletter", "open-source"],
+    "tags": [
+      "publishing",
+      "blog",
+      "newsletter",
+      "open-source"
+    ],
     "oss": true,
     "student": false,
     "featured": false,
@@ -1330,7 +1649,12 @@
       "Clean editor with cards for galleries, code, and embeds",
       "SEO settings and theme customization included"
     ],
-    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Ghost(Pro) managed hosting is subscription-priced" },
+    "paid_from": {
+      "amount": null,
+      "currency": "USD",
+      "period": "month",
+      "plan": "Ghost(Pro) managed hosting is subscription-priced"
+    },
     "what_paid": [
       "Managed Ghost(Pro) hosting with updates and support"
     ],

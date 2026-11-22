@@ -4,12 +4,12 @@
 
 ### 🌍 Every free tool on the internet, mapped.
 
-**400+ services · 16 categories · 41 currencies · your country's rules**
+**1,000+ services · 16 categories · 41 currencies · your country's rules**
 
 [![Live site](https://img.shields.io/badge/Live_site-allknowdev.vercel.app-5B4DFF?style=flat-square&labelColor=201943)](https://allknowdev.vercel.app/)
 [![License](https://img.shields.io/github/license/sujeeth777/allknowdev?style=flat-square&labelColor=201943)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-3E7BFA?style=flat-square&labelColor=201943)](CONTRIBUTING.md)
-[![Data](https://img.shields.io/badge/Data-400%2B%20services%20in%20JSON-0FB5A0?style=flat-square&labelColor=201943)](data/)
+[![Data](https://img.shields.io/badge/Data-1%2C000%2B%20services%20in%20JSON-0FB5A0?style=flat-square&labelColor=201943)](data/)
 [![No deps](https://img.shields.io/badge/Dependencies-zero-F0447C?style=flat-square&labelColor=201943)](#)
 
 **No ads · No affiliate links · No tracking · MIT licensed**
@@ -26,7 +26,7 @@ Built for students, self-taught devs and creators who want to **build first and 
 
 | | |
 |---|---|
-| 🔍 **[The atlas](https://allknowdev.vercel.app/directory.html)** | 400+ real services across 16 colour-coded categories — instant search, tier filters, open-source and student filters, `/` to search |
+| 🔍 **[The atlas](https://allknowdev.vercel.app/directory.html)** | 1,000+ real services across 16 colour-coded categories — instant search, tier filters, open-source and student filters, `/` to search |
 | 🤖 **[AI Hub](https://allknowdev.vercel.app/ai.html)** | Every AI mapped by field: chat, image, video, audio, coding tools and the model APIs behind them |
 | 💸 **Free vs paid, side by side** | Every entry shows what $0 includes and what "from $X/mo" actually buys |
 | 🌐 **[World page](https://allknowdev.vercel.app/world.html)** | Pick your country → prices in your currency (41 currencies), availability notes, the privacy law that governs your data, payment rails that work where you live |
