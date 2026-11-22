@@ -1,0 +1,132 @@
+{
+  "disclaimer": "Availability, pricing and laws change frequently and vary within regions. This is general orientation, not legal or financial advice — always verify on the official pricing page and with local sources.",
+  "regions": [
+    {
+      "code": "IN", "name": "India", "flag": "🇮🇳", "currency": "INR",
+      "availability": [
+        "Nearly all major AI, cloud and dev services are available; a few launch features later in India.",
+        "Student verification (GitHub Student Pack, education discounts) works with Indian institutions.",
+        "Some international plans add taxes at checkout instead of the listed price."
+      ],
+      "privacy": { "law": "DPDP Act 2023", "note": "India's Digital Personal Data Protection Act is being phased in — if you collect user data, keep collection minimal and disclose it clearly.", "url": "https://www.meity.gov.in/" },
+      "payments": [
+        "UPI rules everyday payments, but most global services bill by card — keep an international-enabled card (Visa/Mastercard) ready.",
+        "Recurring foreign card charges may trigger OTP verification; watch for failed renewals on free trials."
+      ]
+    },
+    {
+      "code": "US", "name": "United States", "flag": "🇺🇸", "currency": "USD",
+      "availability": [
+        "Almost everything launches here first — the widest availability of AI tools and free tiers.",
+        "Listed prices usually exclude sales tax, added at checkout by state."
+      ],
+      "privacy": { "law": "No single federal law (CCPA/CPRA in California + state laws)", "note": "Privacy rights depend on your state — California, Virginia, Colorado and others have their own consumer privacy acts.", "url": "https://oag.ca.gov/privacy/ccpa" },
+      "payments": ["Stripe, PayPal and every major processor work fully — the easiest place to sell from."]
+    },
+    {
+      "code": "GB", "name": "United Kingdom", "flag": "🇬🇧", "currency": "GBP",
+      "availability": ["Full availability of major platforms; UK pricing often shown with VAT included."],
+      "privacy": { "law": "UK GDPR + Data Protection Act 2018", "note": "The UK kept GDPR-style rules after Brexit — registration with the ICO may be required if you process personal data.", "url": "https://ico.org.uk/" },
+      "payments": ["Faster Payments, Stripe and PayPal all work smoothly; VAT (20%) is usually added at checkout."]
+    },
+    {
+      "code": "EU", "name": "European Union", "flag": "🇪🇺", "currency": "EUR",
+      "availability": [
+        "Major services are available, but AI features sometimes arrive later while meeting EU rules.",
+        "Consumer purchases include a 14-day withdrawal right on most digital subscriptions."
+      ],
+      "privacy": { "law": "GDPR", "note": "The strictest privacy regime in the world: if you run a site or service collecting EU users' data, you need a privacy policy, consent for cookies and a lawful basis.", "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj" },
+      "payments": ["SEPA transfers are cheap; cards work everywhere; prices must be shown with VAT for consumers."]
+    },
+    {
+      "code": "DE", "name": "Germany", "flag": "🇩🇪", "currency": "EUR",
+      "availability": ["Everything major is available; Germany has excellent cheap VPS and dedicated-server providers."],
+      "privacy": { "law": "GDPR + BDSG", "note": "Enforcement is notably strict — and German websites legally need an Impressum (legal notice) with your identity and address.", "url": "https://www.gesetze-im-internet.de/tmg/__5.html" },
+      "payments": ["SEPA direct debit is popular; some services accept it where cards fail."]
+    },
+    {
+      "code": "CA", "name": "Canada", "flag": "🇨🇦", "currency": "CAD",
+      "availability": ["Near-full availability of global services; pricing shown in USD more often than CAD."],
+      "privacy": { "law": "PIPEDA (+ Quebec Law 25)", "note": "Federal privacy law covers commercial data handling; Quebec's Law 25 adds stricter consent and privacy-officer requirements.", "url": "https://www.priv.gc.ca/en/privacy-topics/" },
+      "payments": ["GST/HST may be added at checkout; all major processors work."]
+    },
+    {
+      "code": "AU", "name": "Australia", "flag": "🇦🇺", "currency": "AUD",
+      "availability": ["Full availability of major platforms; some US-only offers (like certain cloud regions) differ."],
+      "privacy": { "law": "Privacy Act 1988 (APPs)", "note": "Australian Privacy Principles apply to businesses handling personal data — the small-business exemption covers many hobby projects.", "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles" },
+      "payments": ["GST 10% added for most digital purchases; all major processors work."]
+    },
+    {
+      "code": "BR", "name": "Brazil", "flag": "🇧🇷", "currency": "BRL",
+      "availability": [
+        "Major AI and cloud services are available; Pix-native local alternatives are everywhere.",
+        "Imported hardware (GPUs, mini-PCs) carries high import duties — factor that into self-hosting plans."
+      ],
+      "privacy": { "law": "LGPD", "note": "Brazil's data-protection law mirrors GDPR closely — lawful basis, privacy policy and data-subject rights apply.", "url": "https://www.gov.br/anpd/" },
+      "payments": ["Pix makes local payments instant and free; international card charges can still be declined — installments (parcelado) are common locally."]
+    },
+    {
+      "code": "NG", "name": "Nigeria", "flag": "🇳🇬", "currency": "NGN",
+      "availability": [
+        "Most global services are accessible; the bigger barrier is payment, not availability.",
+        "Card limits and FX restrictions can block USD subscriptions — many devs use virtual dollar cards or Payoneer."
+      ],
+      "privacy": { "law": "Nigeria Data Protection Act (NDPA) 2023", "note": "Applies to controllers processing Nigerian residents' data — registration duties exist for larger processors.", "url": "https://ndpc.gov.ng/" },
+      "payments": ["Paystack and Flutterwave make local charging easy; paying international vendors is the hard direction."]
+    },
+    {
+      "code": "KE", "name": "Kenya", "flag": "🇰🇪", "currency": "KES",
+      "availability": ["Global services are generally accessible; M-Pesa-based local platforms dominate domestic payments."],
+      "privacy": { "law": "Data Protection Act 2019", "note": "Registration with the Office of the Data Protection Commissioner is required for data controllers/processors.", "url": "https://www.odpc.go.ke/" },
+      "payments": ["M-Pesa is king locally; international subscriptions need a card or mobile-linked services."]
+    },
+    {
+      "code": "ZA", "name": "South Africa", "flag": "🇿🇦", "currency": "ZAR",
+      "availability": ["Major services available; load-shedding (scheduled power cuts) matters if you self-host at home — budget a UPS."],
+      "privacy": { "law": "POPIA", "note": "Protection of Personal Information Act applies to anyone processing South African residents' data.", "url": "https://popia.co.za/" },
+      "payments": ["Cards work for most international services; check FX fees on subscriptions."]
+    },
+    {
+      "code": "SG", "name": "Singapore", "flag": "🇸🇬", "currency": "SGD",
+      "availability": ["Excellent availability and connectivity; many cloud providers price Singapore as a premium region — compare region pricing."],
+      "privacy": { "law": "PDPA", "note": "Applies to organisations collecting personal data in Singapore — consent and purpose limitation are core rules.", "url": "https://www.pdpc.gov.sg/" },
+      "payments": ["Everything works; GST (9%) is applied to imported digital services."]
+    },
+    {
+      "code": "ID", "name": "Indonesia", "flag": "🇮🇩", "currency": "IDR",
+      "availability": ["Major platforms are available; USD prices feel large in rupiah — use free tiers aggressively."],
+      "privacy": { "law": "PDP Law 2022", "note": "Indonesia's Personal Data Protection Law is in force with GDPR-style consent requirements.", "url": "https://www.komdigi.go.id/" },
+      "payments": ["GoPay/OVO/DANA dominate locally; international subscriptions need a card or virtual payment methods."]
+    },
+    {
+      "code": "PH", "name": "Philippines", "flag": "🇵🇭", "currency": "PHP",
+      "availability": ["Strong availability — the Philippines is a global freelancing hub, so most tools support it well."],
+      "privacy": { "law": "Data Privacy Act 2012", "note": "NPC registration applies to some data processors; basic consent and notice rules for websites.", "url": "https://www.privacy.gov.ph/" },
+      "payments": ["GCash dominates locally; international subscriptions work with major cards."]
+    },
+    {
+      "code": "PK", "name": "Pakistan", "flag": "🇵🇰", "currency": "PKR",
+      "availability": ["Services are mostly accessible; PayPal is not available — Payoneer and Wise are common workarounds for receiving payments."],
+      "privacy": { "law": "Personal data protection bill (in progress)", "note": "Comprehensive personal-data legislation has been in the works; follow current guidance before launching a data-heavy product.", "url": "https://moitt.gov.pk/" },
+      "payments": ["International card acceptance is limited; Debit cards with international activation are the common path."]
+    },
+    {
+      "code": "BD", "name": "Bangladesh", "flag": "🇧🇩", "currency": "BDT",
+      "availability": ["Major platforms accessible; bKash and local cards (dual-currency endorsement) unlock international payments."],
+      "privacy": { "law": "Draft data protection legislation (in progress)", "note": "A dedicated data-protection law has been drafted; sectoral rules (like ICT Act) currently apply.", "url": "https://ictd.gov.bd/" },
+      "payments": ["Dual-currency cards are required for international subscriptions; freelance payouts usually flow through Payoneer."]
+    },
+    {
+      "code": "AE", "name": "United Arab Emirates", "flag": "🇦🇪", "currency": "AED",
+      "availability": ["Excellent availability; UAE is a regional hub with local cloud regions from major providers."],
+      "privacy": { "law": "Federal PDPL (2021)", "note": "The Personal Data Protection Law regulates processing of UAE residents' data; free zones may have separate regimes (e.g. DIFC).", "url": "https://u.ae/en/information-and-services/legal-affairs" },
+      "payments": ["Cards and local processors work fully; VAT is 5%."]
+    },
+    {
+      "code": "JP", "name": "Japan", "flag": "🇯🇵", "currency": "JPY",
+      "availability": ["Full availability of major platforms; Japanese-localized pricing is common for consumer services."],
+      "privacy": { "law": "APPI", "note": "The Act on the Protection of Personal Information requires purpose specification and handling duties for personal data.", "url": "https://www.ppc.go.jp/en/" },
+      "payments": ["Credit cards, plus convenience-store (konbini) and bank-transfer payment options on local services."]
+    }
+  ]
+}

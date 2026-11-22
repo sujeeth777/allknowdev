@@ -1,0 +1,691 @@
+[
+  {
+    "id": "google-drive",
+    "provider": "Google",
+    "product": "Google Drive",
+    "category": "storage",
+    "tags": ["cloud-storage", "sync", "collaboration"],
+    "oss": false,
+    "student": true,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "~15 GB free",
+    "what_free": [
+      "~15 GB free across Drive, Gmail, and Photos",
+      "Native Docs/Sheets/Slides files do not count against the quota",
+      "Desktop sync client and mobile apps with offline files",
+      "Real-time collaboration on documents in the browser"
+    ],
+    "paid_from": { "amount": 1.99, "currency": "USD", "period": "month", "plan": "Google One Basic (100 GB)" },
+    "what_paid": [
+      "More storage from 100 GB up to 30 TB tiers",
+      "Family sharing and AI/VPN bundles on higher Google One plans"
+    ],
+    "best_for": "The default cloud storage with best-in-class document collaboration.",
+    "watch_out": [
+      "The ~15 GB quota is shared with Gmail and Google Photos",
+      "No end-to-end encryption - Google holds the keys",
+      "School-managed accounts get different (often larger) quotas"
+    ],
+    "official_url": "https://www.google.com/drive/",
+    "pricing_url": "https://one.google.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mega",
+    "provider": "Mega Limited",
+    "product": "MEGA",
+    "category": "storage",
+    "tags": ["cloud-storage", "encryption"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "~20 GB free",
+    "what_free": [
+      "~20 GB free storage at signup (transient bonuses can raise it)",
+      "End-to-end encrypted files, links, and chat",
+      "Cross-platform apps plus browser access",
+      "MEGAcmd CLI and rclone support for scripting"
+    ],
+    "paid_from": { "amount": null, "currency": "EUR", "period": "month", "plan": "Pro I and higher tiers" },
+    "what_paid": [
+      "More storage and larger transfer quotas",
+      "Business plans with user management and teams"
+    ],
+    "best_for": "Encrypted storage with one of the larger mainstream free allowances.",
+    "watch_out": [
+      "Free transfer quota is separate from storage and limited",
+      "Zero-knowledge means account recovery is weak if you lose your password"
+    ],
+    "official_url": "https://mega.io",
+    "pricing_url": "https://mega.io/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "pcloud",
+    "provider": "pCloud AG",
+    "product": "pCloud",
+    "category": "storage",
+    "tags": ["cloud-storage", "sync", "lifetime-plans"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Up to ~10 GB free",
+    "what_free": [
+      "Starts smaller and grows up to ~10 GB via invites and activities",
+      "Built-in media player for streaming music and video",
+      "pCloud Drive mounts storage as a virtual disk on desktop",
+      "Web, desktop, and mobile clients with file sharing"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Annual plans and lifetime one-time plans" },
+    "what_paid": [
+      "More storage, including one-time lifetime plans",
+      "Crypto (client-side encryption) unlocked on paid"
+    ],
+    "best_for": "Media-friendly cloud storage with lifetime pricing options.",
+    "watch_out": [
+      "End-to-end encryption is a paid add-on (Crypto)",
+      "The headline ~10 GB free requires completing tasks to unlock"
+    ],
+    "official_url": "https://www.pcloud.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "icedrive",
+    "provider": "Icedrive",
+    "product": "Icedrive",
+    "category": "storage",
+    "tags": ["cloud-storage", "encryption"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "~10 GB free",
+    "what_free": [
+      "~10 GB free storage",
+      "Modern apps with a virtual drive mount on Windows",
+      "Clean web interface with media streaming",
+      "Client-side encryption on encrypted vault folders"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro tiers and lifetime one-time plans" },
+    "what_paid": [
+      "~1 TB to 10 TB tiers plus lifetime deals",
+      "Larger share and upload limits"
+    ],
+    "best_for": "Polished ~10 GB free storage with a modern app feel.",
+    "watch_out": [
+      "Younger company with a shorter track record than Google or pCloud",
+      "Some advanced sharing features sit behind paid tiers"
+    ],
+    "official_url": "https://icedrive.net",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "terabox",
+    "provider": "Flextech (TeraBox)",
+    "product": "TeraBox",
+    "category": "storage",
+    "tags": ["cloud-storage", "free-storage"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "~1 TB free",
+    "what_free": [
+      "~1 TB free storage - the largest mainstream free allotment",
+      "Automatic phone photo and video backup",
+      "Web, desktop, and mobile clients with share links",
+      "In-app media streaming of stored files"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Premium tiers" },
+    "what_paid": [
+      "Ad-free experience with faster transfers",
+      "Bigger single-file upload limits and premium support"
+    ],
+    "best_for": "Massive free storage for photos and casual backups.",
+    "watch_out": [
+      "Ad-supported; transfers can be slow on free",
+      "Privacy posture and data residency are unclear for sensitive files",
+      "Some features are effectively mobile-app gated"
+    ],
+    "official_url": "https://www.terabox.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "filen",
+    "provider": "Filen",
+    "product": "Filen",
+    "category": "storage",
+    "tags": ["cloud-storage", "encryption"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "~10 GB free",
+    "what_free": [
+      "~10 GB free with zero-knowledge end-to-end encryption",
+      "Desktop, mobile, and web apps with a virtual drive",
+      "Sharing with password and expiry options",
+      "Client code is public on GitHub"
+    ],
+    "paid_from": { "amount": null, "currency": "EUR", "period": "month", "plan": "Paid storage tiers" },
+    "what_paid": [
+      "Higher storage tiers with more bandwidth",
+      "Funds development of the encrypted platform"
+    ],
+    "best_for": "Zero-knowledge encrypted cloud storage with a usable free tier.",
+    "watch_out": [
+      "Younger provider; long-term track record is still building",
+      "Feature set and integrations trail mature incumbents"
+    ],
+    "official_url": "https://filen.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "jottacloud",
+    "provider": "Jotta AS",
+    "product": "Jottacloud",
+    "category": "storage",
+    "tags": ["cloud-storage", "backup", "norway"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "~5 GB free",
+    "what_free": [
+      "~5 GB free storage",
+      "Data stored in Norway under strict GDPR interpretation",
+      "Desktop and mobile apps with automatic photo upload",
+      "Keeps historical versions instead of deleting them"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Home / Unlimited plans" },
+    "what_paid": [
+      "~1 TB and unlimited-capacity plans",
+      "Business plans with user management"
+    ],
+    "best_for": "Privacy-minded storage with Norwegian jurisdiction and version retention.",
+    "watch_out": [
+      "The ~5 GB free tier is modest",
+      "Client polish trails Google Drive or OneDrive"
+    ],
+    "official_url": "https://jottacloud.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "wetransfer",
+    "provider": "WeTransfer B.V.",
+    "product": "WeTransfer",
+    "category": "storage",
+    "tags": ["file-transfer", "sharing"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free transfers up to ~2 GB",
+    "what_free": [
+      "Send files up to ~2 GB per transfer without an account",
+      "Delivery by link or email with drag-and-drop simplicity",
+      "Time-limited download links (days, not months)",
+      "No signup needed on the sending side"
+    ],
+    "paid_from": { "amount": null, "currency": "EUR", "period": "month", "plan": "Pro plan" },
+    "what_paid": [
+      "Much larger transfer sizes (up to ~250 GB on Pro)",
+      "Password protection, branding, and longer link availability"
+    ],
+    "best_for": "No-signup one-off file sends up to ~2 GB.",
+    "watch_out": [
+      "Free links expire quickly and lack password protection",
+      "Ad-supported free experience"
+    ],
+    "official_url": "https://wetransfer.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "swisstransfer",
+    "provider": "Infomaniak",
+    "product": "SwissTransfer",
+    "category": "storage",
+    "tags": ["file-transfer", "sharing", "privacy"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (up to ~50 GB per transfer)",
+    "what_free": [
+      "Send up to ~50 GB per transfer with no account",
+      "Files hosted in Switzerland with GDPR compliance",
+      "Download links stay valid for ~30 days",
+      "Browser-based sending plus mobile apps"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier for the transfer service itself",
+      "Funded by Infomaniak's paid ecosystem (kDrive, Mail, cloud)"
+    ],
+    "best_for": "Huge no-signup file transfers with Swiss privacy hosting.",
+    "watch_out": [
+      "Transfers expire (~30 days) - not for long-term storage",
+      "Transit encryption only; no client-side end-to-end encryption"
+    ],
+    "official_url": "https://www.swisstransfer.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "wormhole",
+    "provider": "Wormhole.app",
+    "product": "Wormhole",
+    "category": "storage",
+    "tags": ["file-transfer", "encryption", "e2e"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (up to ~10 GB per send)",
+    "what_free": [
+      "Send up to ~10 GB per transfer with end-to-end encryption",
+      "Decryption key is kept in the URL fragment - the server cannot read files",
+      "Files auto-delete after ~24 hours",
+      "Runs in the browser with nothing to install"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier for the web app",
+      "The underlying magic-wormhole protocol has free open-source CLI clients"
+    ],
+    "best_for": "Quick encrypted file handoffs that self-destruct within a day.",
+    "watch_out": [
+      "Files vanish after ~24 hours - recipients must download promptly",
+      "Small operation; verify current limits before critical sends"
+    ],
+    "official_url": "https://wormhole.app",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "gofile",
+    "provider": "Gofile",
+    "product": "Gofile",
+    "category": "storage",
+    "tags": ["file-hosting", "sharing"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (ad-supported)",
+    "what_free": [
+      "Upload files of essentially any size for free",
+      "Guest uploads allowed without an account",
+      "Folder trees, download pages, and API access",
+      "Long-term storage is not guaranteed - inactive files may be removed"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Donator / Donator+ tiers" },
+    "what_paid": [
+      "Ad-free uploads and priority handling",
+      "Better retention guarantees for inactive files"
+    ],
+    "best_for": "Fast, no-frills hosting for big public file shares.",
+    "watch_out": [
+      "No client-side encryption - anyone with the link can download",
+      "Permissive hosting culture: never store private or sensitive data",
+      "Inactive files may be purged without warning"
+    ],
+    "official_url": "https://gofile.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "catbox",
+    "provider": "Catbox.moe",
+    "product": "Catbox",
+    "category": "storage",
+    "tags": ["file-hosting", "permanent"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (permanent hosting)",
+    "what_free": [
+      "Permanent file hosting up to ~200 MB per file",
+      "No signup required",
+      "Direct links usable for embedding and hotlinking",
+      "Simple upload-by-browser or API workflow"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - donations keep it running",
+      "No uptime or retention guarantees"
+    ],
+    "best_for": "Permanent hosting of small files with direct links.",
+    "watch_out": [
+      "~200 MB per-file cap",
+      "Donation-run service with no SLA",
+      "No encryption; content is publicly fetchable if the URL leaks"
+    ],
+    "official_url": "https://catbox.moe",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "litterbox",
+    "provider": "Catbox.moe",
+    "product": "Litterbox",
+    "category": "storage",
+    "tags": ["file-hosting", "temporary"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (temporary hosting)",
+    "what_free": [
+      "Temporary uploads up to ~1 GB per file",
+      "Expiry choices of ~1, 12, 24, or 72 hours",
+      "No account needed",
+      "Same minimal interface as Catbox.moe"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Companion to the donation-funded Catbox.moe"
+    ],
+    "best_for": "Short-lived share links for files up to ~1 GB.",
+    "watch_out": [
+      "Files are permanently deleted at expiry - no recovery",
+      "Not for long-term storage; use Catbox for that"
+    ],
+    "official_url": "https://litterbox.catbox.moe",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "filebin",
+    "provider": "Filebin",
+    "product": "Filebin",
+    "category": "storage",
+    "tags": ["file-sharing", "temporary"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (auto-expiring bins)",
+    "what_free": [
+      "Create shared bins in the browser with no account",
+      "Anyone with the bin link can upload or download",
+      "Bins auto-expire after ~6 days (extendable on request)",
+      "Works on mobile browsers without an app"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - donation-supported",
+      "Bins can be extended or kept alive on request"
+    ],
+    "best_for": "Throwaway shared upload bins for quick collaboration.",
+    "watch_out": [
+      "Bins expire automatically (~6 days)",
+      "Anyone with the link can download; no encryption by default"
+    ],
+    "official_url": "https://filebin.net",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "internet-archive",
+    "provider": "Internet Archive (nonprofit)",
+    "product": "Internet Archive",
+    "category": "storage",
+    "tags": ["archival", "preservation", "nonprofit"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (nonprofit)",
+    "what_free": [
+      "Free public uploads: video, audio, books, software, and data",
+      "Wayback Machine access to historical web pages",
+      "Long-term preservation of public cultural material",
+      "Large public-domain media and text collections"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - donation-funded 501(c)(3) nonprofit",
+      "Open content stays free by design"
+    ],
+    "best_for": "Uploading and accessing preserved public media and web history.",
+    "watch_out": [
+      "Uploads are public - never for private or sensitive files",
+      "Content can be removed for legal reasons",
+      "Upload processing can be slow"
+    ],
+    "official_url": "https://archive.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "syncthing",
+    "provider": "Syncthing project",
+    "product": "Syncthing",
+    "category": "storage",
+    "tags": ["sync", "p2p", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Continuous P2P folder sync between your own devices",
+      "No cloud middleman - data transfers device to device over TLS",
+      "Unlimited folders, devices, and data - your hardware sets the limits",
+      "Official apps for desktop and Android; iOS via third-party clients"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - open source (MPL-2.0)",
+      "Community-funded development"
+    ],
+    "best_for": "Private, unlimited device-to-device folder sync without any cloud.",
+    "watch_out": [
+      "No official iOS app; iOS needs third-party clients",
+      "Setup and troubleshooting are more technical than Dropbox"
+    ],
+    "official_url": "https://syncthing.net",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "rclone",
+    "provider": "rclone project",
+    "product": "rclone",
+    "category": "storage",
+    "tags": ["cli", "sync", "backup", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Command-line sync for ~70+ cloud storage providers",
+      "Server-side copy/move, checksums, and incremental transfers",
+      "Mount remotes as local disks (rclone mount)",
+      "Expose remotes via WebDAV/SFTP/HTTP and an encryption (crypt) layer"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - MIT-licensed free software",
+      "Donations and sponsors fund development"
+    ],
+    "best_for": "Powerful scripted transfers and mounts across every major cloud.",
+    "watch_out": [
+      "CLI-first; no polished GUI",
+      "Provider APIs change - keep rclone updated"
+    ],
+    "official_url": "https://rclone.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "duplicati",
+    "provider": "Duplicati project",
+    "product": "Duplicati",
+    "category": "storage",
+    "tags": ["backup", "encryption", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Encrypted, incremental backups to cloud or local targets",
+      "Web-based UI with scheduling and retention pruning",
+      "Targets S3, B2, OneDrive, SSH, and dozens more",
+      "Cross-platform on Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - open source",
+      "Community support only"
+    ],
+    "best_for": "Free encrypted backup client for cloud targets on any desktop OS.",
+    "watch_out": [
+      "Restore reliability has had rough patches - test your restores",
+      "Development pace can be slow"
+    ],
+    "official_url": "https://duplicati.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "restic",
+    "provider": "restic project",
+    "product": "restic",
+    "category": "storage",
+    "tags": ["backup", "encryption", "cli", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Fast, secure, deduplicated backups with snapshots",
+      "Built-in encryption - the backend never sees plaintext",
+      "Backends include local, SFTP, S3, B2, and rest-server",
+      "Single static binary for Linux, macOS, BSD, and Windows"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - open source (BSD-2-Clause)",
+      "Cloud backends like S3 are separate paid services you choose"
+    ],
+    "best_for": "Encrypted, deduplicated server and desktop backups from the CLI.",
+    "watch_out": [
+      "CLI-only; scripts or wrappers needed for scheduling",
+      "Pruning can be memory-hungry on very large repositories"
+    ],
+    "official_url": "https://restic.net",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "borgbackup",
+    "provider": "BorgBackup project",
+    "product": "BorgBackup",
+    "category": "storage",
+    "tags": ["backup", "deduplication", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Deduplicating, compressed, encrypted backups",
+      "Snapshot-based with mountable archives for browsing",
+      "Client-server operation over SSH for remote repos",
+      "Runs on Linux, macOS, and BSD"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - BSD-licensed open source",
+      "Hosting vendors like BorgBase are separate paid services"
+    ],
+    "best_for": "Deduplicated, encrypted backups on Unix systems.",
+    "watch_out": [
+      "No native Windows support",
+      "CLI-centric; pair with a GUI or scheduler for automation"
+    ],
+    "official_url": "https://www.borgbackup.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "kopia",
+    "provider": "Kopia project",
+    "product": "Kopia",
+    "category": "storage",
+    "tags": ["backup", "encryption", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Encrypted, deduplicated backups with compression",
+      "Cross-platform GUI and CLI for Windows, macOS, and Linux",
+      "Targets include cloud (S3, B2, Azure), network shares, and local disks",
+      "Snapshot policies and client-side end-to-end encryption"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - Apache-2.0 open source",
+      "Works with paid cloud targets of your choice"
+    ],
+    "best_for": "Modern encrypted backup with both a GUI and a scriptable CLI.",
+    "watch_out": [
+      "Snapshot policies take trial and error to tune",
+      "Fewer third-party hosting integrations than restic or borg ecosystems"
+    ],
+    "official_url": "https://kopia.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "filebase",
+    "provider": "Filebase",
+    "product": "Filebase",
+    "category": "storage",
+    "tags": ["object-storage", "s3-compatible", "ipfs"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "~5 GB free",
+    "what_free": [
+      "~5 GB free S3-compatible object storage",
+      "Drop-in S3 API endpoint for rclone, restic, and standard tooling",
+      "Geo-redundant storage under the hood",
+      "IPFS pinning support for Web3 workflows"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pay-as-you-go (~USD 5.99/TB/month)" },
+    "what_paid": [
+      "Pay-as-you-go capacity beyond the free ~5 GB",
+      "Team and API features for production workloads"
+    ],
+    "best_for": "A small free S3-compatible bucket for tooling like restic or rclone.",
+    "watch_out": [
+      "~5 GB free is aimed at evaluation, not production",
+      "S3 compatibility gaps can trip edge-case tools"
+    ],
+    "official_url": "https://filebase.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  }
+]

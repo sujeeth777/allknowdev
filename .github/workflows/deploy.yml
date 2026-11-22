@@ -22,15 +22,22 @@ jobs:
           test -f index.html
           test -f assets/css/style.css
           test -f assets/js/main.js
-          test -f assets/js/guide.js
+          test -f assets/js/hero3d.js
           test -f assets/js/directory.js
+          test -f assets/js/tool.js
+          test -f assets/js/guide.js
+          test -f assets/js/ai.js
+          test -f assets/js/world.js
+          test -f assets/js/ask.js
           test -d assets/images
-          test -f pages/directory.html
-          test -f pages/learning.html
-          test -f pages/software-development.html
-          test -f pages/ai-engineering.html
-          test -f pages/cloud-engineering.html
-          test -f pages/cybersecurity.html
+          test -f directory.html
+          test -f ai.html
+          test -f learn.html
+          test -f guide.html
+          test -f tool.html
+          test -f world.html
+          test -f ask.html
+          test -f about.html
           echo "Static site structure is valid."
       - name: Validate directory data
         run: |
@@ -42,13 +49,21 @@ jobs:
           DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
           URL = re.compile(r"^https://")
           CONF = {"official", "reported"}
+          SERVICE_FILES = [
+              "data/ai-ml.json", "data/ai-chat.json", "data/ai-image.json",
+              "data/ai-video.json", "data/ai-audio.json", "data/ai-coding.json",
+              "data/cloud-hosting.json", "data/databases-auth.json",
+              "data/devtools.json", "data/apis-services.json", "data/learning.json",
+              "data/design.json", "data/software.json", "data/productivity.json",
+              "data/security.json", "data/storage.json",
+          ]
+          CATEGORIES = {"ai", "ai-chat", "ai-image", "ai-video", "ai-audio", "ai-coding",
+                        "cloud", "data", "tools", "apis", "learning", "design",
+                        "software", "productivity", "security", "storage"}
           errors = []
           seen_ids = set()
-          files = ["data/ai-ml.json", "data/cloud-hosting.json", "data/databases-auth.json",
-                   "data/devtools.json", "data/apis-services.json", "data/learning.json",
-                   "data/design.json"]
 
-          for path in files:
+          for path in SERVICE_FILES:
               try:
                   entries = json.load(open(path, encoding="utf-8"))
               except Exception as exc:
@@ -65,30 +80,63 @@ jobs:
                   for field in REQUIRED:
                       if entry.get(field) in (None, ""):
                           errors.append(f"{where}: missing field '{field}'")
+                  if entry.get("category") not in CATEGORIES:
+                      errors.append(f"{where}: unknown category '{entry.get('category')}'")
                   if entry.get("id") in seen_ids:
                       errors.append(f"{where}: duplicate id")
                   seen_ids.add(entry.get("id"))
                   for url_field in ("official_url", "pricing_url"):
                       value = entry.get(url_field)
-                      if value is not None and not URL.match(value):
+                      if value is not None and not URL.match(str(value)):
                           errors.append(f"{where}: {url_field} must be https")
                   if not DATE.match(str(entry.get("last_verified", ""))):
                       errors.append(f"{where}: last_verified must be YYYY-MM-DD")
                   if entry.get("confidence") not in CONF:
                       errors.append(f"{where}: confidence must be official|reported")
 
-          try:
-              stacks = json.load(open("data/stacks.json", encoding="utf-8"))
+          def load(path):
+              try:
+                  return json.load(open(path, encoding="utf-8"))
+              except Exception as exc:
+                  errors.append(f"{path}: invalid JSON ({exc})")
+                  return None
+
+          cats = load("data/categories.json")
+          if cats is not None:
+              ids = {c.get("id") for c in cats.get("categories", [])}
+              if ids != CATEGORIES:
+                  errors.append(f"data/categories.json: categories mismatch with validator ({sorted(ids)})")
+
+          fx = load("data/fx.json")
+          if fx is not None:
+              for c in fx.get("currencies", []):
+                  if not all(k in c for k in ("code", "symbol", "name", "rate")):
+                      errors.append(f"data/fx.json: currency missing keys: {c}")
+
+          regions = load("data/regions.json")
+          if regions is not None:
+              for r in regions.get("regions", []):
+                  for field in ("code", "name", "flag", "currency", "availability", "privacy"):
+                      if not r.get(field):
+                          errors.append(f"data/regions.json: region missing '{field}'")
+
+          guides = load("data/guides.json")
+          if guides is not None:
+              for g in guides.get("guides", []):
+                  for field in ("id", "title", "level", "time", "outcome", "intro", "tool_ids", "steps"):
+                      if not g.get(field):
+                          errors.append(f"data/guides.json: guide missing '{field}'")
+
+          stacks = load("data/stacks.json")
+          if stacks is not None:
               all_ids = seen_ids | {s.get("id") for s in stacks.get("stacks", [])}
               for band, ids in stacks.get("budget_picks", {}).items():
                   for pid in ids:
                       if pid not in all_ids:
                           errors.append(f"data/stacks.json budget_picks.{band}: unknown id '{pid}'")
-          except Exception as exc:
-              errors.append(f"data/stacks.json: invalid JSON ({exc})")
 
           if errors:
               print("\n".join("FAIL " + e for e in errors))
               sys.exit(1)
-          print(f"OK: {len(files)} data files, {len(seen_ids)} entries validated.")
+          print(f"OK: {len(SERVICE_FILES)} service files, {len(seen_ids)} services validated, plus categories/fx/regions/guides/stacks.")
           EOF

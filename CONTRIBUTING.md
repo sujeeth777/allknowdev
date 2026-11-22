@@ -12,16 +12,36 @@ Thanks for helping keep the free-tier atlas honest. **Fresh data is the product*
 
 ## Data files
 
+Service files (each entry's `category` must match its file):
+
 | File | Category | Covers |
 |---|---|---|
-| `data/ai-ml.json` | `ai` | model APIs, coding assistants, GPUs, vector DBs |
+| `data/ai-ml.json` | `ai` | model APIs, free GPUs, vector DBs — the raw AI layer |
+| `data/ai-chat.json` | `ai-chat` | chatbots & assistants |
+| `data/ai-image.json` | `ai-image` | image generation & editing |
+| `data/ai-video.json` | `ai-video` | video generation & editing |
+| `data/ai-audio.json` | `ai-audio` | music, TTS, speech-to-text |
+| `data/ai-coding.json` | `ai-coding` | copilots, agents, local AI runtimes |
 | `data/cloud-hosting.json` | `cloud` | static hosts, serverless, VMs, PaaS, tunnels |
 | `data/databases-auth.json` | `data` | SQL/NoSQL, caches, identity providers |
 | `data/devtools.json` | `tools` | editors, CI, observability, security tooling |
 | `data/apis-services.json` | `apis` | payments, email, storage, maps, notifications |
-| `data/learning.json` | `learning` | courses, certifications, student perks |
 | `data/design.json` | `design` | fonts, icons, illustrations, photos, UI kits |
-| `data/stacks.json` | — | curated $0 stacks + budget-explorer picks |
+| `data/learning.json` | `learning` | courses, certifications, student perks |
+| `data/software.json` | `software` | legendary free & OSS desktop apps |
+| `data/productivity.json` | `productivity` | notes, docs, tasks, meetings, research |
+| `data/security.json` | `security` | VPNs, privacy, encryption, private chat |
+| `data/storage.json` | `storage` | cloud drives, file transfer, backup |
+
+Other data files:
+
+| File | Purpose |
+|---|---|
+| `data/categories.json` | taxonomy: 16 categories + 4 groups (colors, emojis, blurbs) |
+| `data/fx.json` | snapshot FX rates for 41 currencies (update occasionally) |
+| `data/regions.json` | 18 regions: availability, privacy law, payment notes |
+| `data/guides.json` | step-by-step guides + career paths |
+| `data/stacks.json` | curated $0 stacks + budget-explorer picks |
 
 ## Entry schema
 
@@ -109,7 +129,7 @@ python -I -c "import json,glob;[json.load(open(f,encoding='utf-8')) for f in glo
 python -m http.server 5500
 ```
 
-Open http://localhost:5500. The directory page is at `/pages/directory.html`.
+Open http://localhost:5500. The directory is at `/directory.html`.
 If you open files via `file://`, `fetch()` of the JSON data will fail — always use the local server.
 
 ## Review process

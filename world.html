@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World — your currency, your region's rules | allknowdev</title>
+  <meta name="description" content="Pick your country: see prices in your currency, availability notes, the privacy law that governs your data, and payment rails that work where you live.">
+  <meta name="theme-color" content="#FAF7F2">
+  <link rel="canonical" href="https://allknowdev.vercel.app/world.html">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=2">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="aurora" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+
+  <header class="site-header">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">a</span><span>allknowdev</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><i></i><i></i></button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="ai.html">AI Hub</a>
+        <a href="learn.html">Learn</a>
+        <a href="world.html">World</a>
+        <a href="ask.html">Ask me</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="nav-actions">
+        <a class="region-chip" href="world.html" title="Choose your country and currency"><span class="flag">🌐</span><span class="cur-label">USD</span></a>
+        <button class="theme-toggle" aria-label="Switch theme">🌙</button>
+        <a class="btn btn-primary btn-small" href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="rise">Your <span class="grad-text">world</span>, your rules.</h1>
+        <p class="lede rise" style="--d:.08s">Pick your country and the whole atlas adapts: prices convert to your currency, region cards show what works where you live, which privacy law governs your data, and how people actually pay.</p>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Step 1 · Choose your country</p>
+          <h2>18 regions mapped, <span class="grad-text">41 currencies.</span></h2>
+        </div>
+        <div class="region-grid stagger" id="regionGrid"></div>
+        <p class="disclaimer mt-lg" id="regionDisclaimer"></p>
+      </div>
+    </section>
+
+    <section class="section tight" id="regionDetails"></section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="glass-panel reveal">
+          <div class="section-head" style="margin-bottom:18px">
+            <p class="kicker">Step 2 · Your currency</p>
+            <h2 style="font-size:clamp(22px,3vw,32px)">Real prices, converted.</h2>
+            <p class="lede">These are actual entry prices from the atlas, converted at a snapshot rate. Services bill in USD — your bank's rate and fees apply at checkout.</p>
+          </div>
+          <div class="field" style="max-width:340px;margin-bottom:18px">
+            <label for="currencySelect">Show prices in</label>
+            <select id="currencySelect"></select>
+          </div>
+          <div style="overflow-x:auto">
+            <table class="price-table">
+              <thead>
+                <tr><th>Service</th><th>Plan</th><th>Listed price (USD)</th><th>In <span id="priceTableCur">USD</span></th></tr>
+              </thead>
+              <tbody id="priceTableBody">
+                <tr><td colspan="4" class="disclaimer">Loading conversions…</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="disclaimer" style="margin-top:14px">Rates are a static snapshot (see data/fx.json for the date) — verify exact amounts before paying. Conversion is illustrative, not a quote.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-col">
+          <b>allknowdev</b>
+          <p class="footer-brand">An open-source atlas of what the internet gives away for free — exact limits, honest prices, verified dates.</p>
+          <p class="footer-note">MIT licensed · no tracking · no affiliate links</p>
+        </div>
+        <div class="footer-col">
+          <b>EXPLORE</b>
+          <a href="directory.html">Full directory</a>
+          <a href="ai.html">AI hub</a>
+          <a href="learn.html">Guides &amp; roadmaps</a>
+          <a href="world.html">Your region &amp; currency</a>
+        </div>
+        <div class="footer-col">
+          <b>PROJECT</b>
+          <a href="about.html">About &amp; FAQ</a>
+          <a href="ask.html">Ask for help</a>
+          <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+        <div class="footer-col">
+          <b>DATA</b>
+          <a href="https://github.com/sujeeth777/allknowdev/tree/main/data" target="_blank" rel="noreferrer">data/*.json ↗</a>
+          <a href="https://github.com/sujeeth777/allknowdev/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Contributing ↗</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="currentYear">2026</span> allknowdev contributors · MIT license</span>
+        <span>Plain HTML/CSS/JS · zero dependencies</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js?v=2"></script>
+  <script src="assets/js/world.js?v=2"></script>
+</body>
+</html>

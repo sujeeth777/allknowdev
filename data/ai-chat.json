@@ -1,0 +1,912 @@
+[
+  {
+    "id": "chatgpt",
+    "provider": "OpenAI",
+    "product": "ChatGPT",
+    "category": "ai-chat",
+    "tags": ["chatbot", "reasoning", "multimodal", "voice"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Limited daily access to the flagship GPT-5-class models, with auto-routing to a lighter model for most chats",
+      "~3 image generations per day",
+      "Voice mode, web search, file/image uploads, and custom GPTs included with caps",
+      "Canvas for writing and code, plus basic Projects"
+    ],
+    "paid_from": { "amount": 20, "currency": "USD", "period": "month", "plan": "Plus" },
+    "what_paid": [
+      "Much higher message caps and extended-reasoning access",
+      "Codex and Sora access, priority availability at peak times"
+    ],
+    "best_for": "The default general-purpose assistant for writing, research, and everyday coding questions",
+    "watch_out": [
+      "Limits fluctuate with server load; heavy reasoning use hits caps within hours",
+      "Chats may be used for training unless you opt out in Data Controls",
+      "Model routing can silently switch you to a cheaper model"
+    ],
+    "official_url": "https://chatgpt.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "claude-ai",
+    "provider": "Anthropic",
+    "product": "Claude (consumer app)",
+    "category": "ai-chat",
+    "tags": ["chatbot", "reasoning", "artifacts", "coding"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Free chats with the current Sonnet-class model (message count varies, resets on a ~5-hour cycle)",
+      "Artifacts: live previews for HTML/React apps right in chat",
+      "File uploads (PDFs, images, code) with limited Projects usage"
+    ],
+    "paid_from": { "amount": 20, "currency": "USD", "period": "month", "plan": "Pro" },
+    "what_paid": [
+      "~5x higher usage and access to the Opus-class flagship",
+      "Claude Code access and larger Projects/context limits"
+    ],
+    "best_for": "Strong reasoning and code review in chat, with live Artifacts previews",
+    "watch_out": [
+      "Free caps are tight and vary hour to hour",
+      "Long conversations hit context limits faster than you expect"
+    ],
+    "official_url": "https://claude.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "gemini-app",
+    "provider": "Google",
+    "product": "Gemini (app)",
+    "category": "ai-chat",
+    "tags": ["chatbot", "multimodal", "research", "voice"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Free access to Gemini 3 Pro with daily caps on advanced prompts",
+      "Deep Research reports on a limited free allowance",
+      "Image generation and Live voice/camera sessions included free",
+      "Document and image uploads with large context"
+    ],
+    "paid_from": { "amount": 19.99, "currency": "USD", "period": "month", "plan": "Google AI Pro" },
+    "what_paid": [
+      "Higher limits on Gemini 3 Pro and Deep Research",
+      "Veo video generation and 2 TB of Google One storage",
+      "Gemini inside Gmail, Docs, and Sheets"
+    ],
+    "best_for": "Free flagship-model chat integrated with Google apps and Android",
+    "watch_out": [
+      "Free-tier chats may be used to improve Google products (review activity settings)",
+      "Deep Research and video allowances drain quickly on free"
+    ],
+    "official_url": "https://gemini.google.com",
+    "pricing_url": "https://one.google.com/about/ai-plans",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "deepseek-chat",
+    "provider": "DeepSeek",
+    "product": "DeepSeek Chat",
+    "category": "ai-chat",
+    "tags": ["chatbot", "reasoning", "coding", "free"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free - no subscription",
+    "what_free": [
+      "Unlimited chats with the flagship DeepSeek V3.x model at no cost",
+      "'Deep Think' reasoning mode and web search included",
+      "File, image, and text uploads on the web and mobile apps"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "No chat tier - API is pay-per-token" },
+    "what_paid": [
+      "API access billed per token at among the lowest published rates",
+      "Same models programmatically for your own apps"
+    ],
+    "best_for": "Free unlimited reasoning chats when the privacy trade-off is acceptable",
+    "watch_out": [
+      "Chats are stored on infrastructure in China; privacy terms differ from US/EU services",
+      "Occasional 'server busy' throttling during peak hours"
+    ],
+    "official_url": "https://chat.deepseek.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "grok",
+    "provider": "xAI",
+    "product": "Grok",
+    "category": "ai-chat",
+    "tags": ["chatbot", "realtime", "image-gen", "x-integration"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Limited messages on the latest Grok models, quota resets every ~2 hours",
+      "Image generation with a small daily allowance",
+      "Realtime X/Twitter context for trends and posts"
+    ],
+    "paid_from": { "amount": 30, "currency": "USD", "period": "month", "plan": "SuperGrok" },
+    "what_paid": [
+      "Much higher message and image caps",
+      "Early access to new models and voice mode"
+    ],
+    "best_for": "Realtime takes on trends and news, with X/Twitter context",
+    "watch_out": [
+      "Free quota is a few messages per 2-hour window and changes often",
+      "Feature set and limits shift frequently without notice"
+    ],
+    "official_url": "https://grok.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "le-chat",
+    "provider": "Mistral AI",
+    "product": "Le Chat",
+    "category": "ai-chat",
+    "tags": ["chatbot", "european", "web-search", "image-gen"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Free chats with Mistral's flagship Large models",
+      "Web search with citations, code interpreter, and Flux image generation (daily caps)",
+      "Canvas plus OCR-heavy document chat that handles large PDFs well"
+    ],
+    "paid_from": { "amount": 14.99, "currency": "USD", "period": "month", "plan": "Le Chat Pro" },
+    "what_paid": [
+      "Much higher daily message caps",
+      "First access to new Mistral models at launch"
+    ],
+    "best_for": "A European alternative with strong document OCR and flagship Mistral models",
+    "watch_out": [
+      "Daily free caps are modest - heavy use hits them quickly",
+      "Smaller third-party ecosystem than US rivals"
+    ],
+    "official_url": "https://chat.mistral.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "microsoft-copilot",
+    "provider": "Microsoft",
+    "product": "Microsoft Copilot",
+    "category": "ai-chat",
+    "tags": ["chatbot", "windows", "office", "voice"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "GPT-5-class chat with 'Think Deeper' reasoning on a daily free allowance",
+      "Copilot Voice, image creation, and Copilot Pages free",
+      "Windows integration: asks about files and content on your PC"
+    ],
+    "paid_from": { "amount": 20, "currency": "USD", "period": "month", "plan": "Copilot Pro" },
+    "what_paid": [
+      "Copilot inside Word, Excel, Outlook, and PowerPoint desktop apps",
+      "Higher Think Deeper quotas and faster image boosts",
+      "Priority model access at peak times"
+    ],
+    "best_for": "Windows and Office users who want AI where they already work",
+    "watch_out": [
+      "Pro-mode daily limits reset slowly; free users fall back to standard models",
+      "Depending on settings, conversations may be used for model training"
+    ],
+    "official_url": "https://copilot.microsoft.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "meta-ai",
+    "provider": "Meta",
+    "product": "Meta AI",
+    "category": "ai-chat",
+    "tags": ["chatbot", "image-gen", "social", "free"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free",
+    "what_free": [
+      "Free chats powered by Llama models - no message cap advertised",
+      "Image generation and animation (Imagine) built into chat",
+      "Also lives inside WhatsApp, Instagram, and Messenger"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - Meta monetizes through ads, not subscriptions",
+      "Llama model APIs for developers are billed separately per token"
+    ],
+    "best_for": "Casual free chats and image generation inside the Meta apps you already use",
+    "watch_out": [
+      "Chats are used to train Meta models in most regions, with limited opt-outs",
+      "Weaker at complex reasoning and coding than frontier rivals",
+      "Availability differs by country and platform"
+    ],
+    "official_url": "https://www.meta.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "poe",
+    "provider": "Quora",
+    "product": "Poe",
+    "category": "ai-chat",
+    "tags": ["multi-model", "aggregator", "bots"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (daily points)",
+    "what_free": [
+      "~3,000 free points per day to spend across any bot",
+      "One UI for hundreds of models: GPT, Claude, Gemini, Llama, plus image and video bots",
+      "Create and share custom bots with system prompts and knowledge"
+    ],
+    "paid_from": { "amount": 19.99, "currency": "USD", "period": "month", "plan": "Monthly subscription (~1M points/month)" },
+    "what_paid": [
+      "~1M points per month versus ~3,000 per day free",
+      "Access to the most expensive frontier bots and higher rate limits"
+    ],
+    "best_for": "Sampling many models in one app without juggling subscriptions",
+    "watch_out": [
+      "Frontier models burn thousands of points per message - free points vanish fast",
+      "Point costs per bot change as providers reprice"
+    ],
+    "official_url": "https://poe.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "character-ai",
+    "provider": "Character Technologies",
+    "product": "Character.AI",
+    "category": "ai-chat",
+    "tags": ["companion", "roleplay", "entertainment"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free",
+    "what_free": [
+      "Unlimited chats with millions of community-created characters",
+      "Create your own characters and voices free",
+      "Group chats and character voice calls (limited on free)"
+    ],
+    "paid_from": { "amount": 9.99, "currency": "USD", "period": "month", "plan": "c.ai+" },
+    "what_paid": [
+      "Faster responses and priority access at peak",
+      "Early access to new features and exclusive models"
+    ],
+    "best_for": "Entertainment and roleplay chats, not facts or productivity",
+    "watch_out": [
+      "Entertainment-first - it will confidently make things up; not for facts or code",
+      "Strict content filters and heavy moderation",
+      "Long chats suffer from memory drift"
+    ],
+    "official_url": "https://character.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "pi-ai",
+    "provider": "Inflection AI",
+    "product": "Pi",
+    "category": "ai-chat",
+    "tags": ["companion", "conversation", "voice"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free",
+    "what_free": [
+      "Completely free conversational assistant - no subscription exists",
+      "Chats and voice conversations free with no hard caps",
+      "Remembers context and personalizes over time"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - Pi is free with no consumer paid plan",
+      "Inflection sells enterprise services separately"
+    ],
+    "best_for": "Conversational coaching and thinking out loud, free and unlimited",
+    "watch_out": [
+      "Tuned for supportive conversation; weak at coding, math, and hard facts",
+      "Inflection pivoted toward enterprise - the consumer roadmap is uncertain"
+    ],
+    "official_url": "https://pi.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "qwen-chat",
+    "provider": "Alibaba Cloud",
+    "product": "Qwen Chat",
+    "category": "ai-chat",
+    "tags": ["chatbot", "multimodal", "open-models", "free"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free",
+    "what_free": [
+      "Free access to Qwen3 flagship models, including 'Thinking' mode",
+      "Image and video generation built in (with daily caps)",
+      "Huge-context document analysis and a deep research mode",
+      "WebDev mode demos generated web apps from a prompt"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "No chat tier - API is pay-per-token" },
+    "what_paid": [
+      "Qwen-Max and batch access via API, billed per token",
+      "No consumer chat subscription as of last check"
+    ],
+    "best_for": "Free multimodal experiments with one of the strongest open-model families",
+    "watch_out": [
+      "Queueing and rate limits at peak hours",
+      "Runs on Alibaba infrastructure; data residency differs from US/EU services"
+    ],
+    "official_url": "https://chat.qwen.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "kimi",
+    "provider": "Moonshot AI",
+    "product": "Kimi",
+    "category": "ai-chat",
+    "tags": ["chatbot", "agentic", "long-context", "free"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free",
+    "what_free": [
+      "Free chats with Kimi K2-class agentic models",
+      "Agent mode builds slides, docs, and small websites from a prompt",
+      "Handles very long documents and deep research with citations"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "No chat tier - API is pay-per-token" },
+    "what_paid": [
+      "API access billed per token; no consumer subscription as of last check",
+      "Some agent runs are capped by free quotas"
+    ],
+    "best_for": "Agentic research and document analysis with a generous free tier",
+    "watch_out": [
+      "'Server busy' queueing during peak times is common",
+      "China-based infrastructure; privacy terms differ from US services"
+    ],
+    "official_url": "https://www.kimi.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "duck-ai",
+    "provider": "DuckDuckGo",
+    "product": "Duck.ai",
+    "category": "ai-chat",
+    "tags": ["privacy", "chatbot", "multi-model", "no-account"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free",
+    "what_free": [
+      "Free chats with lightweight models: GPT-4o mini, Claude 3.5 Haiku, Llama 3.3, Mistral Small, and small reasoning models",
+      "Anonymized requests - no account required and chats are not used for training",
+      "Per-model daily caps (roughly single digits to low tens)"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - duck.ai is free as part of DuckDuckGo",
+      "DuckDuckGo's Privacy Pro subscription covers VPN/data-removal, not AI features"
+    ],
+    "best_for": "Anonymous, private chats with small models for quick questions",
+    "watch_out": [
+      "Daily caps reset slowly; a workday of chatting exhausts them",
+      "Smaller models only - noticeably below flagship quality",
+      "Model lineup rotates without much notice"
+    ],
+    "official_url": "https://duck.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "brave-leo",
+    "provider": "Brave Software",
+    "product": "Leo",
+    "category": "ai-chat",
+    "tags": ["privacy", "chatbot", "browser", "multi-model"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (in Brave browser)",
+    "what_free": [
+      "Built into the Brave browser (desktop and mobile) at no cost, no account needed",
+      "Multiple models including open ones (Llama, Mistral, Qwen) with daily rate limits",
+      "Ask about the current page or a video without leaving the tab"
+    ],
+    "paid_from": { "amount": 15, "currency": "USD", "period": "month", "plan": "Leo Premium" },
+    "what_paid": [
+      "Much higher daily rate limits",
+      "Strongest available models (Claude-class) in the picker"
+    ],
+    "best_for": "In-browser private AI help without leaving the page",
+    "watch_out": [
+      "Free daily caps are modest - a few dozen exchanges",
+      "Requires switching to the Brave browser"
+    ],
+    "official_url": "https://brave.com/leo/",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "elicit",
+    "provider": "Elicit",
+    "product": "Elicit",
+    "category": "ai-chat",
+    "tags": ["research", "papers", "academic"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Basic (free)",
+    "what_free": [
+      "Searches 125M+ academic papers with natural-language questions",
+      "~monthly free credits for extracting claims into structured tables",
+      "Per-paper summaries and chat-with-PDF included"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Plus (see pricing page)" },
+    "what_paid": [
+      "Much larger monthly credit allowances for bulk extraction",
+      "Team libraries and export/automation features"
+    ],
+    "best_for": "Screening and extracting data from academic papers for research work",
+    "watch_out": [
+      "Free credits run out fast on systematic reviews",
+      "Always verify extracted claims against the actual papers"
+    ],
+    "official_url": "https://elicit.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "consensus",
+    "provider": "Consensus",
+    "product": "Consensus",
+    "category": "ai-chat",
+    "tags": ["research", "academic", "evidence"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Unlimited searches across ~200M peer-reviewed papers",
+      "~monthly free credits for Pro features (Consensus Meter, AI synthesis)",
+      "Study-quality signals like sample size and journal rank included"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Premium (see pricing page)" },
+    "what_paid": [
+      "More Pro credits and unlimited AI synthesis",
+      "Bulk analysis, exports, and team features"
+    ],
+    "best_for": "Evidence checks: what does peer-reviewed research actually say",
+    "watch_out": [
+      "Monthly Pro credits are small on free",
+      "Peer-reviewed science only - it will miss industry blogs and gray literature"
+    ],
+    "official_url": "https://consensus.app",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "storm-research",
+    "provider": "Stanford OVAL",
+    "product": "STORM",
+    "category": "ai-chat",
+    "tags": ["research", "reports", "citations", "oss"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (research demo)",
+    "what_free": [
+      "Free Wikipedia-style research reports with citations, built by Stanford",
+      "Editable outline before generation and 'expert conversation' to refine topics",
+      "Engine is open source (github.com/stanford-oval/storm) and can be self-hosted"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - free hosted demo with an open-source engine"
+    ],
+    "best_for": "Free cited deep-dive reports on any topic, straight from Stanford",
+    "watch_out": [
+      "Report generation takes several minutes; the public queue can be slow",
+      "Citation quality varies - verify sources before relying on them"
+    ],
+    "official_url": "https://storm.genie.stanford.edu",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "you-com",
+    "provider": "You.com",
+    "product": "You.com",
+    "category": "ai-chat",
+    "tags": ["search", "chatbot", "agents"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "AI search with cited web answers",
+      "~daily allowance of premium-model queries, then falls back to basic models",
+      "Some built-in apps (image generation, utilities) free with caps"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "YouPro (see pricing page)" },
+    "what_paid": [
+      "More premium-model queries and newest models",
+      "File uploads, API access, and team features"
+    ],
+    "best_for": "AI search plus a few daily premium-model queries for free",
+    "watch_out": [
+      "Pivoted from search engine to agent platform - limits and UI change often",
+      "Free premium queries are few per day"
+    ],
+    "official_url": "https://you.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "phind",
+    "provider": "Phind",
+    "product": "Phind",
+    "category": "ai-chat",
+    "tags": ["developer", "search", "coding"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Developer-focused AI search with cited sources, free",
+      "~daily allowance of Pro-model queries, then a basic model",
+      "VS Code extension included"
+    ],
+    "paid_from": { "amount": 20, "currency": "USD", "period": "month", "plan": "Phind Pro" },
+    "what_paid": [
+      "More Pro queries per day",
+      "Frontier models for coding and longer context"
+    ],
+    "best_for": "Developer question-answering with sources when you want links",
+    "watch_out": [
+      "The daily Pro cap is easy to burn with agentic debugging",
+      "Answer freshness depends on its web index"
+    ],
+    "official_url": "https://www.phind.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "lmarena",
+    "provider": "LMArena",
+    "product": "LM Arena",
+    "category": "ai-chat",
+    "tags": ["leaderboard", "multi-model", "benchmark", "free"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free",
+    "what_free": [
+      "Free side-by-side 'battles' between hundreds of models, including unreleased ones",
+      "Direct Chat mode gives free access to most listed models",
+      "Community leaderboards built from millions of human votes"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - run as a research/community project",
+      "Sponsors and donated compute fund the arena"
+    ],
+    "best_for": "Free hands-on testing of frontier and unreleased models side by side",
+    "watch_out": [
+      "Chats may be collected and released as public research datasets - never paste sensitive data",
+      "Specific model availability rotates"
+    ],
+    "official_url": "https://lmarena.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "venice-ai",
+    "provider": "Venice AI",
+    "product": "Venice",
+    "category": "ai-chat",
+    "tags": ["privacy", "uncensored", "open-models", "image-gen"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Privacy-first: chats stay in your browser, not on their servers",
+      "Free daily prompts on open models, including uncensored fine-tunes",
+      "Image generation included with daily caps"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Venice Pro (see pricing page)" },
+    "what_paid": [
+      "Higher/uncapped prompt allowances and the strongest open models",
+      "Advanced image-generation settings and higher limits"
+    ],
+    "best_for": "Private, uncensored chats and images on open models",
+    "watch_out": [
+      "Uncensored models can produce objectionable output - use responsibly",
+      "Open models trail frontier labs on reasoning and coding"
+    ],
+    "official_url": "https://venice.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "zai-chat",
+    "provider": "Z.ai (Zhipu AI)",
+    "product": "Z.ai GLM Chat",
+    "category": "ai-chat",
+    "tags": ["chatbot", "agentic", "open-models", "free"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free",
+    "what_free": [
+      "Free chats with GLM flagship models, including a reasoning mode",
+      "Built-in agents for slides, full-stack app demos, and deep research",
+      "Huge-context document chat with free limits"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "GLM Coding Plan / API (see pricing page)" },
+    "what_paid": [
+      "Cheap GLM API and coding-plan subscriptions for agentic coding tools",
+      "Higher rate limits and priority access"
+    ],
+    "best_for": "Free GLM-model chats with built-in slide and app agents",
+    "watch_out": [
+      "China-based infrastructure; data policies differ from US/EU providers",
+      "Model names, limits, and features change frequently"
+    ],
+    "official_url": "https://chat.z.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "lumo",
+    "provider": "Proton",
+    "product": "Lumo",
+    "category": "ai-chat",
+    "tags": ["privacy", "chatbot", "zero-retention"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "From Proton (Swiss privacy company): conversations are never used to train models",
+      "Free tier with ~weekly usage caps",
+      "Ghost mode for chats that leave no history at all"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Lumo Plus (see pricing page)" },
+    "what_paid": [
+      "Much higher monthly usage limits",
+      "Extras that have included image generation and larger file uploads"
+    ],
+    "best_for": "Privacy-critical chats where nothing should be retained or trained on",
+    "watch_out": [
+      "Weekly free caps are hit quickly by regular use",
+      "Feature set trails bigger rivals - check what's current"
+    ],
+    "official_url": "https://lumo.proton.me",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "opera-aria",
+    "provider": "Opera",
+    "product": "Opera Aria",
+    "category": "ai-chat",
+    "tags": ["browser", "chatbot", "free"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (in Opera)",
+    "what_free": [
+      "Free AI assistant built into Opera, Opera GX, and Opera mobile - no subscription",
+      "Web-connected answers with citations and image generation",
+      "Page summaries and writing help inside the browser"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - Aria ships free with the browser",
+      "Opera earns from search deals, not Aria subscriptions"
+    ],
+    "best_for": "Free built-in assistant for people already using Opera browsers",
+    "watch_out": [
+      "Requires Opera browsers",
+      "Underlying model lineup changes without notice"
+    ],
+    "official_url": "https://www.opera.com/aria",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "julius-ai",
+    "provider": "Julius",
+    "product": "Julius AI",
+    "category": "ai-chat",
+    "tags": ["data-analysis", "spreadsheets", "charts"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Chat with CSV/Excel files - generates charts and runs Python analysis",
+      "~monthly free messages on the free plan",
+      "Cloud sandbox does the compute; results render in chat"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "See pricing page (per-seat plans)" },
+    "what_paid": [
+      "More messages per month and bigger file limits",
+      "Team workspaces and longer analysis sessions"
+    ],
+    "best_for": "Quick charts and analysis over spreadsheets without writing Python",
+    "watch_out": [
+      "Free monthly messages are few - one dataset exploration can exhaust them",
+      "Your data is processed in their cloud sandbox"
+    ],
+    "official_url": "https://julius.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "genspark",
+    "provider": "MainFunc",
+    "product": "Genspark",
+    "category": "ai-chat",
+    "tags": ["agent", "slides", "research", "multi-model"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (daily credits)",
+    "what_free": [
+      "Agentic 'Super Agent' that researches and builds slides, sheets, docs, and mini-sites - free daily credits",
+      "Mixes frontier and open models and picks tools automatically",
+      "Downloadable outputs (PPTX, XLSX) on the free tier"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Plus (see pricing page)" },
+    "what_paid": [
+      "Many more daily credits and premium-model access",
+      "Faster agent runs and higher concurrency"
+    ],
+    "best_for": "One-shot agentic deliverables: slides, sheets, and mini-sites from a prompt",
+    "watch_out": [
+      "One complex agent task can burn the whole daily free allowance",
+      "Agent output needs fact-checking - it occasionally invents details"
+    ],
+    "official_url": "https://www.genspark.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "manus",
+    "provider": "Butterfly Effect",
+    "product": "Manus",
+    "category": "ai-chat",
+    "tags": ["agent", "autonomous", "tasks"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (credits)",
+    "what_free": [
+      "Autonomous agent that completes multi-step tasks: research, code, files, websites",
+      "Signup bonus credits plus a small daily refill on the free plan",
+      "Public task replays show exactly how the agent worked"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Starter/Pro plans (see pricing page)" },
+    "what_paid": [
+      "Thousands of credits per month and parallel task sessions",
+      "Priority access, scheduled runs, and wider tool access"
+    ],
+    "best_for": "Delegating multi-step research and build tasks to an autonomous agent",
+    "watch_out": [
+      "A single serious task can consume a full day of free credits",
+      "Runs on cloud VMs - don't hand it credentials you can't rotate",
+      "High-demand periods bring queues and tighter limits"
+    ],
+    "official_url": "https://manus.im",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "sider",
+    "provider": "Sider",
+    "product": "Sider",
+    "category": "ai-chat",
+    "tags": ["browser-extension", "assistant", "multi-model"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "AI sidebar for Chrome/Edge/Safari - chat with any web page or PDF",
+      "Free daily credits split between basic and advanced models",
+      "Extras: YouTube summarization, OCR, translation, chat-with-image"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro (see pricing page)" },
+    "what_paid": [
+      "Much larger monthly credit allowance",
+      "Frontier models (GPT/Claude class) beyond the free basic ones"
+    ],
+    "best_for": "Page-aware AI help in a browser sidebar for reading-heavy work",
+    "watch_out": [
+      "Free advanced-model credits deplete within a day of heavy use",
+      "The extension reads page content - be mindful on sensitive tabs"
+    ],
+    "official_url": "https://sider.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "replika",
+    "provider": "Luka, Inc.",
+    "product": "Replika",
+    "category": "ai-chat",
+    "tags": ["companion", "roleplay", "mobile"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free",
+    "what_free": [
+      "Unlimited text conversations with your personal AI companion",
+      "Customizable avatar and relationship on the free tier",
+      "Diary, activities, and mood tracking included"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Replika Pro (see pricing page)" },
+    "what_paid": [
+      "Voice calls, AR features, and expanded relationship options",
+      "Higher personalization and memory features"
+    ],
+    "best_for": "A persistent AI companion for casual conversation on mobile",
+    "watch_out": [
+      "Not a productivity tool - conversational only, and it will hallucinate facts",
+      "Chats are stored server-side; policy changes have historically upset users"
+    ],
+    "official_url": "https://replika.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  }
+]

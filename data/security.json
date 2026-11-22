@@ -1,0 +1,719 @@
+[
+  {
+    "id": "proton-mail",
+    "provider": "Proton AG",
+    "product": "Proton Mail",
+    "category": "security",
+    "tags": ["email", "privacy", "encryption"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "End-to-end encrypted email Proton itself cannot read",
+      "~1 GB storage on free, expandable through account activity",
+      "Encrypted Proton Calendar and Contacts included",
+      "No ads or tracking; based in Switzerland"
+    ],
+    "paid_from": { "amount": 3.99, "currency": "USD", "period": "month", "plan": "Mail Plus" },
+    "what_paid": [
+      "~15 GB storage, ~10 addresses, and custom domain support",
+      "More aliases and advanced calendar features"
+    ],
+    "best_for": "Private, encrypted email as a practical Gmail replacement.",
+    "watch_out": [
+      "Free storage (~1 GB) fills quickly",
+      "E2E is automatic between Proton accounts; external mail needs manual key setup",
+      "Hide-my-email style aliases via SimpleLogin need higher tiers"
+    ],
+    "official_url": "https://proton.me/mail",
+    "pricing_url": "https://proton.me/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "tuta",
+    "provider": "Tutao GmbH",
+    "product": "Tuta (formerly Tutanota)",
+    "category": "security",
+    "tags": ["email", "privacy", "encryption"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "End-to-end encrypted mail, calendar, and contacts",
+      "Encrypts subject lines and bodies by default",
+      "Free apps for web, desktop, and mobile",
+      "~1 GB storage on the free plan"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Revolutionary / Legend tiers" },
+    "what_paid": [
+      "Custom domains and more aliases",
+      "More storage, search options, and support"
+    ],
+    "best_for": "Encrypted email alternative that encrypts even subject lines.",
+    "watch_out": [
+      "No IMAP - you must use Tuta's own apps",
+      "Search is limited on the free plan"
+    ],
+    "official_url": "https://tuta.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "proton-vpn",
+    "provider": "Proton AG",
+    "product": "Proton VPN",
+    "category": "security",
+    "tags": ["vpn", "privacy"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (no data cap)",
+    "what_free": [
+      "Unlimited data with no bandwidth cap on free",
+      "Audited no-logs policy, based in Switzerland",
+      "Servers in a handful of countries and one device on free",
+      "Open-source, audited clients on all major platforms"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "VPN Plus / Proton Unlimited" },
+    "what_paid": [
+      "Servers in ~100+ countries with streaming and P2P support",
+      "~10 devices, Secure Core routing, and Tor-over-VPN"
+    ],
+    "best_for": "The rare reputable VPN whose free tier has no data limit.",
+    "watch_out": [
+      "Free servers are crowded and country choice is limited",
+      "Free plan allows one device at a time"
+    ],
+    "official_url": "https://protonvpn.com",
+    "pricing_url": "https://protonvpn.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "proton-drive",
+    "provider": "Proton AG",
+    "product": "Proton Drive",
+    "category": "security",
+    "tags": ["cloud-storage", "encryption", "privacy"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "End-to-end encrypted cloud storage",
+      "~5 GB of shared Proton storage on free",
+      "File sharing with password-protected, expiring links",
+      "Apps for web, Windows, macOS, iOS, and Android"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Drive plans / Proton Unlimited" },
+    "what_paid": [
+      "More storage (from ~200 GB up to multi-TB tiers)",
+      "Bundled with Mail and VPN in Proton Unlimited"
+    ],
+    "best_for": "Encrypted, zero-knowledge storage for sensitive files.",
+    "watch_out": [
+      "Free space is shared with Proton Mail",
+      "Collaboration and editing features trail Google Drive"
+    ],
+    "official_url": "https://proton.me/drive",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "mullvad",
+    "provider": "Mullvad VPN AB",
+    "product": "Mullvad VPN",
+    "category": "security",
+    "tags": ["vpn", "privacy", "wireguard"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": false,
+    "free_tier_name": "No free tier",
+    "what_free": [
+      "No free tier - one flat EUR 5/month includes every feature",
+      "30-day money-back guarantee",
+      "No email or personal data required - an account number is enough",
+      "Open-source clients and cash/crypto payment options"
+    ],
+    "paid_from": { "amount": 5, "currency": "EUR", "period": "month", "plan": "Flat price - one plan, all features" },
+    "what_paid": [
+      "~5 devices and servers in ~45+ countries",
+      "No upsells or discounts - one flat price for everything"
+    ],
+    "best_for": "Privacy-first VPN with anonymous accounts and flat pricing.",
+    "watch_out": [
+      "No free tier; the money-back window is the only trial",
+      "Port forwarding is no longer offered"
+    ],
+    "official_url": "https://mullvad.net",
+    "pricing_url": "https://mullvad.net/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "windscribe",
+    "provider": "Windscribe Limited",
+    "product": "Windscribe VPN",
+    "category": "security",
+    "tags": ["vpn", "privacy"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (~10 GB/month with email confirm)",
+    "what_free": [
+      "~10 GB/month with a confirmed email (~2 GB without)",
+      "Servers in ~10 countries on free",
+      "No device limit on the free plan",
+      "Firewall/kill switch and configurable ad blocking (R.O.B.E.R.T.)"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro plan" },
+    "what_paid": [
+      "Servers in all locations and unlimited data",
+      "Port forwarding and reserved static IPs"
+    ],
+    "best_for": "Generous free VPN data allowance for casual, occasional use.",
+    "watch_out": [
+      "Monthly data cap makes it unfit for heavy streaming",
+      "Free locations are limited and can be crowded"
+    ],
+    "official_url": "https://windscribe.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "signal",
+    "provider": "Signal Foundation",
+    "product": "Signal",
+    "category": "security",
+    "tags": ["messaging", "encryption", "privacy"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "End-to-end encrypted messages, voice, and video for everyone",
+      "Open protocol and open-source clients, independently audited",
+      "No ads, no trackers - run by a nonprofit",
+      "Disappearing messages and sealed-sender metadata protection"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - entirely free",
+      "Funded by the nonprofit Signal Foundation and donations"
+    ],
+    "best_for": "Default private messenger for texts, calls, and group chats.",
+    "watch_out": [
+      "Requires a phone number to register",
+      "History lives on-device unless you enable backups"
+    ],
+    "official_url": "https://signal.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "session",
+    "provider": "Oxen Privacy Tech Foundation",
+    "product": "Session",
+    "category": "security",
+    "tags": ["messaging", "privacy", "anonymous"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "E2E encryption with no phone number or email required",
+      "Routes traffic through a decentralised onion network",
+      "Open-source clients for mobile and desktop",
+      "Disappearing messages and encrypted file sharing"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Development funded by the nonprofit OPTF and community"
+    ],
+    "best_for": "Anonymous, metadata-resistant messaging without a phone number.",
+    "watch_out": [
+      "Delivery can be slower and less polished than Signal",
+      "Smaller user base among mainstream contacts"
+    ],
+    "official_url": "https://getsession.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "tor-browser",
+    "provider": "The Tor Project",
+    "product": "Tor Browser",
+    "category": "security",
+    "tags": ["privacy", "browser", "anonymity"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Routes traffic through the Tor network to hide your IP and location",
+      "Blocks trackers and fingerprinting by default",
+      "Accesses .onion sites and censored content via bridges",
+      "Free on Windows, macOS, Linux, and Android"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - the Tor Project is donation-funded",
+      "Volunteer relays carry the traffic for free"
+    ],
+    "best_for": "Anonymous browsing and reaching censored or .onion sites.",
+    "watch_out": [
+      "Noticeably slower than a normal browser",
+      "Many sites block or break on Tor exit nodes"
+    ],
+    "official_url": "https://www.torproject.org/download/",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "keepassxc",
+    "provider": "KeePassXC Team",
+    "product": "KeePassXC",
+    "category": "security",
+    "tags": ["password-manager", "encryption", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Free, open-source password manager with no accounts or cloud dependency",
+      "Credentials stored in an encrypted local database (KDBX format)",
+      "Browser integration for autofill via KeePassXC-Browser",
+      "TOTP 2FA storage, SSH agent, and passphrase generator"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - fully free and open source",
+      "Development funded by donations"
+    ],
+    "best_for": "An offline password vault you fully control without any cloud.",
+    "watch_out": [
+      "Sync across devices is DIY (a cloud folder of your choice)",
+      "No official mobile app from the same team"
+    ],
+    "official_url": "https://keepassxc.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "aegis",
+    "provider": "Beem Development",
+    "product": "Aegis Authenticator",
+    "category": "security",
+    "tags": ["2fa", "otp", "android", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Free, open-source 2FA app for Android",
+      "Encrypted, backup-able vault for TOTP/HOTP tokens",
+      "Import from Google Authenticator and other apps",
+      "Biometric unlock and per-vault encryption"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - fully free and open source",
+      "Donations support development"
+    ],
+    "best_for": "Encrypted, exportable 2FA codes on Android without lock-in.",
+    "watch_out": [
+      "Android only - no iOS version",
+      "No automatic sync; backups are manual encrypted exports"
+    ],
+    "official_url": "https://getaegis.app",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "2fas",
+    "provider": "2FAS Team",
+    "product": "2FAS",
+    "category": "security",
+    "tags": ["2fa", "otp", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Free 2FA apps for iOS, Android, and browser extension",
+      "Open-source code with encrypted cloud backup to Drive or iCloud",
+      "Push-approval flow via the 2FAS browser extension",
+      "Import tokens from Google Authenticator"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Free with optional donations"
+    ],
+    "best_for": "Polished, free 2FA app with browser push approvals.",
+    "watch_out": [
+      "Backup sync between iOS and Android ecosystems is limited",
+      "Fewer team/enterprise features than business authenticators"
+    ],
+    "official_url": "https://2fas.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "veracrypt",
+    "provider": "Idrix",
+    "product": "VeraCrypt",
+    "category": "security",
+    "tags": ["encryption", "disk-encryption", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Full-disk and partition encryption on Windows, macOS, and Linux",
+      "Encrypted containers (file vaults) mountable anywhere",
+      "Hidden volumes for plausible deniability",
+      "Based on audited TrueCrypt code with security fixes"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - free and open source (Apache-2.0)",
+      "Donation-funded development"
+    ],
+    "best_for": "Free full-disk encryption and encrypted containers across platforms.",
+    "watch_out": [
+      "No mobile support",
+      "Technical, dated interface"
+    ],
+    "official_url": "https://www.veracrypt.fr",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "cryptomator",
+    "provider": "Cryptomator GmbH",
+    "product": "Cryptomator",
+    "category": "security",
+    "tags": ["encryption", "cloud-storage", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free desktop apps (open source)",
+    "what_free": [
+      "Encrypts files before they reach any cloud (Dropbox, Drive, OneDrive...)",
+      "Per-vault encryption mounted as a virtual drive",
+      "Free desktop apps under GPLv3 for Windows, macOS, and Linux",
+      "Open-source and audited cryptography"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Cryptomator Hub (team key management)" },
+    "what_paid": [
+      "Hub adds central vault and key management for organisations",
+      "Desktop is free; the mobile apps are paid"
+    ],
+    "best_for": "Client-side encryption that makes any cloud storage zero-knowledge.",
+    "watch_out": [
+      "Mobile apps cost money while desktop stays free",
+      "Vaults unlock per device - no central key store on free"
+    ],
+    "official_url": "https://cryptomator.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "virustotal",
+    "provider": "Google (VirusTotal)",
+    "product": "VirusTotal",
+    "category": "security",
+    "tags": ["malware", "scanner", "threat-intel"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free web scans + limited API",
+    "what_free": [
+      "Scan files and URLs against ~70 antivirus engines in one go",
+      "Free public API with modest rate limits",
+      "Community comments and behavioural analysis reports",
+      "No account needed for basic web scans"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "VT Intelligence / Enterprise" },
+    "what_paid": [
+      "Higher API quotas and advanced threat search (Intelligence)",
+      "Retrohunt and livehunt YARA monitoring"
+    ],
+    "best_for": "Quick second-opinion malware checks on files and URLs.",
+    "watch_out": [
+      "Upload size is capped (~650 MB on the web)",
+      "Uploaded files may be shared with researchers and partners"
+    ],
+    "official_url": "https://www.virustotal.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "have-i-been-pwned",
+    "provider": "Troy Hunt",
+    "product": "Have I Been Pwned",
+    "category": "security",
+    "tags": ["breaches", "privacy", "monitoring"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free searches and alerts",
+    "what_free": [
+      "Search your email across hundreds of public data breaches",
+      "Free breach email alerts for monitored addresses",
+      "Pwned Passwords API uses k-anonymity so passwords are never sent",
+      "Domain search for verifying domains you control"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "API key (~USD 3.50/month) for automated breach search" },
+    "what_paid": [
+      "Paid API keys for programmatic breach lookups in your own apps",
+      "Higher rate limits and commercial use rights"
+    ],
+    "best_for": "Checking whether your email or passwords leaked in breaches.",
+    "watch_out": [
+      "Automated API access for breach search is paid",
+      "Coverage depends on breaches being disclosed to HIBP"
+    ],
+    "official_url": "https://haveibeenpwned.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "privacy-guides",
+    "provider": "Privacy Guides (nonprofit)",
+    "product": "Privacy Guides",
+    "category": "security",
+    "tags": ["privacy", "education", "recommendations"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (nonprofit)",
+    "what_free": [
+      "Nonprofit, ad-free catalogue of vetted privacy tools",
+      "Guides on threat modelling, browsers, VPNs, and messengers",
+      "Editorially independent - no ads or sponsor-driven picks",
+      "Community forum for privacy questions"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - donation-funded nonprofit",
+      "All recommendations stay editorially independent"
+    ],
+    "best_for": "Trustworthy, ad-free guidance on choosing private tools.",
+    "watch_out": [
+      "Recommendations skew strict and may be more hardcore than you need",
+      "Guides change as tools are re-evaluated over time"
+    ],
+    "official_url": "https://www.privacyguides.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "cryptpad",
+    "provider": "XWiki (CryptPad)",
+    "product": "CryptPad",
+    "category": "security",
+    "tags": ["collaboration", "encryption", "office-suite", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free account (~1 GB)",
+    "what_free": [
+      "E2E-encrypted docs, sheets, kanban, forms, and polls",
+      "Zero-knowledge: the server cannot read your documents",
+      "Self-hostable (AGPL-3.0) with no quotas when you run it",
+      "Free accounts get ~1 GB on cryptpad.fr"
+    ],
+    "paid_from": { "amount": null, "currency": "EUR", "period": "month", "plan": "Premium accounts add storage" },
+    "what_paid": [
+      "More storage and higher upload limits",
+      "Funds continued development of the encrypted suite"
+    ],
+    "best_for": "Encrypted collaborative office suite as a private Google Docs stand-in.",
+    "watch_out": [
+      "Sheets and docs are lighter than Google's equivalents",
+      "Free storage (~1 GB) and upload caps on cryptpad.fr"
+    ],
+    "official_url": "https://cryptpad.fr",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "nextcloud",
+    "provider": "Nextcloud GmbH",
+    "product": "Nextcloud",
+    "category": "security",
+    "tags": ["self-hosted", "cloud-storage", "collaboration", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free self-host (AGPL-3.0)",
+    "what_free": [
+      "Self-hosted files, calendar, contacts, and notes on your own server",
+      "AGPL-3.0 with unlimited users and whatever storage you provide",
+      "Web, desktop, and mobile clients with sync",
+      "Hundreds of community apps; live office editing via OnlyOffice/Collabora"
+    ],
+    "paid_from": { "amount": null, "currency": "EUR", "period": "month", "plan": "Nextcloud Enterprise (per user)" },
+    "what_paid": [
+      "Enterprise support, SLAs, and compliance tooling",
+      "Bundled office and groupware integrations with support"
+    ],
+    "best_for": "A self-hosted private cloud for files, calendar, and collaboration.",
+    "watch_out": [
+      "You own updates, backups, and server maintenance",
+      "Experience depends heavily on your hardware and configuration"
+    ],
+    "official_url": "https://nextcloud.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "element",
+    "provider": "Element (Matrix protocol)",
+    "product": "Element",
+    "category": "security",
+    "tags": ["messaging", "federation", "encryption", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free apps + federated network",
+    "what_free": [
+      "Matrix: an open, federated protocol - choose any homeserver",
+      "Element apps are free on web, desktop, iOS, and Android",
+      "E2E-encrypted DMs and groups with device verification",
+      "Self-host a homeserver (Synapse or Dendrite) for full control"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Element Enterprise offerings" },
+    "what_paid": [
+      "Managed enterprise deployments with SSO and support",
+      "Large-organisation Matrix hosting and governance"
+    ],
+    "best_for": "Federated, self-hostable chat as an open Slack/WhatsApp alternative.",
+    "watch_out": [
+      "Experience varies with the homeserver you pick",
+      "Federation and key verification confuse newcomers"
+    ],
+    "official_url": "https://element.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "duckduckgo",
+    "provider": "Duck Duck Go, Inc.",
+    "product": "DuckDuckGo Search",
+    "category": "security",
+    "tags": ["search", "privacy"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Web search that does not track or profile you",
+      "Only non-targeted ads; searches are not stored",
+      "Browser extensions and mobile apps block third-party trackers",
+      "Free @duck.com email aliases via Email Protection"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - the search is entirely free",
+      "Revenue comes from non-targeted ads and affiliate links"
+    ],
+    "best_for": "Everyday private web search without a tracking profile.",
+    "watch_out": [
+      "Results can be thinner than Google for niche or local queries",
+      "Only search is private - sites you visit can still track you"
+    ],
+    "official_url": "https://duckduckgo.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "ente",
+    "provider": "Ente",
+    "product": "Ente Photos",
+    "category": "security",
+    "tags": ["photos", "encryption", "cloud-storage", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (10 GB)",
+    "what_free": [
+      "End-to-end encrypted photo and video backup",
+      "10 GB free storage",
+      "Open-source clients and server you can self-host",
+      "Web, desktop, and mobile apps with shared albums"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid storage plans (up to ~2 TB)" },
+    "what_paid": [
+      "More storage via monthly or lifetime plans",
+      "Funds development of the open-source stack"
+    ],
+    "best_for": "Encrypted Google Photos alternative with a self-host option.",
+    "watch_out": [
+      "10 GB free fills quickly with photos",
+      "Smaller feature set than Google Photos (no advanced AI editing)"
+    ],
+    "official_url": "https://ente.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "malwarebytes",
+    "provider": "Malwarebytes",
+    "product": "Malwarebytes Free",
+    "category": "security",
+    "tags": ["antivirus", "malware", "scanner"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (on-demand scanner)",
+    "what_free": [
+      "On-demand scanner that finds and removes malware and adware",
+      "No time limit on scan-and-clean functionality",
+      "Apps for Windows, macOS, Android, and iOS",
+      "14-day Premium trial on first install"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "year", "plan": "Premium / Premium + Privacy (per device)" },
+    "what_paid": [
+      "Real-time protection against malware, ransomware, and exploits",
+      "VPN browsing protection in Premium + Privacy bundles"
+    ],
+    "best_for": "On-demand second-opinion malware scans and cleanup.",
+    "watch_out": [
+      "Free version lacks real-time protection and scheduled scans",
+      "Trial popups push the paid upgrade"
+    ],
+    "official_url": "https://www.malwarebytes.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  }
+]

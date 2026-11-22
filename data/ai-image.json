@@ -1,0 +1,905 @@
+[
+  {
+    "id": "bing-image-creator",
+    "provider": "Microsoft",
+    "product": "Bing Image Creator (Microsoft Designer)",
+    "category": "ai-image",
+    "tags": ["image-generation", "text-to-image", "dall-e-3", "design"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with daily boosts",
+    "what_free": [
+      "Generate images from text prompts with DALL-E 3 via Bing or Copilot - Microsoft account required, no install",
+      "~15 free daily boosts for fast generations; standard-speed generation continues after boosts run out",
+      "Results carry into Microsoft Designer for templates and further editing",
+      "Works in mobile and desktop browsers"
+    ],
+    "paid_from": { "amount": 20, "currency": "USD", "period": "month", "plan": "Microsoft Copilot Pro" },
+    "what_paid": [
+      "Larger boost capacity for faster generations via Copilot Pro",
+      "Premium Designer templates and editing features"
+    ],
+    "best_for": "Zero-cost DALL-E 3 image generation straight from Bing or Copilot.",
+    "watch_out": [
+      "Strict content filtering - many prompt types are refused",
+      "Daily boost count can vary and resets each day",
+      "Check Microsoft's terms before commercial use of generated images"
+    ],
+    "official_url": "https://www.bing.com/images/create",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "imagefx",
+    "provider": "Google Labs",
+    "product": "ImageFX",
+    "category": "ai-image",
+    "tags": ["image-generation", "text-to-image", "imagen"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with Google account",
+    "what_free": [
+      "Text-to-image powered by Google's Imagen models, free with a Google account",
+      "Expressive chips let you remix parts of a prompt and iterate quickly",
+      "Seed-based workflow to lock a result and tweak variations",
+      "Outputs carry an invisible SynthID watermark"
+    ],
+    "paid_from": { "amount": 20, "currency": "USD", "period": "month", "plan": "Google AI Pro (higher limits across Google AI apps)" },
+    "what_paid": [
+      "Higher generation limits across Google AI apps",
+      "Access to Google's fuller paid AI stack (Veo, Flow, Gemini advanced models)"
+    ],
+    "best_for": "Free high-quality Imagen generation straight from a Google account.",
+    "watch_out": [
+      "Not available in all countries or for all account types",
+      "Limits and queues can apply at peak times",
+      "SynthID watermark cannot be removed"
+    ],
+    "official_url": "https://labs.google/fx/tools/image-fx",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "ideogram",
+    "provider": "Ideogram",
+    "product": "Ideogram",
+    "category": "ai-image",
+    "tags": ["image-generation", "text-render", "free credits"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "~10 slow-generation credits per week on the free plan",
+      "Standout text rendering inside images - posters, logos, signs, memes",
+      "Magic Prompt option expands short prompts into detailed ones",
+      "Remix and iterate on any public generation"
+    ],
+    "paid_from": { "amount": 8, "currency": "USD", "period": "month", "plan": "Basic (billed annually)" },
+    "what_paid": [
+      "More monthly credits with fast (priority) generations",
+      "Private generations and commercial-use rights"
+    ],
+    "best_for": "Text-heavy images like posters, logos, and layouts.",
+    "watch_out": [
+      "Free generations are public and slow",
+      "Commercial use requires a paid plan",
+      "Weekly free credits are small - regular use needs paid plans"
+    ],
+    "official_url": "https://ideogram.ai",
+    "pricing_url": "https://ideogram.ai/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "leonardo-ai",
+    "provider": "Leonardo.Ai",
+    "product": "Leonardo.Ai",
+    "category": "ai-image",
+    "tags": ["image-generation", "fine-tuned-models", "daily tokens"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily tokens",
+    "what_free": [
+      "~150 free tokens per day for image generation",
+      "Multiple fine-tuned models plus community models in one studio",
+      "Built-in canvas editor, upscaler, and image-guidance tools",
+      "Daily tokens reset every 24 hours"
+    ],
+    "paid_from": { "amount": 12, "currency": "USD", "period": "month", "plan": "Apprentice" },
+    "what_paid": [
+      "Bigger monthly token allowance and faster generations",
+      "Private generations and commercial-use rights"
+    ],
+    "best_for": "Daily free tokens to experiment with many image models and tools.",
+    "watch_out": [
+      "Different models and features consume different token amounts",
+      "Free-plan generations are public",
+      "Unused daily tokens do not roll over"
+    ],
+    "official_url": "https://leonardo.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "playground-ai",
+    "provider": "Playground",
+    "product": "Playground",
+    "category": "ai-image",
+    "tags": ["graphic-design", "logos", "t-shirt-graphics"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "AI design generator for logos, T-shirts, stickers, and social graphics",
+      "Free daily generations with editable templates and text tools",
+      "Browser-based, quick customization without design skills"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Playground Pro subscription" },
+    "what_paid": [
+      "More and faster generations",
+      "Commercial-use rights and higher-quality exports"
+    ],
+    "best_for": "Quick AI-designed logos and merch graphics without design skills.",
+    "watch_out": [
+      "Product pivoted from general image generation to graphic design",
+      "Free limits and commercial-use terms differ - check current plan details"
+    ],
+    "official_url": "https://playground.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "krea",
+    "provider": "Krea",
+    "product": "Krea",
+    "category": "ai-image",
+    "tags": ["image-generation", "realtime", "multi-model"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (daily credits)",
+    "what_free": [
+      "Daily free credits usable across many image models (including FLUX)",
+      "Realtime canvas: rough sketches become refined images as you prompt",
+      "AI upscaler and enhancer tools with free daily usage",
+      "Includes video generation experiments on the same credits"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Basic and higher tiers" },
+    "what_paid": [
+      "Larger daily credit allowance",
+      "Premium models and unlimited realtime mode"
+    ],
+    "best_for": "Trying many image and video models with one free daily credit pool.",
+    "watch_out": [
+      "Credit costs vary a lot per model and tool",
+      "Free tier can queue during peak hours",
+      "Limits have changed several times"
+    ],
+    "official_url": "https://www.krea.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "recraft",
+    "provider": "Recraft",
+    "product": "Recraft",
+    "category": "ai-image",
+    "tags": ["image-generation", "vector", "svg"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (~50 daily credits)",
+    "what_free": [
+      "~50 free credits per day for image generation",
+      "Generates true vector art (SVG) as well as raster images",
+      "Custom styles and color palette control for brand-consistent output",
+      "Built-in editor to tweak generated vector shapes"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro plan" },
+    "what_paid": [
+      "More daily credits and relaxed-generation capacity",
+      "Premium models, private mode, and API access"
+    ],
+    "best_for": "AI-generated vector illustrations and brand-consistent design assets.",
+    "watch_out": [
+      "Credit cost differs per model and feature",
+      "Free tier restricts some advanced models",
+      "SVG output still needs manual cleanup for production use"
+    ],
+    "official_url": "https://www.recraft.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "civitai",
+    "provider": "Civitai",
+    "product": "Civitai",
+    "category": "ai-image",
+    "tags": ["model-hub", "stable-diffusion", "community-models"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free downloads + small daily Buzz",
+    "what_free": [
+      "Browse and download thousands of community checkpoints, LoRAs, and embeddings for free",
+      "Small daily Buzz credit grants for on-site image generation",
+      "Per-model example galleries and user reviews to pick the right model",
+      "Downloads work with local tools like ComfyUI or Stable Diffusion WebUI"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "transaction", "plan": "Buzz credit packs (pay-per-credit)" },
+    "what_paid": [
+      "Buy Buzz for on-site generation and early-access models",
+      "Support creators and unlock bigger generation capacity"
+    ],
+    "best_for": "Finding and downloading community fine-tuned Stable Diffusion and FLUX models.",
+    "watch_out": [
+      "Large amount of NSFW content - set tag filters before browsing",
+      "On-site generation drains Buzz quickly",
+      "Some files are gated behind creator early-access"
+    ],
+    "official_url": "https://civitai.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "craiyon",
+    "provider": "Craiyon",
+    "product": "Craiyon",
+    "category": "ai-image",
+    "tags": ["image-generation", "text-to-image", "ad-supported"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (ad-supported)",
+    "what_free": [
+      "Unlimited free image generation in the browser, no account required",
+      "Each prompt returns a grid of 9 images",
+      "Simple redraw and variation options"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Craiyon Pro subscription" },
+    "what_paid": [
+      "Faster generation and no ads",
+      "Higher-quality outputs and private results"
+    ],
+    "best_for": "Casual no-signup image generation for quick fun and sketches.",
+    "watch_out": [
+      "Image quality is far below modern models like Flux or Imagen",
+      "Ads and queues on the free tier",
+      "Not suitable for professional work"
+    ],
+    "official_url": "https://www.craiyon.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "clipdrop",
+    "provider": "Clipdrop (Jasper)",
+    "product": "Clipdrop",
+    "category": "ai-image",
+    "tags": ["photo-editing", "background-removal", "cleanup-tools"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tools with daily limits",
+    "what_free": [
+      "Free web tools: background removal, object cleanup, relight, uncrop, and upscaling",
+      "Image upscaler runs at x2/x4 on free usage with limits",
+      "No install needed - everything runs in the browser"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Clipdrop Pro subscription" },
+    "what_paid": [
+      "Higher resolution limits and batch processing",
+      "Watermark-free and commercial-use outputs"
+    ],
+    "best_for": "Quick one-off edits: remove backgrounds, objects, or upscale images.",
+    "watch_out": [
+      "Free tier limits resolution and daily uses per tool",
+      "Tool lineup has changed since the Jasper acquisition"
+    ],
+    "official_url": "https://clipdrop.co",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "deepai",
+    "provider": "DeepAI",
+    "product": "DeepAI",
+    "category": "ai-image",
+    "tags": ["image-generation", "text-to-image", "multi-tool"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily quotas",
+    "what_free": [
+      "Text-to-image, image editing, and other AI tools with free daily quotas",
+      "No install - browser-based tools and simple APIs",
+      "Ad-supported free tier with a set number of generations per day"
+    ],
+    "paid_from": { "amount": 5, "currency": "USD", "period": "month", "plan": "DeepAI Pro (~$4.99/month)" },
+    "what_paid": [
+      "Larger daily generation limits",
+      "Access to more models and higher-quality outputs"
+    ],
+    "best_for": "Lightweight free image generation and quick AI utility tools.",
+    "watch_out": [
+      "Free daily quota is small and resets each day",
+      "Ads on the free tier",
+      "Output quality varies by tool"
+    ],
+    "official_url": "https://deepai.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "nightcafe",
+    "provider": "NightCafe Studio",
+    "product": "NightCafe",
+    "category": "ai-image",
+    "tags": ["image-generation", "multi-model", "community"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily credits",
+    "what_free": [
+      "Small daily free credit grants plus bonus credits for activity",
+      "Multiple models (Stable Diffusion, Flux, and more) behind one interface",
+      "Community gallery, style presets, and challenges"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "transaction", "plan": "Credit packs and subscription tiers" },
+    "what_paid": [
+      "Buy credit packs or subscribe for more generations",
+      "Private generations and bulk creation"
+    ],
+    "best_for": "Casual multi-model image generation with an active community gallery.",
+    "watch_out": [
+      "Daily grants are small - a few generations per day",
+      "Credit cost varies heavily by model",
+      "Creations are public by default"
+    ],
+    "official_url": "https://creator.nightcafe.studio",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "tensor-art",
+    "provider": "Tensor.Art",
+    "product": "Tensor.Art",
+    "category": "ai-image",
+    "tags": ["image-generation", "community-models", "online-generation"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily credits",
+    "what_free": [
+      "~100 free credits every day for online generation",
+      "Run community Stable Diffusion and FLUX checkpoints in the browser without a GPU",
+      "Hosts thousands of community models and LoRAs with remixable setups",
+      "Free tier covers basic text-to-image and image-to-image"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Subscription plans" },
+    "what_paid": [
+      "More daily credits and faster queues",
+      "Private generations and pro tools such as LoRA training"
+    ],
+    "best_for": "GPU-free browsing and running of community diffusion models with daily credits.",
+    "watch_out": [
+      "Credits are consumed per generation and add up fast",
+      "Community includes NSFW models - use filters",
+      "Shared GPUs mean queues at peak times"
+    ],
+    "official_url": "https://tensor.art",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "getimg",
+    "provider": "getimg.ai",
+    "product": "getimg.ai",
+    "category": "ai-image",
+    "tags": ["image-generation", "text-to-image", "monthly-credits"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free monthly credits",
+    "what_free": [
+      "100 free credits per month",
+      "Text-to-image, Real-Time generation, and AI canvas with inpainting",
+      "Multiple base models selectable in one UI"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Starter and higher tiers" },
+    "what_paid": [
+      "Thousands of monthly credits",
+      "Extra features such as video generation and larger batches"
+    ],
+    "best_for": "A clean browser studio with a predictable 100-credit monthly free tier.",
+    "watch_out": [
+      "The monthly credit cap is a hard limit on free use",
+      "Some features (video, upscaling tiers) burn credits quickly"
+    ],
+    "official_url": "https://getimg.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "photoroom",
+    "provider": "Photoroom",
+    "product": "Photoroom",
+    "category": "ai-image",
+    "tags": ["photo-editing", "background-removal", "product-photos"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Free background removal and basic retouching on web and mobile",
+      "AI backgrounds and templates for product photos on the free tier",
+      "Batch tools available in the app with limits"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Photoroom Pro subscription" },
+    "what_paid": [
+      "HD-quality exports and batch processing at scale",
+      "All AI backgrounds, brand kits, and API access"
+    ],
+    "best_for": "Fast background removal and clean product photos for online shops.",
+    "watch_out": [
+      "Free exports are limited in resolution",
+      "Several AI features and assets are Pro-only",
+      "Best experience is in the mobile app"
+    ],
+    "official_url": "https://www.photoroom.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "removebg",
+    "provider": "remove.bg",
+    "product": "remove.bg",
+    "category": "ai-image",
+    "tags": ["background-removal", "photo-editing", "api"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free previews",
+    "what_free": [
+      "Free background removal previews at standard (lower) resolution on the web",
+      "API free tier with ~50 preview calls per month",
+      "Consistently clean cutouts for people and products"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Subscription or pay-per-image credits" },
+    "what_paid": [
+      "HD downloads and bulk processing",
+      "API credits priced per image with volume discounts"
+    ],
+    "best_for": "The classic one-click background remover with a usable free preview tier.",
+    "watch_out": [
+      "HD downloads always cost credits",
+      "Per-image pricing gets expensive at volume",
+      "Complex edges like hair and fur sometimes need manual fixes"
+    ],
+    "official_url": "https://www.remove.bg",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "pixlr",
+    "provider": "Pixlr",
+    "product": "Pixlr",
+    "category": "ai-image",
+    "tags": ["photo-editing", "online-editor", "ai-tools"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free editor + daily AI credits",
+    "what_free": [
+      "Browser-based photo editors (Pixlr Express and Pixlr Editor) with layers and filters",
+      "Small daily credit allowance for AI tools: background removal, generative fill, upscaling",
+      "Works without install; free tier is ad-supported"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Plus and Premium tiers" },
+    "what_paid": [
+      "More AI credits and unlimited basic tools",
+      "Ad-free experience, larger storage, and premium templates"
+    ],
+    "best_for": "Free browser photo editing with light AI touch-ups.",
+    "watch_out": [
+      "Daily AI credits run out quickly",
+      "Heavy upselling toward paid tiers",
+      "Some export options are premium-only"
+    ],
+    "official_url": "https://pixlr.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "adobe-express",
+    "provider": "Adobe",
+    "product": "Adobe Express",
+    "category": "ai-image",
+    "tags": ["design-templates", "quick-actions", "generative-credits"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (~25 generative credits/month)",
+    "what_free": [
+      "Free plan with thousands of templates for social posts, flyers, and short videos",
+      "Quick actions: background removal, image resize, and file conversion",
+      "~25 monthly generative credits for Firefly-powered features",
+      "Browser and mobile apps with basic cloud storage"
+    ],
+    "paid_from": { "amount": 9.99, "currency": "USD", "period": "month", "plan": "Premium" },
+    "what_paid": [
+      "Premium templates, fonts, and stock assets",
+      "More generative credits and advanced editing features"
+    ],
+    "best_for": "Template-first quick designs with a taste of Firefly AI for free.",
+    "watch_out": [
+      "Generative credits are the main bottleneck for AI features",
+      "Premium assets are clearly marked but locked on free",
+      "Some advanced tools still live in the desktop apps"
+    ],
+    "official_url": "https://www.adobe.com/express/",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "adobe-firefly",
+    "provider": "Adobe",
+    "product": "Adobe Firefly",
+    "category": "ai-image",
+    "tags": ["image-generation", "text-to-image", "commercially-safe"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (~25 generative credits/month)",
+    "what_free": [
+      "~25 free generative credits per month for image generation in the web app",
+      "Models trained on licensed Adobe Stock - outputs marketed as commercially safe",
+      "Style and structure references plus text-effects tools"
+    ],
+    "paid_from": { "amount": 9.99, "currency": "USD", "period": "month", "plan": "Firefly Standard" },
+    "what_paid": [
+      "Large monthly credit allowances",
+      "Premium models (Image 4, video generation) and faster queues"
+    ],
+    "best_for": "Image generation trained on licensed data, safer for client work.",
+    "watch_out": [
+      "Newer models consume multiple credits per generation",
+      "Free credits are a small monthly allowance",
+      "Video generation is mostly beyond the free tier"
+    ],
+    "official_url": "https://www.adobe.com/products/firefly.html",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "fotor",
+    "provider": "Fotor",
+    "product": "Fotor",
+    "category": "ai-image",
+    "tags": ["photo-editing", "ai-tools", "templates"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Browser and mobile photo editor with filters, collage maker, and templates",
+      "Small free allowance of AI credits for background removal and AI image generation",
+      "Design templates for social posts included on the free tier"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Fotor Pro subscription" },
+    "what_paid": [
+      "More AI credits and HD exports",
+      "Premium templates, fonts, and watermark removal"
+    ],
+    "best_for": "All-in-one casual photo editing with a sprinkle of AI tools.",
+    "watch_out": [
+      "Free AI credits are very limited",
+      "Some free exports are watermarked",
+      "Aggressive upsell prompts"
+    ],
+    "official_url": "https://www.fotor.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "photoshop-web",
+    "provider": "Adobe",
+    "product": "Photoshop on the web",
+    "category": "ai-image",
+    "tags": ["photo-editing", "browser", "retouching"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free web version (limited)",
+    "what_free": [
+      "Photoshop in the browser free with an Adobe account for core editing",
+      "Layers, selections, and retouching basics without installing anything",
+      "Premium tools such as generative fill need credits or a paid plan"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Photoshop single-app or Creative Cloud plans" },
+    "what_paid": [
+      "Full feature set including generative AI tools",
+      "More cloud storage and desktop plus web access"
+    ],
+    "best_for": "Real Photoshop edits in a browser without a subscription.",
+    "watch_out": [
+      "Free version covers only a subset of desktop Photoshop",
+      "Heavy edits can be slow in-browser",
+      "Generative features consume Firefly credits"
+    ],
+    "official_url": "https://www.adobe.com/products/photoshop.html",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "whisk",
+    "provider": "Google Labs",
+    "product": "Whisk",
+    "category": "ai-image",
+    "tags": ["image-generation", "image-remix", "promptless"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with Google account",
+    "what_free": [
+      "Generate new images by dropping in reference images for subject, style, and scene - no prompt writing needed",
+      "Free with a Google account through Google Labs",
+      "View and edit the auto-generated prompt for finer control"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Google AI Pro subscription (higher limits)" },
+    "what_paid": [
+      "Nothing dedicated for Whisk itself",
+      "Google AI subscription tiers raise usage limits across Labs tools"
+    ],
+    "best_for": "Visual remixing from reference images instead of writing prompts.",
+    "watch_out": [
+      "Experimental Labs project that may change or be retired",
+      "Availability depends on country and account type"
+    ],
+    "official_url": "https://labs.google/fx/tools/whisk",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "stable-diffusion-webui",
+    "provider": "AUTOMATIC1111 (open source)",
+    "product": "Stable Diffusion WebUI",
+    "category": "ai-image",
+    "tags": ["image-generation", "local", "oss", "stable-diffusion"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free, runs locally",
+    "what_free": [
+      "Full-featured local web UI for Stable Diffusion, SDXL, and FLUX checkpoints",
+      "txt2img, img2img, inpainting, outpainting, and ControlNet support",
+      "Large extension ecosystem for upscaling, tagging, and workflows",
+      "No accounts, no quotas - unlimited local generation"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - free and open source; you 'pay' with your own GPU hardware",
+      "Optional costs only come from checkpoints or services you choose"
+    ],
+    "best_for": "The classic local Stable Diffusion UI with unlimited free generation.",
+    "watch_out": [
+      "Needs a decent GPU - an ~8GB VRAM card gives a comfortable experience",
+      "Model weights carry their own licenses and usage terms",
+      "Development has slowed; forks like Forge and SD.Next move faster"
+    ],
+    "official_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "comfyui",
+    "provider": "Comfy Org (open source)",
+    "product": "ComfyUI",
+    "category": "ai-image",
+    "tags": ["image-generation", "node-graph", "local", "oss"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free, runs locally",
+    "what_free": [
+      "Node-graph based UI for building image and video generation pipelines",
+      "Runs SD, FLUX, and open video models (Wan, LTXV, Hunyuan) locally on your GPU",
+      "Desktop app and portable package, plus full source code",
+      "Huge ecosystem of custom nodes and shareable workflow files"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing for the open-source app",
+      "Optional hosted ComfyUI API exists if you lack a GPU"
+    ],
+    "best_for": "Maximum control over local image and video pipelines via node graphs.",
+    "watch_out": [
+      "Steep learning curve compared to simple web tools",
+      "Workflows can break when nodes or models update"
+    ],
+    "official_url": "https://www.comfy.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "fooocus",
+    "provider": "lllyasviel (open source)",
+    "product": "Fooocus",
+    "category": "ai-image",
+    "tags": ["image-generation", "local", "oss", "sdxl"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free, runs locally",
+    "what_free": [
+      "Simplified local image generation built on SDXL - good defaults, minimal tuning",
+      "Built-in styles and prompt expansion for one-prompt workflows",
+      "Runs offline with low-VRAM modes (~4GB minimum)",
+      "Inpainting and outpainting included with sensible defaults"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - free and open source",
+      "No hosted version exists from the original author"
+    ],
+    "best_for": "The easiest offline SDXL generator for people who avoid tweaking settings.",
+    "watch_out": [
+      "Project is no longer actively maintained (archived in 2024)",
+      "Works best with SDXL-family models only"
+    ],
+    "official_url": "https://github.com/lllyasviel/Fooocus",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "invokeai",
+    "provider": "Invoke (open source)",
+    "product": "InvokeAI",
+    "category": "ai-image",
+    "tags": ["image-generation", "canvas", "local", "oss"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free, self-hosted",
+    "what_free": [
+      "Local studio for Stable Diffusion with a unified canvas for inpainting and outpainting",
+      "Boards, batches, ControlNet, and a model manager built in",
+      "Runs on Windows, macOS, and Linux with your own GPU"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing for the self-hosted app",
+      "The company behind it sells hosted and enterprise versions"
+    ],
+    "best_for": "Professional-style local canvas workflows for iterative image editing.",
+    "watch_out": [
+      "Requires a capable GPU for comfortable speeds",
+      "Some advanced features are aimed at the paid hosted product"
+    ],
+    "official_url": "https://invoke.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "sd-next",
+    "provider": "vladmandic (open source)",
+    "product": "SD.Next",
+    "category": "ai-image",
+    "tags": ["image-generation", "local", "oss", "diffusers"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free, runs locally",
+    "what_free": [
+      "Advanced Stable Diffusion UI fork built on the modern Diffusers backend",
+      "Broad hardware support including AMD, Intel, and Nvidia GPUs",
+      "Frequent updates with built-in upscaling and control tools"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - free and open source",
+      "Development is community funded"
+    ],
+    "best_for": "Local SD generation on non-Nvidia GPUs and for power users.",
+    "watch_out": [
+      "Dense settings and docs assume prior WebUI knowledge",
+      "Some legacy A1111 extensions are not compatible"
+    ],
+    "official_url": "https://github.com/vladmandic/sdnext",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "upscayl",
+    "provider": "Upscayl (open source)",
+    "product": "Upscayl",
+    "category": "ai-image",
+    "tags": ["upscaling", "desktop-app", "oss"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Free desktop image upscaler for Windows, macOS, and Linux",
+      "Built-in Real-ESRGAN models plus upscale styles for digital art, photos, and cartoons",
+      "Batch upscaling and custom model support",
+      "No accounts, no limits, works offline"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - every feature is free",
+      "Development is funded by donations and sponsors"
+    ],
+    "best_for": "Free offline AI upscaling of artwork and photos on any desktop OS.",
+    "watch_out": [
+      "Upscale quality depends on the chosen model and source image",
+      "Faster with a GPU but still works on CPU"
+    ],
+    "official_url": "https://upscayl.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "flux1-playground",
+    "provider": "Black Forest Labs",
+    "product": "FLUX.1 Playground",
+    "category": "ai-image",
+    "tags": ["image-generation", "text-to-image", "flux"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free playground demo",
+    "what_free": [
+      "Browser demo for the FLUX.1 family - the open FLUX.1 [schnell] model is free to sample",
+      "Fast, high-quality text-to-image rendering from Black Forest Labs",
+      "FLUX.1 [schnell] can also be run locally in ComfyUI or Diffusers under its Apache-2.0 license"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "transaction", "plan": "Prepaid credits for premium FLUX models" },
+    "what_paid": [
+      "Generate with premium models (FLUX.1 Pro, Kontext, and newer releases)",
+      "Buy credits or subscribe for higher limits"
+    ],
+    "best_for": "Sampling FLUX image models in the browser before running them locally.",
+    "watch_out": [
+      "Free demo generations are limited",
+      "The premium models are the main draw and they cost credits"
+    ],
+    "official_url": "https://playground.bfl.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  }
+]

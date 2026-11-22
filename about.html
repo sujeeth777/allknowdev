@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — the open-source atlas | allknowdev</title>
+  <meta name="description" content="What allknowdev is, how the data stays honest, how to contribute, and why it exists.">
+  <meta name="theme-color" content="#FAF7F2">
+  <link rel="canonical" href="https://allknowdev.vercel.app/about.html">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=2">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="aurora" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+
+  <header class="site-header">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">a</span><span>allknowdev</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><i></i><i></i></button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="ai.html">AI Hub</a>
+        <a href="learn.html">Learn</a>
+        <a href="world.html">World</a>
+        <a href="ask.html">Ask me</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="nav-actions">
+        <a class="region-chip" href="world.html" title="Choose your country and currency"><span class="flag">🌐</span><span class="cur-label">USD</span></a>
+        <button class="theme-toggle" aria-label="Switch theme">🌙</button>
+        <a class="btn btn-primary btn-small" href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="rise">A public good, <span class="grad-text">not a funnel.</span></h1>
+        <p class="lede rise" style="--d:.08s">allknowdev maps everything the internet gives away for free — so that anyone, anywhere, on any budget, can build real things. No affiliate links, no paid placements, no dark patterns. Just data.</p>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="stat-row stagger">
+          <div class="stat-tile"><b data-stat-key="services">—</b><span>Services tracked</span></div>
+          <div class="stat-tile"><b data-stat-key="free">—</b><span>Usable free tiers</span></div>
+          <div class="stat-tile"><b data-stat-key="oss">—</b><span>Open source</span></div>
+          <div class="stat-tile"><b data-stat-key="ai">—</b><span>AI tools</span></div>
+          <div class="stat-tile"><b data-stat-key="guides">—</b><span>Guides</span></div>
+        </div>
+
+        <div class="section-head reveal">
+          <p class="kicker">How it stays honest</p>
+          <h2>Useful information. <span class="grad-text">Not sales pressure.</span></h2>
+        </div>
+        <div class="law-grid stagger">
+          <div class="law-card"><span class="law-tag">sources</span><h3>Official sources only</h3><p>Every claim links to the official pricing page or documentation. Nothing is invented — if a number is unknown, the entry says to check the page.</p></div>
+          <div class="law-card"><span class="law-tag">freshness</span><h3>Verified dates on everything</h3><p>Each entry carries the date it was last checked. Free tiers change constantly — the date tells you how fresh the map is, and a "verify" badge flags volatile ones.</p></div>
+          <div class="law-card"><span class="law-tag">openness</span><h3>Plain JSON, publicly auditable</h3><p>All data lives in versioned JSON files in the repository. Anyone can read, fork, correct or extend it — a pull request fixes a stale entry for everyone.</p></div>
+          <div class="law-card"><span class="law-tag">privacy</span><h3>No tracking, no accounts</h3><p>No analytics cookies, no sign-in, no data collected. Your region and guide progress live in your browser's local storage and nowhere else.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Frequently asked</p>
+          <h2>Questions people <span class="grad-text">actually ask.</span></h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item"><b>Why does this exist?</b><p>Because "what can I use for free?" is the most expensive question on the internet — answered everywhere by SEO landfill and affiliate funnels. One honest, structured, open dataset beats a hundred listicles.</p></div>
+          <div class="faq-item"><b>How do you make money?</b><p>It doesn't. No affiliate links, no sponsored entries, no ads. Costs are a domain and a free static host. If that ever changes, it will be stated here first.</p></div>
+          <div class="faq-item"><b>Can I trust the numbers?</b><p>Treat it as a map, not gospel. Entries carry check dates and official links; "verify" badges mark volatile limits. The structure makes checking fast — that's the point.</p></div>
+          <div class="faq-item"><b>How can I help?</b><p>Star the repo, fix an entry, add a missing tool, improve a guide, or translate region notes. Everything is one small JSON edit — see the contributing guide.</p></div>
+          <div class="faq-item"><b>Is a tool missing or wrong?</b><p>Open an issue via the Ask page — suggestions and corrections land in the same inbox and get folded into the data.</p></div>
+          <div class="faq-item"><b>What's the tech stack?</b><p>Deliberately boring: plain HTML/CSS/JS, zero dependencies, no build step, static JSON data. It should outlive every framework and stay forkable forever.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="cta-panel reveal">
+          <span class="badge">★ open source · MIT licensed</span>
+          <h2 style="margin-top:14px">Know a free tier we're missing?</h2>
+          <p>Add it in one JSON file — no build step, no framework, no sign-up. Every contribution makes the map better for the next builder.</p>
+          <div class="cta-actions">
+            <a class="btn btn-light" href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star the repo</a>
+            <a class="btn btn-ghost" href="https://github.com/sujeeth777/allknowdev/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Contributing guide</a>
+            <a class="btn btn-ghost" href="ask.html">Suggest a tool</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-col">
+          <b>allknowdev</b>
+          <p class="footer-brand">An open-source atlas of what the internet gives away for free — exact limits, honest prices, verified dates.</p>
+          <p class="footer-note">MIT licensed · no tracking · no affiliate links</p>
+        </div>
+        <div class="footer-col">
+          <b>EXPLORE</b>
+          <a href="directory.html">Full directory</a>
+          <a href="ai.html">AI hub</a>
+          <a href="learn.html">Guides &amp; roadmaps</a>
+          <a href="world.html">Your region &amp; currency</a>
+        </div>
+        <div class="footer-col">
+          <b>PROJECT</b>
+          <a href="about.html">About &amp; FAQ</a>
+          <a href="ask.html">Ask for help</a>
+          <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+        <div class="footer-col">
+          <b>DATA</b>
+          <a href="https://github.com/sujeeth777/allknowdev/tree/main/data" target="_blank" rel="noreferrer">data/*.json ↗</a>
+          <a href="https://github.com/sujeeth777/allknowdev/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Contributing ↗</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="currentYear">2026</span> allknowdev contributors · MIT license</span>
+        <span>Plain HTML/CSS/JS · zero dependencies</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js?v=2"></script>
+</body>
+</html>

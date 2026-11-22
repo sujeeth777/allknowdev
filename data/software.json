@@ -1,0 +1,969 @@
+[
+  {
+    "id": "blender",
+    "provider": "Blender Foundation",
+    "product": "Blender",
+    "category": "software",
+    "tags": ["3d", "animation", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Full 3D pipeline: modelling, sculpting, animation, VFX, video editing",
+      "No limits, no accounts, no watermarks",
+      "Runs on Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Optional Blender Studio training subscription",
+      "No features are paywalled — donations and sponsors fund development"
+    ],
+    "best_for": "Complete 3D creation, modelling to rendering, at zero cost.",
+    "watch_out": [
+      "Steep learning curve for newcomers"
+    ],
+    "official_url": "https://www.blender.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "gimp",
+    "provider": "GIMP project",
+    "product": "GIMP",
+    "category": "software",
+    "tags": ["image-editing", "raster", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Full raster editor: layers, masks, retouching, batch processing",
+      "Scriptable via Script-Fu and Python plugins",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Funded by donations and community contributions"
+    ],
+    "best_for": "Free Photoshop-style image editing on any desktop OS.",
+    "watch_out": [
+      "CMYK workflows remain limited; interface feels dated to Photoshop users"
+    ],
+    "official_url": "https://www.gimp.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "krita",
+    "provider": "Krita Foundation",
+    "product": "Krita",
+    "category": "software",
+    "tags": ["digital-painting", "illustration", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Professional digital painting with powerful brush engines and stabilisers",
+      "Frame-by-frame animation with onion skinning",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "one-time", "plan": "Same app sold on Steam/Microsoft Store to fund development" },
+    "what_paid": [
+      "Buying on Steam or the Store supports development and gives auto-updates",
+      "Features are identical to the free download"
+    ],
+    "best_for": "Digital painting and illustration with pro brush engines for free.",
+    "watch_out": [
+      "A painting app first — photo editing is secondary"
+    ],
+    "official_url": "https://krita.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "inkscape",
+    "provider": "Inkscape project",
+    "product": "Inkscape",
+    "category": "software",
+    "tags": ["vector", "svg", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Full vector editor built around SVG",
+      "Node editing, path effects, and an extension ecosystem",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Development funded by donations and sponsors"
+    ],
+    "best_for": "Free Illustrator alternative for SVG, logos, and vector graphics.",
+    "watch_out": [
+      "Slower on very complex files; no CMYK-native print workflow"
+    ],
+    "official_url": "https://inkscape.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "scribus",
+    "provider": "Scribus project",
+    "product": "Scribus",
+    "category": "software",
+    "tags": ["desktop-publishing", "layout", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Desktop publishing for magazines, brochures, books, and PDFs",
+      "CMYK colour support and professional PDF/X export",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Donation-funded"
+    ],
+    "best_for": "Free InDesign-style page layout with real print PDF support.",
+    "watch_out": [
+      "UI is clunky compared to commercial DTP tools"
+    ],
+    "official_url": "https://scribus.net",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "darktable",
+    "provider": "darktable project",
+    "product": "darktable",
+    "category": "software",
+    "tags": ["photo-editing", "raw", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Non-destructive RAW photo development and library management",
+      "Full darkroom with masking, filmic tone mapping, and colour tools",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Community-developed"
+    ],
+    "best_for": "Free Lightroom-style RAW editing and catalogue for photographers.",
+    "watch_out": [
+      "Dense UI with a real learning curve; catalog features are simpler than Lightroom's"
+    ],
+    "official_url": "https://www.darktable.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "rawtherapee",
+    "provider": "RawTherapee project",
+    "product": "RawTherapee",
+    "category": "software",
+    "tags": ["photo-editing", "raw", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Deep RAW processing engine with fine-grained control",
+      "Extensive demosaicing, denoising, and colour management tools",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Volunteer-developed"
+    ],
+    "best_for": "Maximum control over RAW conversion without a catalogue.",
+    "watch_out": [
+      "Image-management features are minimal — pair with a DAM tool"
+    ],
+    "official_url": "https://rawtherapee.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "natron",
+    "provider": "Natron community",
+    "product": "Natron",
+    "category": "software",
+    "tags": ["compositing", "vfx", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Node-based compositing for VFX, keying, tracking, and rotoscoping",
+      "OpenFX plugin compatibility",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Community project"
+    ],
+    "best_for": "Free node-based compositing in the spirit of Nuke.",
+    "watch_out": [
+      "Development has been slow with infrequent releases"
+    ],
+    "official_url": "https://natrongithub.github.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "opentoonz",
+    "provider": "DWANGO (open-sourced Toonz)",
+    "product": "OpenToonz",
+    "category": "software",
+    "tags": ["animation", "2d", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BSD-style licence)",
+    "what_free": [
+      "Professional 2D animation production tool, including the Studio Ghibli variant",
+      "Raster and vector drawing, scanning, effects, and compositing",
+      "Includes GTS scanning tool and Ghibli-specific effects"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Open-sourced commercial codebase maintained by a community"
+    ],
+    "best_for": "Serious 2D animation production without licensing costs.",
+    "watch_out": [
+      "Dated, dense interface with a steep learning curve"
+    ],
+    "official_url": "https://opentoonz.github.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "pencil2d",
+    "provider": "Pencil2D team",
+    "product": "Pencil2D",
+    "category": "software",
+    "tags": ["animation", "2d", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Simple hand-drawn animation in bitmap and vector",
+      "Onion skinning and frame timeline",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Volunteer project"
+    ],
+    "best_for": "Beginners learning traditional frame-by-frame animation.",
+    "watch_out": [
+      "Minimal feature set compared to OpenToonz or Krita"
+    ],
+    "official_url": "https://www.pencil2d.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "godot",
+    "provider": "Godot Foundation",
+    "product": "Godot Engine",
+    "category": "software",
+    "tags": ["game-development", "engine", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT license)",
+    "what_free": [
+      "Complete 2D and 3D game engine with editor and GDScript",
+      "C#/.NET support ships alongside",
+      "No royalties, no fees, no revenue-based terms",
+      "Exports to desktop, mobile, and web"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Asset-library purchases are developer-to-developer, not engine fees"
+    ],
+    "best_for": "Indie 2D/3D game development with zero royalties or restrictions.",
+    "watch_out": [
+      "Console export requires third-party partners and platform SDKs"
+    ],
+    "official_url": "https://godotengine.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "unity-personal",
+    "provider": "Unity Technologies",
+    "product": "Unity Personal",
+    "category": "software",
+    "tags": ["game-development", "engine", "free-tier"],
+    "oss": false,
+    "student": true,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Unity Personal — free under revenue threshold",
+    "what_free": [
+      "Full engine and editor free for individuals and small studios",
+      "Revenue threshold applies (~$200k/year; verify current terms)",
+      "No runtime royalty on the Personal tier"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "year", "plan": "Unity Pro per-seat subscription; Unity Student is free" },
+    "what_paid": [
+      "Pro seats for companies above the revenue threshold",
+      "Unity Student gives verified students free access to advanced features"
+    ],
+    "best_for": "Students and small studios building games on an industry-standard engine.",
+    "watch_out": [
+      "Licensing terms changed controversially in 2023 and have shifted since — verify before shipping"
+    ],
+    "official_url": "https://unity.com",
+    "pricing_url": "https://unity.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "unreal-engine",
+    "provider": "Epic Games",
+    "product": "Unreal Engine",
+    "category": "software",
+    "tags": ["game-development", "engine", "3d"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free until $1M USD annual revenue per product",
+    "what_free": [
+      "Complete AAA-capable engine and editor at no upfront cost",
+      "5% royalty on gross revenue only above $1M per product (games)",
+      "Full C++ source access via GitHub",
+      "Free monthly marketplace asset packs"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "year", "plan": "5% royalty above $1M annual gross revenue per game; subscription for non-game industries" },
+    "what_paid": [
+      "Royalty applies only above $1M annual revenue per product",
+      "Non-game industries (film, simulation) moved to a subscription model"
+    ],
+    "best_for": "AAA-fidelity 3D games and cinematics with no upfront cost.",
+    "watch_out": [
+      "Royalty and industry-specific terms change — read the current EULA",
+      "Heavier hardware demands than Godot or Unity"
+    ],
+    "official_url": "https://www.unrealengine.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "obs-studio",
+    "provider": "OBS Project",
+    "product": "OBS Studio",
+    "category": "software",
+    "tags": ["streaming", "recording", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Recording and live streaming with unlimited scenes and sources",
+      "Filters, transitions, and a large plugin ecosystem",
+      "No watermark, no account, no time limits"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Donation-funded"
+    ],
+    "best_for": "Screen recording and live streaming — the de facto free standard.",
+    "watch_out": [
+      "No built-in video editor — clips need trimming elsewhere"
+    ],
+    "official_url": "https://obsproject.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "davinci-resolve",
+    "provider": "Blackmagic Design",
+    "product": "DaVinci Resolve (free)",
+    "category": "software",
+    "tags": ["video-editing", "colour-grading", "free-tier"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free version of Resolve",
+    "what_free": [
+      "Professional editing, colour grading, Fairlight audio, and Fusion VFX",
+      "Same core engine as the paid Studio edition",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "one-time", "plan": "DaVinci Resolve Studio one-time licence (~$295)" },
+    "what_paid": [
+      "Studio adds AI tools, extra effects, and broader codec support",
+      "One-time payment, not a subscription"
+    ],
+    "best_for": "Professional video editing and colour grading for free.",
+    "watch_out": [
+      "Hardware-accelerated H.264/HEVC and some AI features are Studio-only"
+    ],
+    "official_url": "https://www.blackmagicdesign.com/products/davinciresolve",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "shotcut",
+    "provider": "Meltytech (Shotcut)",
+    "product": "Shotcut",
+    "category": "software",
+    "tags": ["video-editing", "open-source", "cross-platform"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Timeline-based editing with wide format support via FFmpeg",
+      "Keyframe filters, multi-track timeline, hardware encoding",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Volunteer-developed"
+    ],
+    "best_for": "Straightforward cross-platform video editing without cost.",
+    "watch_out": [
+      "Utilitarian interface with UX quirks that take getting used to"
+    ],
+    "official_url": "https://shotcut.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "kdenlive",
+    "provider": "KDE",
+    "product": "Kdenlive",
+    "category": "software",
+    "tags": ["video-editing", "open-source", "kde"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Multi-track video editing built on the MLT framework",
+      "Effects, transitions, titling, proxies, and audio scopes",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "KDE community project"
+    ],
+    "best_for": "Open-source NLE with a modern UI and active development.",
+    "watch_out": [
+      "Complex projects can still hit occasional stability bugs"
+    ],
+    "official_url": "https://kdenlive.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "audacity",
+    "provider": "Audacity team",
+    "product": "Audacity",
+    "category": "software",
+    "tags": ["audio-editing", "recording", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Multi-track audio recording and editing",
+      "Effects, analysis tools, and VST/LADSPA plugin support",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier — the editor is fully free",
+      "Muse Hub offers optional third-party content, not required features"
+    ],
+    "best_for": "The classic free audio editor for recording and quick edits.",
+    "watch_out": [
+      "Not a DAW — no MIDI sequencing",
+      "Check privacy settings; telemetry caused controversy in 2021 before being adjusted"
+    ],
+    "official_url": "https://www.audacityteam.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "libreoffice",
+    "provider": "The Document Foundation",
+    "product": "LibreOffice",
+    "category": "software",
+    "tags": ["office", "documents", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MPL)",
+    "what_free": [
+      "Writer, Calc, Impress, Draw, Base, and Math suite",
+      "Opens and edits Microsoft Office formats",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier for the software",
+      "Enterprise support sold separately by certified partners"
+    ],
+    "best_for": "Full free replacement for Word, Excel, and PowerPoint.",
+    "watch_out": [
+      "Complex Office documents can lose formatting on round-trip"
+    ],
+    "official_url": "https://www.libreoffice.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "onlyoffice",
+    "provider": "Ascensio System SIA",
+    "product": "ONLYOFFICE Desktop Editors",
+    "category": "software",
+    "tags": ["office", "documents", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Desktop Editors free (AGPL)",
+    "what_free": [
+      "Word, Excel, and PowerPoint-compatible editors with high format fidelity",
+      "Desktop app free for personal and commercial use",
+      "Connects to ONLYOFFICE cloud, Nextcloud, and other storage for collaboration"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "ONLYOFFICE Docs cloud/workspace plans for teams" },
+    "what_paid": [
+      "Cloud workspace with group management, storage, and admin controls",
+      "Self-hosted Docs editions for organisations"
+    ],
+    "best_for": "Best-in-class Microsoft format compatibility in a free desktop suite.",
+    "watch_out": [
+      "Advanced collaboration features push you toward paid cloud tiers"
+    ],
+    "official_url": "https://www.onlyoffice.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "7-zip",
+    "provider": "Igor Pavlov",
+    "product": "7-Zip",
+    "category": "software",
+    "tags": ["compression", "archiver", "windows"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (LGPL + unRAR restriction)",
+    "what_free": [
+      "High-ratio 7z compression plus ZIP, TAR, and more",
+      "AES-256 encryption on 7z and ZIP archives",
+      "Shell integration and a portable command-line version"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Donation-supported"
+    ],
+    "best_for": "Free archiving with best-in-class compression ratios.",
+    "watch_out": [
+      "The unrar code carries a licence restriction on RAR extraction code"
+    ],
+    "official_url": "https://www.7-zip.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "vlc",
+    "provider": "VideoLAN",
+    "product": "VLC Media Player",
+    "category": "software",
+    "tags": ["media-player", "video", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Plays virtually every audio and video format out of the box",
+      "Stream, convert, and record media; runs on desktop and mobile",
+      "No ads, no tracking, no paid version"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Non-profit VideoLAN project funded by donations"
+    ],
+    "best_for": "The universal media player that just plays everything.",
+    "watch_out": [
+      "Playback-focused; media library management is basic"
+    ],
+    "official_url": "https://www.videolan.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "calibre",
+    "provider": "Kovid Goyal",
+    "product": "calibre",
+    "category": "software",
+    "tags": ["ebooks", "library", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "E-book library management, conversion, and editing",
+      "Syncs to e-readers with a built-in reader",
+      "News downloads and a large plugin ecosystem"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Donation-funded"
+    ],
+    "best_for": "Managing and converting e-book libraries across devices.",
+    "watch_out": [
+      "Dense interface; DRM-protected store books cannot be converted"
+    ],
+    "official_url": "https://calibre-ebook.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "handbrake",
+    "provider": "HandBrake team",
+    "product": "HandBrake",
+    "category": "software",
+    "tags": ["video-conversion", "transcoding", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Convert video between formats with H.264/H.265/AV1 encoders",
+      "Presets for devices and quality targets, plus batch queueing",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Volunteer project"
+    ],
+    "best_for": "Reliable free video transcoding with sensible presets.",
+    "watch_out": [
+      "A transcoder, not an editor — no cutting or merging",
+      "DRM-protected sources are not supported"
+    ],
+    "official_url": "https://handbrake.fr",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "qbittorrent",
+    "provider": "qBittorrent project",
+    "product": "qBittorrent",
+    "category": "software",
+    "tags": ["torrents", "downloader", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "BitTorrent client with built-in search, RSS, and automation",
+      "No ads, no bundled offers",
+      "Windows, macOS, Linux, and FreeBSD"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Volunteer project"
+    ],
+    "best_for": "Clean, ad-free torrent client without bundled junkware.",
+    "watch_out": [
+      "No VPN included — torrenting content has legal risks depending on what and where"
+    ],
+    "official_url": "https://www.qbittorrent.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "filezilla",
+    "provider": "FileZilla project",
+    "product": "FileZilla",
+    "category": "software",
+    "tags": ["ftp", "sftp", "file-transfer"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "FTP, SFTP, and FTPS client with site manager and resume support",
+      "Drag-and-drop transfer queues and bookmarks",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "one-time", "plan": "FileZilla Pro adds cloud protocols (S3, WebDAV, and more)" },
+    "what_paid": [
+      "Pro edition adds cloud storage protocols",
+      "The classic FTP/SFTP client stays free"
+    ],
+    "best_for": "Reliable classic FTP/SFTP file transfers.",
+    "watch_out": [
+      "Windows installer historically bundles optional offers — download the plain installer and decline"
+    ],
+    "official_url": "https://filezilla-project.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "winscp",
+    "provider": "Martin Prikryl",
+    "product": "WinSCP",
+    "category": "software",
+    "tags": ["sftp", "ftp", "windows"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "SFTP, SCP, FTP, FTPS, WebDAV, and S3 transfers",
+      "Explorer/Commander views, scripting, and .NET assembly automation",
+      "Sync and keep-remote-directory-up-to-date modes"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Donation-supported"
+    ],
+    "best_for": "Windows SFTP/SCP transfers with strong scripting support.",
+    "watch_out": [
+      "Windows only"
+    ],
+    "official_url": "https://winscp.net",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "thunderbird",
+    "provider": "Mozilla (Thunderbird)",
+    "product": "Thunderbird",
+    "category": "software",
+    "tags": ["email", "calendar", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MPL)",
+    "what_free": [
+      "Email, calendar, tasks, and chat clients in one app",
+      "Message filters, tags, and OpenPGP end-to-end encryption",
+      "Windows, macOS, and Linux"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "The desktop app has no paid tier",
+      "Announced Thunderbird Pro cloud services may be paid when released"
+    ],
+    "best_for": "Free, private desktop email with calendar and encryption built in.",
+    "watch_out": [
+      "IMAP-focused; no full Exchange ActiveSync support"
+    ],
+    "official_url": "https://www.thunderbird.net",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "virtualbox",
+    "provider": "Oracle",
+    "product": "VirtualBox",
+    "category": "software",
+    "tags": ["virtualization", "vms", "cross-platform"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Base package free (GPL); Extension Pack free for personal use",
+    "what_free": [
+      "Run Windows, Linux, and other guests on any host OS",
+      "Snapshots, shared folders, and USB passthrough (with Extension Pack)",
+      "Windows, macOS, Linux, and Solaris hosts"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "one-time", "plan": "Extension Pack needs a paid licence for commercial use" },
+    "what_paid": [
+      "Extension Pack requires a licence for business use",
+      "The GPL base package is free for everyone"
+    ],
+    "best_for": "Free desktop virtual machines for testing and sandboxes.",
+    "watch_out": [
+      "Slower than KVM/Hyper-V for heavy workloads",
+      "Extension Pack licensing trips up commercial users"
+    ],
+    "official_url": "https://www.virtualbox.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "powertoys",
+    "provider": "Microsoft",
+    "product": "PowerToys",
+    "category": "software",
+    "tags": ["windows", "utilities", "productivity"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT license)",
+    "what_free": [
+      "FancyZones window management, PowerRename, and Keyboard Manager",
+      "PowerToys Run launcher, Colour Picker, and File Locksmith",
+      "Text Extractor (OCR), Mouse utilities, and Always-on-Top"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Microsoft-maintained open-source project"
+    ],
+    "best_for": "Free power-user utilities that Windows should ship by default.",
+    "watch_out": [
+      "Windows 10/11 only"
+    ],
+    "official_url": "https://learn.microsoft.com/windows/powertoys",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "everything-search",
+    "provider": "voidtools",
+    "product": "Everything",
+    "category": "software",
+    "tags": ["search", "windows", "file-search"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Completely free (proprietary freeware)",
+    "what_free": [
+      "Instant file and folder name search across NTFS drives",
+      "Real-time index updates, filters, and advanced query syntax",
+      "Tiny install with negligible resource usage",
+      "Free for personal and commercial use"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Donationware"
+    ],
+    "best_for": "Instant filename search on Windows — nothing else comes close.",
+    "watch_out": [
+      "Searches filenames only, not file contents",
+      "Windows only"
+    ],
+    "official_url": "https://www.voidtools.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "sharex",
+    "provider": "ShareX team",
+    "product": "ShareX",
+    "category": "software",
+    "tags": ["screenshots", "screen-recording", "windows"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Screenshot capture with annotations, OCR, and dozens of effects",
+      "Screen recording as GIF or video",
+      "Auto-upload to many destinations with custom workflows"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Volunteer project"
+    ],
+    "best_for": "The most powerful free screenshot and capture tool for Windows.",
+    "watch_out": [
+      "Windows only; feature overload for simple needs"
+    ],
+    "official_url": "https://getsharex.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "irfanview",
+    "provider": "Irfan Skiljan",
+    "product": "IrfanView",
+    "category": "software",
+    "tags": ["image-viewer", "windows", "batch-processing"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free for personal use",
+    "what_free": [
+      "Fast lightweight image viewer with plugin-extended format support",
+      "Batch conversion, renaming, and basic edits",
+      "Free for personal use"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "one-time", "plan": "Commercial use requires a paid registration" },
+    "what_paid": [
+      "One-time registration licence for commercial use",
+      "Personal use stays free"
+    ],
+    "best_for": "Fast, no-nonsense image viewing and batch processing on Windows.",
+    "watch_out": [
+      "Free for personal use only — commercial use needs a licence",
+      "Windows only"
+    ],
+    "official_url": "https://www.irfanview.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  }
+]

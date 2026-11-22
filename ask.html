@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ask me — get a personal answer | allknowdev</title>
+  <meta name="description" content="Stuck choosing tools or planning a project? Ask Sujeeth directly. Suggest a tool, report a change, or request a personal recommendation — no signup needed.">
+  <meta name="theme-color" content="#FAF7F2">
+  <link rel="canonical" href="https://allknowdev.vercel.app/ask.html">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=2">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="aurora" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+
+  <header class="site-header">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">a</span><span>allknowdev</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><i></i><i></i></button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="ai.html">AI Hub</a>
+        <a href="learn.html">Learn</a>
+        <a href="world.html">World</a>
+        <a href="ask.html">Ask me</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="nav-actions">
+        <a class="region-chip" href="world.html" title="Choose your country and currency"><span class="flag">🌐</span><span class="cur-label">USD</span></a>
+        <button class="theme-toggle" aria-label="Switch theme">🌙</button>
+        <a class="btn btn-primary btn-small" href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="rise">Ask <span class="grad-text">me</span> anything.</h1>
+        <p class="lede rise" style="--d:.08s">This site is built by one human (Sujeeth) with an open-data philosophy. Real humans answer here — fill the form and your message opens as an issue in the project's GitHub inbox. No account needed to read the answer; your reply lands in the same thread.</p>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container" id="askRoot">
+        <div class="ask-tabs rise" style="--d:.12s"></div>
+        <div class="glass-panel reveal" style="max-width:720px">
+          <h2 id="askHeading" style="margin-bottom:8px">Ask Sujeeth anything</h2>
+          <p id="askSub" class="lede" style="margin-bottom:20px"></p>
+          <form class="ask-form" onsubmit="return false">
+            <!-- fields injected by ask.js -->
+          </form>
+          <div class="ask-actions mt-lg">
+            <button class="btn btn-primary" id="askSubmit">Send via GitHub</button>
+            <button class="btn btn-ghost" id="askCopy">Copy message</button>
+          </div>
+          <p class="disclaimer" style="margin-top:14px">Submitting opens GitHub in a new tab with your message prefilled — you stay in control of what gets posted. Anonymous is fine.</p>
+        </div>
+
+        <div class="section-head mt-lg">
+          <p class="kicker">What I can help with</p>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item"><b>🧭 Choosing what to build or learn next</b><p>Tell me your background and goals — you'll get a specific, opinionated plan mapped to free resources in this atlas, not a generic roadmap dump.</p></div>
+          <div class="faq-item"><b>🏗️ Reviewing your stack before you commit</b><p>About to build on a free tier? I'll sanity-check the limits against your expected usage and warn you where projects usually outgrow them.</p></div>
+          <div class="faq-item"><b>🆓 Finding a free option for X</b><p>"Is there a free alternative to ___?" is the most common question — the directory probably has it, and if it doesn't, I'll research one and add it.</p></div>
+          <div class="faq-item"><b>🌎 Region-specific blockers</b><p>Payment declines, unavailable services, verification loops — describe what's happening in your country and I'll point to what actually works.</p></div>
+          <div class="faq-item"><b>⏱ Response expectations</b><p>Best-effort and usually within a few days. This is a public thread — good questions and answers stay visible so the next person with the same problem finds them.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-col">
+          <b>allknowdev</b>
+          <p class="footer-brand">An open-source atlas of what the internet gives away for free — exact limits, honest prices, verified dates.</p>
+          <p class="footer-note">MIT licensed · no tracking · no affiliate links</p>
+        </div>
+        <div class="footer-col">
+          <b>EXPLORE</b>
+          <a href="directory.html">Full directory</a>
+          <a href="ai.html">AI hub</a>
+          <a href="learn.html">Guides &amp; roadmaps</a>
+          <a href="world.html">Your region &amp; currency</a>
+        </div>
+        <div class="footer-col">
+          <b>PROJECT</b>
+          <a href="about.html">About &amp; FAQ</a>
+          <a href="ask.html">Ask for help</a>
+          <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+        <div class="footer-col">
+          <b>DATA</b>
+          <a href="https://github.com/sujeeth777/allknowdev/tree/main/data" target="_blank" rel="noreferrer">data/*.json ↗</a>
+          <a href="https://github.com/sujeeth777/allknowdev/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Contributing ↗</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="currentYear">2026</span> allknowdev contributors · MIT license</span>
+        <span>Plain HTML/CSS/JS · zero dependencies</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js?v=2"></script>
+  <script src="assets/js/ask.js?v=2"></script>
+</body>
+</html>

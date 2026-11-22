@@ -1,0 +1,26 @@
+{
+  "groups": [
+    { "id": "ai", "name": "AI Universe", "blurb": "Every kind of AI you can actually use for free — chat, images, video, audio, code and the model APIs behind them." },
+    { "id": "build", "name": "Build & Ship", "blurb": "Hosting, databases, developer tools and APIs — the plumbing of a real product." },
+    { "id": "create", "name": "Create & Work", "blurb": "Design, desktop software and productivity — make things without paying rent on your tools." },
+    { "id": "life", "name": "Learn & Protect", "blurb": "Learning paths, privacy, security and your files — the supporting cast of a serious setup." }
+  ],
+  "categories": [
+    { "id": "ai", "name": "AI & Model APIs", "emoji": "🧠", "color": "#7C5CFF", "group": "ai", "blurb": "Model APIs, free GPUs, embeddings, vector DBs — the raw AI layer you build on." },
+    { "id": "ai-chat", "name": "AI Chat & Assistants", "emoji": "💬", "color": "#4F6DF5", "group": "ai", "blurb": "Every major chatbot and assistant — what their free tier really gives you." },
+    { "id": "ai-image", "name": "AI Image & Photo", "emoji": "🖼️", "color": "#E85D9E", "group": "ai", "blurb": "Image generation, editing and upscaling — free generations without watermarks where possible." },
+    { "id": "ai-video", "name": "AI Video & Editing", "emoji": "🎬", "color": "#F06449", "group": "ai", "blurb": "Text-to-video, AI editors and clip tools — including the open-source local options." },
+    { "id": "ai-audio", "name": "AI Audio, Music & Voice", "emoji": "🎧", "color": "#12B5A5", "group": "ai", "blurb": "Music generation, voice cloning, TTS and speech-to-text — hosted and open-source." },
+    { "id": "ai-coding", "name": "AI Coding Tools", "emoji": "🧑‍💻", "color": "#3E7BFA", "group": "ai", "blurb": "Copilots, agents, app builders and local AI runtimes for writing code." },
+    { "id": "cloud", "name": "Cloud & Hosting", "emoji": "☁️", "color": "#0EA5E9", "group": "build", "blurb": "Static hosts, serverless, VMs and PaaS — where your project lives." },
+    { "id": "data", "name": "Databases & Auth", "emoji": "🗄️", "color": "#1FAB6E", "group": "build", "blurb": "Postgres, NoSQL, caches, storage and identity providers." },
+    { "id": "tools", "name": "Developer Tools", "emoji": "🛠️", "color": "#D98E2B", "group": "build", "blurb": "Editors, API clients, CI/CD, monitoring and security tooling." },
+    { "id": "apis", "name": "APIs & Services", "emoji": "🔌", "color": "#B955E8", "group": "build", "blurb": "Payments, email, maps, media and notifications — programmable building blocks." },
+    { "id": "design", "name": "Design & Assets", "emoji": "🎨", "color": "#D92662", "group": "create", "blurb": "Fonts, icons, illustrations, stock photos and UI kits — free to ship with." },
+    { "id": "software", "name": "Desktop Software", "emoji": "📦", "color": "#FF8A3D", "group": "create", "blurb": "The legendary free and open-source programs — Blender, GIMP, OBS and friends." },
+    { "id": "productivity", "name": "Productivity & Writing", "emoji": "📋", "color": "#7CA31B", "group": "create", "blurb": "Notes, docs, tasks, meetings and research — organize your whole life for free." },
+    { "id": "learning", "name": "Learning & Career", "emoji": "📚", "color": "#FFB020", "group": "life", "blurb": "Courses, certifications, practice and roadmaps — world-class education at $0." },
+    { "id": "security", "name": "Privacy & Security", "emoji": "🔒", "color": "#5F3DC4", "group": "life", "blurb": "VPNs, password managers, encryption and private chat — guard your digital life." },
+    { "id": "storage", "name": "Files, Storage & Backup", "emoji": "🗃️", "color": "#6B7A8F", "group": "life", "blurb": "Cloud drives, file transfer, sync and backup — keep your data safe and reachable." }
+  ]
+}

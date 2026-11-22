@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directory — 400+ free tiers, limits and honest prices | allknowdev</title>
+  <meta name="description" content="Search and filter 400+ services: AI tools, hosting, databases, software, learning and privacy. Exact free-tier limits, prices in your currency, verified dates.">
+  <meta name="theme-color" content="#FAF7F2">
+  <link rel="canonical" href="https://allknowdev.vercel.app/directory.html">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=2">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="aurora" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+
+  <header class="site-header">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">a</span><span>allknowdev</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><i></i><i></i></button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="ai.html">AI Hub</a>
+        <a href="learn.html">Learn</a>
+        <a href="world.html">World</a>
+        <a href="ask.html">Ask me</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="nav-actions">
+        <a class="region-chip" href="world.html" title="Choose your country and currency"><span class="flag">🌐</span><span class="cur-label">USD</span></a>
+        <button class="theme-toggle" aria-label="Switch theme">🌙</button>
+        <a class="btn btn-primary btn-small" href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="rise">The <span class="grad-text">atlas</span>.</h1>
+        <p class="lede rise" style="--d:.08s">Every service an engineer, student or creator touches — with exact free-tier limits, real paid prices in your currency, official links and last-checked dates. Press <kbd style="font-family:var(--font-mono);background:var(--bg-inset);padding:2px 7px;border-radius:6px;border:1px solid var(--line)">/</kbd> to search.</p>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="dir-controls rise" style="--d:.14s">
+          <div class="search-field">
+            <span aria-hidden="true">⌕</span>
+            <label class="sr-only" for="dirSearch">Search the directory</label>
+            <input type="search" id="dirSearch" placeholder="Try “postgres”, “free gpu”, “tts”, “vpn”, “student”…" autocomplete="off">
+            <kbd>/</kbd>
+          </div>
+          <div class="filter-row" id="catRow"></div>
+          <div class="filter-row">
+            <label class="sr-only" for="tierSelect">Price tier</label>
+            <select id="tierSelect">
+              <option value="all">All tiers</option>
+              <option value="free">🆓 Free forever</option>
+              <option value="freemium">🧗 Free tier + paid</option>
+              <option value="oss">🔓 Open source</option>
+              <option value="paid">💳 Paid / trial</option>
+            </select>
+            <button class="chip" id="ossChip" type="button">🔓 Open source only</button>
+            <button class="chip" id="studentChip" type="button">🎓 Student perks only</button>
+            <label class="sr-only" for="sortSelect">Sort</label>
+            <select id="sortSelect">
+              <option value="featured">Sort: featured first</option>
+              <option value="az">Sort: A → Z</option>
+              <option value="new">Sort: recently checked</option>
+            </select>
+            <span class="result-count" id="resultCount" style="margin-left:auto"></span>
+          </div>
+        </div>
+
+        <div class="tool-grid" id="toolGrid">
+          <div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>
+          <div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>
+        </div>
+        <div class="center mt-lg">
+          <button class="btn btn-ghost" id="moreBtn">Load more ↓</button>
+        </div>
+        <p class="disclaimer center mt-lg">Limits reflect the checked date and change without notice — verify on the official pricing page before you depend on a tier.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-col">
+          <b>allknowdev</b>
+          <p class="footer-brand">An open-source atlas of what the internet gives away for free — exact limits, honest prices, verified dates.</p>
+          <p class="footer-note">MIT licensed · no tracking · no affiliate links</p>
+        </div>
+        <div class="footer-col">
+          <b>EXPLORE</b>
+          <a href="index.html">Home</a>
+          <a href="ai.html">AI hub</a>
+          <a href="learn.html">Guides &amp; roadmaps</a>
+          <a href="world.html">Your region &amp; currency</a>
+        </div>
+        <div class="footer-col">
+          <b>PROJECT</b>
+          <a href="about.html">About &amp; FAQ</a>
+          <a href="ask.html">Ask for help</a>
+          <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+        <div class="footer-col">
+          <b>DATA</b>
+          <a href="https://github.com/sujeeth777/allknowdev/tree/main/data" target="_blank" rel="noreferrer">data/*.json ↗</a>
+          <a href="https://github.com/sujeeth777/allknowdev/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Contributing ↗</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="currentYear">2026</span> allknowdev contributors · MIT license</span>
+        <span>Plain HTML/CSS/JS · zero dependencies</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js?v=2"></script>
+  <script src="assets/js/directory.js?v=2"></script>
+</body>
+</html>

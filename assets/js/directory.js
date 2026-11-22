@@ -1,260 +1,155 @@
 "use strict";
-/* allknowdev v1.0 — directory renderer
-   Fetches data/*.json, renders searchable/filterable "free vs paid" cards.
-   No dependencies, no build step. */
+/* allknowdev v2 — directory page.
+   Instant search + category/tier/oss/student filters + sort, URL-synced,
+   batched rendering, currency-aware price labels. */
 
 (function () {
-  const CATEGORIES = [
-    { key: "ai", file: "ai-ml.json", title: "AI & Machine Learning", blurb: "Model APIs, coding assistants, GPUs, vector databases" },
-    { key: "cloud", file: "cloud-hosting.json", title: "Cloud & Hosting", blurb: "Static hosts, serverless, VMs, PaaS, tunnels" },
-    { key: "data", file: "databases-auth.json", title: "Databases & Auth", blurb: "Postgres, NoSQL, caches, identity providers" },
-    { key: "tools", file: "devtools.json", title: "Developer Tools", blurb: "Editors, IDEs, CI, observability, security" },
-    { key: "apis", file: "apis-services.json", title: "APIs & Services", blurb: "Payments, email, storage, maps, notifications" },
-    { key: "learning", file: "learning.json", title: "Learning & Certifications", blurb: "Courses, labs, certifications, student perks" },
-    { key: "design", file: "design.json", title: "Design & Assets", blurb: "Fonts, icons, illustrations, photos, UI kits" }
-  ];
+  const grid = document.getElementById("toolGrid");
+  if (!grid) return;
 
-  const SYMBOLS = { USD: "$", EUR: "\u20AC", GBP: "\u00A3", INR: "\u20B9" };
+  const searchInput = document.getElementById("dirSearch");
+  const catRow = document.getElementById("catRow");
+  const tierSelect = document.getElementById("tierSelect");
+  const ossChip = document.getElementById("ossChip");
+  const studentChip = document.getElementById("studentChip");
+  const sortSelect = document.getElementById("sortSelect");
+  const countEl = document.getElementById("resultCount");
+  const moreBtn = document.getElementById("moreBtn");
+  const PAGE = 24;
 
-  const searchInput = document.getElementById("directorySearch");
-  const filterBar = document.getElementById("directoryFilters");
-  const summary = document.getElementById("directorySummary");
-  const results = document.getElementById("directoryResults");
-  const emptyState = document.getElementById("directoryEmpty");
+  const params = new URLSearchParams(location.search);
+  const state = {
+    q: params.get("q") || "",
+    cat: params.get("cat") || "all",
+    tier: params.get("tier") || "all",
+    oss: params.get("oss") === "1",
+    student: params.get("student") === "1",
+    sort: params.get("sort") || "featured"
+  };
+  let shown = PAGE;
 
-  let entries = [];
-  let activeCategory = "all";
-  let toggles = { free: false, oss: false, student: false };
-  let searchQuery = "";
-
-  function el(tag, className, text) {
-    const node = document.createElement(tag);
-    if (className) node.className = className;
-    if (text !== undefined && text !== null) node.textContent = text;
-    return node;
-  }
-
-  function currency(entry) {
-    const paid = entry.paid_from;
-    if (!paid) return { price: null, plan: null };
-    const symbol = SYMBOLS[paid.currency] || (paid.currency ? paid.currency + " " : "");
-    let price = null;
-    if (typeof paid.amount === "number") {
-      const suffix = paid.period === "once" ? " one-time" : "/" + (paid.period || "mo").replace("month", "mo").replace("transaction", "transaction");
-      price = symbol + paid.amount + (paid.period === "transaction" ? "+ per transaction" : suffix);
-    }
-    return { price: price, plan: paid.plan || null };
-  }
-
-  function badges(entry) {
-    const list = [];
-    if (entry.free_tier_exists) list.push({ cls: "badge-free", text: "Free tier" });
-    else list.push({ cls: "badge-paid", text: "No free tier" });
-    if (entry.oss) list.push({ cls: "badge-oss", text: "OSS" });
-    if (entry.student) list.push({ cls: "badge-student", text: "Student" });
-    if (entry.confidence !== "official") list.push({ cls: "badge-volatile", text: "Verify" });
-    return list;
-  }
-
-  function renderBadges(entry) {
-    const wrap = el("div", "dir-badges");
-    badges(entry).forEach(function (b) {
-      wrap.appendChild(el("span", b.cls, b.text));
-    });
-    return wrap;
-  }
-
-  function renderEntry(entry) {
-    const card = el("article", "dir-card");
-    card.dataset.id = entry.id;
-
-    const head = el("div", "dir-head");
-    const titleWrap = el("div");
-    titleWrap.appendChild(el("h3", null, entry.product));
-    titleWrap.appendChild(el("span", "provider", entry.provider));
-    head.appendChild(titleWrap);
-    head.appendChild(renderBadges(entry));
-    card.appendChild(head);
-
-    if (entry.tags && entry.tags.length) {
-      card.appendChild(el("div", "dir-tags", entry.tags.join(" \u00B7 ")));
-    }
-
-    const cols = el("div", "dir-cols");
-    const freeCol = el("div", "dir-col free");
-    const tierName = (entry.free_tier_name || "").toLowerCase();
-    const freeHeading = tierName && !tierName.includes("free") && tierName !== "n/a"
-      ? "What you get on " + entry.free_tier_name
-      : "What you get for free";
-    freeCol.appendChild(el("h4", null, freeHeading));
-    const freeList = el("ul");
-    (entry.what_free || []).slice(0, 4).forEach(function (item) { freeList.appendChild(el("li", null, item)); });
-    if (!(entry.what_free || []).length) freeList.appendChild(el("li", null, "No free offering \u2014 this is a paid-only service."));
-    freeCol.appendChild(freeList);
-    cols.appendChild(freeCol);
-
-    const paidCol = el("div", "dir-col paid");
-    paidCol.appendChild(el("h4", null, "What money unlocks"));
-    const money = currency(entry);
-    if (money.price || money.plan) {
-      paidCol.appendChild(el("span", "price", money.price ? "from " + money.price : money.plan));
-    } else {
-      paidCol.appendChild(el("span", "price", "no paid plan needed"));
-    }
-    const paidList = el("ul");
-    (entry.what_paid || []).slice(0, 3).forEach(function (item) { paidList.appendChild(el("li", null, item)); });
-    paidCol.appendChild(paidList);
-    cols.appendChild(paidCol);
-    card.appendChild(cols);
-
-    const details = el("div", "dir-details");
-    if (entry.best_for) {
-      const best = el("p", "dir-best");
-      best.appendChild(el("b", null, "Best for: "));
-      best.appendChild(document.createTextNode(entry.best_for));
-      details.appendChild(best);
-    }
-    if (entry.watch_out && entry.watch_out.length) {
-      details.appendChild(el("h5", null, "Watch out"));
-      const warn = el("ul");
-      entry.watch_out.forEach(function (item) { warn.appendChild(el("li", null, item)); });
-      details.appendChild(warn);
-    }
-    card.appendChild(details);
-
-    const more = el("div", "dir-more");
-    const toggleBtn = el("button", null, "Details");
-    toggleBtn.type = "button";
-    toggleBtn.addEventListener("click", function () {
-      card.classList.toggle("open");
-      toggleBtn.textContent = card.classList.contains("open") ? "Close" : "Details";
-    });
-    more.appendChild(toggleBtn);
-    more.appendChild(el("span", "disclaimer", "checked " + entry.last_verified + " \u00B7 " + entry.confidence));
-    card.appendChild(more);
-
-    const meta = el("div", "dir-meta");
-    meta.appendChild(el("a", null, "Official site \u2197")).href = entry.official_url;
-    meta.appendChild(el("a", "pricing-link", "Pricing \u2197")).href = entry.pricing_url || entry.official_url;
-    card.appendChild(meta);
-
-    return card;
+  function syncURL() {
+    const p = new URLSearchParams();
+    if (state.q) p.set("q", state.q);
+    if (state.cat !== "all") p.set("cat", state.cat);
+    if (state.tier !== "all") p.set("tier", state.tier);
+    if (state.oss) p.set("oss", "1");
+    if (state.student) p.set("student", "1");
+    if (state.sort !== "featured") p.set("sort", state.sort);
+    const qs = p.toString();
+    history.replaceState(null, "", location.pathname + (qs ? "?" + qs : ""));
   }
 
   function matches(entry) {
-    if (activeCategory !== "all" && entry.category !== activeCategory) return false;
-    if (toggles.free && !entry.free_tier_exists) return false;
-    if (toggles.oss && !entry.oss) return false;
-    if (toggles.student && !entry.student) return false;
-    if (searchQuery) {
-      const haystack = [
-        entry.provider, entry.product, entry.free_tier_name, entry.best_for,
-        (entry.tags || []).join(" "), (entry.what_free || []).join(" "), (entry.what_paid || []).join(" ")
-      ].join(" ").toLowerCase();
-      if (!haystack.includes(searchQuery)) return false;
+    if (state.cat !== "all") {
+      if (state.cat === "ai") { if (!(entry.category === "ai" || entry.category.startsWith("ai-"))) return false; }
+      else if (entry.category !== state.cat) return false;
+    }
+    if (state.tier !== "all" && AKD.tier(entry).id !== state.tier) return false;
+    if (state.oss && !entry.oss) return false;
+    if (state.student && !entry.student) return false;
+    if (state.q) {
+      const q = state.q.toLowerCase();
+      const hay = [entry.product, entry.provider, entry.best_for || "", (entry.tags || []).join(" "), (entry.what_free || []).join(" "), entry.category].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
     }
     return true;
   }
 
-  function render() {
-    if (!results) return;
-    results.classList.remove("dir-skeleton");
-    results.replaceChildren();
+  function sortList(list) {
+    const by = state.sort;
+    if (by === "az") return [...list].sort((a, b) => a.product.localeCompare(b.product));
+    if (by === "new") return [...list].sort((a, b) => (b.last_verified || "").localeCompare(a.last_verified || ""));
+    return [...list].sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
+  }
 
-    let shown = 0;
-    CATEGORIES.forEach(function (cat) {
-      const inCat = entries.filter(function (e) { return e.category === cat.key && matches(e); });
-      if (!inCat.length) return;
-      if (activeCategory === "all" || activeCategory === cat.key) {
-        const section = el("div");
-        section.id = cat.key;
-        const head = el("div", "dir-section");
-        head.appendChild(el("h2", null, cat.title));
-        head.appendChild(el("span", null, inCat.length + (inCat.length === 1 ? " service" : " services")));
-        section.appendChild(head);
-        if (activeCategory === "all") section.appendChild(el("p", "disclaimer", cat.blurb));
-        const grid = el("div", "dir-grid");
-        inCat.forEach(function (entry) { grid.appendChild(renderEntry(entry)); });
-        section.appendChild(grid);
-        results.appendChild(section);
-        shown += inCat.length;
-      }
-    });
-
-    if (summary) {
-      summary.replaceChildren();
-      summary.appendChild(el("span", null, "Showing "));
-      summary.appendChild(el("b", null, String(shown)));
-      summary.appendChild(el("span", null, " of " + entries.length + " services" +
-        (searchQuery ? " for \u201C" + searchQuery + "\u201D" : "")));
+  function render(list) {
+    grid.replaceChildren();
+    if (!list.length) {
+      const empty = AKD.el("div", "empty-state");
+      empty.appendChild(AKD.el("div", "big", "🔍"));
+      empty.appendChild(AKD.el("p", null, "Nothing matches those filters — try a broader search."));
+      grid.appendChild(empty);
+    } else {
+      list.slice(0, shown).forEach((entry) => grid.appendChild(AKD.toolCard(entry)));
     }
-    if (emptyState) emptyState.hidden = shown !== 0;
+    countEl.replaceChildren();
+    countEl.appendChild(document.createElement("b")).textContent = list.length;
+    countEl.appendChild(document.createTextNode(" services" + (state.q ? " for \u201C" + state.q + "\u201D" : "")));
+    moreBtn.style.display = list.length > shown ? "" : "none";
+    moreBtn.textContent = "Load " + Math.min(PAGE, list.length - shown) + " more ↓";
   }
 
-  function setCategory(key) {
-    activeCategory = key;
-    if (filterBar) {
-      filterBar.querySelectorAll("[data-filter]").forEach(function (btn) {
-        const on = btn.dataset.filter === key;
-        btn.classList.toggle("active", on);
-        btn.setAttribute("aria-pressed", String(on));
+  function update() {
+    syncURL();
+    AKD.getServices().then((s) => {
+      if (AKD.failed()) { AKD.showDataError(grid); return; }
+      render(sortList(s.list.filter(matches)));
+    });
+  }
+
+  /* controls */
+  searchInput.value = state.q;
+  let debounce = null;
+  searchInput.addEventListener("input", () => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => { state.q = searchInput.value.trim(); shown = PAGE; update(); }, 130);
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "/" && document.activeElement !== searchInput) { e.preventDefault(); searchInput.focus(); }
+  });
+
+  tierSelect.value = state.tier;
+  tierSelect.addEventListener("change", () => { state.tier = tierSelect.value; shown = PAGE; update(); });
+
+  sortSelect.value = state.sort;
+  sortSelect.addEventListener("change", () => { state.sort = sortSelect.value; update(); });
+
+  ossChip.classList.toggle("active", state.oss);
+  ossChip.addEventListener("click", () => { state.oss = !state.oss; ossChip.classList.toggle("active", state.oss); shown = PAGE; update(); });
+
+  studentChip.classList.toggle("active", state.student);
+  studentChip.addEventListener("click", () => { state.student = !state.student; studentChip.classList.toggle("active", state.student); shown = PAGE; update(); });
+
+  moreBtn.addEventListener("click", () => { shown += PAGE; update(); });
+
+  AKD.getCategories().then((cats) => {
+    AKD.getServices().then((s) => {
+      if (AKD.failed()) return;
+      const counts = {};
+      s.list.forEach((e) => {
+        counts[e.category] = (counts[e.category] || 0) + 1;
+        if (e.category === "ai" || e.category.startsWith("ai-")) counts.ai = (counts.ai || 0) + 1;
       });
-    }
-    render();
-  }
+      const chips = [];
+      const all = AKD.el("button", "chip" + (state.cat === "all" ? " active" : ""));
+      all.type = "button";
+      all.textContent = "All · " + s.list.length;
+      all.addEventListener("click", () => { state.cat = "all"; shown = PAGE; setActive(all); update(); });
+      chips.push(all);
 
-  function readUrl() {
-    const params = new URLSearchParams(location.search);
-    const q = (params.get("q") || "").trim().toLowerCase();
-    if (q && searchInput) searchInput.value = q;
-    searchQuery = q;
-    const hash = (location.hash || "").replace("#", "");
-    if (hash && CATEGORIES.some(function (c) { return c.key === hash; })) activeCategory = hash;
-  }
-
-  function loadData() {
-    return Promise.all(CATEGORIES.map(function (cat) {
-      return fetch("../data/" + cat.file).then(function (res) {
-        if (!res.ok) throw new Error(cat.file + ": HTTP " + res.status);
-        return res.json();
+      cats.list.forEach((c) => {
+        const n = counts[c.id] || 0;
+        if (!n) return;
+        const chip = AKD.el("button", "chip" + (state.cat === c.id ? " active" : ""));
+        chip.type = "button";
+        chip.textContent = c.emoji + " " + c.name;
+        const cnt = AKD.el("span", "chip-count", String(n));
+        chip.appendChild(cnt);
+        chip.addEventListener("click", () => { state.cat = c.id; shown = PAGE; setActive(chip); update(); });
+        chips.push(chip);
       });
-    })).then(function (lists) {
-      entries = [];
-      lists.forEach(function (list) { entries = entries.concat(list); });
-      setCategory(activeCategory);
-    }).catch(function (err) {
-      if (results) {
-        results.replaceChildren();
-        const fail = el("div", "dir-skeleton");
-        fail.textContent = "Could not load the directory data (" + err.message + "). If you opened this file directly, serve the site with: python -m http.server 5500";
-        results.appendChild(fail);
+
+      function setActive(btn) {
+        catRow.querySelectorAll(".chip").forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
       }
+      catRow.replaceChildren(...chips);
     });
-  }
+  });
 
-  if (searchInput) {
-    searchInput.addEventListener("input", function () {
-      searchQuery = searchInput.value.trim().toLowerCase();
-      render();
-    });
-  }
+  // currency change → re-render prices
+  AKD.onRegionChange(() => update());
 
-  if (filterBar) {
-    filterBar.addEventListener("click", function (event) {
-      const btn = event.target.closest("[data-filter]");
-      if (!btn) return;
-      if (btn.dataset.filter === "__toggle") {
-        const key = btn.dataset.toggle;
-        toggles[key] = !toggles[key];
-        btn.classList.toggle("active", toggles[key]);
-        btn.setAttribute("aria-pressed", String(toggles[key]));
-        render();
-        return;
-      }
-      setCategory(btn.dataset.filter);
-    });
-  }
-
-  readUrl();
-  loadData();
+  update();
 })();

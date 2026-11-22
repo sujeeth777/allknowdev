@@ -1,0 +1,659 @@
+[
+  {
+    "id": "capcut",
+    "provider": "ByteDance",
+    "product": "CapCut",
+    "category": "ai-video",
+    "tags": ["video-editing", "auto-captions", "templates"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Full video editor on web, desktop, and mobile with timeline, transitions, and filters",
+      "Auto captions, text-to-speech, and background removal included free",
+      "1080p exports available on the free tier",
+      "Large library of templates and stock assets for quick edits"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "CapCut Pro subscription" },
+    "what_paid": [
+      "Premium effects, templates, and transitions",
+      "Higher export quality, more cloud storage, and advanced tools"
+    ],
+    "best_for": "Free all-platform video editing with auto captions for social content.",
+    "watch_out": [
+      "Many effects and templates moved behind Pro over time",
+      "Commercial-use rights for template assets vary",
+      "Pro pricing varies by region and platform"
+    ],
+    "official_url": "https://www.capcut.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "clipchamp",
+    "provider": "Microsoft",
+    "product": "Clipchamp",
+    "category": "ai-video",
+    "tags": ["video-editing", "browser-editor", "auto-captions"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Browser-based video editor with timeline, trimming, and templates",
+      "Free 1080p exports without watermark",
+      "Screen and webcam recorder plus text-to-speech built in",
+      "Auto captions and a royalty-free stock library"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Clipchamp Premium" },
+    "what_paid": [
+      "4K exports and premium stock content",
+      "Brand kit, AI b-roll suggestions, and more cloud storage"
+    ],
+    "best_for": "Free 1080p browser editing, especially on Windows.",
+    "watch_out": [
+      "Some AI features (premium voices, AI b-roll) are limited on free",
+      "Also included in Microsoft 365 subscriptions"
+    ],
+    "official_url": "https://clipchamp.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "runway",
+    "provider": "Runway AI",
+    "product": "Runway",
+    "category": "ai-video",
+    "tags": ["video-generation", "text-to-video", "image-to-video"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "One-time free credits",
+    "what_free": [
+      "~125 one-time free credits on signup for Gen-4 and Gen-3 video generation",
+      "Text-to-video, image-to-video, and frame interpolation tools",
+      "Web UI with camera controls and motion brush on some models"
+    ],
+    "paid_from": { "amount": 12, "currency": "USD", "period": "month", "plan": "Standard (billed annually)" },
+    "what_paid": [
+      "Monthly credit allowance for regular generation",
+      "No watermark, faster queues, and commercial-use rights"
+    ],
+    "best_for": "Top-tier AI video generation with a small free trial.",
+    "watch_out": [
+      "Free credits are one-time - not refilled monthly",
+      "Video models burn credits quickly",
+      "Free-tier outputs are watermarked"
+    ],
+    "official_url": "https://runwayml.com",
+    "pricing_url": "https://runwayml.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "pika",
+    "provider": "Pika Labs",
+    "product": "Pika",
+    "category": "ai-video",
+    "tags": ["video-generation", "text-to-video", "effects"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free monthly credits",
+    "what_free": [
+      "A small monthly credit allowance for text-to-video and image-to-video clips",
+      "Built-in effects such as inflate, melt, and cake-ify",
+      "Short clips generated quickly in the browser"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Standard and Pro subscriptions" },
+    "what_paid": [
+      "More monthly credits and faster generations",
+      "Watermark removal and commercial-use rights"
+    ],
+    "best_for": "Playful short AI video clips and social media effects.",
+    "watch_out": [
+      "Free clips are watermarked",
+      "Credits drain fast on longer or higher-quality renders",
+      "Quotas change often"
+    ],
+    "official_url": "https://pika.art",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "luma-dream-machine",
+    "provider": "Luma AI",
+    "product": "Dream Machine",
+    "category": "ai-video",
+    "tags": ["video-generation", "text-to-video", "image-to-video"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Limited free monthly generations",
+    "what_free": [
+      "A small monthly quota of free generations (quota has varied over time)",
+      "Text-to-video and image-to-video powered by Luma's Ray models",
+      "Keyframe and extend features for shaping shots"
+    ],
+    "paid_from": { "amount": 9.99, "currency": "USD", "period": "month", "plan": "Lite" },
+    "what_paid": [
+      "More monthly generations with commercial-use rights",
+      "Priority queue and watermark-free output"
+    ],
+    "best_for": "Testing strong image-to-video motion with a modest free quota.",
+    "watch_out": [
+      "Free tier queues can be long",
+      "Free outputs carry a watermark",
+      "Higher-quality modes cost more credits"
+    ],
+    "official_url": "https://lumalabs.ai/dream-machine",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "kling-ai",
+    "provider": "Kuaishou",
+    "product": "Kling AI",
+    "category": "ai-video",
+    "tags": ["video-generation", "text-to-video", "image-to-video"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily credits",
+    "what_free": [
+      "Small daily free credits for text-to-video and image-to-video (amount has varied)",
+      "Strong motion quality and lip-sync features",
+      "Standard-mode generations are slower but usable free"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Monthly subscription tiers" },
+    "what_paid": [
+      "More credits and faster professional-mode generations",
+      "Watermark removal and longer clips"
+    ],
+    "best_for": "High-quality motion video generation with daily free credits.",
+    "watch_out": [
+      "Free outputs are watermarked",
+      "Professional mode costs significantly more credits",
+      "Queue times on the free tier"
+    ],
+    "official_url": "https://klingai.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "hailuo-ai",
+    "provider": "MiniMax",
+    "product": "Hailuo AI",
+    "category": "ai-video",
+    "tags": ["video-generation", "text-to-video", "image-to-video"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily credits",
+    "what_free": [
+      "Daily free credits for text-to-video and image-to-video generation",
+      "Strong prompt adherence and subject-consistency features",
+      "Browser-based, no install"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Subscription plans" },
+    "what_paid": [
+      "More daily credits and priority generation",
+      "Watermark-free and commercial-use output"
+    ],
+    "best_for": "Free daily taster generations from MiniMax's video models.",
+    "watch_out": [
+      "Free outputs are watermarked",
+      "Daily credit cap limits experimentation",
+      "Peak-time queues"
+    ],
+    "official_url": "https://hailuoai.video",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "vidu",
+    "provider": "Shengshu Technology",
+    "product": "Vidu",
+    "category": "ai-video",
+    "tags": ["video-generation", "text-to-video", "reference-to-video"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily credits",
+    "what_free": [
+      "Daily free credit grants for text-to-video and image-to-video",
+      "Reference-to-video with multiple character and subject inputs",
+      "Fast standard-mode generations"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Subscription plans" },
+    "what_paid": [
+      "More credits, longer videos, and faster queues",
+      "Watermark-free commercial use"
+    ],
+    "best_for": "Quick free daily AI video generation with subject references.",
+    "watch_out": [
+      "Free outputs are watermarked",
+      "Credit cost scales with video length and model",
+      "Quotas change frequently"
+    ],
+    "official_url": "https://www.vidu.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "invideo-ai",
+    "provider": "InVideo",
+    "product": "InVideo AI",
+    "category": "ai-video",
+    "tags": ["text-to-video", "ai-workflow", "stock-footage"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Generate complete videos from a prompt: script, stock footage, subtitles, and voiceover",
+      "Free plan includes limited AI generation minutes per week",
+      "Manual editor and templates available without using AI minutes"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Plus and Max subscriptions" },
+    "what_paid": [
+      "More AI minutes and watermark removal",
+      "Premium stock and voice cloning features"
+    ],
+    "best_for": "Prompt-to-video drafts with stock footage and voiceover fast.",
+    "watch_out": [
+      "Free exports are watermarked",
+      "AI minutes are consumed per generation command",
+      "Fully AI-generated videos need review for accuracy"
+    ],
+    "official_url": "https://invideo.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "fliki",
+    "provider": "Fliki",
+    "product": "Fliki",
+    "category": "ai-video",
+    "tags": ["text-to-video", "ai-voices", "social-content"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (~5 minutes/month)",
+    "what_free": [
+      "~5 minutes of free video credits per month",
+      "AI voiceovers in many languages and voices",
+      "Stock media library and auto subtitle styling"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Standard and Premium subscriptions" },
+    "what_paid": [
+      "Longer monthly minutes and no watermark",
+      "Premium voices, full-HD exports, and commercial rights"
+    ],
+    "best_for": "Faceless social videos with AI voices on a tiny free plan.",
+    "watch_out": [
+      "The 5-minute monthly cap is tight",
+      "Free exports are watermarked",
+      "Longer or premium-voice videos need paid plans"
+    ],
+    "official_url": "https://fliki.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "heygen",
+    "provider": "HeyGen",
+    "product": "HeyGen",
+    "category": "ai-video",
+    "tags": ["ai-avatars", "talking-heads", "text-to-video"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (~3 videos/month)",
+    "what_free": [
+      "~3 free videos per month, up to ~3 minutes each",
+      "Basic avatar library and AI script writing",
+      "Auto captions and simple templates"
+    ],
+    "paid_from": { "amount": 29, "currency": "USD", "period": "month", "plan": "Creator" },
+    "what_paid": [
+      "More monthly video minutes and premium avatars",
+      "Watermark-free exports and commercial-use rights"
+    ],
+    "best_for": "Testing realistic AI avatar talking-head videos for free.",
+    "watch_out": [
+      "Free videos carry a watermark",
+      "Custom avatars and advanced voices need paid plans",
+      "Free tier is for evaluation, not production"
+    ],
+    "official_url": "https://www.heygen.com",
+    "pricing_url": "https://www.heygen.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "d-id",
+    "provider": "D-ID",
+    "product": "D-ID Creative Reality",
+    "category": "ai-video",
+    "tags": ["ai-avatars", "talking-heads", "photo-animation"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free trial credits",
+    "what_free": [
+      "~20 one-time free trial credits to animate photos into talking-head videos",
+      "Text or audio input drives avatar speech and lip sync",
+      "Simple web studio for testing the trial"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Lite and higher subscriptions" },
+    "what_paid": [
+      "Larger monthly credit pools and API access",
+      "Watermark-free, commercial-use video output"
+    ],
+    "best_for": "Animating still photos into talking avatars for presentations.",
+    "watch_out": [
+      "Trial credits are one-time and do not renew",
+      "Trial outputs may be watermarked",
+      "Per-credit model makes costs add up quickly"
+    ],
+    "official_url": "https://www.d-id.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "veed",
+    "provider": "VEED",
+    "product": "VEED.IO",
+    "category": "ai-video",
+    "tags": ["video-editing", "auto-subtitles", "online-editor"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Browser video editor with trimming, transitions, and auto subtitles",
+      "Screen recording and teleprompter included",
+      "AI subtitle generation with limited free minutes"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Basic and higher subscriptions" },
+    "what_paid": [
+      "Watermark-free exports and higher subtitle minutes",
+      "AI tools: eye-contact fix, background noise removal, translations"
+    ],
+    "best_for": "Fast captioned social videos entirely in the browser.",
+    "watch_out": [
+      "Free exports carry a VEED watermark",
+      "Many AI features are premium-only",
+      "Free transcription minutes are capped"
+    ],
+    "official_url": "https://www.veed.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "kapwing",
+    "provider": "Kapwing",
+    "product": "Kapwing",
+    "category": "ai-video",
+    "tags": ["video-editing", "memes", "auto-subtitles"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Browser editor for trimming, resizing, memes, and subtitle overlays",
+      "Templates and repurposing tools on the free tier",
+      "AI tools (subtitles, background removal) with limited free usage"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro subscription" },
+    "what_paid": [
+      "Watermark-free exports and longer videos",
+      "More AI credits, storage, and brand features"
+    ],
+    "best_for": "Quick meme and social edits with subtitles in the browser.",
+    "watch_out": [
+      "Free exports are watermarked",
+      "Export length and file size limits on free",
+      "AI features consume limited free credits"
+    ],
+    "official_url": "https://www.kapwing.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "flexclip",
+    "provider": "FlexClip",
+    "product": "FlexClip",
+    "category": "ai-video",
+    "tags": ["video-editing", "templates", "online-editor"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Template-driven browser video editor with drag-and-drop scenes",
+      "Free exports capped at 720p with watermark",
+      "Basic stock media and voiceover recording included"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Plus and Pro subscriptions" },
+    "what_paid": [
+      "1080p and 4K exports without watermark",
+      "More stock media, AI tools, and storage"
+    ],
+    "best_for": "Template-based promo videos when 720p watermarked exports suffice.",
+    "watch_out": [
+      "Watermark on all free exports",
+      "720p cap is limiting for serious work",
+      "Many templates are premium-only"
+    ],
+    "official_url": "https://www.flexclip.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "descript",
+    "provider": "Descript",
+    "product": "Descript",
+    "category": "ai-video",
+    "tags": ["text-based-editing", "transcription", "podcast-video"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Edit video and podcasts by editing the transcript text",
+      "Limited free transcription (~1 hour per month)",
+      "Studio sound cleanup and filler-word removal samples on the free tier"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Hobbyist and higher subscriptions" },
+    "what_paid": [
+      "More transcription hours and watermark-free exports",
+      "AI features: AI voice, eye contact, 4K export"
+    ],
+    "best_for": "Text-based editing of talking-head and podcast content.",
+    "watch_out": [
+      "Free plan exports are watermarked and capped",
+      "Monthly transcription limit resets monthly",
+      "Best features sit in paid tiers"
+    ],
+    "official_url": "https://www.descript.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "synthesia",
+    "provider": "Synthesia",
+    "product": "Synthesia",
+    "category": "ai-video",
+    "tags": ["ai-avatars", "talking-heads", "training-videos"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan (~3 minutes/month)",
+    "what_free": [
+      "~3 minutes of free video per month with a limited avatar set",
+      "Text scripts turn into avatar-presented videos",
+      "Templates aimed at training and explainer content"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Starter and higher subscriptions" },
+    "what_paid": [
+      "More monthly minutes and a large avatar library",
+      "Custom avatars, brand kits, and API access"
+    ],
+    "best_for": "AI avatar training videos without filming anyone.",
+    "watch_out": [
+      "Free videos include a Synthesia watermark",
+      "Minutes cap makes the free tier trial-only",
+      "Custom avatars are expensive"
+    ],
+    "official_url": "https://www.synthesia.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "wan-video",
+    "provider": "Alibaba (Wan-Video, open source)",
+    "product": "Wan 2.x",
+    "category": "ai-video",
+    "tags": ["video-generation", "text-to-video", "image-to-video", "oss"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free, open weights",
+    "what_free": [
+      "Open-weight text-to-video and image-to-video models (Apache-2.0) from Alibaba",
+      "Sizes from 1.3B (runs on ~8GB VRAM) up to 14B for best quality",
+      "Works with ComfyUI workflows and Diffusers",
+      "Unlimited local generation - no account or credits"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - open source under Apache-2.0",
+      "You 'pay' with GPU time instead of credits"
+    ],
+    "best_for": "Unlimited local AI video generation if you have a strong GPU.",
+    "watch_out": [
+      "14B models need serious VRAM or quantization",
+      "Local generation is slow on consumer GPUs",
+      "Setup requires technical comfort"
+    ],
+    "official_url": "https://github.com/Wan-Video/Wan2.2",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "ltx-video",
+    "provider": "Lightricks (open source)",
+    "product": "LTX-Video",
+    "category": "ai-video",
+    "tags": ["video-generation", "text-to-video", "image-to-video", "oss"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free, open weights",
+    "what_free": [
+      "Open-weight video models optimized for speed on consumer GPUs",
+      "Text-to-video and image-to-video across checkpoint sizes up to 13B variants",
+      "ComfyUI and Diffusers integration",
+      "Near-real-time previews on decent hardware"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing for local use of the open weights",
+      "Hardware and GPU time are the only costs"
+    ],
+    "best_for": "The fastest open video generation for consumer GPUs.",
+    "watch_out": [
+      "Quality trails the best closed models at fast settings",
+      "Weights use a custom open-weights license - read terms before commercial use",
+      "Still needs a decent GPU"
+    ],
+    "official_url": "https://github.com/Lightricks/LTX-Video",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "framepack",
+    "provider": "lllyasviel (open source)",
+    "product": "FramePack",
+    "category": "ai-video",
+    "tags": ["video-generation", "image-to-video", "local", "oss"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free, runs locally",
+    "what_free": [
+      "Local image-to-video generation using next-frame prediction",
+      "Runs on modest hardware - about 6GB VRAM minimum, laptop GPUs included",
+      "Generates long videos incrementally with live preview",
+      "One-click installer available for Windows"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - free and open source",
+      "The cost is your GPU's time; generation is not instant"
+    ],
+    "best_for": "Free local image-to-video on low-VRAM laptops and desktops.",
+    "watch_out": [
+      "Quality varies with prompts and settings",
+      "Generation speed depends heavily on your GPU",
+      "Research-grade project - expect rough edges"
+    ],
+    "official_url": "https://github.com/lllyasviel/FramePack",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "hunyuan-video",
+    "provider": "Tencent (open source)",
+    "product": "HunyuanVideo",
+    "category": "ai-video",
+    "tags": ["video-generation", "text-to-video", "local", "oss"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free, open weights",
+    "what_free": [
+      "Open-weight 13B text-to-video model from Tencent",
+      "Strong motion and prompt adherence for an open model",
+      "Runnable locally or via ComfyUI workflows; community quantizations exist"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - open weights, no account or credits",
+      "The cost is high-end GPU compute"
+    ],
+    "best_for": "Open-weight video generation experiments on high-end GPUs.",
+    "watch_out": [
+      "Full model wants high-end VRAM; quantizations help",
+      "Slow local generation",
+      "Large download and setup effort"
+    ],
+    "official_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  }
+]

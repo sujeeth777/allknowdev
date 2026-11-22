@@ -1,0 +1,853 @@
+[
+  {
+    "id": "notion",
+    "provider": "Notion Labs",
+    "product": "Notion",
+    "category": "productivity",
+    "tags": ["notes", "docs", "wiki", "database"],
+    "oss": false,
+    "student": true,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Unlimited pages and blocks for personal use",
+      "Up to ~10 guests on the free plan",
+      "Team workspaces get a limited block trial instead",
+      "~5 MB per-file upload cap and ~7-day page history on free"
+    ],
+    "paid_from": { "amount": 10, "currency": "USD", "period": "month", "plan": "Plus (per seat, annual billing)" },
+    "what_paid": [
+      "Unlimited blocks and ~5 GB file uploads",
+      "Unlimited guests and ~30-day page history"
+    ],
+    "best_for": "All-in-one docs, wikis, and light databases with a generous free plan.",
+    "watch_out": [
+      "Free plan is effectively unlimited only for individuals, not teams",
+      "Offline support and search are weaker than dedicated tools"
+    ],
+    "official_url": "https://www.notion.com",
+    "pricing_url": "https://www.notion.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "logseq",
+    "provider": "Logseq",
+    "product": "Logseq",
+    "category": "productivity",
+    "tags": ["outliner", "notes", "local-first", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (AGPL-3.0)",
+    "what_free": [
+      "Outliner notebooks with backlinks, block references, and queries",
+      "Local-first: plain-text Markdown and Org files on your device",
+      "Whiteboards for visual thinking",
+      "Desktop and mobile apps; sync via Git or any cloud folder"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - the app is fully open source",
+      "Development is funded by donations and sponsors"
+    ],
+    "best_for": "Privacy-first linked outliner notes stored as plain Markdown files.",
+    "watch_out": [
+      "Cross-device sync needs DIY setup or the beta sync service",
+      "Performance can lag on very large graphs"
+    ],
+    "official_url": "https://logseq.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "anytype",
+    "provider": "Any Association",
+    "product": "Anytype",
+    "category": "productivity",
+    "tags": ["notes", "local-first", "p2p", "knowledge-base"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Local-first, end-to-end-encrypted notes with objects, relations, and sets",
+      "No account or email required to start",
+      "P2P sync between your own devices",
+      "~1 GB of encrypted backup on the Anytype Network on free"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid plans add more encrypted network backup storage" },
+    "what_paid": [
+      "More encrypted backup storage on the Anytype Network",
+      "Funds continued development of the free local-first app"
+    ],
+    "best_for": "Encrypted, local-first knowledge base you fully control.",
+    "watch_out": [
+      "Smaller ecosystem and fewer integrations than Notion or Obsidian",
+      "Network backup storage is limited on the free plan",
+      "Client code is source-available rather than OSI-certified open source"
+    ],
+    "official_url": "https://anytype.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "google-docs",
+    "provider": "Google",
+    "product": "Google Docs (Workspace)",
+    "category": "productivity",
+    "tags": ["docs", "word-processor", "collaboration", "spreadsheets"],
+    "oss": false,
+    "student": true,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with a Google account",
+    "what_free": [
+      "Docs, Sheets, Slides, and Forms free in the browser",
+      "Real-time collaboration, comments, and version history",
+      "~15 GB shared storage across Drive, Gmail, and Photos",
+      "Free Workspace for Education for qualifying schools"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Google Workspace plans (per user)" },
+    "what_paid": [
+      "Pooled storage across Workspace apps",
+      "Admin controls, compliance features, and business email"
+    ],
+    "best_for": "Realtime collaborative documents and spreadsheets with zero setup.",
+    "watch_out": [
+      "Storage quota is shared with Gmail and Google Photos",
+      "Feature parity with desktop Word/Excel is not complete"
+    ],
+    "official_url": "https://docs.google.com",
+    "pricing_url": "https://workspace.google.com/pricing.html",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "microsoft-365-web",
+    "provider": "Microsoft",
+    "product": "Microsoft 365 for the web",
+    "category": "productivity",
+    "tags": ["docs", "office-suite", "collaboration"],
+    "oss": false,
+    "student": true,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free web apps",
+    "what_free": [
+      "Word, Excel, PowerPoint, and OneNote free in the browser",
+      "~5 GB OneDrive storage included",
+      "Real-time co-authoring and commenting",
+      "Office 365 Education A1 free for students and teachers at qualifying schools"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Microsoft 365 Personal/Family" },
+    "what_paid": [
+      "Desktop Word, Excel, and PowerPoint apps",
+      "More OneDrive storage and Copilot features"
+    ],
+    "best_for": "Free browser Office for quick documents, spreadsheets, and decks.",
+    "watch_out": [
+      "Advanced Excel features need the desktop apps",
+      "Requires a Microsoft account and an internet connection"
+    ],
+    "official_url": "https://www.microsoft365.com",
+    "pricing_url": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "airtable",
+    "provider": "Airtable",
+    "product": "Airtable",
+    "category": "productivity",
+    "tags": ["database", "spreadsheet", "no-code"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Unlimited bases with up to ~5 editors per workspace",
+      "~1,000 records per base and ~1 GB attachments per base",
+      "Grid, Kanban, calendar, and gallery views",
+      "Interface Designer basics and API access"
+    ],
+    "paid_from": { "amount": 20, "currency": "USD", "period": "month", "plan": "Team (per seat, annual billing)" },
+    "what_paid": [
+      "~50,000 records and ~20 GB attachments per base on Team",
+      "Advanced permissions, extensions, and more automation runs"
+    ],
+    "best_for": "Spreadsheet-database hybrid for lightweight internal tools and trackers.",
+    "watch_out": [
+      "Record caps bite quickly for larger datasets",
+      "The most powerful fields and automations sit behind paid plans"
+    ],
+    "official_url": "https://airtable.com",
+    "pricing_url": "https://airtable.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "baserow",
+    "provider": "Baserow",
+    "product": "Baserow",
+    "category": "productivity",
+    "tags": ["database", "no-code", "open-source", "airtable-alternative"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free self-host (MIT core) + hosted free plan",
+    "what_free": [
+      "Self-host the MIT-licensed core with no row or user limits",
+      "Hosted free plan with ~3,000 rows and ~2 GB storage",
+      "Spreadsheet-style database with REST API access",
+      "Formulas, multiple view types, and role basics"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Premium / Advanced (per user)" },
+    "what_paid": [
+      "Premium field types, row colouring, and admin extras",
+      "Advanced adds SSO, RBAC, and higher hosted limits"
+    ],
+    "best_for": "Open-source Airtable alternative you can self-host without row limits.",
+    "watch_out": [
+      "Hosted free plan caps rows; self-hosting removes the cap",
+      "Polish and integrations trail Airtable"
+    ],
+    "official_url": "https://baserow.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "nocodb",
+    "provider": "NocoDB",
+    "product": "NocoDB",
+    "category": "productivity",
+    "tags": ["database", "no-code", "open-source", "airtable-alternative"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free self-host (AGPL-3.0)",
+    "what_free": [
+      "Turns MySQL, Postgres, and other databases into a smart spreadsheet",
+      "Self-host free with no record or seat limits",
+      "Grid, gallery, Kanban, and form views with REST APIs",
+      "A hosted cloud free plan also exists for small projects"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Cloud paid tiers and self-hosted Enterprise" },
+    "what_paid": [
+      "Cloud tiers add storage, automations, and support",
+      "Enterprise adds SSO, audit logs, and dedicated support"
+    ],
+    "best_for": "Spreadsheet UI on top of your existing SQL databases, self-hosted.",
+    "watch_out": [
+      "AGPL licence matters if you modify it and offer it as a service",
+      "Live sync with external database schemas needs care"
+    ],
+    "official_url": "https://nocodb.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "grist",
+    "provider": "Grist Labs",
+    "product": "Grist",
+    "category": "productivity",
+    "tags": ["spreadsheet", "database", "python", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free self-host (Apache-2.0) + hosted free tier",
+    "what_free": [
+      "Spreadsheet-database hybrid with Python formulas",
+      "Self-host grist-core free with full features",
+      "Hosted free tier with ~5,000 rows per document",
+      "Access rules and per-table permissions"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Team plans (per user)" },
+    "what_paid": [
+      "Higher row caps and team workspaces",
+      "Custom subdomains, quotas, and support"
+    ],
+    "best_for": "Spreadsheet power with Python formulas and real relational structure.",
+    "watch_out": [
+      "Formulas are Python, not Excel-compatible",
+      "Hosted free documents cap out around 5,000 rows"
+    ],
+    "official_url": "https://www.getgrist.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "todoist",
+    "provider": "Doist",
+    "product": "Todoist",
+    "category": "productivity",
+    "tags": ["tasks", "todo", "productivity"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Up to 5 active personal projects",
+      "Natural-language task entry and recurring due dates",
+      "~5 MB file uploads and ~1-week activity history on free",
+      "Apps for every platform with list and Kanban views"
+    ],
+    "paid_from": { "amount": 4, "currency": "USD", "period": "month", "plan": "Pro (billed annually)" },
+    "what_paid": [
+      "Unlimited projects, reminders, and longer history",
+      "~300 MB uploads, calendar layout, and custom filters"
+    ],
+    "best_for": "Fast, reliable cross-platform task manager with natural language capture.",
+    "watch_out": [
+      "Free plan caps personal projects at 5",
+      "Reminders and advanced filters are paid features"
+    ],
+    "official_url": "https://todoist.com",
+    "pricing_url": "https://todoist.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "ticktick",
+    "provider": "Appest",
+    "product": "TickTick",
+    "category": "productivity",
+    "tags": ["tasks", "todo", "calendar", "habits"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Unlimited tasks across up to 9 lists",
+      "Basic calendar month view and habit tracker",
+      "Due dates, subtasks, and 1 reminder per task",
+      "Apps for mobile, desktop, web, and browser extensions"
+    ],
+    "paid_from": { "amount": 35.99, "currency": "USD", "period": "year", "plan": "Premium (annual)" },
+    "what_paid": [
+      "Unlimited lists and richer calendar views",
+      "More reminders per task, duration timers, and productivity stats"
+    ],
+    "best_for": "To-do app with a built-in calendar and habit tracker.",
+    "watch_out": [
+      "Free plan caps lists at 9 and reminders at one per task",
+      "Some views and widgets are premium-only"
+    ],
+    "official_url": "https://ticktick.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "trello",
+    "provider": "Atlassian",
+    "product": "Trello",
+    "category": "productivity",
+    "tags": ["kanban", "project-management"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Up to 10 open boards per workspace, unlimited cards and lists",
+      "Labels, checklists, due dates, and members on every card",
+      "Power-Ups (integrations) included on the free plan",
+      "Butler automation at a limited quota"
+    ],
+    "paid_from": { "amount": 5, "currency": "USD", "period": "month", "plan": "Standard (per user, annual billing)" },
+    "what_paid": [
+      "Unlimited boards and ~250 MB file uploads on Standard",
+      "Multiple views, dashboards, and admin controls on Premium"
+    ],
+    "best_for": "Simple Kanban boards for individuals and small teams.",
+    "watch_out": [
+      "10-board workspace cap on free",
+      "Gets awkward for complex project management beyond Kanban"
+    ],
+    "official_url": "https://trello.com",
+    "pricing_url": "https://trello.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "asana",
+    "provider": "Asana",
+    "product": "Asana",
+    "category": "productivity",
+    "tags": ["project-management", "tasks", "teams"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Basic (free)",
+    "what_free": [
+      "Unlimited tasks, projects, and messages",
+      "List, board, and calendar views",
+      "~100 MB per-file uploads",
+      "Free for individuals and small teams"
+    ],
+    "paid_from": { "amount": 10.99, "currency": "USD", "period": "month", "plan": "Starter (per user, annual billing)" },
+    "what_paid": [
+      "Timeline, workflow builder, and advanced reporting",
+      "Form rules, Workload view, and admin controls"
+    ],
+    "best_for": "Structured task and project tracking with strong team workflows.",
+    "watch_out": [
+      "Timeline and Workload views sit behind paid tiers",
+      "Can feel heavyweight for personal use"
+    ],
+    "official_url": "https://asana.com",
+    "pricing_url": "https://asana.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "clickup",
+    "provider": "ClickUp",
+    "product": "ClickUp",
+    "category": "productivity",
+    "tags": ["project-management", "tasks", "docs"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free Forever",
+    "what_free": [
+      "Unlimited tasks and members",
+      "List, board, and calendar views plus docs",
+      "Everything view to roll up tasks across spaces",
+      "~100 MB file storage on the free plan"
+    ],
+    "paid_from": { "amount": 7, "currency": "USD", "period": "month", "plan": "Unlimited (per user, annual billing)" },
+    "what_paid": [
+      "Unlimited storage, integrations, and dashboards",
+      "Gantt charts, timelines, and guest permissions"
+    ],
+    "best_for": "All-in-one task workspace for teams that want everything in one app.",
+    "watch_out": [
+      "Free storage is only ~100 MB",
+      "Feature sprawl and occasional performance issues"
+    ],
+    "official_url": "https://clickup.com",
+    "pricing_url": "https://clickup.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "slack-free",
+    "provider": "Salesforce (Slack)",
+    "product": "Slack (Free)",
+    "category": "productivity",
+    "tags": ["chat", "messaging", "teams"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Unlimited channels and direct messages",
+      "Message and file history limited to ~90 days",
+      "1:1 huddles (voice and video) only on free",
+      "Up to 10 third-party app integrations"
+    ],
+    "paid_from": { "amount": 7.25, "currency": "USD", "period": "month", "plan": "Pro (per user, annual billing)" },
+    "what_paid": [
+      "Full message history beyond 90 days",
+      "Group huddles, unlimited integrations, and more admin controls"
+    ],
+    "best_for": "Team chat with channels; usable free for small groups.",
+    "watch_out": [
+      "90-day history limit makes old threads unsearchable on free",
+      "Group calls require a paid plan"
+    ],
+    "official_url": "https://slack.com",
+    "pricing_url": "https://slack.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "zoom-free",
+    "provider": "Zoom",
+    "product": "Zoom Meetings (Free)",
+    "category": "productivity",
+    "tags": ["video-calls", "meetings"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Basic (free)",
+    "what_free": [
+      "Unlimited 1:1 meetings; group meetings capped at ~40 minutes",
+      "Up to ~100 participants on free",
+      "Screen sharing, chat, and local recording",
+      "Virtual backgrounds and waiting rooms included"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro (per license)" },
+    "what_paid": [
+      "Meetings up to ~30 hours with cloud recording",
+      "Larger participant caps, transcriptions, and support"
+    ],
+    "best_for": "Reliable video meetings with a workable free tier for short calls.",
+    "watch_out": [
+      "The 40-minute cap cuts longer group meetings",
+      "No cloud recording on the free tier"
+    ],
+    "official_url": "https://zoom.us",
+    "pricing_url": "https://zoom.us/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "google-meet",
+    "provider": "Google",
+    "product": "Google Meet",
+    "category": "productivity",
+    "tags": ["video-calls", "meetings"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with a Google account",
+    "what_free": [
+      "Group calls up to ~60 minutes with ~100 participants",
+      "1:1 calls up to ~24 hours",
+      "Screen sharing, live captions, and Google Calendar scheduling",
+      "Runs in the browser without installing anything"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Included in paid Google Workspace plans" },
+    "what_paid": [
+      "Longer group calls and meeting recording",
+      "Larger meeting sizes and admin management"
+    ],
+    "best_for": "No-install browser video calls tied to your Google Calendar.",
+    "watch_out": [
+      "Free group calls cut off at ~60 minutes",
+      "Recording and transcripts need paid Workspace"
+    ],
+    "official_url": "https://meet.google.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "cal-com",
+    "provider": "Cal.com",
+    "product": "Cal.com",
+    "category": "productivity",
+    "tags": ["scheduling", "booking", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free hosted plan + self-host (AGPL-3.0)",
+    "what_free": [
+      "Open-source scheduling you can self-host with no seat limits",
+      "Hosted free plan for individuals with core booking features",
+      "Google and Outlook calendar sync, video links, and booking pages",
+      "Team scheduling available on paid hosted plans or self-host"
+    ],
+    "paid_from": { "amount": 15, "currency": "USD", "period": "month", "plan": "Teams (per user)" },
+    "what_paid": [
+      "Team scheduling with round-robin and routing forms",
+      "Org features, insights, and higher support"
+    ],
+    "best_for": "Open-source Calendly alternative for booking pages and scheduling.",
+    "watch_out": [
+      "Advanced features (workflows, insights) mostly sit on paid tiers",
+      "Self-hosting needs your own infrastructure and email setup"
+    ],
+    "official_url": "https://cal.com",
+    "pricing_url": "https://cal.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "calendly",
+    "provider": "Calendly",
+    "product": "Calendly",
+    "category": "productivity",
+    "tags": ["scheduling", "booking"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "One active event type on the free plan",
+      "One connected calendar with availability rules",
+      "Shareable booking page with confirmations and reminders",
+      "Booking links you can embed or send anywhere"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Standard / Teams (per seat)" },
+    "what_paid": [
+      "Unlimited event types and connected calendars",
+      "Group events, workflows, and round-robin pools"
+    ],
+    "best_for": "The simplest shareable booking links for one-on-one meetings.",
+    "watch_out": [
+      "Free plan allows only a single event type",
+      "Branding removal and workflows need paid plans"
+    ],
+    "official_url": "https://calendly.com",
+    "pricing_url": "https://calendly.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "miro-free",
+    "provider": "Miro",
+    "product": "Miro (Free)",
+    "category": "productivity",
+    "tags": ["whiteboard", "visual-collaboration"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "3 editable boards with unlimited team members",
+      "Core templates, sticky notes, shapes, and frames",
+      "Live collaboration cursors and comments",
+      "Basic integrations with common work tools"
+    ],
+    "paid_from": { "amount": 8, "currency": "USD", "period": "month", "plan": "Starter (per user, annual billing)" },
+    "what_paid": [
+      "Unlimited editable boards and private boards",
+      "Higher export options, meeting tools, and admin features"
+    ],
+    "best_for": "Collaborative whiteboards for workshops, diagrams, and brainstorming.",
+    "watch_out": [
+      "The 3-board cap on free is restrictive for active teams",
+      "Very large boards with many widgets can lag"
+    ],
+    "official_url": "https://miro.com",
+    "pricing_url": "https://miro.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "penpot",
+    "provider": "Kaleidos",
+    "product": "Penpot",
+    "category": "productivity",
+    "tags": ["design", "ui", "open-source", "figma-alternative"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free hosted plan + self-host (MPL-2.0)",
+    "what_free": [
+      "Open-source design tool: self-host with unlimited users and files",
+      "Hosted free plan with no per-seat charge",
+      "Built on open standards (SVG) instead of proprietary formats",
+      "Shared libraries, components, and developer handoff"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Penpot Enterprise (self-hosted)" },
+    "what_paid": [
+      "Enterprise edition adds SSO and advanced admin controls",
+      "Support contracts for organisations"
+    ],
+    "best_for": "Open-source Figma alternative for UI design and developer handoff.",
+    "watch_out": [
+      "Smaller plugin and template ecosystem than Figma",
+      "Performance on very large files trails Figma"
+    ],
+    "official_url": "https://penpot.app",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "photopea",
+    "provider": "Ivan Kutskir",
+    "product": "Photopea",
+    "category": "productivity",
+    "tags": ["image-editing", "web-app", "photoshop-alternative"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (ad-supported)",
+    "what_free": [
+      "Full Photoshop-style editor running entirely in the browser",
+      "Opens and saves PSD, AI, Sketch, XD, and raw formats",
+      "Layers, masks, blend modes, and smart objects",
+      "No account or installation required"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Premium (~USD 5/month, removes ads)" },
+    "what_paid": [
+      "Ad-free experience",
+      "More project storage and longer session handling"
+    ],
+    "best_for": "Editing PSD files in the browser without installing anything.",
+    "watch_out": [
+      "Ads fund the free version; heavy use feels cramped",
+      "No official offline or mobile app"
+    ],
+    "official_url": "https://www.photopea.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "joplin",
+    "provider": "Joplin project",
+    "product": "Joplin",
+    "category": "productivity",
+    "tags": ["notes", "open-source", "local-first", "sync"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Markdown notes with notebooks, tags, and full-text search",
+      "Desktop, mobile, and terminal apps",
+      "Sync via Dropbox, OneDrive, WebDAV, Nextcloud, or S3",
+      "End-to-end encryption for your sync target and a web clipper"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier for the apps - fully open source",
+      "Optional Joplin Cloud subscription funds development"
+    ],
+    "best_for": "Open-source Markdown notebook that syncs through services you already have.",
+    "watch_out": [
+      "Collaboration and publishing are limited versus hosted tools",
+      "Sync setup is more manual than consumer note apps"
+    ],
+    "official_url": "https://joplinapp.org",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "simplenote",
+    "provider": "Automattic",
+    "product": "Simplenote",
+    "category": "productivity",
+    "tags": ["notes", "markdown", "lightweight"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free",
+    "what_free": [
+      "Completely free note-taking with no ads or usage caps",
+      "Instant sync across web, Windows, macOS, Linux, iOS, and Android",
+      "Markdown support and note version history",
+      "Tag-based organization and publishing of public notes"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier - free clients, open source",
+      "Run by Automattic alongside WordPress.com"
+    ],
+    "best_for": "Dead-simple synced plain-text notes on every platform.",
+    "watch_out": [
+      "Text-only: no images or file attachments",
+      "No folders - organization is tags only"
+    ],
+    "official_url": "https://simplenote.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "zotero",
+    "provider": "Digital Scholar",
+    "product": "Zotero",
+    "category": "productivity",
+    "tags": ["research", "references", "citations", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free + ~300 MB sync storage",
+    "what_free": [
+      "Collect, organize, and cite sources in Word, LibreOffice, and Google Docs",
+      "Browser connector grabs papers and web pages with metadata",
+      "10,000+ citation styles via CSL",
+      "Unlimited local storage; ~300 MB free cloud sync"
+    ],
+    "paid_from": { "amount": 20, "currency": "USD", "period": "year", "plan": "2 GB storage add-on (~USD 20/year)" },
+    "what_paid": [
+      "More cloud sync storage (~USD 20/year for 2 GB, ~USD 60/year for 6 GB)",
+      "Storage only - all citation features stay free"
+    ],
+    "best_for": "Reference management and citation for papers and research projects.",
+    "watch_out": [
+      "The ~300 MB sync cap fills quickly with PDFs",
+      "Cloud storage add-ons are per account, not per group"
+    ],
+    "official_url": "https://www.zotero.org",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "anki",
+    "provider": "Ankitects",
+    "product": "Anki",
+    "category": "productivity",
+    "tags": ["flashcards", "spaced-repetition", "learning"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (open source)",
+    "what_free": [
+      "Spaced-repetition flashcards with a proven scheduling algorithm",
+      "Unlimited decks, cards, and media on desktop and AnkiDroid",
+      "Large library of shared community decks",
+      "Free AnkiWeb sync and an active add-on ecosystem"
+    ],
+    "paid_from": { "amount": 24.99, "currency": "USD", "period": "one-time", "plan": "AnkiMobile (iOS app)" },
+    "what_paid": [
+      "The official iOS app costs a one-time fee and funds development",
+      "Desktop, Android, and web stay free"
+    ],
+    "best_for": "Long-term memorization with spaced repetition for exams and languages.",
+    "watch_out": [
+      "The official iOS app is paid; Android and desktop are free",
+      "Dated interface with a real learning curve"
+    ],
+    "official_url": "https://apps.ankiweb.net",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "raindrop",
+    "provider": "Raindrop.io",
+    "product": "Raindrop.io",
+    "category": "productivity",
+    "tags": ["bookmarks", "read-later", "web-clipping"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan",
+    "what_free": [
+      "Unlimited bookmarks and nested collections",
+      "Highlights and annotations on saved pages",
+      "Full-text search across saved content",
+      "Browser extensions and mobile apps with cross-device sync"
+    ],
+    "paid_from": { "amount": 28, "currency": "USD", "period": "year", "plan": "Pro (~USD 28/year)" },
+    "what_paid": [
+      "Permanent page backups and broken-link monitoring",
+      "Extra search filters and content suggestions"
+    ],
+    "best_for": "Cross-platform bookmark manager that keeps links organized forever.",
+    "watch_out": [
+      "Some polish features are Pro-only",
+      "Imports from other services occasionally miss metadata"
+    ],
+    "official_url": "https://raindrop.io",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  }
+]

@@ -1,0 +1,674 @@
+[
+  {
+    "id": "suno",
+    "provider": "Suno Inc.",
+    "product": "Suno",
+    "category": "ai-audio",
+    "tags": ["ai-music", "song-generation", "text-to-audio"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily credits",
+    "what_free": [
+      "Generate full songs with vocals, lyrics, and instrumentals from text prompts",
+      "Daily free credits (~10 short songs per day on the free plan)",
+      "Extend, remix, and edit sections of generated tracks",
+      "Download generated audio files"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro plan (~$10/month)" },
+    "what_paid": [
+      "Larger monthly credit allowance",
+      "Commercial use rights for generated output"
+    ],
+    "best_for": "Fast AI song generation with vocals for demos, content, and experimentation.",
+    "watch_out": [
+      "Free tier output is non-commercial; commercial rights come with paid plans",
+      "Unused free credits do not roll over"
+    ],
+    "official_url": "https://suno.com",
+    "pricing_url": "https://suno.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "udio",
+    "provider": "Udio (Uncharted Labs)",
+    "product": "Udio",
+    "category": "ai-audio",
+    "tags": ["ai-music", "song-generation", "text-to-audio"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free monthly credits",
+    "what_free": [
+      "Free credits each month to generate AI songs and instrumentals",
+      "Prompt with custom lyrics, style tags, and genre descriptions",
+      "Extend, remix, and partially regenerate sections of tracks",
+      "Share tracks publicly on the Udio platform"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Standard and Pro subscriptions (check current pricing)" },
+    "what_paid": [
+      "More generation credits per month",
+      "Commercial use rights for outputs on paid plans"
+    ],
+    "best_for": "AI music generation with strong vocal output and fine-grained editing.",
+    "watch_out": [
+      "Free tier outputs are non-commercial",
+      "Free credit limits have changed several times"
+    ],
+    "official_url": "https://www.udio.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "stable-audio",
+    "provider": "Stability AI",
+    "product": "Stable Audio",
+    "category": "ai-audio",
+    "tags": ["ai-music", "sound-effects", "text-to-audio"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free monthly generations",
+    "what_free": [
+      "Monthly free generations of music tracks and sound effects from text prompts",
+      "Download outputs as audio files",
+      "Simple web interface, no install needed"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro subscription (~$12/month, check current pricing)" },
+    "what_paid": [
+      "Higher generation volume",
+      "Commercial licensing for generated audio"
+    ],
+    "best_for": "Generating sound effects and music beds from text for videos and games.",
+    "watch_out": [
+      "Separate product from the open-weights Stable Audio Open model",
+      "Free generation quota changes over time"
+    ],
+    "official_url": "https://stableaudio.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "riffusion",
+    "provider": "Riffusion",
+    "product": "Riffusion",
+    "category": "ai-audio",
+    "tags": ["ai-music", "song-generation", "web-app"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free during beta",
+    "what_free": [
+      "Generate AI songs from text prompts in the browser",
+      "Full tracks with vocals, lyrics, and instrumentation",
+      "Generations available at no cost during its open beta"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "No public paid plans yet; pricing in flux (beta)" },
+    "what_paid": [
+      "None announced so far — the app is free while in beta",
+      "The original 2022 model remains open source on GitHub"
+    ],
+    "best_for": "Experimenting with AI song generation while the service is in free beta.",
+    "watch_out": [
+      "Current app is closed-source beta; limits and pricing can change without notice",
+      "The 2022 open-source project and the current product are different things"
+    ],
+    "official_url": "https://www.riffusion.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "adobe-podcast",
+    "provider": "Adobe",
+    "product": "Adobe Podcast",
+    "category": "ai-audio",
+    "tags": ["podcast", "audio-enhancement", "noise-reduction"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tools with usage limits",
+    "what_free": [
+      "Enhance Speech: AI cleanup of voice recordings with usage limits",
+      "Mic Check: analyse your microphone setup and get tips",
+      "Browser-based recording studio for solo and remote-interview sessions"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Paid Express tiers for higher processing limits (check current pricing)" },
+    "what_paid": [
+      "Higher daily processing limits for Enhance Speech",
+      "Longer recordings per enhancement job"
+    ],
+    "best_for": "Cleaning up noisy voice and podcast recordings without installing anything.",
+    "watch_out": [
+      "Requires an Adobe account",
+      "Enhance Speech can make music and non-speech audio sound strange"
+    ],
+    "official_url": "https://podcast.adobe.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "moises",
+    "provider": "Moises",
+    "product": "Moises",
+    "category": "ai-audio",
+    "tags": ["stem-separation", "practice", "mobile-app"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free plan with monthly upload limits",
+    "what_free": [
+      "Separate tracks into stems (vocals, drums, bass, other) with monthly upload limits",
+      "Chord detection and metronome tools for practice",
+      "Change speed and pitch of songs",
+      "Mobile apps (iOS/Android) and web player"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Premium plan (check current pricing)" },
+    "what_paid": [
+      "More uploads per month and longer files",
+      "More advanced separation and higher-quality exports"
+    ],
+    "best_for": "Musicians practising along with isolated stems, chords, and tempo control.",
+    "watch_out": [
+      "Free plan caps monthly uploads and file length",
+      "Separation quality varies by song and instrument"
+    ],
+    "official_url": "https://moises.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "bandlab",
+    "provider": "BandLab Technologies",
+    "product": "BandLab",
+    "category": "ai-audio",
+    "tags": ["daw", "music-production", "web-app"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Core platform free",
+    "what_free": [
+      "Multi-track DAW in the browser with unlimited cloud projects",
+      "Free AI-powered mastering for tracks",
+      "Royalty-free loops, samples, and beat maker included",
+      "Social publishing and remote collaboration features"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "No core paid tier; optional paid creator services" },
+    "what_paid": [
+      "Optional extras around distribution, promotion, and creator services",
+      "The DAW and mastering are free with no watermark or export limits"
+    ],
+    "best_for": "Making and publishing music online for free with built-in mastering.",
+    "watch_out": [
+      "Cloud-first workflow; lighter than desktop DAWs and needs internet",
+      "Free feature set may evolve as the platform monetises other services"
+    ],
+    "official_url": "https://www.bandlab.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "cakewalk",
+    "provider": "BandLab Technologies",
+    "product": "Cakewalk by BandLab",
+    "category": "ai-audio",
+    "tags": ["daw", "windows", "music-production"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Cakewalk by BandLab (legacy free DAW)",
+    "what_free": [
+      "Full professional Windows DAW: unlimited audio and MIDI tracks",
+      "Pro-grade mixing console, editing, and mastering tools",
+      "Was completely free for years; existing installs keep working"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Successor Cakewalk Sonar is a paid subscription" },
+    "what_paid": [
+      "Cakewalk Sonar (2025 successor) is subscription-based",
+      "Free CbB downloads for new users may no longer be offered"
+    ],
+    "best_for": "Windows users who want a full legacy professional DAW at no cost.",
+    "watch_out": [
+      "BandLab moved Cakewalk to the paid Cakewalk Sonar in 2025; new-user availability of the free version is uncertain",
+      "Windows only"
+    ],
+    "official_url": "https://www.bandlab.com/products/cakewalk",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "lmms",
+    "provider": "LMMS project",
+    "product": "LMMS",
+    "category": "ai-audio",
+    "tags": ["daw", "open-source", "music-production"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (GPL)",
+    "what_free": [
+      "Compose and sequence music with synthesizers, samples, and effects",
+      "Community-maintained instrument plugins and preset packs",
+      "No accounts, no watermarks, no usage limits"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier at all",
+      "Development is funded by volunteers and donations"
+    ],
+    "best_for": "Producing electronic music on a desktop without spending anything.",
+    "watch_out": [
+      "No audio recording — it is a sequencer and synthesizer, not a recorder",
+      "macOS build is less polished than Windows/Linux"
+    ],
+    "official_url": "https://lmms.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "audiotool",
+    "provider": "Audiotool",
+    "product": "Audiotool",
+    "category": "ai-audio",
+    "tags": ["daw", "web-app", "music-production"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free platform",
+    "what_free": [
+      "Browser-based modular studio with rack-style devices and effects",
+      "Free cloud project storage and publishing to the Audiotool community",
+      "Large built-in sample library plus synth and emulation devices"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "No paid tier required for music making; optional community/merch extras" },
+    "what_paid": [
+      "Making and exporting music requires no payment",
+      "Monetisation is via community features rather than a studio paywall"
+    ],
+    "best_for": "Browser-based electronic music production with a modular rack workflow.",
+    "watch_out": [
+      "Online-first: your work lives in Audiotool's cloud",
+      "Development pace has been slow in recent years"
+    ],
+    "official_url": "https://www.audiotool.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "auphonic",
+    "provider": "Auphonic GmbH",
+    "product": "Auphonic",
+    "category": "ai-audio",
+    "tags": ["podcast", "audio-processing", "loudness"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "~9 processed hours per month",
+    "what_free": [
+      "~9 hours of automated audio post-production per month at no cost",
+      "Loudness normalisation to broadcast standards (EBU R128 and others)",
+      "Noise and hum reduction, leveling, and silence cutting",
+      "Intelligent leveler balances multiple speakers against music"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pay-as-you-go credit packs for extra processing hours" },
+    "what_paid": [
+      "Buy additional processing hours when the free quota runs out",
+      "Larger plans lower the per-hour cost"
+    ],
+    "best_for": "Automated podcast loudness, leveling, and noise cleanup every month.",
+    "watch_out": [
+      "Free hours are per month and do not accumulate",
+      "Processing runs on Auphonic's servers — you upload your audio"
+    ],
+    "official_url": "https://auphonic.com",
+    "pricing_url": "https://auphonic.com/pricing",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "krisp",
+    "provider": "Krisp Technologies",
+    "product": "Krisp",
+    "category": "ai-audio",
+    "tags": ["noise-cancellation", "calls", "virtual-device"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free daily minutes",
+    "what_free": [
+      "~60 minutes per day of AI noise and echo cancellation at no cost",
+      "Works system-wide as a virtual microphone and speaker",
+      "Compatible with Zoom, Meet, Discord, and other call apps"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro subscription (check current pricing)" },
+    "what_paid": [
+      "Unlimited noise-cancellation minutes",
+      "Extras such as meeting recording and transcription depending on tier"
+    ],
+    "best_for": "Removing background noise from calls in any conferencing app.",
+    "watch_out": [
+      "Daily free minutes reset each day and do not accumulate",
+      "Desktop only (Windows/macOS); no Linux client"
+    ],
+    "official_url": "https://krisp.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "voicemod",
+    "provider": "Voicemod",
+    "product": "Voicemod",
+    "category": "ai-audio",
+    "tags": ["voice-changer", "real-time", "streaming"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier with rotating voices",
+    "what_free": [
+      "Real-time AI voice changing on Windows and macOS",
+      "Rotating free selection of voices plus a basic soundboard",
+      "Works as a virtual microphone with Discord, games, and streaming apps"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pro licence (one-time and subscription options)" },
+    "what_paid": [
+      "Full voice library and soundboard unlocks",
+      "Removes the free-tier voice rotation and upsell prompts"
+    ],
+    "best_for": "Streamers and gamers wanting fun real-time voice effects.",
+    "watch_out": [
+      "Free voices rotate daily; most of the library is Pro-only",
+      "Adds some latency on weaker machines"
+    ],
+    "official_url": "https://www.voicemod.net",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "whisper",
+    "provider": "OpenAI",
+    "product": "Whisper",
+    "category": "ai-audio",
+    "tags": ["speech-to-text", "transcription", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT license), runs locally",
+    "what_free": [
+      "State-of-the-art open-source speech recognition that runs offline",
+      "Transcription in ~100 languages plus translation to English",
+      "Multiple model sizes trade speed against accuracy",
+      "Run locally via CLI, Python, or countless community wrappers"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No cost for the open-source model itself",
+      "OpenAI sells a hosted Whisper API separately if you don't want to self-host"
+    ],
+    "best_for": "Private, offline transcription in many languages on your own hardware.",
+    "watch_out": [
+      "Larger models need a decent GPU or a lot of patience on CPU",
+      "Batch transcription only — no built-in real-time streaming or speaker labels"
+    ],
+    "official_url": "https://github.com/openai/whisper",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "whisper-web",
+    "provider": "Xenova (Hugging Face Space)",
+    "product": "Whisper Web",
+    "category": "ai-audio",
+    "tags": ["speech-to-text", "browser", "demo"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free demo, runs fully in your browser",
+    "what_free": [
+      "Transcribe audio files or mic input entirely in-browser via transformers.js",
+      "Audio never leaves your machine — no server upload",
+      "Choose Whisper model size and language in the UI",
+      "Open-source demo code you can self-host"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing — the model runs on-device in WebAssembly/WebGPU",
+      "Self-host the Space yourself if you need guaranteed availability"
+    ],
+    "best_for": "Quick private transcriptions without installing anything.",
+    "watch_out": [
+      "Hosted demo may be slow, sleep, or queue on Hugging Face",
+      "First use downloads the model into your browser cache"
+    ],
+    "official_url": "https://huggingface.co/spaces/Xenova/whisper-web",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "vosk",
+    "provider": "Alpha Cephei",
+    "product": "Vosk",
+    "category": "ai-audio",
+    "tags": ["speech-to-text", "offline", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "Offline speech recognition in 20+ languages",
+      "Small models run on Raspberry Pi, Android, and iOS",
+      "Streaming recognition with partial results",
+      "Bindings for Python, Java, Node.js, C#, and more"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Alpha Cephei takes donations and does custom work separately"
+    ],
+    "best_for": "Lightweight offline speech recognition embedded in your own apps.",
+    "watch_out": [
+      "Accuracy trails large modern cloud models",
+      "You integrate and host it yourself"
+    ],
+    "official_url": "https://alphacephei.com/vosk/",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "bark-tts",
+    "provider": "Suno (open-source)",
+    "product": "Bark",
+    "category": "ai-audio",
+    "tags": ["text-to-speech", "open-source", "expressive-speech"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free to run locally (open source)",
+    "what_free": [
+      "Generative TTS that produces expressive speech, laughs, sighs, and music snippets",
+      "Multilingual output driven by plain text prompts",
+      "Runs locally with Python or through community UIs"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier — code and weights are freely downloadable",
+      "GPU compute is your own cost if you rent servers"
+    ],
+    "best_for": "Expressive, characterful speech generation with non-speech sounds.",
+    "watch_out": [
+      "Short clips per generation; long narration needs stitching",
+      "Verify code versus weight licensing terms before commercial use",
+      "No word-level control — output can vary between runs"
+    ],
+    "official_url": "https://github.com/suno-ai/bark",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "coqui-xtts",
+    "provider": "Coqui (community-maintained)",
+    "product": "XTTS-v2",
+    "category": "ai-audio",
+    "tags": ["text-to-speech", "voice-cloning", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free to run locally (MPL 2.0 code)",
+    "what_free": [
+      "Cross-lingual voice cloning from a short reference clip",
+      "Speaks many languages from a single voice sample",
+      "Runs locally via the TTS Python package or command line"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "The company shut down in 2024; community forks keep it alive"
+    ],
+    "best_for": "Local voice cloning across languages from a few seconds of audio.",
+    "watch_out": [
+      "XTTS-v2 weights use the Coqui Public Model License — non-commercial",
+      "Original company is gone; maintenance happens in community forks"
+    ],
+    "official_url": "https://huggingface.co/coqui/XTTS-v2",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "piper-tts",
+    "provider": "Rhasspy community",
+    "product": "Piper",
+    "category": "ai-audio",
+    "tags": ["text-to-speech", "offline", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT license)",
+    "what_free": [
+      "Fast neural TTS that runs in real time even on a Raspberry Pi",
+      "Ready-made voices for dozens of languages",
+      "MIT licensed with no cloud dependency or account"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Part of the Rhasspy offline home-assistant ecosystem"
+    ],
+    "best_for": "Fast, lightweight offline text-to-speech on low-power hardware.",
+    "watch_out": [
+      "Quality is serviceable, not studio-grade",
+      "Fixed voice set unless you fine-tune your own"
+    ],
+    "official_url": "https://github.com/rhasspy/piper",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "kokoro-tts",
+    "provider": "hexgrad",
+    "product": "Kokoro",
+    "category": "ai-audio",
+    "tags": ["text-to-speech", "open-source", "local"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (Apache 2.0)",
+    "what_free": [
+      "~82M-parameter TTS model with quality far above its size",
+      "Apache 2.0 licence — commercial use allowed",
+      "Runs fast on modest CPUs and consumer GPUs",
+      "Multiple stock voices; easy Python or community-UI integration"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Third-party hosted APIs exist separately if you don't want to run it yourself"
+    ],
+    "best_for": "High-quality local text-to-speech on cheap hardware with commercial freedom.",
+    "watch_out": [
+      "Best for short-form output; long texts need chunking",
+      "Fixed stock voices unless you fine-tune"
+    ],
+    "official_url": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "f5-tts",
+    "provider": "SWivid (F5-TTS team)",
+    "product": "F5-TTS",
+    "category": "ai-audio",
+    "tags": ["text-to-speech", "voice-cloning", "open-source"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free to run locally (MIT code)",
+    "what_free": [
+      "Fast, fluent zero-shot voice cloning from a short reference clip",
+      "Diffusion-transformer architecture with simple training recipe",
+      "Python package and Gradio web UI included"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "GPU compute is your own cost"
+    ],
+    "best_for": "Local zero-shot voice cloning with fast, natural results.",
+    "watch_out": [
+      "Pretrained checkpoints are CC-BY-NC (non-commercial); the code is MIT",
+      "Needs a clean reference clip for good cloning"
+    ],
+    "official_url": "https://github.com/SWivid/F5-TTS",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "demucs",
+    "provider": "Meta (FAIR)",
+    "product": "Demucs",
+    "category": "ai-audio",
+    "tags": ["stem-separation", "open-source", "music"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (MIT license)",
+    "what_free": [
+      "Splits songs into vocals, drums, bass, and other stems locally",
+      "State-of-the-art hybrid transformer models (htdemucs) included",
+      "MIT licensed and usable as a Python library"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "No paid tier",
+      "Your own GPU and electricity are the only costs"
+    ],
+    "best_for": "Free local stem separation for DJs, producers, and karaoke tracks.",
+    "watch_out": [
+      "Slow on CPU — GPU strongly recommended",
+      "Command-line tool; no official GUI"
+    ],
+    "official_url": "https://github.com/facebookresearch/demucs",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  }
+]

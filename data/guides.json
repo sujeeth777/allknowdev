@@ -1,0 +1,234 @@
+{
+  "guides": [
+    {
+      "id": "first-website-zero",
+      "title": "Launch your first website for ₹0",
+      "level": "beginner",
+      "time": "~2 hours",
+      "outcome": "A live website at a real URL — free to host, free to update, forever.",
+      "intro": "You do not need a server, a credit card or a framework. One HTML file and a GitHub account is enough to go live on the open internet today.",
+      "tool_ids": ["vscode", "github", "github-pages", "cloudflare-pages", "netlify"],
+      "steps": [
+        { "title": "Create one HTML file", "detail": "Make a folder, create index.html, and write a simple page: a heading, a paragraph, a link. Save. That is a real website — everything else is decoration.", "tip": "Start with <!DOCTYPE html> and one <section>. Resist the urge to add a framework." },
+        { "title": "Open it in your browser", "detail": "Double-click the file. It renders locally. Congratulations — this exact file is what visitors will see.", "link": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web" },
+        { "title": "Push it to GitHub", "detail": "Create a free account at github.com, create a new repository, and upload index.html (drag-and-drop works — no terminal needed).", "link": "https://github.com/new", "tip": "Repository name matters if you use GitHub Pages: username.github.io becomes your URL." },
+        { "title": "Turn on GitHub Pages", "detail": "In the repo: Settings → Pages → deploy from main branch. Within a minute your site is live at https://username.github.io.", "link": "https://pages.github.com" },
+        { "title": "Or deploy on Cloudflare Pages (unlimited bandwidth)", "detail": "Connect the same GitHub repo at pages.cloudflare.com. You get a free SSL URL, unlimited bandwidth and automatic deploys on every change.", "link": "https://pages.cloudflare.com" },
+        { "title": "Make your first change", "detail": "Edit index.html, commit, refresh. Deploys are automatic. This loop — edit, commit, live — is the core skill of the whole web.", "tip": "Add a footer: 'Built by hand, hosted for free.' Your first commit message should be 'first site'." },
+        { "title": "Level up next", "detail": "Add real content, a custom domain later (~$10/year, optional), then follow the portfolio guide on this site to make it impressive." }
+      ],
+      "outgrow": [
+        "Need forms or logins? See the $0 full-stack stack in the directory.",
+        "Custom domain: buy from any registrar or get a free .me for a year with the GitHub Student Pack."
+      ]
+    },
+    {
+      "id": "portfolio-that-gets-interviews",
+      "title": "Build a portfolio that gets interviews",
+      "level": "beginner",
+      "time": "~4 hours",
+      "outcome": "A portfolio page recruiters can scan in 30 seconds, with proof of real work.",
+      "intro": "A portfolio is not a CV in HTML. It is evidence: three real projects, each with a live link and a story about the problem it solves.",
+      "tool_ids": ["vscode", "github-pages", "google-fonts", "lucide", "coolors", "canva", "squoosh"],
+      "steps": [
+        { "title": "Write before you design", "detail": "Draft in plain text: who you are (2 sentences), 3 projects (each: what it does, what you built, link), how to contact you. If the words are weak, design cannot save them.", "tip": "Every project needs: 1 problem, 1 screenshot, 1 live link, 1 repo link." },
+        { "title": "Pick a two-font, two-colour system", "detail": "Choose a display font and body font from Google Fonts (free), and two colours from Coolors. Constraints force taste.", "link": "https://fonts.google.com" },
+        { "title": "Build three sections, nothing more", "detail": "Hero (name + what you do), Projects (cards), Contact. Skip the skills bars and the animated timeline — recruiters skim, they do not read." },
+        { "title": "Make the projects undeniable", "detail": "For each project: one clear screenshot (compress with Squoosh), one sentence on the problem, one sentence on your solution, links to live demo + code.", "link": "https://squoosh.app" },
+        { "title": "Add the boring trust signals", "detail": "GitHub link, LinkedIn link, a real photo or avatar, and a plain email. No contact form for a first portfolio — it adds friction and looks like hiding." },
+        { "title": "Ship it", "detail": "Deploy with the 'first website' guide. Then share it: put the URL in your GitHub bio, LinkedIn, and every job application." },
+        { "title": "Iterate on proof, not pixels", "detail": "The biggest portfolio upgrade is always a better project — not a better animation. Ship something small and real every month." }
+      ],
+      "outgrow": ["Add a blog to show you can write; add case studies when a project gets users."]
+    },
+    {
+      "id": "blog-free",
+      "title": "Start a blog for free — and keep it alive",
+      "level": "beginner",
+      "time": "~3 hours setup",
+      "outcome": "A fast blog you own, plus a writing habit that compounds.",
+      "intro": "The expensive part of blogging is not hosting — it is consistency. Set up something boringly simple and spend your energy on posts.",
+      "tool_ids": ["github-pages", "vscode", "unsplash-api", "canva"],
+      "steps": [
+        { "title": "Choose your lane", "detail": "Pick 2-3 topics you can write about repeatedly without burning out (what you are learning counts — build-in-public posts are the easiest honest content)." },
+        { "title": "Simplest possible setup", "detail": "Option A (zero code): publish on dev.to or Medium, free with built-in audience. Option B (you own it): a static site on GitHub Pages — one Markdown file per post with a tiny converter or a static site generator.", "link": "https://dev.to" },
+        { "title": "Make the writing template", "detail": "Every post: 1 promise in the title, 1 problem, your process, 1 result, 1 next step. Write the title last. 300 honest words beat 1500 padded ones." },
+        { "title": "Publish before it is perfect", "detail": "Ship post #1 this week. typos can be fixed in a commit; an empty blog fixes itself only by publishing.", "tip": "Aim for one post per week for 8 weeks before judging results." },
+        { "title": "Make it findable", "detail": "Add clear titles and descriptions (search engines index static sites happily), and cross-post each article to dev.to with a canonical link back to your site." },
+        { "title": "Track one metric only", "detail": "Not visitors — published posts. Consistency is the metric you control; traffic follows it with a 2-3 month lag." }
+      ],
+      "outgrow": ["Add a newsletter later with a free tier (e.g. Buttondown or Mailchimp free); add comments with giscus (runs on GitHub)."]
+    },
+    {
+      "id": "ai-chatbot-free",
+      "title": "Build your own AI chatbot — with $0 of API spend",
+      "level": "intermediate",
+      "time": "~3 hours",
+      "outcome": "Your own chat UI answering questions, powered by free AI models.",
+      "intro": "You do not need a paid API key. Free tiers from Groq and Google AI Studio are generous enough to build and even run small products on — and running models locally with Ollama costs nothing at all.",
+      "tool_ids": ["groq", "google-ai-studio", "ollama", "cloudflare-workers", "cloudflare-pages", "vscode"],
+      "steps": [
+        { "title": "Get a free key", "detail": "Sign up at Groq (fast open models like Llama, ~thousands of free requests/day) or Google AI Studio (free Gemini Flash access). Copy the API key.", "link": "https://console.groq.com", "tip": "Never put the key in frontend code — that is how keys get stolen." },
+        { "title": "Build the chat UI", "detail": "A single HTML page: input box, message list, fetch() call that streams the reply. Store conversation in an array and send it with each request for context." },
+        { "title": "Hide the key behind a proxy", "detail": "Deploy a tiny Cloudflare Worker that stores the key as an environment variable and forwards requests. 100,000 free requests/day is your rate limiter too.", "link": "https://developers.cloudflare.com/workers/" },
+        { "title": "Add the system prompt", "detail": "Give the model a personality and rules in one sentence at the top of the messages array ('You are a helpful assistant for X. Keep answers short.'). This one line changes everything." },
+        { "title": "Deploy the frontend", "detail": "Put the chat page on Cloudflare Pages or GitHub Pages, pointing at your Worker. Live chatbot, real URL, zero cost.", "link": "https://pages.cloudflare.com" },
+        { "title": "Want unlimited + private? Go local", "detail": "Install Ollama, run a small model (e.g. llama3.2 3B), point your UI at http://localhost:11434. Same code, no key, no limits — just your hardware.", "link": "https://ollama.com" }
+      ],
+      "outgrow": ["Add memory (store conversations in a free Supabase table), or RAG — see the 'chat with your notes' guide."]
+    },
+    {
+      "id": "notes-rag-chat",
+      "title": "Chat with your own notes (RAG, the free way)",
+      "level": "intermediate",
+      "time": "~4 hours",
+      "outcome": "A tool that answers questions using your PDFs and notes — privately, for free.",
+      "intro": "RAG = retrieve relevant chunks of your documents, then let an LLM answer using them. The zero-code path takes 10 minutes; the build-it-yourself path teaches you the pattern behind every AI product.",
+      "tool_ids": ["notebooklm", "ollama", "fastembed-local", "chroma", "groq", "google-colab"],
+      "steps": [
+        { "title": "Try the zero-code version first", "detail": "NotebookLM (Google, free) lets you upload sources and ask questions against them. Use it to understand what good RAG feels like before building one.", "link": "https://notebooklm.google.com" },
+        { "title": "Split documents into chunks", "detail": "In Python: load text, cut into ~500-character chunks with slight overlap. Chunks are the unit of retrieval — too big and answers get vague, too small and context is lost.", "tip": "Google Colab gives you a free GPU+CPU notebook to do all of this." },
+        { "title": "Embed the chunks locally", "detail": "Use sentence-transformers or fastembed — free, runs on CPU, no API. Each chunk becomes a vector; store them in Chroma (embedded, no server).", "link": "https://github.com/chroma-core/chroma" },
+        { "title": "Retrieve, then answer", "detail": "On each question: embed the question, find the 5 nearest chunks, paste them into the prompt, and send to a free LLM (Groq or local Ollama). Ask the model to answer only from the provided context." },
+        { "title": "Show your sources", "detail": "Print which chunks the answer came from. Trustworthy RAG always cites — this also makes bugs obvious fast." },
+        { "title": "Wrap it in an interface", "detail": "A simple Streamlit or plain HTML page over the same logic. Now you have a private, free, source-cited research assistant for your own documents." }
+      ],
+      "outgrow": ["More documents → Qdrant or pgvector on a free tier; better retrieval → try hybrid search (keywords + vectors)."]
+    },
+    {
+      "id": "ai-image-kit",
+      "title": "The free AI image toolkit (generate → edit → upscale → publish)",
+      "level": "beginner",
+      "time": "~1 hour",
+      "outcome": "A complete free workflow for AI images — and a clear conscience about licences.",
+      "intro": "You can do the full image pipeline without paying: generate free, edit free, upscale free, compress free. The only real skill is knowing which tool for which job — and what you are allowed to use commercially.",
+      "tool_ids": ["imagefx", "bing-image-creator", "photopea", "upscayl", "squoosh", "comfyui", "canva"],
+      "steps": [
+        { "title": "Generate: pick your free generator", "detail": "Google ImageFX and Microsoft's Bing Image Creator give free daily generations of the big models. For text-in-images, Ideogram's free tier leads. Save all good prompts in a text file — prompts are reusable assets.", "link": "https://labs.google/fx" },
+        { "title": "Edit: Photopea is the free Photoshop", "detail": "Photopea runs in the browser, opens PSD files, handles layers and is free with ads. Crop, retouch, compose — no install.", "link": "https://www.photopea.com" },
+        { "title": "Upscale: Upscayl, locally", "detail": "Upscayl is open-source and runs on your machine — 4x upscaling with real models, no upload of your images.", "link": "https://upscayl.org" },
+        { "title": "Compress before publishing", "detail": "Squoosh (Google, browser-based) cuts file size 5-10x with negligible quality loss. Page speed is an image-weight problem 90% of the time.", "link": "https://squoosh.app" },
+        { "title": "Know the licence", "detail": "Check each tool's terms for commercial use — most allow it, some restrict. When in doubt, generate your own rather than reposting, and never generate real people's likenesses.", "tip": "For unlimited generation and full control, run ComfyUI or Fooocus locally — free, open-source, your GPU." },
+        { "title": "Build a prompt library", "detail": "Keep a growing doc of prompts that worked, per style. After 20 generations you will write better prompts than 90% of tutorials." }
+      ],
+      "outgrow": ["Batch workflows → ComfyUI graphs; brand consistency → train a small LoRA on Colab's free GPU."]
+    },
+    {
+      "id": "faceless-youtube",
+      "title": "Start a faceless YouTube channel with free tools",
+      "level": "beginner",
+      "time": "~6 hours first video",
+      "outcome": "Your first published video — no face, no camera, no spend.",
+      "intro": "Faceless channels work because the value is the script and the edit, not your face. Everything below is free-tier or open-source; the honest catch: monetization takes months, so pick a topic you actually enjoy.",
+      "tool_ids": ["chatgpt", "elevenlabs", "suno", "capcut", "canva", "pexels", "obs-studio"],
+      "steps": [
+        { "title": "Pick a niche you can sustain", "detail": "Explainers, history, tech breakdowns, finance basics — choose something you can script weekly without research fatigue. Channel value = repeatable format.", "tip": "Watch 5 top channels in your niche and write down their video formula." },
+        { "title": "Script with a free chatbot", "detail": "Use ChatGPT/Claude/Gemini free tiers to outline and draft — but rewrite every sentence in your own voice. Raw AI voice is the #1 reason faceless channels die.", "tip": "Prompt pattern: 'Explain X to a curious beginner. 8 short sections, each with one concrete example.'" },
+        { "title": "Voiceover: free tiers exist", "detail": "ElevenLabs free tier gives ~10 minutes/month of very natural TTS — enough for testing formats. For unlimited: record yourself (free, faster than you think) or use open-source TTS like Piper/Kokoro.", "link": "https://elevenlabs.io" },
+        { "title": "Visuals: stock + screenshots + motion", "detail": "Free stock footage (Pexels/Pixabay), screen recordings with OBS, and simple animated text in CapCut. One visual change every 5-8 seconds keeps retention.", "link": "https://www.pexels.com" },
+        { "title": "Edit in CapCut (free)", "detail": "CapCut desktop is free and handles captions, zooms, transitions. Learn 3 things only: captions, cut-to-breath, and text-on-screen. That is 80% of faceless editing.", "link": "https://www.capcut.com" },
+        { "title": "Thumbnail + title decide everything", "detail": "Make the thumbnail in Canva free: 3 words max, one focal face/object, high contrast. The title makes a promise the thumbnail visualizes.", "link": "https://www.canva.com" },
+        { "title": "Publish 10 before judging", "detail": "Upload weekly. Study which topics get clicked (CTR) vs watched (retention). Video #10 will embarrass video #1 — that is the plan working." }
+      ],
+      "outgrow": ["Consistency proven → upgrade voiceover to paid TTS; repurpose every video into Shorts and a blog post."]
+    },
+    {
+      "id": "podcast-zero",
+      "title": "Launch a podcast for exactly ₹0",
+      "level": "beginner",
+      "time": "~2 hours + recording",
+      "outcome": "Your podcast on Spotify and Apple Podcasts via RSS — zero hosting fees.",
+      "intro": "Podcast 'hosting' sounds expensive and is not: Spotify for Podcasters (formerly Anchor) hosts unlimited audio free and pushes your RSS feed everywhere. Spend your budget on a quiet room instead.",
+      "tool_ids": ["audacity", "adobe-podcast", "auphonic", "obs-studio"],
+      "steps": [
+        { "title": "Record in the quietest room you have", "detail": "Your phone + earphones mic is good enough to start. Record 10cm from the mic, in a room with soft stuff (beds, curtains) to kill echo.", "tip": "The blanket-fort recording booth is a real technique, not a joke." },
+        { "title": "Edit in Audacity", "detail": "Free, open-source, forever. Learn three edits: cut mistakes, cut silence, normalize volume. That is all a podcast edit is.", "link": "https://www.audacityteam.org" },
+        { "title": "Clean up voice with free AI", "detail": "Adobe Podcast's free enhance removes room noise frighteningly well; Auphonic gives free monthly hours of automatic leveling and loudness. One or the other — not both.", "link": "https://podcast.adobe.com" },
+        { "title": "Cover art + description", "detail": "3000x3000px cover (Canva free), title under 3 words per idea, one-sentence description with the words people actually search for." },
+        { "title": "Upload to Spotify for Podcasters", "detail": "Free hosting, automatic distribution to Spotify, and an RSS feed you submit to Apple Podcasts and others. Unlimited episodes, zero cost.", "link": "https://podcasters.spotify.com" },
+        { "title": "Ship 5 episodes before promoting", "detail": "Listeners binge — a podcast with 5 episodes gets subscribed; one with 1 gets sampled. Batch-record 3 in one sitting." }
+      ],
+      "outgrow": ["Video podcast → OBS recording + CapCut; transcripts → Whisper (free, local) improves SEO and accessibility."]
+    },
+    {
+      "id": "automate-life-n8n",
+      "title": "Automate your life with free workflows (n8n + cron)",
+      "level": "intermediate",
+      "time": "~4 hours",
+      "outcome": "Real automations running 24/7 — file sorting, digests, alerts — for free.",
+      "intro": "Zapier's free tier is a teaser. The honest free path is either self-hosting n8n (unlimited automations on hardware you own) or abusing GitHub Actions cron — both genuinely free.",
+      "tool_ids": ["coolify", "oracle-cloud-free", "tailscale", "github", "telegram-bot-api"],
+      "steps": [
+        { "title": "List 5 things you do repeatedly", "detail": "Examples: daily news digest to Telegram, rename + file screenshots, backup a folder weekly, track prices, remind yourself of things. Automation only pays off on repeated tasks.", "tip": "Start with one that annoys you weekly, not monthly." },
+        { "title": "Pick your engine", "detail": "n8n self-hosted: visual workflows, 400+ integrations, free unlimited on your machine. GitHub Actions cron: free for public repos, perfect for script-y tasks on a schedule.", "link": "https://n8n.io" },
+        { "title": "Self-host n8n with Docker", "detail": "One docker command runs n8n on an old laptop, a Raspberry Pi, or an Oracle Cloud free-tier VM (4 ARM cores, free forever). Access it privately via Tailscale.", "link": "https://docs.n8n.io/hosting/installation/docker/" },
+        { "title": "Build your first workflow", "detail": "Trigger (schedule) → fetch (RSS/weather/API) → format (function node) → notify (Telegram bot or email via Resend free tier). One afternoon, one working automation." },
+        { "title": "Add a Telegram bot as your control panel", "detail": "Bots are free: message your server commands, get digests back. Telegram's Bot API needs no payment setup at all.", "link": "https://core.telegram.org/bots" },
+        { "title": "Make failures loud", "detail": "Add an error branch that pings you when a workflow fails. Silent automation failures are worse than no automation.", "tip": "Rule: every automation either logs visibly or messages you. No exceptions." }
+      ],
+      "outgrow": ["More uptime → Oracle free VM or a cheap VPS; more brains → add an LLM step with Groq's free tier."]
+    },
+    {
+      "id": "python-30-days",
+      "title": "Learn Python in 30 days — the free curriculum",
+      "level": "beginner",
+      "time": "30 days × 1 hour",
+      "outcome": "From zero to writing useful scripts confidently, with a portfolio of small programs.",
+      "intro": "Every resource in this plan is free. The scarce resource is your hour a day — the plan protects it: learn 20 minutes, code 40 minutes, ship something tiny every week.",
+      "tool_ids": ["freecodecamp", "kaggle-learn", "exercism", "leetcode", "vscode", "google-colab"],
+      "steps": [
+        { "title": "Day 1: Install and print", "detail": "Install Python from python.org + VS Code with the Python extension. First program: input → compute → print. Type every character yourself — no copy-paste for 30 days.", "link": "https://www.python.org" },
+        { "title": "Days 2-7: Core syntax, daily reps", "detail": "Variables, if/else, loops, lists, dicts, functions. Do freeCodeCamp's Scientific Computing course or Kaggle's Python course — pick one, finish it.", "link": "https://www.freecodecamp.org/learn/scientific-computing-with-python/" },
+        { "title": "Week 1 project: a money calculator", "detail": "Split-the-bill + tip calculator with input validation. Ugly is fine. Working is required. Push it to GitHub — repo #1.", "tip": "Every week ends with a shipped mini-project. This is the whole method." },
+        { "title": "Days 8-14: Files and errors", "detail": "Read/write files, CSVs, try/except, command-line arguments. Week 2 project: a to-do list that saves to a file between runs." },
+        { "title": "Days 15-21: The standard library superpower", "detail": "requests (download a webpage), datetime, json. Week 3 project: a weather notifier — fetch a free API (Open-Meteo, no key needed) and print/notify.", "link": "https://open-meteo.com" },
+        { "title": "Days 22-30: Pick a direction", "detail": "Automate boring files (os, shutil) OR data analysis (pandas on Kaggle) OR web scraping (requests + BeautifulSoup). Week 4 project: automate one real thing in your own life.", "link": "https://www.kaggle.com/learn" },
+        { "title": "Keep the reps going", "detail": "After day 30: 2-3 Exercism exercises weekly for precision, easy LeetCode for interviews, and one growing real project. Free forever — the hour was the only cost.", "link": "https://exercism.org" }
+      ],
+      "outgrow": ["Direction chosen → the AI Engineer or Software Developer roadmaps on roadmap.sh, mapped to free resources in the learning directory."]
+    },
+    {
+      "id": "selfhost-101",
+      "title": "Self-hosting 101: your own private cloud from junk hardware",
+      "level": "intermediate",
+      "time": "~6 hours",
+      "outcome": "An old PC running your files, photos and apps — private, free, yours.",
+      "intro": "Any machine with 4GB RAM can become a private cloud. The stack is always the same: Linux → Docker → apps → private access. Free, no subscriptions, your data never leaves the house unless you say so.",
+      "tool_ids": ["tailscale", "coolify", "nextcloud", "syncthing", "duplicati", "kopia"],
+      "steps": [
+        { "title": "Pick the machine", "detail": "Old laptop (best: built-in UPS battery), mini-PC, or Raspberry Pi. Wired ethernet > wifi. Any 4GB+ RAM machine is enough for files, photos and a dozen small apps." },
+        { "title": "Install Ubuntu Server", "detail": "Free OS, installs in 20 minutes from a USB stick. Enable SSH. Update it. This machine now lives in a corner and is controlled from your main computer.", "link": "https://ubuntu.com/server" },
+        { "title": "Docker is the app store", "detail": "Install Docker, then run apps as containers: Nextcloud (files), PhotoPrism/Immich (photos), Jellyfin (media). One YAML file per app = clean installs, clean removals.", "link": "https://docs.docker.com/engine/install/ubuntu/" },
+        { "title": "Access from anywhere: Tailscale, not port-forwarding", "detail": "Install Tailscale on the server and your devices — private mesh network, no open ports, no exposed router, free for personal use. This single step removes 90% of self-hosting risk.", "link": "https://tailscale.com" },
+        { "title": "Backups or it did not happen", "detail": "3-2-1 rule: 3 copies, 2 media, 1 offsite. Automate with Duplicati or Kopia to an external drive + free cloud storage. Test a restore once — untested backups are hopes, not backups." },
+        { "title": "Power + monitoring reality check", "detail": "An old laptop draws ~10W ≈ one LED bulb. Enable auto-restart after outages, and set UptimeRobot (free) to ping your services so you know when something dies.", "tip": "If your electricity is unreliable, self-host the non-critical stuff and keep critical files in two places." }
+      ],
+      "outgrow": ["One-click app management → Coolify; public-facing services → Cloudflare Tunnel; heavier apps → Oracle free-tier ARM VM as a second node."]
+    },
+    {
+      "id": "freelance-ready",
+      "title": "Get freelance-ready with free tools (any country)",
+      "level": "beginner",
+      "time": "~5 hours",
+      "outcome": "The complete free infrastructure for taking your first paid work: presence, proposals, contracts, invoices, payments.",
+      "intro": "Freelancing has a tooling problem only for people who buy tools. This guide assembles the entire stack for $0 — and points you to the payment rails that actually work in your country.",
+      "tool_ids": ["notion", "cal-com", "calendly", "trello", "canva", "stripe", "razorpay", "github"],
+      "steps": [
+        { "title": "One page that sells you", "detail": "Portfolio with 2-3 real things (the portfolio guide covers this). Add a 'Services' section: 3 specific offers with prices. Specific beats general every time.", "tip": "Offer template: 'I build X for Y so that Z' + price range + 2-week delivery." },
+        { "title": "Book calls without back-and-forth", "detail": "Cal.com (open-source) or Calendly free: one link, people pick a slot. Add a 15-minute 'scoping call' — shorter calls close faster.", "link": "https://cal.com" },
+        { "title": "Track leads in a free workspace", "detail": "Notion or Trello free: one board, columns = Lead → Replied → Call → Proposal → Won/Lost. The freelance winners are usually just the ones who followed up.", "link": "https://www.notion.com" },
+        { "title": "Proposals that close", "detail": "One page: their problem in their words, your plan in 5 bullets, price with two options (good/better), start date. Send within 24h of the call while it is fresh.", "tip": "Take 30-50% upfront, always. Free tools do not pay for scope creep — deposits do." },
+        { "title": "Contracts: simple and written", "detail": "A plain-language one-pager beats nothing: scope, price, timeline, 2 revision rounds, payment terms. Templates exist free (search 'freelance contract template') — read before you sign anything." },
+        { "title": "Get paid: pick your rails", "detail": "Open the World page on this site — it maps working payment rails per country (Stripe/PayPal where available, Payoneer/Wise for payouts, local options elsewhere). Set up before your first client, not after.", "link": "world.html" },
+        { "title": "First clients: cold and warm", "detail": "Warm: tell your network exactly what you now offer (most first gigs come from people who already know you). Cold: 5 personalized messages a day to businesses with visible problems you fix." }
+      ],
+      "outgrow": ["Taxes: track every invoice in a spreadsheet from day one; local registration rules vary — check your country's threshold before scaling."]
+    }
+  ],
+  "paths": [
+    { "id": "software-dev", "name": "Software Developer", "emoji": "⌨️", "blurb": "Fundamentals → real apps → maintainable code. Free tools mapped to every stage.", "link": "https://roadmap.sh/full-stack" },
+    { "id": "ai-engineer", "name": "AI Engineer", "emoji": "🧠", "blurb": "Python → models → RAG and agents, built on free tiers and local models.", "link": "https://roadmap.sh/ai-engineer" },
+    { "id": "cloud-engineer", "name": "Cloud Engineer", "emoji": "☁️", "blurb": "Linux → networking → containers → IaC, on free tiers and credits.", "link": "https://roadmap.sh/devops" },
+    { "id": "cybersecurity", "name": "Cybersecurity", "emoji": "🛡️", "blurb": "Networking → detection → response, with free labs and CTFs.", "link": "https://roadmap.sh/cyber-security" }
+  ]
+}

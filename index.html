@@ -3,49 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>allknowdev — what engineers get for free, and what money unlocks</title>
-  <meta name="description" content="An open-source atlas of 150+ real services for engineers: exact free-tier limits, what paid plans unlock, official pricing links and last-checked dates. AI, cloud, databases, dev tools, APIs, learning.">
-  <meta name="theme-color" content="#070b08">
-  <meta property="og:title" content="allknowdev — the free-tier atlas for engineers">
-  <meta property="og:description" content="What $0 gets you. What your money unlocks. 150+ services with real limits, official sources and verified dates.">
+  <title>allknowdev — every free tool on the internet, mapped</title>
+  <meta name="description" content="An open-source atlas of 400+ real services: AI tools, software, hosting, learning and privacy — with exact free-tier limits, prices in your currency, region notes and verified dates.">
+  <meta name="theme-color" content="#FAF7F2">
+  <link rel="canonical" href="https://allknowdev.vercel.app/">
+  <meta property="og:title" content="allknowdev — every free tool on the internet, mapped">
+  <meta property="og:description" content="400+ services. Exact free-tier limits. Prices in your currency. Region notes. Open data, verified dates.">
   <meta property="og:image" content="assets/images/og-allknowdev.svg">
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=2">
 </head>
 <body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="ambient ambient-green" aria-hidden="true"></div>
-  <div class="ambient ambient-violet" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
 
-  <div class="announcement">
-    <div class="container announcement-inner">
-      <span class="pulse" aria-hidden="true"></span>
-      <span>OPEN DATA · OPEN SOURCE · NO AFFILIATE LINKS</span>
-      <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star on GitHub ↗</a>
-    </div>
+  <div class="announce">
+    <span class="pulse-dot" aria-hidden="true"></span>
+    <span>OPEN DATA · OPEN SOURCE · NO AFFILIATE LINKS</span>
+    <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star on GitHub ↗</a>
   </div>
 
-  <header class="header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#top">
-        <span class="brand-mark">a<span>.</span></span>
-        <span>allknowdev</span>
-      </a>
+  <header class="site-header">
+    <nav class="container nav-inner" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark">a</span><span>allknowdev</span></a>
       <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="navLinks"><i></i><i></i></button>
       <div class="nav-links" id="navLinks">
-        <a href="#explore">Explore</a>
-        <a href="pages/directory.html">Directory</a>
-        <a href="#stacks">$0 stacks</a>
-        <a href="#student">Student</a>
-        <a href="#budget">Budget</a>
-        <a href="#roadmaps">Roadmaps</a>
+        <a href="index.html">Home</a>
+        <a href="directory.html">Directory</a>
+        <a href="ai.html">AI Hub</a>
+        <a href="learn.html">Learn</a>
+        <a href="world.html">World</a>
+        <a href="ask.html">Ask me</a>
+        <a href="about.html">About</a>
       </div>
       <div class="nav-actions">
-        <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub ↗</a>
-        <a class="button button-small" href="#contribute">Contribute ↗</a>
+        <a class="region-chip" href="world.html" title="Choose your country and currency"><span class="flag">🌐</span><span class="cur-label">USD</span></a>
+        <button class="theme-toggle" aria-label="Switch theme">🌙</button>
+        <a class="btn btn-primary btn-small" href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star</a>
       </div>
     </nav>
   </header>
@@ -54,207 +51,150 @@
 
     <!-- ============ HERO ============ -->
     <section class="hero">
-      <div class="container">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">The free-tier atlas for engineers</p>
-          <h1>What <span class="gradient-text">$0 gets you.</span><br>What money unlocks.</h1>
-          <p>Every service an engineer touches — AI APIs, cloud hosting, databases, dev tools, learning —
-            with the <strong>exact free-tier limits</strong>, the <strong>real paid price</strong>, official sources
-            and the date we last checked. Stop guessing. Start building.</p>
-          <form class="hero-search" action="pages/directory.html" method="get">
-            <div class="search-field">
-              <span aria-hidden="true">⌕</span>
-              <label class="sr-only" for="heroSearch">Search the directory</label>
-              <input type="search" id="heroSearch" name="q" placeholder="Try “postgres”, “free gpu”, “email”, “student”…" autocomplete="off">
-            </div>
-            <button class="button" type="submit">Search 200+ services</button>
-          </form>
-          <div class="hero-stats" id="heroStats">
-            <div class="hero-stat"><b data-count="services">—</b><span>Services tracked</span></div>
-            <div class="hero-stat"><b data-count="free">—</b><span>Usable free tiers</span></div>
-            <div class="hero-stat"><b data-count="oss">—</b><span>Open source</span></div>
-            <div class="hero-stat"><b data-count="student">—</b><span>Student perks</span></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-eyebrow rise">✦ the free-tier atlas — now worldwide</p>
+          <h1 class="rise" style="--d:.06s">Everything the internet<br>gives away, <span class="grad-text">in your currency.</span></h1>
+          <p class="hero-sub rise" style="--d:.12s">
+            <strong id="statServices" data-stat-key="services">400</strong>+ AI tools, software, hosts, APIs and learning paths —
+            each with <strong>exact free-tier limits</strong>, <strong>real paid prices</strong> converted to
+            your currency, <strong>region notes</strong> for your country and the date we last checked.
+          </p>
+          <div class="hero-cta rise" style="--d:.18s">
+            <a class="btn btn-primary btn-lg" href="directory.html">Browse the atlas →</a>
+            <a class="btn btn-ghost btn-lg" href="ai.html">Explore the AI hub 🤖</a>
           </div>
-          <div class="hero-proof">
-            <span>Every entry has:</span>
-            <span class="badge badge-free">Free-tier limits</span>
-            <span class="badge badge-paid">Paid-from price</span>
-            <span class="badge badge-muted">Official links</span>
-            <span class="badge badge-muted">Last-checked date</span>
+          <div class="hero-stats rise" style="--d:.24s">
+            <div class="hero-stat"><b data-stat-key="services">—</b><span>Services tracked</span></div>
+            <div class="hero-stat"><b data-stat-key="free">—</b><span>Usable free tiers</span></div>
+            <div class="hero-stat"><b data-stat-key="oss">—</b><span>Open source</span></div>
+            <div class="hero-stat"><b data-stat-key="ai">—</b><span>AI tools mapped</span></div>
           </div>
+        </div>
+        <div class="hero-visual rise" style="--d:.15s">
+          <canvas id="heroCanvas" aria-label="Interactive 3D constellation of free tools — drag to spin" role="img"></canvas>
+          <div class="orb-fallback" aria-hidden="true"></div>
+          <span class="hero-visual-hint">drag to spin · 400+ free tools orbiting</span>
         </div>
       </div>
     </section>
 
-    <!-- ============ SIGNAL STRIP ============ -->
-    <section class="signal-strip" aria-label="Principles">
-      <div class="container signal-grid">
-        <div><span aria-hidden="true">◆</span><span><b>Real limits,</b> not marketing</span></div>
-        <div><span aria-hidden="true">◆</span><span><b>Official sources,</b> always linked</span></div>
-        <div><span aria-hidden="true">◆</span><span><b>Verified dates</b> on everything</span></div>
-        <div><span aria-hidden="true">◆</span><span><b>Open data</b> — PRs welcome</span></div>
-      </div>
-    </section>
+    <!-- ============ TICKER ============ -->
+    <div class="ticker" id="ticker" aria-hidden="true"></div>
 
     <!-- ============ EXPLORE ============ -->
     <section class="section" id="explore">
       <div class="container">
-        <div class="section-heading reveal">
+        <div class="section-head center reveal">
           <p class="kicker">01 / Explore the universe</p>
-          <h2>Six fields. <span class="gradient-text">One directory.</span></h2>
-          <p>Pick a field to see every service in it — with the free column and the paid column side by side.</p>
+          <h2>Sixteen worlds. <span class="grad-text">One atlas.</span></h2>
+          <p>Every category is colour-coded and count-verified. Pick a world to see every free thing inside it.</p>
         </div>
-        <div class="category-grid">
-          <a class="category-card card-wide reveal" href="pages/directory.html#ai">
-            <div class="card-top"><span class="index">01</span><span class="badge badge-free">Most free tiers</span></div>
-            <h3>AI &amp; Machine Learning</h3>
-            <p class="card-copy">Model APIs, coding assistants, free GPUs, vector databases.
-              <small>MODELS · APIS · GPU · RAG</small></p>
-            <span class="card-link">Open AI directory →</span>
-          </a>
-          <a class="category-card reveal" href="pages/directory.html#cloud">
-            <div class="card-top"><span class="index">02</span></div>
-            <h3>Cloud &amp; Hosting</h3>
-            <p class="card-copy">Static hosts, serverless, VMs, PaaS, tunnels.
-              <small>HOSTING · SERVERLESS · VPS</small></p>
-            <span class="card-link">Open cloud directory →</span>
-          </a>
-          <a class="category-card reveal" href="pages/directory.html#data">
-            <div class="card-top"><span class="index">03</span></div>
-            <h3>Databases &amp; Auth</h3>
-            <p class="card-copy">Postgres, NoSQL, caches, identity providers.
-              <small>SQL · NOSQL · AUTH</small></p>
-            <span class="card-link">Open data directory →</span>
-          </a>
-          <a class="category-card reveal" href="pages/directory.html#tools">
-            <div class="card-top"><span class="index">04</span></div>
-            <h3>Developer Tools</h3>
-            <p class="card-copy">Editors, IDEs, CI/CD, observability, security.
-              <small>EDITORS · CI · MONITORING</small></p>
-            <span class="card-link">Open tools directory →</span>
-          </a>
-          <a class="category-card reveal" href="pages/directory.html#apis">
-            <div class="card-top"><span class="index">05</span></div>
-            <h3>APIs &amp; Services</h3>
-            <p class="card-copy">Payments, email, storage, maps, notifications.
-              <small>PAYMENTS · EMAIL · STORAGE</small></p>
-            <span class="card-link">Open APIs directory →</span>
-          </a>
-          <a class="category-card card-wide reveal" href="pages/directory.html#learning">
-            <div class="card-top"><span class="index">06</span><span class="badge badge-student">Student goldmine</span></div>
-            <h3>Learning &amp; Certifications</h3>
-            <p class="card-copy">Courses, labs, certifications — and which ones are actually free, including the GitHub Student Developer Pack.
-              <small>COURSES · CERTS · STUDENT PACK</small></p>
-            <span class="card-link">Open learning directory →</span>
-          </a>
-          <a class="category-card reveal" href="pages/directory.html#design">
-            <div class="card-top"><span class="index">07</span><span class="badge badge-oss">Mostly OSS</span></div>
-            <h3>Design &amp; Assets</h3>
-            <p class="card-copy">Fonts, icons, illustrations, stock photos, UI kits — free to ship with.
-              <small>FONTS · ICONS · PHOTOS · UI</small></p>
-            <span class="card-link">Open design directory →</span>
-          </a>
+        <div class="cat-grid" id="homeCatGrid"></div>
+      </div>
+    </section>
+
+    <!-- ============ HOW TO READ ============ -->
+    <section class="section tight" id="tiers">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">02 / How to read the atlas</p>
+          <h2>Four honest labels. <span class="grad-text">No traps.</span></h2>
+        </div>
+        <div class="stat-row stagger" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))">
+          <div class="cat-card" style="--cat:var(--green)">
+            <span class="cat-emoji">🆓</span>
+            <h3>Free forever</h3>
+            <p>Genuinely free — no trial clock, no card required. Blender, VS Code, Signal-class honesty.</p>
+            <div class="cat-foot"><b>badge: FREE</b></div>
+          </div>
+          <div class="cat-card" style="--cat:var(--blue)">
+            <span class="cat-emoji">🧗</span>
+            <h3>Free tier + paid</h3>
+            <p>Generous free plan with a paid ceiling. We list the exact limits — requests, storage, minutes — so you know when you'd hit them.</p>
+            <div class="cat-foot"><b>badge: FREEMIUM</b></div>
+          </div>
+          <div class="cat-card" style="--cat:var(--violet)">
+            <span class="cat-emoji">🔓</span>
+            <h3>Open source</h3>
+            <p>Free today and forever, because the code is public. Self-host for unlimited use, or use the free hosted version.</p>
+            <div class="cat-foot"><b>badge: OSS</b></div>
+          </div>
+          <div class="cat-card" style="--cat:var(--teal)">
+            <span class="cat-emoji">🎓</span>
+            <h3>Student gold</h3>
+            <p>Unlocked by the GitHub Student Developer Pack — professional tools worth hundreds per year, free while you study.</p>
+            <div class="cat-foot"><b>badge: STUDENT</b></div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ============ HIGHLIGHTS: WHAT $0 GETS YOU ============ -->
-    <section class="section" id="highlights" style="padding-top: 0;">
+    <!-- ============ FEATURED ============ -->
+    <section class="section tight">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="kicker">02 / What $0 gets you</p>
-          <h2>Featured free tiers <span class="gradient-text">worth building on.</span></h2>
+        <div class="section-head reveal">
+          <p class="kicker">03 / Hall of fame</p>
+          <h2>Free tiers <span class="grad-text">worth building on.</span></h2>
           <p>Hand-picked from the directory: the free tiers so good that entire products run on them.</p>
         </div>
-        <div class="hl-grid" id="highlightGrid">
-          <div class="dir-skeleton">LOADING FEATURED TIERS…</div>
-        </div>
-        <div style="text-align:center; margin-top: 28px;">
-          <a class="button-glass" href="pages/directory.html">Browse all 150+ services →</a>
+        <div class="tool-grid stagger" id="featuredGrid"></div>
+        <div class="center mt-lg">
+          <a class="btn btn-ghost" href="directory.html">Browse all services →</a>
         </div>
       </div>
     </section>
 
-    <!-- ============ FREE VS PAID ============ -->
-    <section class="section" id="compare" style="padding-top: 0;">
+    <!-- ============ WORLD TEASER ============ -->
+    <section class="section tight">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="kicker">03 / Free vs paid</p>
-          <h2>Know <span class="gradient-text">exactly</span> what upgrading buys you.</h2>
-          <p>Before you enter a card number, see what changes. Featured below: the upgrades that are actually worth it — and when.</p>
+        <div class="glass-panel reveal" style="display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center">
+          <div>
+            <p class="kicker">04 / Your world, your currency</p>
+            <h2 style="font-size:clamp(24px,3vw,34px);margin-bottom:12px">Pick your country.<br>See prices in <span class="grad-text">your money.</span></h2>
+            <p class="lede" style="margin-bottom:20px">Select your region and the whole atlas converts to your currency — plus availability notes, the privacy law that governs your data, and the payment rails that actually work where you live.</p>
+            <div class="hero-cta" style="margin-bottom:0">
+              <a class="btn btn-primary" href="world.html">Choose your region 🌐</a>
+            </div>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:10px">
+            <span class="chip">🇮🇳 India · ₹</span>
+            <span class="chip">🇺🇸 US · $</span>
+            <span class="chip">🇪🇺 EU · €</span>
+            <span class="chip">🇬🇧 UK · £</span>
+            <span class="chip">🇧🇷 Brazil · R$</span>
+            <span class="chip">🇳🇬 Nigeria · ₦</span>
+            <span class="chip">🇮🇩 Indonesia · Rp</span>
+            <span class="chip">🇯🇵 Japan · ¥</span>
+            <span class="chip">+ 32 more currencies</span>
+          </div>
         </div>
-        <div class="compare-grid" id="compareGrid">
-          <div class="dir-skeleton">LOADING COMPARISONS…</div>
-        </div>
-        <p class="disclaimer" style="text-align:center; margin-top: 20px;">
-          Comparisons reflect plan limits on the checked date — verify on the official pricing page before paying.
-        </p>
       </div>
     </section>
 
     <!-- ============ $0 STACKS ============ -->
-    <section class="section" id="stacks" style="padding-top: 0;">
+    <section class="section tight" id="stacks">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="kicker">04 / The $0 stacks</p>
-          <h2>Complete stacks you can run <span class="gradient-text">without spending anything.</span></h2>
+        <div class="section-head reveal">
+          <p class="kicker">05 / The $0 stacks</p>
+          <h2>Complete stacks that run <span class="grad-text">without spending anything.</span></h2>
           <p>Curated combinations of free tiers that ship real products — with the exact point where you'd need to start paying.</p>
         </div>
-        <div class="stacks-grid" id="stacksGrid">
-          <div class="dir-skeleton">LOADING STACKS…</div>
-        </div>
+        <div class="stacks-grid" id="stacksGrid" style="display:grid;gap:20px"></div>
       </div>
     </section>
 
-    <!-- ============ STUDENT ============ -->
-    <section class="section" id="student" style="padding-top: 0;">
+    <!-- ============ BUDGET ============ -->
+    <section class="section tight" id="budget">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="kicker">05 / If you're a student</p>
-          <h2>Verify once. <span class="gradient-text">Unlock thousands of dollars.</span></h2>
-          <p>The GitHub Student Developer Pack is the single biggest free bundle in tech — here's what it actually contains and how to use it.</p>
-        </div>
-        <div class="stacks-grid" style="grid-template-columns: 1fr;">
-          <div class="stack-card reveal">
-            <header>
-              <h3>GitHub Student Developer Pack</h3>
-              <p>One verification at <a class="text-link" href="https://education.github.com/pack" target="_blank" rel="noreferrer">education.github.com/pack</a> with proof of enrolment unlocks:</p>
-            </header>
-            <div class="stack-layers">
-              <div class="stack-layer"><span class="name">AI</span><span class="pick">GitHub Copilot — free while studying</span><span class="detail">completions + chat in your IDE</span><span class="cost">$0</span></div>
-              <div class="stack-layer"><span class="name">IDEs</span><span class="pick">ALL JetBrains IDEs</span><span class="detail">WebStorm, Rider, DataGrip — the paid ones</span><span class="cost">$0</span></div>
-              <div class="stack-layer"><span class="name">Cloud</span><span class="pick">DigitalOcean $200 + Azure $100 credits</span><span class="detail">real servers to practice on</span><span class="cost">credits</span></div>
-              <div class="stack-layer"><span class="name">Domain</span><span class="pick">Free .me domain (Namecheap)</span><span class="detail">ship your portfolio on a real URL</span><span class="cost">1 year free</span></div>
-              <div class="stack-layer"><span class="name">Data</span><span class="pick">MongoDB Atlas credits</span><span class="detail">practice beyond the 512 MB free cluster</span><span class="cost">credits</span></div>
-              <div class="stack-layer"><span class="name">Learning</span><span class="pick">FrontendMasters 6 months + Educative + more</span><span class="detail">professional-grade courses</span><span class="cost">$0</span></div>
-            </div>
-            <div class="stack-outgrow">
-              <span class="label">Watch out</span>
-              <ul>
-                <li>Offers change constantly — check the current list before you plan around one.</li>
-                <li>Credits can expire while you study; build with them early.</li>
-                <li>Graduation ends the pack — migrate to the free tiers in this directory first.</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div style="text-align:center; margin-top: 26px;">
-          <a class="button-glass" href="pages/directory.html#learning">See all student perks in the directory →</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ BUDGET EXPLORER ============ -->
-    <section class="section budget-section" id="budget">
-      <div class="container">
-        <div class="section-heading reveal">
+        <div class="section-head reveal">
           <p class="kicker">06 / Budget explorer</p>
-          <h2>Have a budget? <span class="gradient-text">Spend it where it matters.</span></h2>
-          <p>Set your monthly budget in your currency — we'll show what's genuinely free first, then the single upgrade worth paying for.</p>
+          <h2>Have a budget? <span class="grad-text">Spend it where it matters.</span></h2>
+          <p>Set your monthly budget — we show what's genuinely free first, then the single upgrade worth paying for.</p>
         </div>
         <div class="budget-layout">
-          <div class="glass-panel budget-panel reveal">
-            <div class="budget-label"><span>Monthly budget</span><span>USD · EUR · INR · GBP</span></div>
+          <div class="glass-panel reveal">
+            <div class="budget-label"><span>Monthly budget</span><span>₹ · $ · € · £</span></div>
             <div class="budget-input">
               <label class="sr-only" for="budgetCurrency">Currency</label>
               <select id="budgetCurrency">
@@ -274,85 +214,37 @@
             <p class="budget-copy" id="budgetAdvice">Build around open-source software, free tiers and student access. Track usage limits before depending on a service.</p>
             <div class="budget-tags" id="budgetTags"></div>
             <div class="budget-picks" id="budgetPicks"></div>
-            <p class="disclaimer" style="margin-top: 16px;">Illustrative guidance from directory data — not a quote. Always verify current prices.</p>
+            <p class="disclaimer" style="margin-top:16px">Illustrative guidance from directory data — not a quote. Always verify current prices.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ============ ROADMAPS ============ -->
-    <section class="section roadmap-section" id="roadmaps">
+    <!-- ============ GUIDES TEASER ============ -->
+    <section class="section tight">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="kicker">07 / Field guides</p>
-          <h2>Learning paths, <span class="gradient-text">with the free tools built in.</span></h2>
-          <p>Four step-by-step guides to becoming an AI, cloud, security or software engineer — each stage maps to free tools in the directory.</p>
+        <div class="section-head reveal">
+          <p class="kicker">07 / Learn by building</p>
+          <h2>Guides that end with <span class="grad-text">something shipped.</span></h2>
+          <p>Step-by-step, checkable-off, mapped to free tools. Your progress is saved in your browser.</p>
         </div>
-        <div class="roadmap-grid">
-          <a class="roadmap-card reveal" href="pages/software-development.html">
-            <span class="eyebrow">PATH / 01</span>
-            <h3>Software Developer</h3>
-            <p>From fundamentals to shipping maintainable applications.</p>
-            <span class="card-link">Start the path →</span>
-          </a>
-          <a class="roadmap-card reveal" href="pages/ai-engineering.html">
-            <span class="eyebrow">PATH / 02</span>
-            <h3>AI Engineer</h3>
-            <p>From Python and math basics to operating model-powered features.</p>
-            <span class="card-link">Start the path →</span>
-          </a>
-          <a class="roadmap-card reveal" href="pages/cloud-engineering.html">
-            <span class="eyebrow">PATH / 03</span>
-            <h3>Cloud Engineer</h3>
-            <p>From Linux and networking to reliability, IaC and cost control.</p>
-            <span class="card-link">Start the path →</span>
-          </a>
-          <a class="roadmap-card reveal" href="pages/cybersecurity.html">
-            <span class="eyebrow">PATH / 04</span>
-            <h3>Cybersecurity</h3>
-            <p>From networking basics to detection, response and reporting.</p>
-            <span class="card-link">Start the path →</span>
-          </a>
+        <div class="guide-grid" id="guideTeasers"></div>
+        <div class="center mt-lg">
+          <a class="btn btn-ghost" href="learn.html">All guides &amp; career roadmaps →</a>
         </div>
       </div>
     </section>
 
-    <!-- ============ TRUST ============ -->
-    <section class="section trust-section" style="padding-top: 0;">
-      <div class="container trust-layout">
-        <div class="reveal">
-          <p class="kicker">How this stays honest</p>
-          <h2>Useful information.<br><span class="gradient-text">Not sales pressure.</span></h2>
-          <ul class="trust-points">
-            <li>Official sources only — every claim links out</li>
-            <li>Never invented prices — unknown means "check the page"</li>
-            <li>Last-verified dates on every entry</li>
-            <li>Open data: fix anything with a pull request</li>
-          </ul>
-        </div>
-        <div class="glass-panel trust-card reveal">
-          <div class="panel-topline"><strong>WHY IT'S FREE</strong><span>NO ADS · NO TRACKING</span></div>
-          <div class="panel-bottom">
-            <h3>allknowdev is a public good, not a funnel.</h3>
-            <p class="stack-note">No affiliate links. No paid placements. No dark patterns. The data lives in plain JSON files in the repository — anyone can audit, correct or extend it. If a service changes its free tier, a PR fixes it for everyone within minutes.</p>
-            <p class="stack-note"><strong>⚠ Prices change without notice.</strong> The free tier you read about today may differ tomorrow. Every entry carries its check date and a direct link to the official pricing page — treat this as a map, not gospel.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ CONTRIBUTE ============ -->
-    <section class="section contribute-section" id="contribute" style="padding-top: 0;">
+    <!-- ============ ASK TEASER ============ -->
+    <section class="section tight">
       <div class="container">
-        <div class="glass-panel contribute-box reveal">
-          <div class="contribute-orb" aria-hidden="true"></div>
-          <span class="open-stamp">★ OPEN SOURCE · MIT LICENSED</span>
-          <h2>Know a free tier we're missing?</h2>
-          <p>Add it in one JSON file — no build step, no framework, no sign-up. Every contribution makes the map better for the next engineer.</p>
-          <div class="hero-actions" style="justify-content: center;">
-            <a class="button" href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star the repo</a>
-            <a class="button-glass" href="https://github.com/sujeeth777/allknowdev/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Read contributing guide</a>
-            <a class="button-glass" href="https://github.com/sujeeth777/allknowdev/issues" target="_blank" rel="noreferrer">Report an outdated price</a>
+        <div class="cta-panel reveal">
+          <span class="badge">★ open source · ask me anything</span>
+          <h2 style="margin-top:14px">Stuck? Ask me directly.</h2>
+          <p>Choosing a stack, planning a project, deciding what to learn next — describe your situation and get a personal, honest recommendation. It lands in my GitHub inbox as an issue, and the best questions become new guides on this site.</p>
+          <div class="cta-actions">
+            <a class="btn btn-light" href="ask.html">Ask your question →</a>
+            <a class="btn btn-ghost" href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star the repo</a>
           </div>
         </div>
       </div>
@@ -364,31 +256,45 @@
       <div class="footer-main">
         <div class="footer-col">
           <b>allknowdev</b>
-          <p class="footer-brand">An open-source directory of what engineers get for free — and what their money actually buys. Real data, official sources, verified dates.</p>
+          <p class="footer-brand">An open-source atlas of what the internet gives away for free — AI tools, software, hosting and learning — with exact limits, honest prices and verified dates.</p>
           <p class="footer-note">MIT licensed · no tracking · no affiliate links</p>
         </div>
         <div class="footer-col">
           <b>EXPLORE</b>
-          <a href="#explore">Engineering fields</a>
-          <a href="pages/directory.html">Free &amp; paid directory</a>
-          <a href="#stacks">$0 stacks</a>
-          <a href="#budget">Budget explorer</a>
-          <a href="#roadmaps">Learning paths</a>
+          <a href="directory.html">Full directory</a>
+          <a href="ai.html">AI hub</a>
+          <a href="learn.html">Guides &amp; roadmaps</a>
+          <a href="world.html">Your region &amp; currency</a>
         </div>
         <div class="footer-col">
           <b>PROJECT</b>
-          <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub repository</a>
-          <a href="https://github.com/sujeeth777/allknowdev/issues" target="_blank" rel="noreferrer">Report a change</a>
-          <a href="pages/learning.html">Learning hub</a>
+          <a href="about.html">About &amp; FAQ</a>
+          <a href="ask.html">Ask for help</a>
+          <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">GitHub repository ↗</a>
+          <a href="https://github.com/sujeeth777/allknowdev/issues" target="_blank" rel="noreferrer">Report a change ↗</a>
+        </div>
+        <div class="footer-col">
+          <b>DATA</b>
+          <a href="https://github.com/sujeeth777/allknowdev/tree/main/data" target="_blank" rel="noreferrer">data/*.json ↗</a>
+          <a href="https://github.com/sujeeth777/allknowdev/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer">Contributing ↗</a>
+          <a href="https://github.com/sujeeth777/allknowdev" target="_blank" rel="noreferrer">★ Star the repo ↗</a>
         </div>
       </div>
       <div class="footer-bottom">
         <span>© <span id="currentYear">2026</span> allknowdev contributors · MIT license</span>
-        <span>Built with plain HTML/CSS/JS · zero dependencies</span>
+        <span>Plain HTML/CSS/JS · zero dependencies · verified dates on every entry</span>
       </div>
     </div>
   </footer>
 
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js?v=2"></script>
+  <script src="assets/js/hero3d.js?v=2"></script>
+  <script>
+    AKD.buildTicker("ticker");
+    AKD.buildCatGrid("homeCatGrid");
+    AKD.buildFeatured("featuredGrid", 12);
+    AKD.buildStacks("stacksGrid", true);
+    AKD.buildGuideTeasers("guideTeasers", 3);
+  </script>
 </body>
 </html>

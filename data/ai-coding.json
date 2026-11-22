@@ -1,0 +1,712 @@
+[
+  {
+    "id": "amazon-q-dev",
+    "provider": "AWS",
+    "product": "Amazon Q Developer",
+    "category": "ai-coding",
+    "tags": ["coding assistant", "ide", "cli", "aws"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "~50 agentic chat/agent interactions per month free in IDE and CLI",
+      "Inline code suggestions free for individuals, no credit card",
+      "Works in VS Code, JetBrains, Visual Studio, and the terminal"
+    ],
+    "paid_from": { "amount": 19, "currency": "USD", "period": "month", "plan": "Pro" },
+    "what_paid": [
+      "More agentic interactions and higher limits",
+      "Organization features: admin dashboards, identity integration"
+    ],
+    "best_for": "Individuals in AWS ecosystems wanting free inline completions plus agent credits",
+    "watch_out": [
+      "The ~50 free agentic interactions vanish quickly with real use",
+      "Deepest value is inside AWS workflows; less useful elsewhere"
+    ],
+    "official_url": "https://aws.amazon.com/q/developer/",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "codex-cli",
+    "provider": "OpenAI",
+    "product": "Codex CLI",
+    "category": "ai-coding",
+    "tags": ["cli", "agent", "oss", "terminal"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Open source (BYO key)",
+    "what_free": [
+      "Open-source terminal coding agent (Apache-2.0) - free to install, audit, and fork",
+      "Sign in with a ChatGPT account to use included Codex quota, or plug in an API key",
+      "Sandboxed local execution with approval modes for file and git commands"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pay-per-token API or a ChatGPT plan" },
+    "what_paid": [
+      "ChatGPT Plus/Pro include generous Codex usage",
+      "API keys bill per token with no subscription"
+    ],
+    "best_for": "Terminal-first users who want an OSS agent billed via ChatGPT plan or API",
+    "watch_out": [
+      "Practical daily use effectively needs a paid ChatGPT plan or API credits",
+      "It executes code - keep approvals on for anything risky"
+    ],
+    "official_url": "https://github.com/openai/codex",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "cody",
+    "provider": "Sourcegraph",
+    "product": "Cody",
+    "category": "ai-coding",
+    "tags": ["coding assistant", "code-search", "ide"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free",
+    "what_free": [
+      "~500 chat messages per month free for individuals",
+      "Autocomplete included with usage caps",
+      "Answers grounded in your repos via Sourcegraph code search"
+    ],
+    "paid_from": { "amount": 9, "currency": "USD", "period": "month", "plan": "Pro" },
+    "what_paid": [
+      "Higher chat allowances and premium models (Claude/GPT class)",
+      "Unlimited autocomplete"
+    ],
+    "best_for": "Chat grounded in large codebases, backed by Sourcegraph code search",
+    "watch_out": [
+      "Free premium-model chats are limited per month",
+      "Limits have been repriced before - verify current caps"
+    ],
+    "official_url": "https://sourcegraph.com/cody",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "roo-code",
+    "provider": "Roo Code (open source)",
+    "product": "Roo Code",
+    "category": "ai-coding",
+    "tags": ["vscode", "agent", "oss", "mcp"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BYO key)",
+    "what_free": [
+      "Free open-source VS Code extension (Apache-2.0) with no subscription",
+      "Bring your own API key, or run local models via Ollama/LM Studio",
+      "Modes for coding, architecture, and debugging; MCP tool support"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing to the tool - you pay your model provider per token (or nothing, locally)"
+    ],
+    "best_for": "A free, hackable VS Code agent where you control the model spend",
+    "watch_out": [
+      "Agentic edits can churn tokens fast on hard tasks - tune approval settings",
+      "High feature velocity means settings and behavior shift often"
+    ],
+    "official_url": "https://roocode.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "openhands",
+    "provider": "All Hands AI",
+    "product": "OpenHands",
+    "category": "ai-coding",
+    "tags": ["agent", "oss", "self-hosted", "github"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (self-host)",
+    "what_free": [
+      "MIT-licensed autonomous agent that edits files, runs commands, and browses",
+      "Free to self-host via Docker; BYO API keys or local models",
+      "Works straight from GitHub issues; the hosted cloud offers signup credits"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pay-per-token (BYO key) or hosted plans" },
+    "what_paid": [
+      "OpenHands Cloud manages hosting and sandboxes for you"
+    ],
+    "best_for": "A self-hosted autonomous agent that works from GitHub issues",
+    "watch_out": [
+      "Self-hosting needs Docker and some setup patience",
+      "Loops on complex tasks can consume a lot of tokens"
+    ],
+    "official_url": "https://all-hands.dev",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "goose",
+    "provider": "Block",
+    "product": "Goose",
+    "category": "ai-coding",
+    "tags": ["agent", "oss", "cli", "mcp"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BYO key)",
+    "what_free": [
+      "Free open-source AI agent from Block (Apache-2.0) - CLI plus desktop app",
+      "Works with any provider, including fully local via Ollama",
+      "MCP extensions and 'recipes' for repeatable workflows"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - you pay only your model provider (or nothing with local models)"
+    ],
+    "best_for": "An extensible, local-first agent that runs with your own or local models",
+    "watch_out": [
+      "The desktop app is newer and rougher than the CLI",
+      "Default permissions can execute commands - configure approvals"
+    ],
+    "official_url": "https://block.github.io/goose",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "bolt-new",
+    "provider": "StackBlitz",
+    "product": "Bolt.new",
+    "category": "ai-coding",
+    "tags": ["app builder", "full-stack", "browser", "deploy"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (daily tokens)",
+    "what_free": [
+      "Builds full-stack apps in the browser via WebContainers - nothing to install",
+      "~daily token allowance for prompts and edits, no card required",
+      "One-click deploys and package installs work on free"
+    ],
+    "paid_from": { "amount": 20, "currency": "USD", "period": "month", "plan": "Personal" },
+    "what_paid": [
+      "~10M tokens/month on Personal plus higher daily caps",
+      "Private projects and custom domain deploys"
+    ],
+    "best_for": "Fast full-stack prototypes built and deployed entirely in the browser",
+    "watch_out": [
+      "Fixing complex bugs burns tokens fast - regenerations add up",
+      "Free projects are public"
+    ],
+    "official_url": "https://bolt.new",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "v0",
+    "provider": "Vercel",
+    "product": "v0",
+    "category": "ai-coding",
+    "tags": ["app builder", "react", "ui", "nextjs"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (monthly credits)",
+    "what_free": [
+      "Generates React/Next.js + Tailwind UI from prompts with live preview",
+      "~$5/month in free credits on the free plan",
+      "Generated code is yours to copy out - no lock-in on the code itself"
+    ],
+    "paid_from": { "amount": 20, "currency": "USD", "period": "month", "plan": "Premium" },
+    "what_paid": [
+      "More monthly credits and stronger models",
+      "Private generations and API access"
+    ],
+    "best_for": "Polished React/Tailwind UI generation for Vercel-centric stacks",
+    "watch_out": [
+      "Credits burn on retries and regenerations",
+      "Best quality is React/Tailwind/shadcn stacks specifically"
+    ],
+    "official_url": "https://v0.dev",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "lovable",
+    "provider": "Lovable",
+    "product": "Lovable",
+    "category": "ai-coding",
+    "tags": ["app builder", "full-stack", "supabase", "deploy"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (daily credits)",
+    "what_free": [
+      "Prompt-to-app builder: React frontend with built-in Supabase auth and database",
+      "Free tier: ~5 credits per day, capped at ~30 per month",
+      "GitHub sync so you can export and keep the code"
+    ],
+    "paid_from": { "amount": 25, "currency": "USD", "period": "month", "plan": "Pro" },
+    "what_paid": [
+      "~100 monthly credits with higher daily limits",
+      "Private projects and extra build capacity"
+    ],
+    "best_for": "Non-experts shipping working full-stack apps from prompts",
+    "watch_out": [
+      "Complex fixes can eat several credits per message",
+      "Free projects are public"
+    ],
+    "official_url": "https://lovable.dev",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "firebase-studio",
+    "provider": "Google",
+    "product": "Firebase Studio",
+    "category": "ai-coding",
+    "tags": ["app builder", "ide", "cloud", "gemini"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free preview",
+    "what_free": [
+      "Free cloud IDE with a Gemini prototyping agent for full-stack apps",
+      "~3 free workspaces (more via the Google Developer Program)",
+      "Runs entirely in the browser with templates for Next.js, Flutter, and more"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Preview - no paid tier yet" },
+    "what_paid": [
+      "No paid tier at last check; Google Developer Program membership adds workspaces"
+    ],
+    "best_for": "A free cloud IDE with Gemini for prototyping web and Flutter apps",
+    "watch_out": [
+      "Preview status - limits, quotas, and pricing can change",
+      "Workspaces idle out after inactivity and need a rebuild on return"
+    ],
+    "official_url": "https://firebase.studio",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "trae",
+    "provider": "ByteDance",
+    "product": "Trae",
+    "category": "ai-coding",
+    "tags": ["ide", "coding assistant", "free"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Free AI-native IDE (VS Code fork) with Builder mode for multi-file agentic edits",
+      "Includes access to strong models (Claude/GPT class) with monthly fast-request limits",
+      "MCP support and @-references to files and docs for context"
+    ],
+    "paid_from": { "amount": 10, "currency": "USD", "period": "month", "plan": "Pro" },
+    "what_paid": [
+      "Higher fast-request quota and priority access"
+    ],
+    "best_for": "A free AI IDE with strong models if you accept the fast-request caps",
+    "watch_out": [
+      "Free fast requests run out quickly; queued requests are slower",
+      "ByteDance product - review its data practices for your comfort level"
+    ],
+    "official_url": "https://www.trae.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "kiro",
+    "provider": "AWS",
+    "product": "Kiro",
+    "category": "ai-coding",
+    "tags": ["ide", "spec-driven", "agent", "aws"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Spec-driven AI IDE from AWS: requirements -> design -> implementation tasks",
+      "Free tier with ~50 credits per month",
+      "Agent hooks automate chores (tests, docs) on file changes; MCP supported"
+    ],
+    "paid_from": { "amount": 19, "currency": "USD", "period": "month", "plan": "Pro" },
+    "what_paid": [
+      "~1,000 credits/month on Pro and stronger model access",
+      "Team and organization features"
+    ],
+    "best_for": "Spec-driven development for teams that want structure around agents",
+    "watch_out": [
+      "One agentic task can consume multiple credits - the free tier is small",
+      "Young product with preview-era rough edges"
+    ],
+    "official_url": "https://kiro.dev",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "codegeex",
+    "provider": "Zhipu AI",
+    "product": "CodeGeeX",
+    "category": "ai-coding",
+    "tags": ["coding assistant", "ide", "free"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free for individuals",
+    "what_free": [
+      "Free autocomplete and chat extension for VS Code, JetBrains, and more",
+      "Multi-language completions, code explanation, and translation tools",
+      "Free for individual use"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Enterprise (contact sales)" },
+    "what_paid": [
+      "Private deployment, dedicated support, and team management"
+    ],
+    "best_for": "A no-cost completion fallback across many editors and languages",
+    "watch_out": [
+      "Completion quality trails frontier assistants like Copilot/Cursor",
+      "Extension and model versions move around - pin what works"
+    ],
+    "official_url": "https://codegeex.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "jan",
+    "provider": "Menlo Research",
+    "product": "Jan",
+    "category": "ai-coding",
+    "tags": ["local", "oss", "desktop", "offline"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (runs locally)",
+    "what_free": [
+      "Free open-source desktop app for running local LLMs (llama.cpp engine)",
+      "Download and chat with GGUF models (Llama, Qwen, Mistral, DeepSeek distills) offline",
+      "Built-in OpenAI-compatible local API server on localhost",
+      "Connects to cloud providers too if you want them"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - pay nothing, or pay your cloud provider of choice"
+    ],
+    "best_for": "Offline local model chats with a built-in OpenAI-compatible API server",
+    "watch_out": [
+      "Local speed depends on your hardware (RAM/VRAM)",
+      "Model downloads are multi-GB"
+    ],
+    "official_url": "https://jan.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "gpt4all",
+    "provider": "Nomic AI",
+    "product": "GPT4All",
+    "category": "ai-coding",
+    "tags": ["local", "oss", "desktop", "offline"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (runs locally)",
+    "what_free": [
+      "MIT-licensed desktop app that runs local models on CPU - no GPU required",
+      "Model Explorer downloads open models (Llama, Mistral, Qwen class)",
+      "LocalDocs chats with your files fully offline",
+      "No account or subscription needed"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - entirely free and local"
+    ],
+    "best_for": "Running local models on CPU-only machines, fully offline",
+    "watch_out": [
+      "Development pace has slowed as Nomic focuses on other products - check activity",
+      "Local models trail cloud frontier quality"
+    ],
+    "official_url": "https://gpt4all.io",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "anythingllm",
+    "provider": "Mintplex Labs",
+    "product": "AnythingLLM",
+    "category": "ai-coding",
+    "tags": ["local", "oss", "rag", "desktop"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (self-host)",
+    "what_free": [
+      "MIT-licensed desktop app or Docker server for RAG chat over your documents",
+      "Works with local models (Ollama, LM Studio) or any cloud API",
+      "Built-in vector DB, browsing agents, and multi-user workspaces",
+      "Free for individuals; self-host as much as you like"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing self-hosted; optional managed cloud hosting is paid"
+    ],
+    "best_for": "Self-hosted document RAG chat without writing code",
+    "watch_out": [
+      "Advanced self-host features need some setup effort",
+      "RAG quality depends on your chunking and model choices"
+    ],
+    "official_url": "https://anythingllm.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "open-webui",
+    "provider": "Open WebUI",
+    "product": "Open WebUI",
+    "category": "ai-coding",
+    "tags": ["local", "oss", "webui", "self-hosted"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (self-host)",
+    "what_free": [
+      "Self-hosted ChatGPT-style web UI for Ollama and OpenAI-compatible APIs",
+      "Multi-user accounts, RBAC, chat history, RAG, and pipelines all included",
+      "Single Docker command to start; large plugin/function ecosystem"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing - self-hosted and free"
+    ],
+    "best_for": "A self-hosted ChatGPT-style front end for Ollama or any API",
+    "watch_out": [
+      "License changed from BSD to a custom license with branding rules for large deployments - read it before commercial use",
+      "You own upgrades and security patches"
+    ],
+    "official_url": "https://openwebui.com",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "gemini-cli",
+    "provider": "Google",
+    "product": "Gemini CLI",
+    "category": "ai-coding",
+    "tags": ["cli", "agent", "oss", "terminal"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with Google account",
+    "what_free": [
+      "Open-source terminal agent (Apache-2.0) from Google",
+      "Free with a personal Google account: ~60 requests/min and ~1,000 requests/day",
+      "1M-token context, file edits, shell commands, and grounded web search",
+      "MCP extensions and customizable GEMINI.md context files"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pay-per-token API for higher limits" },
+    "what_paid": [
+      "Paid API keys (AI Studio/Vertex) or subscriptions raise the limits"
+    ],
+    "best_for": "An extremely generous free daily agent quota straight from Google",
+    "watch_out": [
+      "The ~1,000/day free cap resets at midnight Pacific - heavy agentic use hits it",
+      "Fast-moving preview tool; behavior changes between releases"
+    ],
+    "official_url": "https://github.com/google-gemini/gemini-cli",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "qwen-code",
+    "provider": "Alibaba (Qwen)",
+    "product": "Qwen Code",
+    "category": "ai-coding",
+    "tags": ["cli", "agent", "oss", "terminal"],
+    "oss": true,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free with Qwen OAuth",
+    "what_free": [
+      "Open-source terminal coding agent (Gemini CLI fork) tuned for Qwen models",
+      "Free via Qwen OAuth: ~2,000 requests/day at 60/min - the most generous free CLI tier around",
+      "Repo-aware edits, shell execution, and MCP support",
+      "Optimized for Qwen3-Coder models"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pay-per-token (DashScope or OpenAI-compatible keys)" },
+    "what_paid": [
+      "Use paid keys (DashScope, OpenRouter) for other models and higher limits"
+    ],
+    "best_for": "A free 2,000-request/day CLI agent tuned for Qwen3-Coder",
+    "watch_out": [
+      "The free OAuth quota covers Qwen models only",
+      "Younger project - docs and behavior are still settling"
+    ],
+    "official_url": "https://github.com/QwenLM/qwen-code",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "opencode",
+    "provider": "SST",
+    "product": "OpenCode",
+    "category": "ai-coding",
+    "tags": ["cli", "agent", "oss", "terminal"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "100% free (BYO key)",
+    "what_free": [
+      "Free open-source terminal coding agent - provider-agnostic (75+ providers or local models)",
+      "Client/server architecture: share sessions via links; TUI plus desktop app",
+      "BYO API keys, or run fully free with local models and free-tier providers"
+    ],
+    "paid_from": null,
+    "what_paid": [
+      "Nothing to the tool - OpenCode Zen model access is pay-per-token if you use it"
+    ],
+    "best_for": "A provider-agnostic terminal agent when you want zero tooling lock-in",
+    "watch_out": [
+      "Extremely fast-moving project - config and commands change",
+      "You pay token costs directly to whichever provider you connect"
+    ],
+    "official_url": "https://opencode.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "official"
+  },
+  {
+    "id": "coderabbit",
+    "provider": "CodeRabbit",
+    "product": "CodeRabbit",
+    "category": "ai-coding",
+    "tags": ["code review", "github", "gitlab", "oss-friendly"],
+    "oss": false,
+    "student": false,
+    "featured": true,
+    "free_tier_exists": true,
+    "free_tier_name": "Free for open source",
+    "what_free": [
+      "Free forever on public/open-source GitHub and GitLab repos",
+      "AI PR reviews: summaries, line-by-line comments, one-click commit suggestions",
+      "14-day Pro trial on private repos"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Per-seat plans (see pricing page)" },
+    "what_paid": [
+      "Private-repo reviews with more context, path filters, and team settings"
+    ],
+    "best_for": "Free automatic PR reviews for open-source repositories",
+    "watch_out": [
+      "Can be chatty on large PRs - tune ignore patterns",
+      "Suggestions are advisory; it occasionally misreads intent"
+    ],
+    "official_url": "https://www.coderabbit.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "devin",
+    "provider": "Cognition",
+    "product": "Devin",
+    "category": "ai-coding",
+    "tags": ["agent", "autonomous", "cloud"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": false,
+    "free_tier_name": "No free tier (occasional trials)",
+    "what_free": [
+      "No standing free tier as of last check",
+      "Public task replays and demo sessions are free to watch",
+      "Trial credits occasionally offered on signup"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Agent Starter Plan (see pricing page)" },
+    "what_paid": [
+      "Subscription credits for autonomous engineering work in a cloud workspace",
+      "Slack, Linear, and CI integrations for delegated tasks"
+    ],
+    "best_for": "Delegating entire tasks to an autonomous cloud engineer (paid)",
+    "watch_out": [
+      "Credits burn quickly on complex tasks - watch the run logs",
+      "Success rate varies by task type; review everything it produces"
+    ],
+    "official_url": "https://devin.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "base44",
+    "provider": "Base44 (a Wix company)",
+    "product": "Base44",
+    "category": "ai-coding",
+    "tags": ["app builder", "full-stack", "no-code"],
+    "oss": false,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free tier",
+    "what_free": [
+      "Prompt-to-app builder with built-in auth, database, and hosting",
+      "~monthly free credits for chat and build actions",
+      "Live apps hosted on a Base44 subdomain on free"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Builder/Pro tiers (see pricing page)" },
+    "what_paid": [
+      "More monthly credits, custom domains, and team features"
+    ],
+    "best_for": "Internal tools and MVPs with auth and database built in",
+    "watch_out": [
+      "Debugging complex logic can consume many paid credits",
+      "Platform lock-in - apps run on their stack and code export is gated"
+    ],
+    "official_url": "https://www.base44.com",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  },
+  {
+    "id": "kilo-code",
+    "provider": "Kilo Code",
+    "product": "Kilo Code",
+    "category": "ai-coding",
+    "tags": ["vscode", "agent", "oss", "mcp"],
+    "oss": true,
+    "student": false,
+    "featured": false,
+    "free_tier_exists": true,
+    "free_tier_name": "Free (credits + BYO key)",
+    "what_free": [
+      "Open-source VS Code coding agent (Roo/Cline lineage, Apache-2.0)",
+      "~signup credits to try the built-in model provider (one-time promo)",
+      "BYO API keys work fine; Orchestrator mode splits big tasks into subtasks",
+      "Modes for code, architecture, and debugging with MCP support"
+    ],
+    "paid_from": { "amount": null, "currency": "USD", "period": "month", "plan": "Pay-per-token (built-in provider or BYO)" },
+    "what_paid": [
+      "No subscription - pay per token to the built-in provider or your own keys"
+    ],
+    "best_for": "An OSS VS Code agent with built-in trial credits and BYO keys",
+    "watch_out": [
+      "Promo credits are one-time and small",
+      "Heavy feature overlap with Roo Code - pick one"
+    ],
+    "official_url": "https://kilocode.ai",
+    "last_verified": "2026-11-22",
+    "confidence": "reported"
+  }
+]
